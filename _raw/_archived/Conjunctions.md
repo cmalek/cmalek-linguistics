@@ -1,0 +1,100 @@
+---
+tags:
+  - old_english
+  - grammar
+  - part_of_speech
+---
+Conjunctions join clauses in a single [sentence](Sentences.md)  to form compound sentences.  
+
+Since a sentence can have several clauses, each with its own subjects, verbs, objects, etc. it’s important to locate the boundaries between clauses within a sentence so that you can match the right verb with the right subject. *This is crucial for accurate translating.*
+
+\[p. 116, §5.1\]
+
+Each sentence consists of **independent** and **dependent** clauses.  A true sentence has at least one independent clause, and zero or more **dependent clauses**.  
+
+* **Independent clauses** stand on their own: it must have a subject and verb, and must at the very least express a complete thought.  
+* **Dependent clauses** have at least a subject and verb, but cannot stand alone as a sentence.
+  
+You can often (but not always) **use punctuation** **to help locate the clauses in a sentence**.  A semicolon indicates there must at least be one independent clause on each side.  Dependent clauses are often delimited by commas, while a comma with an *and* or *but* joins two independent clauses.
+
+There are several sets of words that join clauses:
+
+* One set of conjuctions that joins two **independent** clauses
+* Another set that joins two clauses of which at least one clause is **dependent**.
+* [Interrogative pronouns](Pronouns.md#Interrogative%20pronouns) or [Relative pronouns](Pronouns.md#Relative%20pronouns) that start a releative phrase
+  
+## Coordinating Conjunctions 
+
+If we have two independent clauses, we join them with a **coordinating conjunction** (note that these are different than **subordinating conjunctions** which join a **dependent clause** to an independent clause, see below).  
+[^1]
+
+| conjunction                   | meaning                                   | example | notes                   |
+| :---------------------------- | :---------------------------------------- | :------ | :---------------------- |
+| ac                            | but                                       | *Hȳ*    |                         |
+| ond/and                       | and                                       |         |                         |
+| ne                            | nor                                       |         |                         |
+| oþþe, oððe                    | or                                        |         |                         |
+| for þæm þe                    | because                                   |         |                         |
+| swā þæt                       | so that                                   |         |                         |
+| þæt                           | that, so that, on condition that, because |         |                         |
+| þeah                          | although                                  |         |                         |
+| ġif … þonne                   | if … then                                 |         | corralative conjunction |
+| ne … ne                       | neither … nor                             |         | corralative conjunction |
+| oþþe .. oþþe,<br>oððe .. oððe | either … or                               |         | corralative conjunction |
+| swā … swā                     | just … as                                 |         | corralative conjunction |
+Note that some of these are **also** used as subordinating conjuctions, especially swā and forþæm þe (and its variants).
+### A note on þæt
+
+**þæt** is a deviously complex word that can serve five different functions:
+
+* **Comparative** (Vergleichssatz): *This is better than **that***.  
+* **Qualifying** (Einschränkender Satz): *It appears to me **that** you are hungry*.  
+* **Clarifying** (Erläuternder Satz): I’m talking about that horse.  
+* **Consequence/Result** (Finalsatz; NHG damit; intention)  
+* **Consecutive** (swā þæt: Konsekutivsatz; not necessarily intention)  
+* English: \[so\] that, much simpler\!
+
+## Subordinating conjunctions
+
+\[pp. 119-123, §5.1.1\] **Subordinating conjunctions[^2]** transform independent clauses into dependent ones, and serve to connect clauses together.  Remember that **dependent clauses** have at least a subject and verb, but cannot stand alone as a sentence.
+### Subordinating Conjunction vs. Adverb vs. Preposition
+
+Many subordinating conjuctions also function as either [adverbs](Adverbs.md) or [prepositions](Prepositions.md)  depending on their context.  In order for a word to be a subordination conjunction:
+
+* **It must come at the beginning of a clause,** so if *þā* occurs several words into a clause (after or between the subject, verb, etc) it is most likely the adverbial form.  
+* If a word like ***æfter*** begins the clause, **check to see there is an object to the preposition** (“after the battle”) – if anything other than a dative noun or pronoun follows, it is most likely that this is a subordinate conjunction (after she won)  
+
+### List of conjuctions with example phrases
+
+Below we list the common conjunctions (this is not an exhaustive list), with their ModE meaning, examples and associated notes.  Parts of the sentence highlighted in grey represent independent clauses. 
+
+| conjunction                                              | meaning                                 | examples                                                                                                                                                                                                                                                                                                                                                         | notes                                                                                       |
+| :------------------------------------------------------- | :-------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------ |
+| ǣr, ǣr ðon (ðe)                                          | before                                  | *Hīe ǣrest tō londe cōmon, ǣr sīo fierd ġe-samnod wǣre.* \[adverb clause\] **They first cmae to land, before the army was gathered.** <br><br>*Ǣr ðon ðe sunna on setl ēode, hit wæs cūð and mǣre.* \[adverb clause\] **Before the sun went to his seat (i.e. before the sun set), it was widely known and famous.**                                             | This also appears as both an identical adverb “before, previously” and preposition “before” |
+| būtan                                                    | unless, provided that                   | *Ðū scealt cwylmed weorðan, būtan þū mē sweotollīċe sōð ġe-cȳðe.* \[adverb clause\]  **You will be killed unless you reveal the truth plainly to me.**                                                                                                                                                                                                           | This also appears as an identical preposition meaning “except”                              |
+| for þām (þe), for-þon (þe), for ðam (þe),<br>forðam (þe) | because, for the reason that, therefore | *Þǣre burge weard ānne mānliċan ġield of golde ā-rǣrde, for þām þe glēaw ne wæs.* \[adverb clause\]  **The guardian of the city raised up a wicked idol of gold because he was not wise.**                                                                                                                                                                       | Also an adverb “therefore”                                                                  |
+| ġif                                                      | if                                      | *Hȳ woldon Godwines fierde ġe-sēcan, ġif sē cyning þæt wolde.* \[adverb clause\] **They wanted to seek out Godwine’s army, if the king wanted that.**                                                                                                                                                                                                            |                                                                                             |
+| hū                                                       | how                                     | *Þæt wæs wīde cūð, hū hē his dāgas ġe-endode.* \[noun clause\]  **It was widely known how he ended his days.** <br><br>*Fyrd eall ġe-seah hū þǣr hlīfedon hāliġe seġlas.* \[noun clause\] **The whole army saw how the holy pillars of cloud \[lit. *sails*\] towered there.**                                                                                   | Also an identical interrogative adverb “how?”                                               |
+| hweðer                                                   | whether                                 | *Sē lǣċe cūðe tō-cnāwan bē his ǣdrena hrepunge, hweðer hē hrāðe swulte.* \[noun clause\] **The physician knew how to recognize by touching his veins whether he died quickly.**                                                                                                                                                                                  |                                                                                             |
+| hwī                                                      | why                                     | *Ðā ōþre æt-ēowdon hwī hīe ðær bēon ne mihton.* \[noun clause\] **The others showed why they could not be there.**                                                                                                                                                                                                                                               | Also an identical interogative adverb “why?”                                                |
+| nemne                                                    | unless, except, if not                  |                                                                                                                                                                                                                                                                                                                                                                  |                                                                                             |
+| oð ðæt, oð-ðæt                                           | until                                   | *Hē þǣr wunode oþ þæt hine ān swān of-stang æt Pryfetes flōdan.* \[adverb clause\] **He lived there until a swineherd struck him to death at Pryfet’s channel.**                                                                                                                                                                                                 | Easy to confuse with the conjunction *oððe* “or” or the preposition *oð* “until”            |
+| siððan, siþðan                                           | since, as soon as, after                | *Hīe sceoldon helle-þwang habban siððan hīe ġe-bod Godes for-brocen hæfdon.* \[adverb clause\]  **They must have the hell-whip \[i.e. be damned\] after they had broken God’s commandment.**                                                                                                                                                                     | Also an identical adverb meaning “afterwards, then, later”                                  |
+| swā                                                      | as, as if                               | *Hī hine þā æt-bǣron tō brimes faroðe, swǣse ġe-sīþas, swā hē selfa bæd.* \[adverb clause\] **They carried him then to the flood’s shore, the dear companions, as he himself \[had\] ordered.** <br><br>*Hū sēo þrāg ġe-wāt, ġe-nāp under hīht-helm, swā hēo nā wǣre\!* **How the time passed, darkened under the covering of night, as \[if\] it never were\!** | Also an identical adverb “thus, so”                                                         |
+| swā swā                                                  | just as, as                             | *Ne eart þū nā eallunga tō nāhte ġe-dōn swā swā þū wēnst.* \[adverb clause\]  **You are not at all brought to nothing \[i.e. ruined\] as you think \[you are\].**                                                                                                                                                                                                |                                                                                             |
+| swā … swā                                                | as … as                                 | *Swā moniġe bēoþ men ofer eorþan, swā bēoþ mōd ġeþoncas.* \[adverb clause\] **\[There\] are as meny men over the earth, as \[there\] are thoughts.**                                                                                                                                                                                                             |                                                                                             |
+| þā                                                       | when, since                             | *Wintra hæfde hē fīf and hund niġontiġ, þā hē forð ġe-wāt.* \[adverb clause\] **Of winters he had five and ninety \[i.e. he was 95 years old\], when he passed away.**                                                                                                                                                                                           | There is an identical adverb meaning “then” and a definite article *þā*                     |
+| þā … þā                                                  | when … then                             | *Þā he ġe-fōr, þā fēng Ċeol tō þām riċe.*  \[adverb clause\] **When he departed, then Ceol siezed control of the kingdom.**                                                                                                                                                                                                                                      |                                                                                             |
+| þā þā                                                    | then when                               | *God þā ġe-swefode þone Adam, and þā þā hē slēp ðā ġe-nam hē ān rib of his sīdan.* \[adverb clause\]  **God then put Adam to sleep and then when he slept then he took one rib from his side.**                                                                                                                                                                  | This sentence has two main clauses joined by “and” and Adam is referred to as  “the Adam”   |
+| þǣr                                                      | where                                   | *Ðis wæs þus cūð tō þām ōþerum scipum þǣr sē cyning wæs.* \[noun clause\]  **It was thus known to the other ships where the king was.**                                                                                                                                                                                                                          | Also an identical adverb meaning “there”                                                    |
+| þæt                                                      | that (sometimes “so that”)              | *Þā cwǣdon hīe þæt him nǣniġ mǣġ lēofra nǣre þonne hiera hlāford.* \[noun clause\] **Then they said that to them no kinsman was dearer than their lord.** <br><br>*Hīe nāmon mid him þæt hīe hæfdon tō seofon nīhtum mēte.* \[adverb clause\] **They took \[supplies\] with them so that they had food for seven nights.**                                       |                                                                                             |
+| þēah                                                     | though. although even though            | *Þara Dēniscra wearð mā of sleġen, þēah hī wæl-stōwe ġe-weald āhton.* \[adverb clause\] **More of the danes were slain, even though they had control of the battlefield.**                                                                                                                                                                                       | Also an identical adverb þēah “nevertheless”                                                |
+| þēah þe                                                  | though, although                        | *Þēah þe ġē hine sṝum for sēċen, ne mōton ġē mīne sāwle grētan.* \[adverb clause\]  **Although you may afflict him \[i.e. my body\] with wounds, you cannot touch my soul.**                                                                                                                                                                                   |                                                                                             |
+| nymðe                                                    | unless, except                          |                                                                                                                                                                                                                                                                                                                                                                  |                                                                                             |
+| þenden                                                   | as long as, while                       |                                                                                                                                                                                                                                                                                                                                                                  |                                                                                             |
+| þȳ lǣste                                                 | lest, for fear that                     |                                                                                                                                                                                                                                                                                                                                                                  |                                                                                             |
+| after, æfter þon                                         | after, afterwards, then                 |                                                                                                                                                                                                                                                                                                                                                                  |                                                                                             |
+
+[^1]:  If you have a sentence that just has a long line of independent clauses joined by conjunctions, that is called *parataxis.*
+
+[^2]:  A sentence with dependent clauses that add information exhibits *hypotaxis.*  Hypotaxis was not developed all at the same time among the Germanic languages

@@ -1,0 +1,750 @@
+{
+  "sources": {
+    "_raw/_archived/Old English.md": {
+      "content_hash": "c58c6268e4209433e2823668b400de62dbc1ece81d506143f3fe283aef6953b1",
+      "last_ingested": "2026-09-25T16:24:47.899870+00:00",
+      "pages_produced": [
+        "concepts/old-english.md",
+        "concepts/history-of-english.md",
+        "entities/anglo-saxons.md",
+        "entities/alfred-the-great.md",
+        "references/beowulf.md",
+        "concepts/danelaw.md"
+      ]
+    },
+    "_raw/_archived/History of English.md": {
+      "content_hash": "17bf0cf7913dfcdcf54b5091d651bba3ec6934df756db787c955144ed81d3993",
+      "last_ingested": "2026-09-25T16:24:47.975119+00:00",
+      "pages_produced": [
+        "concepts/history-of-english.md",
+        "concepts/old-english.md",
+        "concepts/old-english-dialects.md",
+        "entities/caedmon.md",
+        "references/beowulf.md"
+      ]
+    },
+    "_raw/_archived/0001 Old English Sound Change and Reconstruction.md": {
+      "content_hash": "2cd35259902ece25b09da52d5484f28c6d5bda9eff4ac5ce666ecb748658c834",
+      "last_ingested": "2026-09-25T16:24:48.048787+00:00",
+      "pages_produced": [
+        "concepts/germanic-sound-change.md"
+      ]
+    },
+    "_raw/_archived/0002 Recognizing Old English Dialects in Writing.md": {
+      "content_hash": "14c7a8dc3662cb1d5c4d8d8019d5f6069d1c2db54069936883231d10c928a6ce",
+      "last_ingested": "2026-09-25T16:24:48.120786+00:00",
+      "pages_produced": [
+        "concepts/old-english-dialects.md"
+      ]
+    },
+    "_raw/_archived/0003 Pronouncing Old English Letters.md": {
+      "content_hash": "b4f162901edde7b8987c58de3b94f157ce8ad790d36d4ae4b8cf9fba46f5a16e",
+      "last_ingested": "2026-09-25T16:24:48.203900+00:00",
+      "pages_produced": [
+        "concepts/old-english-pronunciation.md"
+      ]
+    },
+    "_raw/_archived/Nouns and Articles.md": {
+      "content_hash": "b8626b5da53266bfeec2792425ca785ad323a1d365b20521603f876f2d78f90a",
+      "last_ingested": "2026-09-25T16:24:48.287937+00:00",
+      "pages_produced": [
+        "concepts/old-english-grammar.md"
+      ]
+    },
+    "_raw/_archived/Verbs.md": {
+      "content_hash": "858448f62cf2c5c4e818a03f19f79c87d7b6f15d9dc425a63de7d14518eec16a",
+      "last_ingested": "2026-09-25T16:24:48.374249+00:00",
+      "pages_produced": [
+        "concepts/old-english-grammar.md"
+      ]
+    },
+    "_raw/_archived/Anglo-Saxons.md": {
+      "content_hash": "158ba275f92ceda91784086c91ec99a82620a1d5560c718842be6ed421f98bd4",
+      "last_ingested": "2026-09-25T16:24:48.458515+00:00",
+      "pages_produced": [
+        "entities/anglo-saxons.md"
+      ]
+    },
+    "_raw/_archived/Alfred the Great.md": {
+      "content_hash": "181cc14be9dc7666350339240c4f13ecbc3ab3530df778c9b28997401947a2e8",
+      "last_ingested": "2026-09-25T16:24:48.535037+00:00",
+      "pages_produced": [
+        "entities/alfred-the-great.md"
+      ]
+    },
+    "_raw/_archived/Bede.md": {
+      "content_hash": "ba2a1a958bbbb9c04cb30e3a907091e1885be66d00748d2ed07eabddc27d8834",
+      "last_ingested": "2026-09-25T16:24:48.612780+00:00",
+      "pages_produced": [
+        "entities/bede.md"
+      ]
+    },
+    "_raw/_archived/Beowulf.md": {
+      "content_hash": "15179ee77e08cd937acaf17bbf751d5ebb580aa30c747b2f46ca9df78f08f98b",
+      "last_ingested": "2026-09-25T16:24:48.690725+00:00",
+      "pages_produced": [
+        "references/beowulf.md"
+      ]
+    },
+    "_raw/_archived/Cædmon.md": {
+      "content_hash": "92a3081fd51f3690ce0d79929810e6c9db1a587411a9036f4431fed5d3d9dafd",
+      "last_ingested": "2026-09-25T16:24:48.767856+00:00",
+      "pages_produced": [
+        "entities/caedmon.md"
+      ]
+    },
+    "_raw/_archived/Danelaw.md": {
+      "content_hash": "d3ec8a3528f77bd0008b8a512cd49e10d21224b947cccbd5bec7207a8ac945b4",
+      "last_ingested": "2026-09-25T16:24:48.847522+00:00",
+      "pages_produced": [
+        "concepts/danelaw.md"
+      ]
+    },
+    "_raw/_archived/Kurdi 1 Linguistic Resources for NLP.md": {
+      "content_hash": "f4602f88ad65c10167b112f2c7003b5e5f05a63bb4db2f68a1669a090c4a4a2a",
+      "last_ingested": "2026-09-25T16:24:48.929301+00:00",
+      "pages_produced": [
+        "concepts/nlp-corpus.md"
+      ]
+    },
+    "_raw/_archived/Kurdi 2 The Sphere of Speech.md": {
+      "content_hash": "04cb6c0a43719f418537bedf112dbdcab2be00cac35a8cbc3551a785f7b593cc",
+      "last_ingested": "2026-09-25T16:24:49.025605+00:00",
+      "pages_produced": [
+        "concepts/historical-linguistics-sound-terms.md"
+      ]
+    },
+    "_raw/_archived/Effective, Ethical, and Accurate Translation of Ancient Texts.md": {
+      "content_hash": "d6f6d221534e90f9ad5d7619f88a19de61bcaefa5cd28af6fc30f9d3c9f043eb",
+      "last_ingested": "2026-09-25T16:24:49.106647+00:00",
+      "pages_produced": [
+        "skills/translating-ancient-texts.md"
+      ]
+    },
+    "_raw/_archived/Linguistic sound terms for Historical Linguistics.md": {
+      "content_hash": "4150c4ce90860e74d1b226e7ef236ef9e9e82cd6600ad64a8a8b4d659b3abaa1",
+      "last_ingested": "2026-09-25T16:24:49.198086+00:00",
+      "pages_produced": [
+        "concepts/historical-linguistics-sound-terms.md"
+      ]
+    },
+    "_raw/_archived/Wessex.md": {
+      "content_hash": "181e3fc5190621bf10bbe5adf5a83bd5d08e524427f2669d531ab31395e7efc8",
+      "last_ingested": "2026-09-25T16:30:12.201854+00:00",
+      "pages_produced": [
+        "concepts/anglo-saxon-kingdoms.md",
+        "concepts/old-english.md",
+        "entities/anglo-saxons.md"
+      ]
+    },
+    "_raw/_archived/Northumbria.md": {
+      "content_hash": "2ac4772b0beab6effc9bd0ff3781ebc71262b5612e76d7b90e558be8ebbb09dc",
+      "last_ingested": "2026-09-25T16:30:12.275126+00:00",
+      "pages_produced": [
+        "concepts/anglo-saxon-kingdoms.md"
+      ]
+    },
+    "_raw/_archived/Mercia.md": {
+      "content_hash": "83bc7f769e717fe80e256dcf30ce213ad847d10576b346a78d8cce82a89a6c03",
+      "last_ingested": "2026-09-25T16:30:12.347748+00:00",
+      "pages_produced": [
+        "concepts/anglo-saxon-kingdoms.md"
+      ]
+    },
+    "_raw/_archived/Kingdom of Kent.md": {
+      "content_hash": "20ea84985f6cb2cb0a698d7ecd3617e3a87523fb79ec259d09a306a4422a5328",
+      "last_ingested": "2026-09-25T16:30:12.422269+00:00",
+      "pages_produced": [
+        "concepts/anglo-saxon-kingdoms.md"
+      ]
+    },
+    "_raw/_archived/Kingdom of Essex.md": {
+      "content_hash": "bd243ba6060690d7fe2053b7a36da75bba89112c49a49943247d239f03bfef73",
+      "last_ingested": "2026-09-25T16:30:12.495312+00:00",
+      "pages_produced": [
+        "concepts/anglo-saxon-kingdoms.md"
+      ]
+    },
+    "_raw/_archived/Kingdom of East Anglia.md": {
+      "content_hash": "fd261d58699753c3b1ce9e4f5e695ed0f19a673f23da8fb15489fbecc7e28b08",
+      "last_ingested": "2026-09-25T16:30:12.567648+00:00",
+      "pages_produced": [
+        "concepts/anglo-saxon-kingdoms.md",
+        "entities/edmund-the-martyr.md"
+      ]
+    },
+    "_raw/_archived/Germania.md": {
+      "content_hash": "4193cf8a94782057c7e6c888d96571401e6b148d2e8d3365d2a02db8d69473a6",
+      "last_ingested": "2026-09-25T16:30:12.640813+00:00",
+      "pages_produced": [
+        "entities/germanic-peoples.md"
+      ]
+    },
+    "_raw/_archived/Germanic peoples.md": {
+      "content_hash": "ca3ea42a920b5a3bc5e4d391c5b3c6fb9828075dbc2bc4054d5fe925e26c53aa",
+      "last_ingested": "2026-09-25T16:30:12.717004+00:00",
+      "pages_produced": [
+        "entities/germanic-peoples.md"
+      ]
+    },
+    "_raw/_archived/Angles.md": {
+      "content_hash": "ed418b3a79a414f64e6c77687eb334ad841cb64798c8d29d0c1b22323845c08a",
+      "last_ingested": "2026-09-25T16:30:12.794966+00:00",
+      "pages_produced": [
+        "entities/germanic-peoples.md"
+      ]
+    },
+    "_raw/_archived/Saxons.md": {
+      "content_hash": "5a3932138edb97bfd26b3cdb63eff6116d55bee8a3c615072db3a02cf907d580",
+      "last_ingested": "2026-09-25T16:30:12.878624+00:00",
+      "pages_produced": [
+        "entities/germanic-peoples.md"
+      ]
+    },
+    "_raw/_archived/Jutes.md": {
+      "content_hash": "13a9651aea8ec8f58dd4428d5e5cb288cfa4e3bec6d88111f57d45e97fc13e77",
+      "last_ingested": "2026-09-25T16:30:12.966083+00:00",
+      "pages_produced": [
+        "entities/germanic-peoples.md"
+      ]
+    },
+    "_raw/_archived/Byrhtnoth.md": {
+      "content_hash": "5607f8251bf83b5cb3388e20ffdf36db9e50ae08876c27b7bc39a40812757701",
+      "last_ingested": "2026-09-25T16:30:13.051790+00:00",
+      "pages_produced": [
+        "references/battle-of-maldon.md"
+      ]
+    },
+    "_raw/_archived/Edmund the Martyr.md": {
+      "content_hash": "5816c7a5c3e04bacdae0e7ac1ae80f00021e6998a0c64c7ae5f778df5460f708",
+      "last_ingested": "2026-09-25T16:30:13.142767+00:00",
+      "pages_produced": [
+        "entities/edmund-the-martyr.md"
+      ]
+    },
+    "_raw/_archived/Christianity in Anglo-Saxon England.md": {
+      "content_hash": "99feadda79ae6c48f8c0af6da2b1f4c3c47b8c1b986f8fe015aa1f0da0c60aa7",
+      "last_ingested": "2026-09-25T16:30:13.218411+00:00",
+      "pages_produced": [
+        "concepts/christianity-in-anglo-saxon-england.md",
+        "concepts/old-english.md",
+        "entities/anglo-saxons.md"
+      ]
+    },
+    "_raw/_archived/Anglo-Saxon paganism.md": {
+      "content_hash": "81c473d1136e8496bd06711dbefe3cf44d0f30cba4b25d0c37c3ec9fa2a9dd1a",
+      "last_ingested": "2026-09-25T16:30:13.297425+00:00",
+      "pages_produced": [
+        "concepts/anglo-saxon-paganism.md"
+      ]
+    },
+    "_raw/_archived/Adjectives.md": {
+      "content_hash": "58d3b93620769821aabc333d49064a2d13d63e4a0deb332ec3e8db36e5c28c4a",
+      "last_ingested": "2026-09-25T16:30:13.375736+00:00",
+      "pages_produced": [
+        "concepts/old-english-grammar.md"
+      ]
+    },
+    "_raw/_archived/Pronouns.md": {
+      "content_hash": "a154d1ff9982ec602271faed5c27e2a64298fcbd64af58d3561ffa18c5207054",
+      "last_ingested": "2026-09-25T16:30:13.456270+00:00",
+      "pages_produced": [
+        "concepts/old-english-grammar.md"
+      ]
+    },
+    "_raw/_archived/Prepositions.md": {
+      "content_hash": "ece1ee5c405daa66c0ed59ffe5ae8e5d5d92c074cc7902b478e8626e787c2e29",
+      "last_ingested": "2026-09-25T16:30:13.539883+00:00",
+      "pages_produced": [
+        "concepts/old-english-grammar.md"
+      ]
+    },
+    "_raw/_archived/Conjunctions.md": {
+      "content_hash": "2719c775356db4cbe24a0d57dc6e344e10de84dd1612d07ebdc3a3bf1d96e26e",
+      "last_ingested": "2026-09-25T16:30:13.627379+00:00",
+      "pages_produced": [
+        "concepts/old-english-grammar.md"
+      ]
+    },
+    "_raw/_archived/Sentences.md": {
+      "content_hash": "f03147268af35bdf721a6b7555335b8bd82dcf771c2747fb2a23fb7768b4d853",
+      "last_ingested": "2026-09-25T16:30:13.716879+00:00",
+      "pages_produced": [
+        "concepts/old-english-grammar.md",
+        "skills/translating-ancient-texts.md"
+      ]
+    },
+    "_raw/_archived/Adverbs.md": {
+      "content_hash": "4c826f69ff48c979b01b9a5fd6af9f5f18a8e232dea5b5d8c09ac402db3ec0f2",
+      "last_ingested": "2026-09-25T16:30:13.800170+00:00",
+      "pages_produced": [
+        "concepts/old-english-grammar.md"
+      ]
+    },
+    "_raw/_archived/The Battle of Maldon.md": {
+      "content_hash": "7793812001007c999a1a3ecb6a25ec28d4a2d63c1cd442dc64b6510a3fc11d53",
+      "last_ingested": "2026-09-25T16:30:13.888261+00:00",
+      "pages_produced": [
+        "references/battle-of-maldon.md"
+      ]
+    },
+    "_raw/_archived/Judith.md": {
+      "content_hash": "ab0a49e49d8870f113874c9c0faea3ae72ce8c3038961ef396d0fa1f83b6638e",
+      "last_ingested": "2026-09-25T16:30:13.967286+00:00",
+      "pages_produced": [
+        "references/judith.md"
+      ]
+    },
+    "_raw/_archived/The Story of Cædmon.md": {
+      "content_hash": "744ab42bc03a744f8394f27e3d6d9be75be13207fbf0eedf8ec288c856dc19b8",
+      "last_ingested": "2026-09-25T16:30:14.049427+00:00",
+      "pages_produced": [
+        "entities/caedmon.md"
+      ]
+    },
+    "_raw/_archived/Old English Advanced Pronunciation Guide.md": {
+      "content_hash": "7501fad995013d3811ef08b6d7194d4ec20f3394b7ad643da7dde162fff21da7",
+      "last_ingested": "2026-09-25T16:30:14.138522+00:00",
+      "pages_produced": [
+        "concepts/old-english-pronunciation.md"
+      ]
+    },
+    "_raw/_archived/Kurdi 3 Morphology Sphere.md": {
+      "content_hash": "fca1e13ae2b663fdbf579e2ebba161ca626c361792ebbfe6e150e30e7eacbdf6",
+      "last_ingested": "2026-09-25T16:30:14.223902+00:00",
+      "pages_produced": [
+        "concepts/kurdi-morphology.md"
+      ]
+    },
+    "_raw/_archived/Kurdi 4 Syntax Sphere.md": {
+      "content_hash": "988d9026c41906b179b20d7105ac0801d044a7a863fef260d71913a367876cd5",
+      "last_ingested": "2026-09-25T16:30:14.309292+00:00",
+      "pages_produced": [
+        "concepts/kurdi-syntax.md"
+      ]
+    },
+    "_raw/_archived/Offa of Mercia.md": {
+      "content_hash": "239ae1d65d2420ace4909224ed89656150a3709d30df0f3933981248cac69234",
+      "last_ingested": "2026-09-25T16:37:26.192761+00:00",
+      "pages_produced": [
+        "entities/offa-of-mercia.md",
+        "concepts/anglo-saxon-kingdoms.md"
+      ]
+    },
+    "_raw/_archived/Æthelred the Unready.md": {
+      "content_hash": "0a5c7e7eee43a077f15598fc2f78e7153eb1347ca5e4f926cceac28f8fff678c",
+      "last_ingested": "2026-09-25T16:37:26.266056+00:00",
+      "pages_produced": [
+        "entities/aethelred-the-unready.md",
+        "concepts/anglo-saxon-kingdoms.md"
+      ]
+    },
+    "_raw/_archived/Edward the Martyr.md": {
+      "content_hash": "e3d43ad41312815509b2b208fdee116d339cbaf62b5a26c7d71859a1eac5ea41",
+      "last_ingested": "2026-09-25T16:37:26.339747+00:00",
+      "pages_produced": [
+        "entities/edward-the-martyr.md"
+      ]
+    },
+    "_raw/_archived/Walter William Skeat.md": {
+      "content_hash": "d2273a744b254533673caea4f3f580763c1bfa79082b78c10df1ff91403a6473",
+      "last_ingested": "2026-09-25T16:37:26.411666+00:00",
+      "pages_produced": [
+        "entities/walter-william-skeat.md",
+        "references/beowulf.md"
+      ]
+    },
+    "_raw/_archived/The Passion of the Apostles Peter and Paul.md": {
+      "content_hash": "3e3aa73d498dd609ac38a224d91ca5e43694a83a76b7da0117f1f72d4f7adb9a",
+      "last_ingested": "2026-09-25T16:37:26.484105+00:00",
+      "pages_produced": [
+        "references/passion-peter-and-paul.md"
+      ]
+    },
+    "_raw/_archived/Simon Magus.md": {
+      "content_hash": "a1031abcdf7e016b47a54bd950f12338513e3d4d2a11057ec773a81b97f330ec",
+      "last_ingested": "2026-09-25T16:37:26.565586+00:00",
+      "pages_produced": [
+        "references/passion-peter-and-paul.md"
+      ]
+    },
+    "_raw/_archived/Tolkien’s use of Old English words.md": {
+      "content_hash": "3d6118a2158997303e77c892defd0d8f00b43b45a0503ab23a40d75bf16b099b",
+      "last_ingested": "2026-09-25T16:37:26.648085+00:00",
+      "pages_produced": [
+        "concepts/tolkien-old-english.md",
+        "references/beowulf.md"
+      ]
+    },
+    "_raw/_archived/Kurdi 2017 1 The Sphere of Lexicons and Knowledge.md": {
+      "content_hash": "b3a89541015df4d4c1bcded54812fbc53425f0a293555330632021be1249e6c4",
+      "last_ingested": "2026-09-25T16:37:26.735065+00:00",
+      "pages_produced": [
+        "concepts/kurdi-lexical-semantics.md"
+      ]
+    },
+    "_raw/_archived/Kurdi 2017 2 The Sphere of Semantics.md": {
+      "content_hash": "193ce11658cd95985429333d12cbbed53697a58fa57c47921ae73095bbc09b07",
+      "last_ingested": "2026-09-25T16:37:26.811099+00:00",
+      "pages_produced": [
+        "concepts/kurdi-combinatorial-semantics.md"
+      ]
+    },
+    "_raw/_archived/Kurdi 2017 3 The Sphere of Discourse and Text.md": {
+      "content_hash": "b8f6b9194b363c889911fec2eedd9ecbb559ea3a96397a39d95ac10af495ab39",
+      "last_ingested": "2026-09-25T16:37:26.889882+00:00",
+      "pages_produced": [
+        "concepts/kurdi-discourse.md"
+      ]
+    },
+    "_raw/_archived/Kurdi 2017 4 The Sphere of Applications.md": {
+      "content_hash": "56b1ba73d2bc60a2b749ac0b010268858dec08216312a95587ef18b371a39009",
+      "last_ingested": "2026-09-25T16:37:26.969862+00:00",
+      "pages_produced": [
+        "concepts/kurdi-nlp-applications.md"
+      ]
+    },
+    "_raw/_archived/Linugistic Reconstruction Glossary.md": {
+      "content_hash": "84cdff9eb847ac0b4e93d66b71c6f688b93b27c7907e44d7ce477c8b4801a2b5",
+      "last_ingested": "2026-09-25T16:37:27.049073+00:00",
+      "pages_produced": [
+        "concepts/historical-linguistics-sound-terms.md"
+      ]
+    },
+    "_raw/_archived/Germanic Sound Change Map.md": {
+      "content_hash": "5c908dbdb713f05c720443994ab9548ec14386676657e5db0f31abfdb6885b75",
+      "last_ingested": "2026-09-25T16:37:27.132848+00:00",
+      "pages_produced": [
+        "concepts/germanic-sound-change.md"
+      ]
+    },
+    "_raw/_archived/Beowulf-1.md": {
+      "content_hash": "621a4f3d4216d5c315d62f157e3310ce16bd6ede302e49b7efa4173a13c4cd49",
+      "last_ingested": "2026-09-25T16:37:27.219267+00:00",
+      "pages_produced": [
+        "references/beowulf.md"
+      ]
+    },
+    "_raw/_archived/Wulfings.md": {
+      "content_hash": "4a0c41fbc6e7d2b76b9854528bb717741bc612c064d0940d681aacc6b568eff9",
+      "last_ingested": "2026-09-25T16:37:27.308856+00:00",
+      "pages_produced": [
+        "references/beowulf.md"
+      ]
+    },
+    "_raw/_archived/Judith-1.md": {
+      "content_hash": "a73d3a34754ca4e2d75264c63688626cafdd6fbba805b3c907b840d4f50e1c15",
+      "last_ingested": "2026-09-25T16:37:27.400776+00:00",
+      "pages_produced": [
+        "references/judith.md"
+      ]
+    },
+    "_raw/_archived/Holofernes.md": {
+      "content_hash": "6d0883085410c3d63f5f23ade9347052f58f074c71829f6c3c101c5bb3b405ac",
+      "last_ingested": "2026-09-25T16:37:27.485078+00:00",
+      "pages_produced": [
+        "references/judith.md"
+      ]
+    },
+    "_raw/_archived/I Watched a 37-Million-View TEDx Talk Claiming You Can Speak Fluently in 6 Months. Here’s the Truth.md": {
+      "content_hash": "75b78290b8acc25ba7ea7bb2ab9442597944a3bba1ada01b222c70ab5a49003b",
+      "last_ingested": "2026-09-25T16:41:14.602105+00:00",
+      "pages_produced": [
+        "skills/six-month-language-learning.md",
+        "concepts/comprehensible-input.md"
+      ]
+    },
+    "_raw/_archived/Chapelle Linguistic Encyclopaedia - P.md": {
+      "content_hash": "20415fb9d97f6b38236a1566aecab1bdb339e21a3a5aeb2430c308e01e5dc7fa",
+      "last_ingested": "2026-09-25T16:41:14.682070+00:00",
+      "pages_produced": [
+        "concepts/pattern-grammar.md",
+        "concepts/paired-group-oral-assessment.md",
+        "concepts/phonetics-and-phonology.md"
+      ]
+    },
+    "_raw/_archived/Glossary of linguistic terms.md": {
+      "content_hash": "b66fa47ba0650a08ac0010a19057602ac28b16ca419c737c30d32d396b2df0e7",
+      "last_ingested": "2026-09-25T16:41:14.761853+00:00",
+      "pages_produced": [
+        "concepts/classroom-grammar-terms.md",
+        "concepts/old-english-grammar.md",
+        "concepts/historical-linguistics-sound-terms.md"
+      ]
+    },
+    "_raw/_archived/Glossary of linguistic terms 1.md": {
+      "content_hash": "b66fa47ba0650a08ac0010a19057602ac28b16ca419c737c30d32d396b2df0e7",
+      "last_ingested": "2026-09-25T16:41:14.847339+00:00",
+      "pages_produced": [
+        "concepts/classroom-grammar-terms.md"
+      ]
+    },
+    "_raw/_archived/Kurdi 2017 Bibliography.md": {
+      "content_hash": "8efcf47ad432fdc661365f3f337d98aa61b8406167d9f8e36fbc00f95fdb8463",
+      "last_ingested": "2026-09-25T16:41:14.932616+00:00",
+      "pages_produced": [
+        "concepts/nlp-corpus.md"
+      ]
+    },
+    "_raw/_archived/Kurdi Bibliography.md": {
+      "content_hash": "f0d7f9b226daf866e5e0d81345e0f68793da4c24e787b8b33e041e23fcffb616",
+      "last_ingested": "2026-09-25T16:41:15.013543+00:00",
+      "pages_produced": [
+        "concepts/nlp-corpus.md"
+      ]
+    },
+    "_raw/_archived/Modern English Idioms.md": {
+      "content_hash": "f48547bca0416e29d1fdd9b5a67570d3debd83e6f7931fffc693a4fa7528c619",
+      "last_ingested": "2026-09-25T16:41:15.094013+00:00",
+      "pages_produced": [
+        "concepts/english-idioms.md"
+      ]
+    },
+    "_raw/_archived/Bosworth-Toller p. 27 A-FLYGE - A-GǢLAN.md": {
+      "content_hash": "1d704eab1c788a24619750a87d486f43a4892d3815ed3baf5ed594364aeccbc0",
+      "last_ingested": "2026-09-25T16:41:15.182206+00:00",
+      "pages_produced": [
+        "entities/bosworth-toller.md",
+        "skills/translating-ancient-texts.md"
+      ]
+    },
+    "_raw/_archived/Old English Dialect Cues.md": {
+      "content_hash": "79cec5f9c8a7530e44027be07b0bca008d0dda16dc268359628692e20c5eb8a7",
+      "last_ingested": "2026-09-25T16:41:15.270193+00:00",
+      "pages_produced": [
+        "concepts/old-english-dialects.md"
+      ]
+    },
+    "_raw/_archived/Diacritics - The Passion of the Apostles Peter and Paul.md": {
+      "content_hash": "fc702d4be842edaa82f7eac06b368b8cefc667ee528b41e41f0d7f3024d0a3e7",
+      "last_ingested": "2026-09-25T16:41:15.357636+00:00",
+      "pages_produced": [
+        "references/passion-peter-and-paul.md",
+        "concepts/old-english-pronunciation.md"
+      ]
+    },
+    "_raw/_archived/Idioms.pdf": {
+      "content_hash": "dd528125b3a8497f681fcf63b4130533d185322afe0273be0b2a67a3d13fcb56",
+      "last_ingested": "2026-09-25T18:02:10.752691+00:00",
+      "pages_produced": [
+        "concepts/english-idioms.md"
+      ]
+    },
+    "_raw/_archived/149.pdf": {
+      "content_hash": "25e75174db6b38df9b48d753705ae695042c67d1359911b6d51f894e914a6aa9",
+      "last_ingested": "2026-09-25T18:02:10.826502+00:00",
+      "pages_produced": [
+        "references/battle-of-maldon.md",
+        "entities/aethelred-the-unready.md"
+      ]
+    },
+    "_raw/_archived/Affixes (Mitchell).pdf": {
+      "content_hash": "236c9ab5faeb10486073711b9537d3857f53f9ce9d9f359a86d1a041a652c0bd",
+      "last_ingested": "2026-09-25T18:02:10.901589+00:00",
+      "pages_produced": [
+        "concepts/oe-word-formation.md",
+        "concepts/old-english-grammar.md"
+      ]
+    },
+    "_raw/_archived/ROE cheatsheet.pdf": {
+      "content_hash": "a39f3ba466c91ad20440a6bd2642106ad5cf5a77246472d797d4b4fa571b633b",
+      "last_ingested": "2026-09-25T18:02:10.978891+00:00",
+      "pages_produced": [
+        "skills/oe-paradigm-lookup.md",
+        "concepts/old-english-grammar.md"
+      ]
+    },
+    "_raw/_archived/OE magic sheet.pdf": {
+      "content_hash": "816290e964f7b295082a31fa46055abd72e682481e04e20f3f6c931c9340d491",
+      "last_ingested": "2026-09-25T18:02:11.055713+00:00",
+      "pages_produced": [
+        "skills/oe-paradigm-lookup.md",
+        "concepts/old-english-grammar.md"
+      ]
+    },
+    "_raw/_archived/Phonetic Symbols Chart.pdf": {
+      "content_hash": "5ab6660a1a6bcfc8858119fe7e25529ae50aa5cc948eea0aa6a9ec716d3e5af2",
+      "last_ingested": "2026-09-25T18:02:11.131312+00:00",
+      "pages_produced": [
+        "concepts/phonetics-and-phonology.md"
+      ]
+    },
+    "_raw/_archived/Phonetic Symbols Chart 1.pdf": {
+      "content_hash": "5ab6660a1a6bcfc8858119fe7e25529ae50aa5cc948eea0aa6a9ec716d3e5af2",
+      "last_ingested": "2026-09-25T18:02:11.208555+00:00",
+      "pages_produced": [
+        "concepts/phonetics-and-phonology.md"
+      ]
+    },
+    "_raw/_archived/Judith_side_by_side.pdf": {
+      "content_hash": "36dab1eac0a32f182c94ec902f97d8cb35f31c3e62a92e21af823c503974233d",
+      "last_ingested": "2026-09-25T18:02:11.287526+00:00",
+      "pages_produced": [
+        "references/judith.md",
+        "skills/translating-ancient-texts.md"
+      ]
+    },
+    "_raw/_archived/Reading XI_ The Human Fetus_side_by_side.pdf": {
+      "content_hash": "8e93d2348585e6236b1a290c7470d56dcf9f03e10dedd8914258b86bf1d256bf",
+      "last_ingested": "2026-09-25T18:02:11.367845+00:00",
+      "pages_produced": [
+        "references/oe-human-fetus.md",
+        "skills/translating-ancient-texts.md"
+      ]
+    },
+    "_raw/_archived/The Seafarer (Jun 2026)_side_by_side.pdf": {
+      "content_hash": "b6a891682b137b664967caaa435f5925f734e7c87cc16b559e93a127458c3232",
+      "last_ingested": "2026-09-25T18:02:11.449323+00:00",
+      "pages_produced": [
+        "references/the-seafarer.md",
+        "skills/translating-ancient-texts.md"
+      ]
+    },
+    "_raw/_archived/Ælfric_s Life of St. Edmund_side_by_side.pdf": {
+      "content_hash": "d2944610d17cc713f9558bcc6fc9ed4cf05e086a0923ec29acd03d866ea72038",
+      "last_ingested": "2026-09-25T18:02:11.532953+00:00",
+      "pages_produced": [
+        "references/aelfric-life-of-edmund.md",
+        "entities/edmund-the-martyr.md",
+        "skills/translating-ancient-texts.md"
+      ]
+    },
+    "_raw/_archived/Ælfric_s Life of St. Edmund.md": {
+      "content_hash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "last_ingested": "2026-09-25T18:02:11.622622+00:00",
+      "pages_produced": [
+        "references/aelfric-life-of-edmund.md"
+      ]
+    },
+    "_raw/_archived/Introduction to Old English.md": {
+      "content_hash": "a6e9204d205f164adbb544295c4d931f38afed3a5722436344109c8c5e2d2b55",
+      "last_ingested": "2026-09-25T18:07:58.597287+00:00",
+      "pages_produced": [
+        "skills/ut-eieol-old-english.md",
+        "concepts/old-english.md",
+        "concepts/old-english-dialects.md",
+        "concepts/old-english-grammar.md",
+        "concepts/old-english-pronunciation.md",
+        "skills/translating-ancient-texts.md"
+      ]
+    },
+    "_raw/_archived/Germanic Languages A History of Migration and Conquest.md": {
+      "content_hash": "deefcbc6c5988ef8d2f6ba823c26ef721e8a22001d072e6dae54e4165caefcd7",
+      "last_ingested": "2026-09-25T18:07:58.677531+00:00",
+      "pages_produced": [
+        "concepts/germanic-language-family.md",
+        "concepts/history-of-english.md",
+        "entities/germanic-peoples.md"
+      ]
+    },
+    "_raw/_archived/Introduction to Old Norse.md": {
+      "content_hash": "83638a9021c2278690d805f5821b6c648fcd1f3d2dc0ba66ff637bb0642a0c56",
+      "last_ingested": "2026-09-25T18:07:58.760575+00:00",
+      "pages_produced": [
+        "skills/ut-eieol-old-norse.md",
+        "concepts/germanic-language-family.md",
+        "concepts/danelaw.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830153158.png": {
+      "content_hash": "76254ed8b7dc3a741ddf4140e58f3a7c8df245e1b8394c695eb5141d4a680cdd",
+      "last_ingested": "2026-09-25T18:07:58.863835+00:00",
+      "pages_produced": [
+        "references/visual-clippings.md",
+        "concepts/anglo-saxon-kingdoms.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260902165210.png": {
+      "content_hash": "070484aaade311a8ec301f99933acbd758f2c8ac0de8426e8a03d6b411c6e657",
+      "last_ingested": "2026-09-25T18:07:58.951979+00:00",
+      "pages_produced": [
+        "references/visual-clippings.md",
+        "concepts/anglo-saxon-kingdoms.md"
+      ]
+    },
+    "_raw/_archived/Screenshot 2026-08-31 at 8.03.48 AM.jpg": {
+      "content_hash": "6718c91fd88ffdf8315f204cd86b5d5b697cc94778b19c9998460193cda68101",
+      "last_ingested": "2026-09-25T18:07:59.047694+00:00",
+      "pages_produced": [
+        "references/visual-clippings.md",
+        "concepts/old-english-pronunciation.md",
+        "concepts/phonetics-and-phonology.md"
+      ]
+    },
+    "_raw/_archived/Ari Þorgilsson On the Settling of Iceland.md": {
+      "content_hash": "70b194c349bdd329359fdbd6c2ab60b4cb962c275c83204bbfac9a86b189a78c",
+      "last_ingested": "2026-09-25T18:19:28.085176+00:00",
+      "pages_produced": [
+        "entities/ari-thorgilsson.md",
+        "references/islendingabok.md",
+        "concepts/viking-age-expansion.md",
+        "concepts/old-norse-grammar.md",
+        "concepts/danelaw.md",
+        "entities/edmund-the-martyr.md",
+        "entities/aethelred-the-unready.md",
+        "skills/ut-eieol-old-norse.md"
+      ]
+    },
+    "_raw/_archived/from the Prologue of Snorra Edda.md": {
+      "content_hash": "d2b9ecd4c0137f689e919463c927846836e492be6e9c0e448142331fce1bc950",
+      "last_ingested": "2026-09-25T18:19:28.157710+00:00",
+      "pages_produced": [
+        "entities/snorri-sturluson.md",
+        "references/prose-edda.md",
+        "concepts/old-norse-grammar.md",
+        "concepts/viking-age-expansion.md",
+        "concepts/germanic-sound-change.md",
+        "concepts/old-english.md",
+        "skills/ut-eieol-old-norse.md"
+      ]
+    },
+    "_raw/_archived/2026-10-08-verify-plan-code-in-throwaway-git-worktree.md": {
+      "content_hash": "2218cb0eb3f1dc36947e332691b0110e52536bc2500caff0abd1323d5c084b05",
+      "last_ingested": "2026-10-09T15:57:45.401282+00:00",
+      "pages_produced": [
+        "projects/wyrdcraeft/wyrdcraeft.md",
+        "skills/verify-plan-in-throwaway-worktree.md"
+      ]
+    },
+    "_raw/_archived/2026-10-08-claude-code-bash-cd-fails-use-builtin-cd.md": {
+      "content_hash": "215705f42376a5a79945b32e2d4994cb626e5ad3260592e44e8663e499b61080",
+      "last_ingested": "2026-10-09T15:57:45.480459+00:00",
+      "pages_produced": [
+        "projects/wyrdcraeft/wyrdcraeft.md",
+        "skills/claude-code-builtin-cd.md"
+      ]
+    },
+    "_raw/_archived/2026-10-08-click-clirunner-rich-stderr-console-not-captured.md": {
+      "content_hash": "6f5122ff3f4296a45e756e2c95f25b62314d574de0314e5f20aaa9a8e5aab895",
+      "last_ingested": "2026-10-09T15:57:45.554950+00:00",
+      "pages_produced": [
+        "projects/wyrdcraeft/wyrdcraeft.md",
+        "skills/click-clirunner-rich-stderr.md"
+      ]
+    },
+    "_raw/_archived/2026-10-03-aenglisc-alembic-migration-service-gotchas.md": {
+      "content_hash": "986df2f8177a762e0e73d64cb54aaff58ee0fbe9e38ab8e4e2ae99258ac95d50",
+      "last_ingested": "2026-10-09T15:57:45.628811+00:00",
+      "pages_produced": [
+        "projects/aenglisc-toolkit/aenglisc-toolkit.md",
+        "projects/aenglisc-toolkit/skills/alembic-migration-service.md"
+      ]
+    },
+    "_raw/_archived/2026-10-02-qt-extraselection-highlight-layers.md": {
+      "content_hash": "f56bf2872d437a51eb285d8d28cae56517ed33fc6035198ac9be365619410e28",
+      "last_ingested": "2026-10-09T15:57:45.708930+00:00",
+      "pages_produced": [
+        "projects/aenglisc-toolkit/aenglisc-toolkit.md",
+        "projects/aenglisc-toolkit/skills/qt-extraselection-highlight-layers.md"
+      ]
+    },
+    "_raw/_archived/2026-10-02-git-squash-rebase-diverged-refactor.md": {
+      "content_hash": "ce72f9f0fe6931d8d7f3820aff293cc91377f9eb45bebe08267b1119283fa31b",
+      "last_ingested": "2026-10-09T15:57:45.789426+00:00",
+      "pages_produced": [
+        "projects/aenglisc-toolkit/aenglisc-toolkit.md",
+        "skills/rebase-diverged-refactor.md"
+      ]
+    }
+  }
+}
