@@ -8,6 +8,8 @@ relationships:
     type: related_to
   - target: "[[concepts/historical-linguistics-sound-terms]]"
     type: uses
+  - target: "[[concepts/ocr-character-inventory]]"
+    type: related_to
 sources:
   - "agent:raw-lesson 0003 Pronouncing Old English Letters"
   - "https://oldenglish.info/advpronunciationguide.html"
@@ -24,7 +26,7 @@ lifecycle: draft
 lifecycle_changed: "2026-09-25"
 tier: supporting
 created: 2026-09-25T16:30:00Z
-updated: 2026-09-25T18:15:00Z
+updated: 2026-10-09T18:20:00Z
 snapshots:
   - "[[_raw/_archived/0003 Pronouncing Old English Letters]]"
   - "[[_raw/_archived/Diacritics - The Passion of the Apostles Peter and Paul]]"
@@ -53,7 +55,7 @@ A usable first-pass system for reading [[concepts/old-english]], not a claim of 
 - Manuscript **wynn** (ƿ) = [w]; modern editions often respell *w*. Alphabet extras: þ ð æ; no native *j v w z* letters.
 - **No silent letters.**
 
-**Teaching diacritics** (not in the manuscripts): a macron marks a long vowel (`ā ǣ ē ī ō ū ȳ`); a dot on `ċ`/`ġ` marks the palatal teaching values. The marked Passion text is a worked example — see [[references/passion-peter-and-paul]] and [[concepts/phonetics-and-phonology]] (pronunciation vs phonics vs IPA).
+**Teaching diacritics** (not in the manuscripts): a macron marks a long vowel (`ā ǣ ē ī ō ū ȳ`); a dot on `ċ`/`ġ` marks the palatal teaching values. The marked Passion text is a worked example — see [[references/passion-peter-and-paul]] and [[concepts/phonetics-and-phonology]] (pronunciation vs phonics vs IPA). When those marks are printed in a PDF, they are part of the copy target: [[concepts/ocr-character-inventory]] and [[skills/linguistic-pdf-to-markdown]].
 
 See [[concepts/historical-linguistics-sound-terms]] for stop/fricative/palatal vocabulary used in [[concepts/germanic-sound-change]].
 

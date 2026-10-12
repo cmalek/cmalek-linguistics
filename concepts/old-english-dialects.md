@@ -9,6 +9,8 @@ relationships:
     type: related_to
   - target: "[[concepts/germanic-sound-change]]"
     type: related_to
+  - target: "[[concepts/old-english-orthographic-variation]]"
+    type: related_to
 sources:
   - "agent:raw-lesson 0002 Recognizing Old English Dialects in Writing"
   - "https://oldenglish.info/history.html"
@@ -24,7 +26,7 @@ lifecycle: draft
 lifecycle_changed: "2026-09-25"
 tier: supporting
 created: 2026-09-25T16:30:00Z
-updated: 2026-10-09T16:05:14Z
+updated: 2026-10-09T19:50:00Z
 snapshots:
   - "[[_raw/_archived/0002 Recognizing Old English Dialects in Writing]]"
   - "[[_raw/_archived/History of English]]"
@@ -59,9 +61,14 @@ snapshots:
 
 Modern English derives mostly from Anglian; classrooms still teach West Saxon because [[entities/alfred-the-great]]'s Wessex preserved the bulk of the manuscript tradition, including much of [[references/beowulf]].
 
+## Generation
+
+These cues are spelling correspondences, not a published paradigm generator. [[concepts/old-english-orthographic-variation]] records the computational choice: Tichý generates one variety and applies dialect filters at match time. Late West Saxon prose is near ceiling. Northumbrian glosses and an early Kentish charter are where that fails.
+
 ## Open Questions
 
 - Separating Mercian from Northumbrian in mixed copies remains the hard step.
+- Whether a generator should emit four dialect labels or two blocs (Anglian, and West Saxon with Kentish). ^[ambiguous]
 
 ## Related
 

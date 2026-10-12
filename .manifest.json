@@ -86,7 +86,7 @@
         "references/beowulf.md"
       ]
     },
-    "_raw/_archived/Cædmon.md": {
+    "_raw/_archived/C\u00e6dmon.md": {
       "content_hash": "92a3081fd51f3690ce0d79929810e6c9db1a587411a9036f4431fed5d3d9dafd",
       "last_ingested": "2026-09-25T16:24:48.767856+00:00",
       "pages_produced": [
@@ -295,7 +295,7 @@
         "references/judith.md"
       ]
     },
-    "_raw/_archived/The Story of Cædmon.md": {
+    "_raw/_archived/The Story of C\u00e6dmon.md": {
       "content_hash": "744ab42bc03a744f8394f27e3d6d9be75be13207fbf0eedf8ec288c856dc19b8",
       "last_ingested": "2026-09-25T16:30:14.049427+00:00",
       "pages_produced": [
@@ -331,7 +331,7 @@
         "concepts/anglo-saxon-kingdoms.md"
       ]
     },
-    "_raw/_archived/Æthelred the Unready.md": {
+    "_raw/_archived/\u00c6thelred the Unready.md": {
       "content_hash": "0a5c7e7eee43a077f15598fc2f78e7153eb1347ca5e4f926cceac28f8fff678c",
       "last_ingested": "2026-09-25T16:37:26.266056+00:00",
       "pages_produced": [
@@ -368,7 +368,7 @@
         "references/passion-peter-and-paul.md"
       ]
     },
-    "_raw/_archived/Tolkien’s use of Old English words.md": {
+    "_raw/_archived/Tolkien\u2019s use of Old English words.md": {
       "content_hash": "3d6118a2158997303e77c892defd0d8f00b43b45a0503ab23a40d75bf16b099b",
       "last_ingested": "2026-09-25T16:37:26.648085+00:00",
       "pages_produced": [
@@ -446,7 +446,7 @@
         "references/judith.md"
       ]
     },
-    "_raw/_archived/I Watched a 37-Million-View TEDx Talk Claiming You Can Speak Fluently in 6 Months. Here’s the Truth.md": {
+    "_raw/_archived/I Watched a 37-Million-View TEDx Talk Claiming You Can Speak Fluently in 6 Months. Here\u2019s the Truth.md": {
       "content_hash": "75b78290b8acc25ba7ea7bb2ab9442597944a3bba1ada01b222c70ab5a49003b",
       "last_ingested": "2026-09-25T16:41:14.602105+00:00",
       "pages_produced": [
@@ -500,7 +500,7 @@
         "concepts/english-idioms.md"
       ]
     },
-    "_raw/_archived/Bosworth-Toller p. 27 A-FLYGE - A-GǢLAN.md": {
+    "_raw/_archived/Bosworth-Toller p. 27 A-FLYGE - A-G\u01e2LAN.md": {
       "content_hash": "1d704eab1c788a24619750a87d486f43a4892d3815ed3baf5ed594364aeccbc0",
       "last_ingested": "2026-09-25T16:41:15.182206+00:00",
       "pages_produced": [
@@ -600,7 +600,7 @@
         "skills/translating-ancient-texts.md"
       ]
     },
-    "_raw/_archived/Ælfric_s Life of St. Edmund_side_by_side.pdf": {
+    "_raw/_archived/\u00c6lfric_s Life of St. Edmund_side_by_side.pdf": {
       "content_hash": "d2944610d17cc713f9558bcc6fc9ed4cf05e086a0923ec29acd03d866ea72038",
       "last_ingested": "2026-09-25T18:02:11.532953+00:00",
       "pages_produced": [
@@ -609,7 +609,7 @@
         "skills/translating-ancient-texts.md"
       ]
     },
-    "_raw/_archived/Ælfric_s Life of St. Edmund.md": {
+    "_raw/_archived/\u00c6lfric_s Life of St. Edmund.md": {
       "content_hash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
       "last_ingested": "2026-09-25T18:02:11.622622+00:00",
       "pages_produced": [
@@ -671,7 +671,7 @@
         "concepts/phonetics-and-phonology.md"
       ]
     },
-    "_raw/_archived/Ari Þorgilsson On the Settling of Iceland.md": {
+    "_raw/_archived/Ari \u00deorgilsson On the Settling of Iceland.md": {
       "content_hash": "70b194c349bdd329359fdbd6c2ab60b4cb962c275c83204bbfac9a86b189a78c",
       "last_ingested": "2026-09-25T18:19:28.085176+00:00",
       "pages_produced": [
@@ -745,6 +745,160 @@
         "projects/aenglisc-toolkit/aenglisc-toolkit.md",
         "skills/rebase-diverged-refactor.md"
       ]
+    },
+    "repo:github.com/cmalek/wyrdcraeft": {
+      "content_hash": "86ab2d437385b734f6bb6c750917c5805ebd6141dc2ec87d3d9ff7a9a91e5e83",
+      "last_ingested": "2026-10-09T16:50:08.753440+00:00",
+      "pages_produced": [
+        "projects/wyrdcraeft/wyrdcraeft.md",
+        "projects/wyrdcraeft/concepts/startup-and-settings.md",
+        "projects/wyrdcraeft/concepts/source-conversion.md",
+        "projects/wyrdcraeft/concepts/diacritic-workflows.md",
+        "projects/wyrdcraeft/concepts/dictionary-build.md",
+        "projects/wyrdcraeft/concepts/morphology-generation.md",
+        "projects/wyrdcraeft/concepts/dictionary-query-and-browse.md",
+        "projects/wyrdcraeft/concepts/wright-catalog.md",
+        "entities/bosworth-toller.md"
+      ]
     }
-  }
+  },
+  "research": [
+    {
+      "type": "research",
+      "topic": "Scholarly PDF to Markdown for linguistic and dead-language texts",
+      "researched_at": "2026-10-09T18:20:00Z",
+      "rounds_completed": 3,
+      "sources_fetched": 30,
+      "pages_created": [
+        "references/ocr-for-the-ipa.md",
+        "references/reading-or-guessing-vlm-ocr.md",
+        "references/glotocr-bench.md",
+        "references/olmocr.md",
+        "references/mufi-character-recommendation.md",
+        "references/junicode-manual.md",
+        "references/state-of-icelandic-ocr.md",
+        "references/historical-ocr-error-patterns.md",
+        "concepts/pdf-text-layer-vs-ocr.md",
+        "concepts/tounicode-cmap.md",
+        "concepts/diplomatic-ocr-target.md",
+        "concepts/scholarly-markdown-limits.md",
+        "concepts/typography-as-linguistic-signal.md",
+        "concepts/ocr-character-inventory.md",
+        "entities/pymupdf.md",
+        "entities/kraken.md",
+        "entities/docling.md",
+        "entities/marker-pdf.md",
+        "entities/tesseract.md",
+        "entities/calamari-ocr.md",
+        "entities/regreek.md",
+        "entities/junicode.md",
+        "skills/linguistic-pdf-to-markdown.md",
+        "synthesis/Research: Scholarly PDF to Markdown.md"
+      ],
+      "pages_updated": [
+        "concepts/old-english-pronunciation.md",
+        "concepts/phonetics-and-phonology.md",
+        "projects/wyrdcraeft/concepts/source-conversion.md",
+        "projects/wyrdcraeft/concepts/diacritic-workflows.md"
+      ]
+    },
+    {
+      "type": "research",
+      "topic": "Image-only OCR pipeline for linguistic PDFs",
+      "researched_at": "2026-10-09T18:45:00Z",
+      "rounds_completed": 3,
+      "sources_fetched": 18,
+      "pages_created": [
+        "concepts/ocr-page-images.md",
+        "concepts/ocr-pipeline.md",
+        "concepts/ocr-evaluation-metrics.md",
+        "concepts/ocr-human-correction.md",
+        "references/fadgi-digitization-guidelines.md",
+        "references/catmus-guidelines.md",
+        "references/mixed-model-historical-ocr.md",
+        "references/ocr-of-historical-printings.md",
+        "entities/escriptorium.md"
+      ],
+      "pages_updated": [
+        "synthesis/Research: Scholarly PDF to Markdown.md",
+        "skills/linguistic-pdf-to-markdown.md",
+        "concepts/pdf-text-layer-vs-ocr.md",
+        "concepts/diplomatic-ocr-target.md",
+        "concepts/ocr-character-inventory.md",
+        "concepts/typography-as-linguistic-signal.md",
+        "entities/kraken.md",
+        "entities/calamari-ocr.md"
+      ]
+    },
+    {
+      "type": "research",
+      "topic": "Old English morphology generation: class, government, dialects, and novel compounds",
+      "researched_at": "2026-10-09T19:50:00Z",
+      "rounds_completed": 3,
+      "sources_fetched": 24,
+      "pages_created": [
+        "references/tichy-2017-morphological-analyser.md",
+        "references/adams-2007-oe-verb-analyzer.md",
+        "references/nerthus-v5-database.md",
+        "references/martin-arista-2026-oe-lemmatisation.md",
+        "references/ycoe-case-and-pos-annotation.md",
+        "references/paveda-old-english-valency.md",
+        "references/computational-study-of-old-english-2025.md",
+        "references/miani-2025-oe-poetry-pos.md",
+        "concepts/old-english-form-generation.md",
+        "concepts/old-english-inflectional-class.md",
+        "concepts/old-english-case-government.md",
+        "concepts/old-english-orthographic-variation.md",
+        "concepts/old-english-lemmatisation.md",
+        "entities/nerthus-project.md",
+        "entities/ondrej-tichy.md",
+        "entities/dictionary-of-old-english.md",
+        "entities/ycoe.md",
+        "entities/varioe.md",
+        "entities/paveda.md",
+        "entities/javier-martin-arista.md",
+        "synthesis/Research: Old English Morphology Generation.md"
+      ],
+      "pages_updated": [
+        "projects/wyrdcraeft/concepts/morphology-generation.md",
+        "entities/bosworth-toller.md",
+        "concepts/oe-word-formation.md",
+        "concepts/old-english-dialects.md"
+      ]
+    },
+    {
+      "type": "research",
+      "topic": "Nerthus project: background, contents, and guest search",
+      "researched_at": "2026-10-09T20:32:00Z",
+      "rounds_completed": 1,
+      "sources_fetched": 12,
+      "pages_created": [
+        "skills/using-nerthus.md"
+      ],
+      "pages_updated": [
+        "entities/nerthus-project.md",
+        "references/nerthus-v5-database.md",
+        "entities/javier-martin-arista.md",
+        "synthesis/Research: Old English Morphology Generation.md",
+        "projects/wyrdcraeft/concepts/morphology-generation.md"
+      ]
+    },
+    {
+      "type": "research",
+      "topic": "Dictionary of Old English Corpus at the University of Toronto",
+      "researched_at": "2026-10-12T04:37:00Z",
+      "rounds_completed": 3,
+      "sources_fetched": 16,
+      "pages_created": [
+        "entities/dictionary-of-old-english-corpus.md",
+        "skills/using-doec.md",
+        "references/doec-2009-release.md"
+      ],
+      "pages_updated": [
+        "entities/dictionary-of-old-english.md",
+        "synthesis/Research: Old English Morphology Generation.md",
+        "projects/wyrdcraeft/concepts/morphology-generation.md"
+      ]
+    }
+  ]
 }

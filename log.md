@@ -14,3 +14,10 @@ title: Wiki Log
 - [2026-09-25T18:19:28Z] INGEST source="_raw Old Norse EIEOL lessons 1–2" pages_created=6 pages_updated=6 mode=raw
 - [2026-10-09T15:57:45Z] INGEST source="_raw (wyrdcraeft + aenglisc_toolkit session drafts)" pages_created=8 pages_updated=1 mode=raw
 - [2026-10-09T16:10:31Z] WIKI_SYNTHESIZE pages_scanned=65 synthesis_created=5 candidates_skipped=10
+- [2026-10-09T16:50:32Z] WIKI_UPDATE project=wyrdcraeft pages_created=7 pages_updated=2 source_repo=github.com/cmalek/wyrdcraeft
+- [2026-10-09T17:16:18Z] WIKI_RESEARCH topic="Scholarly PDF to Markdown for linguistic and dead-language texts" rounds=3 sources_fetched=30 pages_created=24 pages_updated=4 backends_used=none
+- [2026-10-09T17:39:25Z] WIKI_RESEARCH topic="Image-only OCR pipeline for linguistic PDFs" rounds=3 sources_fetched=18 pages_created=9 pages_updated=8 backends_used=defuddle-fetch
+- [2026-10-09T17:58:27Z] WIKI_NARRATE topic="Convert WrightAndWright.pdf to markdown with typography, tables, and page structure" voice=briefing result_pages=16 mode=normal saved=false outcome=success
+- [2026-10-09T18:33:17Z] WIKI_RESEARCH topic="Old English morphology generation" rounds=3 sources_fetched=24 pages_created=21 backends_used=defuddle-fetch
+- [2026-10-09T20:33:56Z] WIKI_RESEARCH topic="Nerthus project: background, contents, and guest search" rounds=1 sources_fetched=12 pages_created=1 backends_used=defuddle-fetch
+- [2026-10-12T04:37:00Z] WIKI_RESEARCH topic="Dictionary of Old English Corpus at the University of Toronto" rounds=3 sources_fetched=16 pages_created=3 backends_used=defuddle-fetch

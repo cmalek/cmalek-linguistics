@@ -10,6 +10,10 @@ relationships:
     type: related_to
   - target: "[[references/beowulf]]"
     type: related_to
+  - target: "[[concepts/old-english-form-generation]]"
+    type: related_to
+  - target: "[[references/nerthus-v5-database]]"
+    type: related_to
 sources:
   - "Mitchell & Robinson, A Guide to Old English, 8th ed. (2012), §§137–138"
 summary: "Mitchell: compounds (noun+noun, kenning) vs prefixes (a-, be-, for-, ge-, un-) and suffixes (-had, -ung, -lic)."
@@ -22,7 +26,7 @@ lifecycle: draft
 lifecycle_changed: "2026-09-25"
 tier: supporting
 created: 2026-09-25T18:00:00Z
-updated: 2026-09-25T18:00:00Z
+updated: 2026-10-09T19:50:00Z
 snapshots:
   - "[[_raw/_archived/Affixes (Mitchell).pdf]]"
 ---
@@ -38,6 +42,10 @@ Mitchell & Robinson (2012) §§137–138 (scanned excerpt titled “Affixes” i
 **Prefixes (§138):** *a-* “away” or empty (*a-fysan* vs *a-galan*); *æg-* generalizing (*æg-hwa*); *be-* about / privative / transitivizing; *for-* intensive (*for-bernan*); *ge-* together / perfective; *on-/an-* reverse or “against”; *or-* without / original; *to-* toward or asunder; *un-* negative or pejorative; *wan-* lacking; *wiþ-* against; *ymb-* around.
 
 **Suffixes:** nouns *-aþ/-oþ*, *-end*, *-had* (MnE *-hood*), *-ing* (son of / associated), *-mæl*, *-ræden*, *-þ(o)/-þ(u)*, *-ung/-ing*; adjectives *-en*, *-ig*, *-lic*, *-mæl*, *-sum*. Verb infinitives *-an*, class 2 *-ian*, *-ettan*, *-læcan*.
+
+## In the lexical databases
+
+[[references/nerthus-v5-database|Nerthus]] records the same split computationally: each non-basic headword is affixation, zero derivation, affixless derivation, or compounding, with the base and the affix stored. The simplex headword ignores *ge-*. A generator still needs the compound to be a headword before it will inflect it. See [[concepts/old-english-form-generation]].
 
 ## Open Questions
 

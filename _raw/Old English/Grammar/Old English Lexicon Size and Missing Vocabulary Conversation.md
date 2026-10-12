@@ -453,3 +453,52 @@ In effect, the current site is a very good searchable transcription, not a fully
 ## User
 
 this is all wonderful data.  Could you add this conversation verbatim as a page in the `cmalek-languages` vault, in the "Old English/Grammar" folder?
+
+## User
+
+what is the estimated size of the full modern english lexicon
+
+## Assistant
+
+A defensible estimate for the **full communal lexicon of Modern English** is approximately:
+
+> **500,000–1,000,000 conventional lexemes**, with perhaps **700,000–800,000** as a reasonable working estimate.
+
+The range depends heavily on what is counted.
+
+| Scope | Approximate size |
+|---|---:|
+| Current general English—ordinary, regional, slang and moderately specialized vocabulary | **300,000–400,000** |
+| Broad modern English including extensive scientific, technical and professional terminology | **500,000–1,000,000** |
+| Historical English, including obsolete vocabulary and phrases | **600,000+** documented items |
+| All predictable inflections, compounds and systematic technical names | Millions, with no meaningful finite ceiling |
+
+Oxford’s current-English dictionary contains more than **350,000 words and phrases** drawn from global varieties of English. [Oxford Languages](https://languages.oup.com/google-dictionary-en/) That is a curated dictionary, however, rather than an exhaustive inventory of every technical and regional lexeme.
+
+The OED describes itself somewhat differently depending on the counting unit:
+
+- current OUP announcements call it a historical dictionary containing more than **500,000 entries**;
+- OUP’s broader description says it documents more than **600,000 words, past and present**;
+- an OED accounting reported about **636,000 lexical items** and **864,000 senses**.
+
+These are not contradictions so much as counts of entries, lexical items, phrases, derivatives and senses under different editorial systems. [Current OUP description](https://corp.oup.com/news/oxford-english-dictionary-update-june-2026/) · [OED resource description](https://oup.libguides.com/OED) · [OED3 discussion](https://oed.hertford.ox.ac.uk/oed-editions/oed3/)
+
+Merriam-Webster gives the familiar estimate of roughly **one million English words**, while warning that it could easily be wrong by 250,000. That estimate includes enormous numbers of chemical names and other scientific entities that ordinary unabridged dictionaries omit. Webster’s Third itself contains about 470,000 entries. [Merriam-Webster](https://www.merriam-webster.com/help/faq-how-many-english-words)
+
+## The useful comparison with Old English
+
+For your research, I would distinguish these Modern English quantities:
+
+- **Individual educated speaker:** perhaps 20,000–50,000 recognized lemmas.
+- **General dictionary lexicon:** approximately 300,000–400,000 contemporary words and expressions.
+- **Whole communal lexicon:** approximately 500,000–1,000,000, once specialist and regional vocabulary is included.
+- **Morphological possibility space:** effectively open-ended.
+
+Thus no individual comes close to knowing the full Modern English lexicon. A well-read person recognizing 40,000–50,000 lemmas might know only around **5–10% of the broad communal lexicon**.
+
+That distinction is highly relevant to Old English. Even if a normalized surviving inventory contained 25,000–35,000 lexemes, it would not follow that:
+
+- an individual speaker knew all of them; or
+- the communal Old English lexicon contained only that many.
+
+The dictionary aggregates across dialects, centuries and specialist communities, while the surviving corpus omits much of the spoken and occupational vocabulary. Those forces run in opposite directions, just as they do—more visibly—with Modern English.

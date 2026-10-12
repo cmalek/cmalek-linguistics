@@ -10,6 +10,8 @@ relationships:
     type: related_to
   - target: "[[concepts/nlp-corpus]]"
     type: related_to
+  - target: "[[references/ocr-for-the-ipa]]"
+    type: related_to
 sources:
   - "url:https://learning.oreilly.com/library/view/the-concise-encyclopedia/9781119147367/c15.xhtml#head-2-732"
   - "Lyle Campbell, Historical Linguistics: An Introduction, 2nd ed. (MIT Press), Phonetic Symbols Chart pp. xxi–xxii"
@@ -24,7 +26,7 @@ lifecycle: draft
 lifecycle_changed: "2026-09-25"
 tier: supporting
 created: 2026-09-25T16:55:00Z
-updated: 2026-09-25T18:15:00Z
+updated: 2026-10-09T18:20:00Z
 snapshots:
   - "[[_raw/_archived/Chapelle Linguistic Encyclopaedia - P]]"
   - "[[_raw/_archived/Phonetic Symbols Chart 1.pdf]]"
@@ -48,7 +50,7 @@ From the same Chapelle encyclopedia clipping as [[concepts/pattern-grammar]]. Al
 
 **Campbell chart (MIT Press, 2nd ed., pp. xxi–xxii):** place × manner grid (bilabial → glottal) for stops, affricates, fricatives, nasals, approximants, laterals; vowels by height/backness with tense/lax pairs (*i/ɪ*, *e/ɛ*, *u/ʊ*). Diacritic page: aspiration *Cʰ*, dental *C̪*, glottalized, labialized, palatalized, voiceless *̥*, length *ː*, nasal *̃*. Note: Campbell often writes *a* for both [a] and [ɑ]. Two vault PDFs (*Phonetic Symbols Chart.pdf* and *… Chart 1.pdf*) are the same three pages. A separate pasted trapezium (`ipa-vowel-trapezium.jpg`) is a simpler front/back teaching chart. Classroom [[concepts/old-english-pronunciation]] macrons and dotted `ċ`/`ġ` remain teaching diacritics, not this chart. ^[inferred]
 
-**SIL:** missionary linguistics; Pike; *Ethnologue* (16th ed. cited: 6,909 languages). Purpose is Bible translation — applied phoneme-based orthographies.
+**SIL:** missionary linguistics; Pike; *Ethnologue* (16th ed. cited: 6,909 languages). Purpose is Bible translation — applied phoneme-based orthographies. Charis SIL, Doulos SIL, Gentium, and Andika are also the fonts used to train IPA OCR in [[references/ocr-for-the-ipa]]. Copying those symbols out of a PDF is [[skills/linguistic-pdf-to-markdown]].
 
 **Phonology after Jones:** Chomsky & Halle *SPE* — segments as bundles of binary features, ordered rules from underlying to surface. Later: natural phonology, autosegmental, OT (constraint ranking vs SPE’s production line). Applied classroom work usually stops at Jones/Gimson taxonomic phonemes (Abercrombie on Jones).
 
