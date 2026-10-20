@@ -44,6 +44,7 @@ A grammar uses type style as part of the notation. Italic often marks a cited wo
 
 ## Related
 
+- [[synthesis/tounicode-cmap-x-typography-as-linguistic-signal|ToUnicode CMap × Typography as Linguistic Signal]] — synthesis
 - [[concepts/scholarly-markdown-limits]]
 - [[skills/linguistic-pdf-to-markdown]]
 - [[synthesis/Research: Scholarly PDF to Markdown]]

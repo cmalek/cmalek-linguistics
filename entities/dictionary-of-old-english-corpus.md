@@ -17,6 +17,12 @@ relationships:
   - target: "[[concepts/old-english-form-generation]]"
     type: related_to
 sources:
+  - "url:https://indiv.corpus.doe.utoronto.ca/doecorpus/#/lot/cats/oe/groups/idxcn/indexes/F"
+  - "url:https://indiv.corpus.doe.utoronto.ca/doecorpus/#/lot/cats/oe/groups/idxcn/indexes/E"
+  - "url:https://indiv.corpus.doe.utoronto.ca/doecorpus/#/lot/cats/oe/groups/idxcn/indexes/D"
+  - "url:https://indiv.corpus.doe.utoronto.ca/doecorpus/#/lot/cats/oe/groups/idxcn/indexes/C"
+  - "url:https://indiv.corpus.doe.utoronto.ca/doecorpus/#/lot/cats/oe/groups/idxcn/indexes/B"
+  - "url:https://indiv.corpus.doe.utoronto.ca/doecorpus/#/lot/cats/oe/groups/idxcn/indexes/A"
   - "url:https://doe.artsci.utoronto.ca/?p=197"
   - "url:https://doe.artsci.utoronto.ca/?p=195"
   - "url:https://doe.artsci.utoronto.ca/?p=498"
@@ -29,15 +35,22 @@ sources:
 summary: >-
   Toronto corpus of surviving Old English. The 2009 release has 3,060 texts; the Web Corpus is the subscribed search.
 provenance:
-  extracted: 0.80
-  inferred: 0.12
-  ambiguous: 0.08
+  extracted: 0.95
+  inferred: 0.05
+  ambiguous: 0
 base_confidence: 0.74
 lifecycle: draft
 lifecycle_changed: 2026-10-12
 tier: supporting
 created: 2026-10-12T04:37:00Z
-updated: 2026-10-12T04:37:00Z
+updated: "2026-10-18T19:48:28.152600+00:00"
+snapshots:
+  - "[[_raw/_archived/Old English Corpus Cameron A*|Old English Corpus Cameron A*]]"
+  - "[[_raw/_archived/Old English Corpus Cameron B*|Old English Corpus Cameron B*]]"
+  - "[[_raw/_archived/Old English Corpus Cameron C*|Old English Corpus Cameron C*]]"
+  - "[[_raw/_archived/Old English Corpus Cameron D*|Old English Corpus Cameron D*]]"
+  - "[[_raw/_archived/Old English Corpus Cameron E*|Old English Corpus Cameron E*]]"
+  - "[[_raw/_archived/Old English Corpus Cameron F*|Old English Corpus Cameron F*]]"
 ---
 
 # Dictionary of Old English Corpus
@@ -133,6 +146,10 @@ Cite the 2009 release as CoRD gives it: *Dictionary of Old English Corpus*, orig
 - [[entities/bosworth-toller]]
 - [[synthesis/Research: Old English Morphology Generation]]
 
+## Local catalogue snapshots
+
+[[references/doec-cameron-catalogue]] provides a local map of all six captured catalogue divisions. Preserve the record’s citation convention when following a result: corpus identifiers do not imply one universal page or line numbering system.
+
 ## Sources
 
 - [2009 release](https://doe.artsci.utoronto.ca/?p=197) (text read from the Internet Archive capture; the live host returned a browser check)
@@ -145,3 +162,9 @@ Cite the 2009 release as CoRD gives it: *Dictionary of Old English Corpus*, orig
 - [CoRD: 2009 word counts](https://varieng.helsinki.fi/CoRD/corpora/DOEC/basic.html)
 - [2019 progress report](http://www.old-engli.sh/documents/news%20documents/DOE_report_2019.pdf)
 - Peter A. Stokes, “The Digital Dictionary,” *Florilegium* 26 (2009): 37–69
+- [[_raw/_archived/Old English Corpus Cameron A*.md]]
+- [[_raw/_archived/Old English Corpus Cameron B*.md]]
+- [[_raw/_archived/Old English Corpus Cameron C*.md]]
+- [[_raw/_archived/Old English Corpus Cameron D*.md]]
+- [[_raw/_archived/Old English Corpus Cameron E*.md]]
+- [[_raw/_archived/Old English Corpus Cameron F*.md]]

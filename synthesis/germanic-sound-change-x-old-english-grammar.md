@@ -23,7 +23,9 @@ lifecycle: draft
 lifecycle_changed: "2026-10-09"
 tier: supporting
 created: 2026-10-09T16:05:14Z
-updated: 2026-10-09T16:05:14Z
+updated: 2026-10-13T05:20:00Z
+snapshots:
+  - "[[_raw/_archived/OE magic sheet.pdf|OE magic sheet.pdf]]"
 ---
 
 # Germanic Sound Change × Old English Grammar
@@ -56,7 +58,32 @@ Ending-class lookup would still be required if every stem vowel were phonologica
 
 ## Open Questions
 
-- The wiki has no inventory of magic-sheet principal parts tagged by layer. Until that exists, "unfinished analogy" is a reading of the 74% weak majority, not a cell-by-cell account.
+The archived sheet (`OE magic sheet.pdf`) prints one West Saxon column. It does not name the layers. The tags below apply the names already defined on [[concepts/germanic-sound-change]]: ablaut is the inherited vowel grade, i-mutation is a later fronting, breaking is a diphthong beside a consonant cluster, Verner is the voicing that leaves *r* where the present has *s*, and an ending class is a stable stem.
+
+| Row | Printed forms | Layer |
+| --- | --- | --- |
+| 1 *wrītan* | *wrītt, wrāt, writon, writen* | ablaut; *wrītt* is syncope of the ending |
+| 2a *ċēosan* | *ċīesð, ċēas, curon, coren* | ablaut; *ċīesð* i-mutation; *curon*/*coren* the *s*/*r* split Verner explains |
+| 2b *lūcan* | *lȳcð, lēac, lucon, locen* | ablaut; *lȳcð* i-mutation |
+| 3a *singan* | *singð, sang, sungon, sungen* | ablaut |
+| 3b *helpan* | *hilpð, healp, hulpon, holpen* | ablaut; *hilpð* i-mutation; *healp* breaking |
+| 3c *hweorfan* | *hwierf, hwearf, hwurfon, hworfen* | ablaut; *hwierf* i-mutation; *hwearf* breaking |
+| 4a *stelan* | *stilð, stæl, stǣlon, stolen* | ablaut; *stilð* i-mutation |
+| 4b *niman* | *nimð, nam, nōmon, numen* | ablaut |
+| 5 *sprecan* | *spricð, spræc, sprǣcon, sprecen* | ablaut; *spricð* i-mutation |
+| 6 *bacan* | *bæcð, bōc, bōcon, bacen* | ablaut; *bæcð* i-mutation |
+| 7a *hātan* | *hǣtt, hēt, hēton, hāten* | ablaut; *hǣtt* i-mutation |
+| 7b *flōwan* | *flēwð, flēow, flēowon, flōwen* | ablaut; *flēwð* i-mutation |
+| weak 1 *fremman* | *fremme, fremede* | gemination in the present; dental ending in the past |
+| weak 1 *hǣlan* | *hǣle, hǣlde* | stem stable across the row; dental ending |
+| weak 2 *lufian* | *lufie, lufode* | ending class only |
+| *witan* | *wāt, witon* | ablaut (preterite-present) |
+| *wesan* / *bēon* | *eom, is* / *bēo, bið* | two stems, not a sound law |
+| *stān* | *stānes, stāne, stānas* | ending class only |
+| *mann* | *mannes, menn* | i-mutation in the dative singular and the plural |
+| *þæs* / *þǣre* | demonstrative | ending class only |
+
+Anglian and Kentish counterparts are not on the sheet. *eall* beside Anglian *all* is a dialect cue, not a principal part printed here. Generating those layers is still the open build on the morphology synthesis.
 
 ## Related
 
@@ -73,3 +100,4 @@ Co-occurrence evidence already on these wiki pages:
 - [[concepts/classroom-grammar-terms]] — gradation, analogy, and cross-references for breaking and i-mutation
 - [[concepts/old-english]] — i-mutation pairs inside the inflected system
 - [[concepts/old-norse-grammar]] — breaking and i-umlaut inside one noun paradigm
+- [[_raw/_archived/OE magic sheet.pdf|OE magic sheet]] — the principal-part rows tagged above

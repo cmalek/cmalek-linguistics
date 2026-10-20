@@ -18,15 +18,18 @@ relationships:
 summary: >-
   Martín Arista’s 2025 encyclopedia map of OE corpora, dictionaries, lemmatisation, treebanks, and neural tools.
 provenance:
-  extracted: 0.80
+  extracted: 0.78
   inferred: 0.12
-  ambiguous: 0.08
+  ambiguous: 0.10
 base_confidence: 0.60
 lifecycle: draft
 lifecycle_changed: 2026-10-09
 tier: supporting
 created: 2026-10-09T19:50:00Z
-updated: 2026-10-09T19:50:00Z
+updated: 2026-10-13T04:50:00Z
+snapshots:
+  - "[[_raw/_archived/encyclopedia-05-00137-v2-1.pdf|encyclopedia-05-00137-v2-1.pdf]]"
+  - "[[_raw/_archived/encyclopedia-05-00137-v2.pdf|encyclopedia-05-00137-v2.pdf]]"
 ---
 
 # The Computational Study of Old English (2025)
@@ -51,6 +54,16 @@ Javier Martín Arista, “The Computational Study of Old English,” *Encycloped
 
 That 1 percent is the quantitative shape of “poetry compounds missing from the dictionary.” It is small as a fraction of tokens and real as a list of lemmas a closed generator will never emit.
 
+## Parsing, ParCor, and the later tools
+
+Taylor and Pintzuk, as he reports them, find OV order falling from 75% in early Old English to 40% by 1100, with SVO rising beside it. CorpusSearch is the query language he describes for YCOE trees (*dominates*, *precedes*, *hasSister*, and the rest).
+
+ParCorOE v3 (2024), from the Nerthus project, is an aligned Old English and modern English prose corpus of over 300,000 entries. He gives two worked counts: 935 instrumentals, and 950 tokens of *weorðan*, 493 of them past. Nerthus v5 is 32,812 headword files, spelling largely from Clark Hall, with DOE headwords supplied for the neural work.
+
+On the neural layer he is reporting his own group’s pipelines and a survey article he cites as [38]. Ad hoc tools, NLP libraries, and transformers are the three rungs. Transformers are the accurate rung in that survey, at 80–92%, and the least interpretable. A spaCy pipeline (tokenise, tok2vec or transformer, morphology, lemma, dependencies) reaches precision between 75% and 90% by task once tok2vec is pre-trained, and about 85% lemma accuracy, with poetic compounds such as *hronrad* still weak. MobileBERT, retrained because modern-English models lack æ, ð, and þ, does not beat that pre-trained tok2vec setup. He treats the cause as data: about 3 million words of Old English, and a cited cost of about 100 GPU hours to train a 110-million-parameter transformer. The 80–92% band is the survey’s, not a number this note has recomputed. ^[ambiguous]
+
+Latin, in the same entry, has about 100 million words against Old English’s 3 million, which is why he says Latin BERT tags and lemmatises more accurately. West Saxon is about 60% of what survives, and religious and legal texts about 70% of the DOEC. Models trained on that mix inherit it.
+
 ## Related
 
 - [[concepts/old-english-lemmatisation]]
@@ -60,4 +73,4 @@ That 1 percent is the quantitative shape of “poetry compounds missing from the
 
 ## Sources
 
-- [Encyclopedia 2025, 5(3), 137](https://doi.org/10.3390/encyclopedia5030137)
+- [[_raw/_archived/encyclopedia-05-00137-v2-1.pdf]]

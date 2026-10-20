@@ -14,6 +14,8 @@ relationships:
     type: related_to
   - target: "[[concepts/old-english-orthographic-variation]]"
     type: related_to
+  - target: "[[concepts/beon-and-wesan]]"
+    type: related_to
 sources:
   - "url:https://doe.artsci.utoronto.ca/?page_id=11"
   - "url:https://doe.artsci.utoronto.ca/?p=87"
@@ -31,7 +33,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-12
 tier: supporting
 created: 2026-10-09T19:50:00Z
-updated: 2026-10-12T04:37:00Z
+updated: 2026-10-12T22:05:00Z
 ---
 
 # Dictionary of Old English
@@ -45,6 +47,8 @@ The project’s own pages disagree by date, and the later page wins.
 - The About page still says “as of 2018”: DOE: A to I online, and that nearly half the dictionary had been published while more than 60 percent of the entries had been written.
 - [DOE: A to Le online](https://doe.artsci.utoronto.ca/?p=87) includes 750 entries for *la*, *læ*, and *le*, plus revised versions of the ten fascicles published from 1986 to 2018. The publications list dates this online edition 2024. The institutional door named in the La–Le announcement is https://dictionary.doe.utoronto.ca. The contact page prints https://dictionary.doe.utoronto.ca/doe/.
 - The 2025 progress report says drafting of Li–Ly continued, about 575 entries, with publication hoped for in 2027 if drafting finishes in late 2026. Ma–Me was just begun: about 750 entries still undrafted.
+
+*Bēon* was published early as its own fascicle, Matti Kilpiö, *BEON* (1992). Later work on the future-leaning *b*-present still cites that entry ([[concepts/beon-and-wesan]]).
 
 Nerthus v5 links DOE headwords for A–I. That is Nerthus’s link range. It is not the 2024 online edition. Martín Arista’s 2025 survey said A–Le, which matches the project’s A to Le page.
 
@@ -64,6 +68,7 @@ Where an entry exists, the attested spellings and the grammatical label are the 
 - [[concepts/old-english-orthographic-variation]]
 - [[entities/nerthus-project]]
 - [[synthesis/Research: Old English Morphology Generation]]
+- [[concepts/beon-and-wesan]]
 
 ## Sources
 

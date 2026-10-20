@@ -56,6 +56,7 @@ Gender is part of the nominal class record. Tichý’s Table 6 splits 19,835 nou
 
 ## Related
 
+- [[synthesis/old-english-lemmatisation-x-old-english-inflectional-class|Old English Lemmatisation × Old English Inflectional Class]] — synthesis
 - [[concepts/old-english-form-generation]]
 - [[concepts/old-english-grammar]]
 - [[skills/oe-paradigm-lookup]]

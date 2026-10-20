@@ -11,7 +11,7 @@ relationships:
 sources:
   - "repo:github.com/cmalek/wyrdcraeft"
 summary: >-
-    Every wyrdcraeft command loads Settings, then a readiness gate migrates or resets the canonical SQLite file before work begins.
+    Every wyrdcraeft command loads Settings; the morphology and dictionary commands then pass a readiness gate that migrates or resets the canonical SQLite file.
 provenance:
   extracted: 0.85
   inferred: 0.10
@@ -26,7 +26,7 @@ updated: 2026-10-09T16:50:00Z
 
 # Startup and settings
 
-The root command builds one `Settings` object, stores it on the Click context, then runs the database readiness gate. Database commands assume that gate already ran. `wyrdcraeft settings` and `wyrdcraeft settings show` print the loaded values. `wyrdcraeft settings create` writes a `.wyrdcraeft.toml` file whose lines are JSON-encoded values, which is the current behavior of that command.
+The root command builds one `Settings` object, stores it on the Click context, then runs the database readiness gate. Database commands assume that gate already ran. The gate is skipped for `version`, `settings`, `source`, and `diacritic` (`DATABASE_GATE_SKIP_COMMANDS` in `wyrdcraeft/cli/cli.py`), so those work with no database; only `morphology` and `dictionary` pass through it. Checked against the live repo on 2026-10-15 (HEAD 3b4915b). `wyrdcraeft settings` and `wyrdcraeft settings show` print the loaded values. `wyrdcraeft settings create` writes a `.wyrdcraeft.toml` file whose lines are JSON-encoded values, which is the current behavior of that command.
 
 Flags such as `--verbose`, `--quiet`, `--config-file`, and `--output` are global. `--config-file` sets `WYRDCRAEFT_CONFIG_FILE` before settings load. Environment variables use the `WYRDCRAEFT_` prefix.
 

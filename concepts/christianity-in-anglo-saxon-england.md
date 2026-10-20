@@ -11,6 +11,8 @@ relationships:
     type: related_to
   - target: "[[entities/bede]]"
     type: related_to
+  - target: "[[concepts/late-anglo-saxon-christianity]]"
+    type: related_to
 sources:
   - "url:https://en.wikipedia.org/wiki/Christianity_in_Anglo-Saxon_England"
 summary: "Seventh-century conversion: Roman mission to Kent, Irish/Iona mission to Northumbria, then papal allegiance after the Synod of Whitby (664)."
@@ -23,7 +25,7 @@ lifecycle: draft
 lifecycle_changed: "2026-09-25"
 tier: supporting
 created: 2026-09-25T16:40:00Z
-updated: 2026-10-09T16:05:14Z
+updated: 2026-10-12T23:40:00Z
 snapshots:
   - "[[_raw/_archived/Christianity in Anglo-Saxon England]]"
 ---
@@ -43,6 +45,8 @@ Old English *Crīstendōm*. In the seventh century pagan [[entities/anglo-saxons
 - Conversion of remaining pagan courts (Sussex, Wight) finishes in the 670s–680s. Official Christianity takes ~90 years; kingdoms often relapse after a first Christian king. By Bede’s later writing, clergy treat surviving “offerings to demons” as a fading problem.
 
 Literacy, the Roman alphabet, and Latin loans in [[concepts/old-english]] ride this conversion. See [[concepts/anglo-saxon-paganism]] for what was being replaced.
+
+The church [[entities/wulfstan-of-york]] writes for, around 1000, is a later stage of this same Latin obedience: Benedictine reform, royal law, and a pastoral English that does not yet use the definitions of the thirteenth century or of modern Catholicism. That stage is [[concepts/late-anglo-saxon-christianity]].
 
 ## Open Questions
 

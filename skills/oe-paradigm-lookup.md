@@ -41,7 +41,7 @@ Two table PDFs in the vault. Do not retype every cell into the wiki — open the
 
 **ROE cheatsheet (Hasenfratz & Jambeck, updated 28 May 2011):** two dense pages of *endings* by stem class (a-stem *gimm*, weak *guma*, ja/wa, r-nouns, i-mutation *fot/menn*, o-stem *giefu/help*, jo/wo, neuter *lim/word*, u-nouns *duru/hand*) plus strong/weak adjectives, pronouns, then a verb strip: weak 1–2, *habban*, class 4 *beran*, *beon*, *willan*, pret-presents (*magan*, *motan*, *sculan*, *cunnan*, *durran*, *witan*, *agan*, *þurfan*). Footprint row for strong classes (V=vowel, K=consonant). I-mutation quick list: *a/o>e* before nasal (*mann/menn*), *a>æ* (*faran/færð*), *æ>e*, *e>i* (*brecan/bricþ*), *u>y* (*cuman/cymð*), *ea/eo>ie*. Diphthong IPA on the sheet: *ea* [æ+ə], *eo* [e+ə], etc. **The PDF’s text layer is badly damaged**; trust the printed page or the magic sheet, not OCR.
 
-**How to use:** identify POS → strong/weak → gender for nouns → look up the *ending*, not the whole word. For verbs, get class from the magic-sheet principal-parts row, then read person/number. Syncopated 2/3 sg (*-tst*, *-tt*) is on ROE §8.10.1.
+**How to use:** identify POS → strong/weak → gender for nouns → look up the *ending*, not the whole word. For verbs, get class from the magic-sheet principal-parts row, then read person/number. Which cells of that row are ablaut, i-mutation, breaking, Verner, or only an ending is tabulated on [[synthesis/germanic-sound-change-x-old-english-grammar]]. Syncopated 2/3 sg (*-tst*, *-tt*) is on ROE §8.10.1.
 
 See [[concepts/old-english-grammar]] for the prose explanation these tables assume.
 

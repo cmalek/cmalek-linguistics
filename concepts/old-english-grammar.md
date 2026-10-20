@@ -12,6 +12,10 @@ relationships:
     type: related_to
   - target: "[[concepts/oe-word-formation]]"
     type: related_to
+  - target: "[[concepts/old-english-future-time]]"
+    type: related_to
+  - target: "[[concepts/beon-and-wesan]]"
+    type: related_to
 sources:
   - "agent:raw-notes Nouns and Articles (HJ2011)"
   - "agent:raw-notes Verbs"
@@ -36,21 +40,23 @@ lifecycle: draft
 lifecycle_changed: "2026-09-25"
 tier: core
 created: 2026-09-25T16:30:00Z
-updated: 2026-10-09T16:05:14Z
+updated: 2026-10-17T12:00:00Z
 snapshots:
-  - "[[_raw/_archived/Adjectives]]"
-  - "[[_raw/_archived/Adverbs]]"
-  - "[[_raw/_archived/Affixes (Mitchell).pdf]]"
-  - "[[_raw/_archived/Conjunctions]]"
-  - "[[_raw/_archived/Glossary of linguistic terms]]"
-  - "[[_raw/_archived/Introduction to Old English]]"
-  - "[[_raw/_archived/Nouns and Articles]]"
-  - "[[_raw/_archived/OE magic sheet.pdf]]"
-  - "[[_raw/_archived/Prepositions]]"
-  - "[[_raw/_archived/Pronouns]]"
-  - "[[_raw/_archived/ROE cheatsheet.pdf]]"
-  - "[[_raw/_archived/Sentences]]"
-  - "[[_raw/_archived/Verbs]]"
+  - "[[_raw/_archived/Adjectives|Adjectives]]"
+  - "[[_raw/_archived/Adverbs|Adverbs]]"
+  - "[[_raw/_archived/Affixes (Mitchell).pdf|Affixes (Mitchell).pdf]]"
+  - "[[_raw/_archived/Conjunctions|Conjunctions]]"
+  - "[[_raw/_archived/Glossary of linguistic terms|Glossary of linguistic terms]]"
+  - "[[_raw/_archived/Introduction to Old English|Introduction to Old English]]"
+  - "[[_raw/_archived/Nouns and Articles|Nouns and Articles]]"
+  - "[[_raw/_archived/OE magic sheet.pdf|OE magic sheet.pdf]]"
+  - "[[_raw/_archived/Prepositions|Prepositions]]"
+  - "[[_raw/_archived/Pronouns|Pronouns]]"
+  - "[[_raw/_archived/ROE cheatsheet.pdf|ROE cheatsheet.pdf]]"
+  - "[[_raw/_archived/Sentences|Sentences]]"
+  - "[[_raw/_archived/Verbs|Verbs]]"
+  - "[[_raw/_archived/Adjectives 2|Adjectives 2]]"
+  - "[[_raw/_archived/Verbs 2|Verbs 2]]"
 ---
 
 # Old English Grammar
@@ -95,7 +101,7 @@ Useful endings: infinitive *-an* (class II weak *-ian*); 3sg present often *-eþ
 
 Noun demo rows on the same sheet: *stan*, *scip*, *giefu*, *nama*, *sunu*, *mann*. Full person/number and i-mutation footprints: [[skills/oe-paradigm-lookup]]. Word-formation (compounds, *ge-*, *-had*): [[concepts/oe-word-formation]]. Mitchell §139–140: OE word-order is mostly MnE-like, but full inflection vs MnE prepositions is the real split; early Chronicle prose can still be breathless *ond*-chains.
 
-Number includes **dual** (exactly two) as well as singular and plural. There is **no systematic future**; present forms cover habitual, progressive, and future readings (*hēo gāþ* she goes / is going / will go). Perfects use *beon/wesan* + past participle.
+Number includes **dual** (exactly two) as well as singular and plural. Finite verbs have present and preterite only. Present forms cover habitual, progressive, and future readings (*hēo gāþ* she goes / is going / will go). The fuller account is [[concepts/old-english-future-time]]; the two presents of ‘be’ are [[concepts/beon-and-wesan]]. Perfects use *beon/wesan* + past participle.
 
 ## Adjectives
 
@@ -136,12 +142,16 @@ Do **not** gloss left-to-right. Algorithm: (1) locate independent / dependent / 
 
 ## Related
 
+- [[concepts/old-english-g-palatalization]] — the palatal ġ/sċ spellings and diphthongization footnotes in the verb tables (ġiefan, sċeacan)
 - [[synthesis/germanic-sound-change-x-old-english-grammar|Germanic Sound Change × Old English Grammar]] — synthesis
+- [[synthesis/Research: Future Tense in Old English]] — how future time is expressed without a future tense
+- [[concepts/weorthan]] — the change-of-state verb beside the two presents of ‘be’
 
 ## Sources
 
 - Vault notes *Nouns and Articles* (citing HJ2011)
 - Vault notes *Verbs*, *Adjectives*, *Pronouns*, *Prepositions*, *Conjunctions*, *Sentences*, *Adverbs*
+- Re-ingested revisions (formatting changes only): [[_raw/_archived/Adjectives 2|Adjectives 2]], [[_raw/_archived/Verbs 2|Verbs 2]]
 - Vault note *Glossary of linguistic terms*
 - OE magic sheet; Hasenfratz & Jambeck 2011 cheatsheet; Mitchell & Robinson 2012 §§137–140
 - [UT Old English Online intro](https://lrc.la.utexas.edu/eieol/engol/0)

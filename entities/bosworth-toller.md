@@ -30,7 +30,7 @@ tier: supporting
 created: 2026-09-25T16:55:00Z
 updated: 2026-10-09T19:50:00Z
 snapshots:
-  - "[[_raw/_archived/Bosworth-Toller p. 27 A-FLYGE - A-GǢLAN]]"
+  - "[[_raw/_archived/Bosworth-Toller p. 27 A-FLYGE - A-GǢLAN|Bosworth-Toller p. 27 A-FLYGE - A-GǢLAN]]"
 ---
 
 # Bosworth-Toller
@@ -53,6 +53,7 @@ The scan is messy (OCR, mixed type). Prefer a modern digital Bosworth-Toller (bo
 
 ## Related
 
+- [[synthesis/oe-prefixes-for-fore-oth-x-bosworth-toller|Old English for-, fore-, and oþ- Prefixes × Bosworth-Toller]] — synthesis
 - [[projects/wyrdcraeft/concepts/dictionary-build]] — how this toolkit parses a Bosworth-Toller source file into SQLite.
 - [[projects/wyrdcraeft/concepts/dictionary-query-and-browse]] — lookup and the read-only browse shell over that index.
 

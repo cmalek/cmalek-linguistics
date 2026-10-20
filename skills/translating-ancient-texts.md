@@ -38,14 +38,14 @@ tier: supporting
 created: 2026-09-25T16:30:00Z
 updated: 2026-09-25T18:15:00Z
 snapshots:
-  - "[[_raw/_archived/Bosworth-Toller p. 27 A-FLYGE - A-GǢLAN]]"
-  - "[[_raw/_archived/Effective, Ethical, and Accurate Translation of Ancient Texts]]"
-  - "[[_raw/_archived/Introduction to Old English]]"
-  - "[[_raw/_archived/Judith_side_by_side.pdf]]"
-  - "[[_raw/_archived/Reading XI_ The Human Fetus_side_by_side.pdf]]"
-  - "[[_raw/_archived/Sentences]]"
-  - "[[_raw/_archived/The Seafarer (Jun 2026)_side_by_side.pdf]]"
-  - "[[_raw/_archived/Ælfric_s Life of St. Edmund_side_by_side.pdf]]"
+  - "[[_raw/_archived/Bosworth-Toller p. 27 A-FLYGE - A-GǢLAN|Bosworth-Toller p. 27 A-FLYGE - A-GǢLAN]]"
+  - "[[_raw/_archived/Effective, Ethical, and Accurate Translation of Ancient Texts|Effective, Ethical, and Accurate Translation of Ancient Texts]]"
+  - "[[_raw/_archived/Introduction to Old English|Introduction to Old English]]"
+  - "[[_raw/_archived/Judith_side_by_side.pdf|Judith_side_by_side.pdf]]"
+  - "[[_raw/_archived/Reading XI_ The Human Fetus_side_by_side.pdf|Reading XI_ The Human Fetus_side_by_side.pdf]]"
+  - "[[_raw/_archived/Sentences|Sentences]]"
+  - "[[_raw/_archived/The Seafarer (Jun 2026)_side_by_side.pdf|The Seafarer (Jun 2026)_side_by_side.pdf]]"
+  - "[[_raw/_archived/Ælfric_s Life of St. Edmund_side_by_side.pdf|Ælfric_s Life of St. Edmund_side_by_side.pdf]]"
 ---
 
 # Translating Ancient Texts

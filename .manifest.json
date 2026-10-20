@@ -86,7 +86,7 @@
         "references/beowulf.md"
       ]
     },
-    "_raw/_archived/C\u00e6dmon.md": {
+    "_raw/_archived/Cædmon.md": {
       "content_hash": "92a3081fd51f3690ce0d79929810e6c9db1a587411a9036f4431fed5d3d9dafd",
       "last_ingested": "2026-09-25T16:24:48.767856+00:00",
       "pages_produced": [
@@ -295,7 +295,7 @@
         "references/judith.md"
       ]
     },
-    "_raw/_archived/The Story of C\u00e6dmon.md": {
+    "_raw/_archived/The Story of Cædmon.md": {
       "content_hash": "744ab42bc03a744f8394f27e3d6d9be75be13207fbf0eedf8ec288c856dc19b8",
       "last_ingested": "2026-09-25T16:30:14.049427+00:00",
       "pages_produced": [
@@ -331,7 +331,7 @@
         "concepts/anglo-saxon-kingdoms.md"
       ]
     },
-    "_raw/_archived/\u00c6thelred the Unready.md": {
+    "_raw/_archived/Æthelred the Unready.md": {
       "content_hash": "0a5c7e7eee43a077f15598fc2f78e7153eb1347ca5e4f926cceac28f8fff678c",
       "last_ingested": "2026-09-25T16:37:26.266056+00:00",
       "pages_produced": [
@@ -368,7 +368,7 @@
         "references/passion-peter-and-paul.md"
       ]
     },
-    "_raw/_archived/Tolkien\u2019s use of Old English words.md": {
+    "_raw/_archived/Tolkien’s use of Old English words.md": {
       "content_hash": "3d6118a2158997303e77c892defd0d8f00b43b45a0503ab23a40d75bf16b099b",
       "last_ingested": "2026-09-25T16:37:26.648085+00:00",
       "pages_produced": [
@@ -446,7 +446,7 @@
         "references/judith.md"
       ]
     },
-    "_raw/_archived/I Watched a 37-Million-View TEDx Talk Claiming You Can Speak Fluently in 6 Months. Here\u2019s the Truth.md": {
+    "_raw/_archived/I Watched a 37-Million-View TEDx Talk Claiming You Can Speak Fluently in 6 Months. Here’s the Truth.md": {
       "content_hash": "75b78290b8acc25ba7ea7bb2ab9442597944a3bba1ada01b222c70ab5a49003b",
       "last_ingested": "2026-09-25T16:41:14.602105+00:00",
       "pages_produced": [
@@ -500,7 +500,7 @@
         "concepts/english-idioms.md"
       ]
     },
-    "_raw/_archived/Bosworth-Toller p. 27 A-FLYGE - A-G\u01e2LAN.md": {
+    "_raw/_archived/Bosworth-Toller p. 27 A-FLYGE - A-GǢLAN.md": {
       "content_hash": "1d704eab1c788a24619750a87d486f43a4892d3815ed3baf5ed594364aeccbc0",
       "last_ingested": "2026-09-25T16:41:15.182206+00:00",
       "pages_produced": [
@@ -600,7 +600,7 @@
         "skills/translating-ancient-texts.md"
       ]
     },
-    "_raw/_archived/\u00c6lfric_s Life of St. Edmund_side_by_side.pdf": {
+    "_raw/_archived/Ælfric_s Life of St. Edmund_side_by_side.pdf": {
       "content_hash": "d2944610d17cc713f9558bcc6fc9ed4cf05e086a0923ec29acd03d866ea72038",
       "last_ingested": "2026-09-25T18:02:11.532953+00:00",
       "pages_produced": [
@@ -609,7 +609,7 @@
         "skills/translating-ancient-texts.md"
       ]
     },
-    "_raw/_archived/\u00c6lfric_s Life of St. Edmund.md": {
+    "_raw/_archived/Ælfric_s Life of St. Edmund.md": {
       "content_hash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
       "last_ingested": "2026-09-25T18:02:11.622622+00:00",
       "pages_produced": [
@@ -671,7 +671,7 @@
         "concepts/phonetics-and-phonology.md"
       ]
     },
-    "_raw/_archived/Ari \u00deorgilsson On the Settling of Iceland.md": {
+    "_raw/_archived/Ari Þorgilsson On the Settling of Iceland.md": {
       "content_hash": "70b194c349bdd329359fdbd6c2ab60b4cb962c275c83204bbfac9a86b189a78c",
       "last_ingested": "2026-09-25T18:19:28.085176+00:00",
       "pages_produced": [
@@ -759,6 +759,2092 @@
         "projects/wyrdcraeft/concepts/dictionary-query-and-browse.md",
         "projects/wyrdcraeft/concepts/wright-catalog.md",
         "entities/bosworth-toller.md"
+      ]
+    },
+    "_raw/_archived/11Varia_Crisan_189_206.pdf": {
+      "content_hash": "44ee5613f8fd41300a8233f080a96487e0c4dd88969d4247e458b6360063b7ab",
+      "last_ingested": "2026-10-13T04:51:56.669600+00:00",
+      "pages_produced": [
+        "references/crisan-2024-three-orders.md",
+        "concepts/three-orders-of-society.md"
+      ]
+    },
+    "_raw/_archived/Chapter_4_THE_BATTLE_OF_MALDON_AND_THE_VENGEANCE_O.pdf": {
+      "content_hash": "143e5af59b6da070ebd0e57f45359b0e2ac6c2d3b59404a99057226e681191b3",
+      "last_ingested": "2026-10-13T04:51:56.754528+00:00",
+      "pages_produced": [
+        "references/griffith-2022-vengeance-of-offa.md",
+        "concepts/people-named-in-maldon.md",
+        "references/battle-of-maldon.md",
+        "concepts/heroic-speech-in-maldon.md"
+      ]
+    },
+    "_raw/_archived/Diewald_Wischer_2013_Final_Manuscript_Version.pdf": {
+      "content_hash": "dd65b3f4fd91230ad7ce05651dd023516a44386a7f0d57e661c925a71c4c27e7",
+      "last_ingested": "2026-10-13T04:51:56.835214+00:00",
+      "pages_produced": [
+        "references/diewald-wischer-2013-futurity.md",
+        "concepts/old-english-future-time.md"
+      ]
+    },
+    "_raw/_archived/Cowper_Hall_Bjorkman_Tollan_Banerjee-2015.pdf": {
+      "content_hash": "0523ed4d24341d26bccea25fbcd43433a46711d46d72b7321e2e84118f8dce31",
+      "last_ingested": "2026-10-13T04:51:56.916023+00:00",
+      "pages_produced": [
+        "references/cowper-2015-no-future-in-old-english.md",
+        "concepts/old-english-future-time.md"
+      ]
+    },
+    "_raw/_archived/Karasawa_The+Battle+of+Maldon.pdf": {
+      "content_hash": "72be53068e2b7285e0bac5f668ca09e6da74ae502bf6268ad639832962e40979",
+      "last_ingested": "2026-10-13T04:51:56.997338+00:00",
+      "pages_produced": [
+        "references/karasawa-2025-griffith-maldon.md"
+      ]
+    },
+    "_raw/_archived/encyclopedia-05-00137-v2-1.pdf": {
+      "content_hash": "aad8e89c4c9dce1ca59a3d30098ae862d67c9d5bfb743f582712a678d25c1529",
+      "last_ingested": "2026-10-13T04:51:57.083791+00:00",
+      "pages_produced": [
+        "references/computational-study-of-old-english-2025.md",
+        "entities/javier-martin-arista.md"
+      ]
+    },
+    "_raw/_archived/encyclopedia-05-00137-v2.pdf": {
+      "content_hash": "aad8e89c4c9dce1ca59a3d30098ae862d67c9d5bfb743f582712a678d25c1529",
+      "last_ingested": "2026-10-13T04:51:57.160720+00:00",
+      "pages_produced": [
+        "references/computational-study-of-old-english-2025.md",
+        "entities/javier-martin-arista.md"
+      ]
+    },
+    "_raw/_archived/2026-10-13-python-module-to-package-split-gotchas.md": {
+      "content_hash": "26d9331f822a846fcd46a173e69aa337b4d7ca21bc20f23a3e48e4103b418e5e",
+      "last_ingested": "2026-10-15T16:57:42.391255+00:00",
+      "pages_produced": [
+        "skills/split-python-module-into-package.md"
+      ]
+    },
+    "_raw/_archived/2026-10-13-redis-py-pubsub-reconnect-and-taskwrapper-cancel.md": {
+      "content_hash": "a09e849a82ed7a4c5c69b55569ca371da55ab7c9d7a203f49a018258a4de77e9",
+      "last_ingested": "2026-10-15T16:57:42.568641+00:00",
+      "pages_produced": [
+        "skills/redis-py-pubsub-reconnect-and-taskwrapper-cancel.md"
+      ]
+    },
+    "_raw/_archived/GITHUB ang 2026-10-15.md": {
+      "content_hash": "ead36b6070723a0a76f4c8c0dd2d61b0ac7cb42f92ee104e63ace96cf675a0b2",
+      "last_ingested": "2026-10-15T17:02:22.429040+00:00",
+      "pages_produced": [
+        "references/unimorph-ang.md"
+      ]
+    },
+    "_raw/_archived/GITHUB btc_anglo_saxon 2026-10-15.md": {
+      "content_hash": "91239656eec47e598c53eb630db75c027fe4b6dc5d334ecce80d36ef8a9dce8f",
+      "last_ingested": "2026-10-15T17:02:22.585651+00:00",
+      "pages_produced": [
+        "references/btc-anglo-saxon.md"
+      ]
+    },
+    "_raw/_archived/GITHUB old-english-texts 2026-10-15.md": {
+      "content_hash": "7a85cacff2108a15136c164dd9e72fdc11621cecf16eb89410ca44de01399aab",
+      "last_ingested": "2026-10-15T17:02:22.705183+00:00",
+      "pages_produced": [
+        "references/old-english-texts-iswoc.md"
+      ]
+    },
+    "_raw/_archived/GITHUB echoe 2026-10-15.md": {
+      "content_hash": "ed9b1409108aa7158e850a7b5bc592ac46034653027db8591110b64e486b9d31",
+      "last_ingested": "2026-10-15T17:02:22.840240+00:00",
+      "pages_produced": [
+        "references/echoe-corpus.md"
+      ]
+    },
+    "_raw/_archived/GITHUB OldEnglish 2026-10-15.md": {
+      "content_hash": "7dfe6b7f9a6dbbc4c5efbcec6a1e3e0077bdeed6a4943cab4875cf415341a2e9",
+      "last_ingested": "2026-10-15T17:02:22.973348+00:00",
+      "pages_produced": [
+        "references/oe-wordnet-repos.md"
+      ]
+    },
+    "_raw/_archived/GITHUB OldEnglishWordnet 2026-10-15.md": {
+      "content_hash": "a5708066b889d266e87e2b4f7f065ce08413b9bec07f7165c8afae73ac1237bf",
+      "last_ingested": "2026-10-15T17:02:23.105650+00:00",
+      "pages_produced": [
+        "references/oe-wordnet-repos.md"
+      ]
+    },
+    "_raw/_archived/GITHUB OldEnglishMorphology 2026-10-15.md": {
+      "content_hash": "15d7f867723d71aa2f461e54bf206f8b10d1ee0dfa215f76951543a8b5dbf5d7",
+      "last_ingested": "2026-10-15T17:02:23.240967+00:00",
+      "pages_produced": [
+        "references/oldenglishmorphology-shacl.md"
+      ]
+    },
+    "_raw/_archived/GITHUB OldEnglish-LLM 2026-10-15.md": {
+      "content_hash": "9129f9c996b3d225ce1c40a72bd5fad1c28114137af10c7583c5dc3da8309913",
+      "last_ingested": "2026-10-15T17:02:23.367895+00:00",
+      "pages_produced": [
+        "references/oldenglish-llm.md"
+      ]
+    },
+    "_raw/_archived/GITHUB oedict 2026-10-15.md": {
+      "content_hash": "ca907eb1d7709f40b55044dc95f3bcf208387e19e209b432b18bae2076615974",
+      "last_ingested": "2026-10-15T17:02:23.493160+00:00",
+      "pages_produced": [
+        "references/oe-dictionary-repos.md"
+      ]
+    },
+    "_raw/_archived/GITHUB OEDict 2026-10-15 1.md": {
+      "content_hash": "150f7760f414e92767a6b3a46e0104bdb25039ee0d067e4ce3cff1157014a1ed",
+      "last_ingested": "2026-10-15T17:02:23.618270+00:00",
+      "pages_produced": [
+        "references/oe-dictionary-repos.md"
+      ]
+    },
+    "_raw/_archived/GITHUB BosworthAndToller 2026-10-15.md": {
+      "content_hash": "f21fdc5542375e110711c3fb61b9455c3d8208549ff3ff85e97b02c5e8467472",
+      "last_ingested": "2026-10-15T17:02:23.744205+00:00",
+      "pages_produced": [
+        "references/oe-dictionary-repos.md"
+      ]
+    },
+    "_raw/_archived/GITHUB oldenglishonline 2026-10-15.md": {
+      "content_hash": "d2a4d52a199f5ae0ec083906b69ec244247e423492b42a550beb63435bb43723",
+      "last_ingested": "2026-10-15T17:02:23.867107+00:00",
+      "pages_produced": [
+        "references/oe-dictionary-repos.md"
+      ]
+    },
+    "_raw/_archived/GITHUB FinceptTerminal 2026-10-15.md": {
+      "content_hash": "423c710eae07f61a38bd4f6e9006a3033dcc66dd42d7308448e4d626affc3520",
+      "last_ingested": "2026-10-18T19:53:39.709194+00:00",
+      "pages_produced": [
+        "references/fincept-terminal-qt-architecture.md",
+        "concepts/oe-github-tooling-landscape.md"
+      ]
+    },
+    "_raw/_archived/GITHUB NHB-2018-OEstylometry 2026-10-15.md": {
+      "content_hash": "b0136e56b51b74219ca84fa12919db0f1c12e9c14dedd8587798159c649b512a",
+      "last_ingested": "2026-10-15T17:02:24.133345+00:00",
+      "pages_produced": [
+        "concepts/oe-github-tooling-landscape.md"
+      ]
+    },
+    "_raw/_archived/GITHUB OldEnglishNLP 2026-10-15.md": {
+      "content_hash": "a3665c2fdfc6fce6604251450f0a90c4d23505896971cef89534a8122d63ab97",
+      "last_ingested": "2026-10-15T17:02:24.260725+00:00",
+      "pages_produced": [
+        "concepts/oe-github-tooling-landscape.md"
+      ]
+    },
+    "_raw/_archived/GITHUB OldEnglishPoetryCorpus 2026-10-15.md": {
+      "content_hash": "a42e428e39a96c332b214179a29985ab1d48d93d67d782669f3d72f5a65a59fd",
+      "last_ingested": "2026-10-15T17:02:24.390722+00:00",
+      "pages_produced": [
+        "concepts/oe-github-tooling-landscape.md"
+      ]
+    },
+    "_raw/_archived/GITHUB OldEnglishGlosser 2026-10-15.md": {
+      "content_hash": "71c0e4bdde9c233e0614920df55dbbdc6e23dc0b3d33220fa5a755af5275f570",
+      "last_ingested": "2026-10-15T17:02:24.516358+00:00",
+      "pages_produced": [
+        "concepts/oe-github-tooling-landscape.md"
+      ]
+    },
+    "_raw/_archived/GITHUB OEVoice 2026-10-15.md": {
+      "content_hash": "13aab0307bddf49a814ad2fbe983b19020885ada2ed3ab3486d79edd421c6434",
+      "last_ingested": "2026-10-15T17:02:24.648007+00:00",
+      "pages_produced": [
+        "concepts/oe-github-tooling-landscape.md"
+      ]
+    },
+    "_raw/_archived/GITHUB oe_fst 2026-10-15.md": {
+      "content_hash": "d8e6cfbcb1c466fba77aa9d190c3255cc2dc403e402dbb9e5fefdf124b29b6b9",
+      "last_ingested": "2026-10-15T17:02:24.787096+00:00",
+      "pages_produced": [
+        "concepts/oe-github-tooling-landscape.md"
+      ]
+    },
+    "_raw/_archived/GITHUB OldEnglish 2026-10-15 1.md": {
+      "content_hash": "cbb15df5f8537bf6cc4d221e991ac3d0b5d37ea29340afd1be14a06a1f7809b2",
+      "last_ingested": "2026-10-15T17:02:24.921982+00:00",
+      "pages_produced": [
+        "concepts/oe-github-tooling-landscape.md"
+      ]
+    },
+    "_raw/_archived/GITHUB oeapp 2026-10-15.md": {
+      "content_hash": "8a0a983f443ca69345ca42704c8556b784038d33ecb7beba5ee4ffd6c9721277",
+      "last_ingested": "2026-10-15T17:02:25.059127+00:00",
+      "pages_produced": [
+        "concepts/oe-github-tooling-landscape.md"
+      ]
+    },
+    "_raw/_archived/GITHUB old_english_text_sacred_texts 2026-10-15.md": {
+      "content_hash": "c29592c802e73f9f942c0bfe8a4ca2a310ef16c9887f81724553b471c21b189b",
+      "last_ingested": "2026-10-15T17:02:25.187476+00:00",
+      "pages_produced": [
+        "concepts/oe-github-tooling-landscape.md"
+      ]
+    },
+    "_raw/_archived/GITHUB poetic_edda 2026-10-15.md": {
+      "content_hash": "64ab03395d11bfcb39c585862fe30de51f5ee8b21314fae2b24a93525a869094",
+      "last_ingested": "2026-10-15T17:02:25.312419+00:00",
+      "pages_produced": [
+        "concepts/oe-github-tooling-landscape.md"
+      ]
+    },
+    "_raw/_archived/GITHUB wyrdcraeft 2026-10-15.md": {
+      "content_hash": "70c36255645259599c480a41c53a1de79bd76e1444560c31cdf9e7b225671478",
+      "last_ingested": "2026-10-15T17:02:25.439145+00:00",
+      "pages_produced": [
+        "concepts/oe-github-tooling-landscape.md"
+      ]
+    },
+    "_raw/2026-10-15-obsidian-wiki-snapshots-set-needs-vault-relative-page.md": {
+      "content_hash": "bf3988519a2c8d1dd1034b98b4f8c99040a29bc34c296c469f135a4394641148",
+      "last_ingested": "2026-10-15T17:02:31.948242+00:00",
+      "pages_produced": []
+    },
+    "_raw/_archived/Heptarchy_v2.pdf": {
+      "content_hash": "d171fc8c6c3f132c7f4ef10d7b70e82bed82c70414c44f8614df657dab27cbb1",
+      "last_ingested": "2026-10-15T17:12:56.445436+00:00",
+      "pages_produced": [
+        "references/heptarchy-ruler-timeline.md"
+      ]
+    },
+    "_raw/_archived/2026-10-15-obsidian-wiki-snapshots-set-needs-vault-relative-page.md": {
+      "content_hash": "bf3988519a2c8d1dd1034b98b4f8c99040a29bc34c296c469f135a4394641148",
+      "last_ingested": "2026-10-17T18:25:05.199805+00:00",
+      "pages_produced": [
+        "skills/obsidian-wiki-snapshots-set-vault-relative.md"
+      ]
+    },
+    "_raw/_archived/2026-10-17-webfetch-pdf-returns-binary.md": {
+      "content_hash": "0882fa7803d92e2a7c857635f343bce3aa539a1ef4c4c44f9553128b37431c22",
+      "last_ingested": "2026-10-17T18:25:05.270993+00:00",
+      "pages_produced": [
+        "skills/webfetch-pdf-to-pdftotext.md"
+      ]
+    },
+    "_raw/_archived/Adjectives 2.md": {
+      "content_hash": "85b2b8a5610f2af248c081d2743e144779af9937a72420695e5adaf844b45458",
+      "last_ingested": "2026-10-17T18:35:10.372648+00:00",
+      "pages_produced": [
+        "concepts/old-english-grammar.md"
+      ]
+    },
+    "_raw/_archived/Verbs 2.md": {
+      "content_hash": "00813a63ba6ce2b6662ada33e6a1cfbd4cf1bb7ad9406896eda06d27437661e4",
+      "last_ingested": "2026-10-17T18:35:10.535467+00:00",
+      "pages_produced": [
+        "concepts/old-english-grammar.md"
+      ]
+    },
+    "_raw/_archived/Heptarchy.md": {
+      "content_hash": "26e3a44dc191c09312d0457762e33b7892a73655210bc349245ee8ea22e50edc",
+      "last_ingested": "2026-10-17T18:36:06.998690+00:00",
+      "pages_produced": [
+        "concepts/anglo-saxon-kingdoms.md"
+      ]
+    },
+    "_raw/_archived/Old English For-, Fore-, and Oth- Prefixes Conversation.md": {
+      "content_hash": "ba2bf413facaa725c772ebba41e450b6753ae249c22118e995892aea1f6501c7",
+      "last_ingested": "2026-10-17T18:36:07.138273+00:00",
+      "pages_produced": [
+        "concepts/oe-prefixes-for-fore-oth.md"
+      ]
+    },
+    "_raw/_archived/old-english-for--fore--and-oth--prefixes-conversation.md": {
+      "content_hash": "ba2bf413facaa725c772ebba41e450b6753ae249c22118e995892aea1f6501c7",
+      "last_ingested": "2026-10-17T18:36:07.276458+00:00",
+      "pages_produced": [
+        "concepts/oe-prefixes-for-fore-oth.md"
+      ]
+    },
+    "_raw/_archived/Old English Lexicon Size and Missing Vocabulary Conversation.md": {
+      "content_hash": "6b4580fb49ebd934928c44bf40f2b64d0bccf317be7db8a753438a64ae12d243",
+      "last_ingested": "2026-10-17T18:36:07.422803+00:00",
+      "pages_produced": [
+        "concepts/oe-lexicon-size-and-gaps.md"
+      ]
+    },
+    "_raw/_archived/Tolkien’s use of Old English words 2.md": {
+      "content_hash": "02c785586d4c28f7f45a1ffdca1fccd2e5c09fbd3243f347e1ca01b7697c4781",
+      "last_ingested": "2026-10-17T18:36:07.562664+00:00",
+      "pages_produced": [
+        "concepts/tolkien-old-english.md"
+      ]
+    },
+    "_raw/_archived/Genesis A, B – The Complete….md": {
+      "content_hash": "700119655bd426b0ac53059c3065367f84869bb829205cffdeb295ea66c99b32",
+      "last_ingested": "2026-10-17T18:37:14.562325+00:00",
+      "pages_produced": [
+        "references/genesis-a-and-b.md",
+        "concepts/genesis-b-old-saxon-interpolation.md",
+        "references/bodleian-junius-121.md",
+        "entities/caedmon.md"
+      ]
+    },
+    "_raw/_archived/from the Egils saga.md": {
+      "content_hash": "684aed45aec3fd432cbd116e974c74df722736db13858d9862183ab97e61b29e",
+      "last_ingested": "2026-10-17T18:37:17.638875+00:00",
+      "pages_produced": [
+        "references/egils-saga-eirik-court-passage.md",
+        "entities/egill-skallagrimsson.md",
+        "concepts/old-norse-numerals-and-strong-verbs.md",
+        "concepts/norse-material-culture-and-society.md",
+        "concepts/old-norse-grammar.md",
+        "skills/ut-eieol-old-norse.md"
+      ]
+    },
+    "_raw/_archived/from the Njáls saga.md": {
+      "content_hash": "786d32e1566d3166ee76fbbdf5d4654392f0863340de47ca7967cdef23b96bd0",
+      "last_ingested": "2026-10-17T18:37:18.138245+00:00",
+      "pages_produced": [
+        "references/njals-saga-gunnars-last-stand.md",
+        "entities/njal-thorgeirsson.md",
+        "concepts/old-norse-nouns-adjectives-and-articles.md",
+        "concepts/norse-material-culture-and-society.md",
+        "concepts/old-norse-grammar.md",
+        "skills/ut-eieol-old-norse.md"
+      ]
+    },
+    "_raw/_archived/from the Grettis saga.md": {
+      "content_hash": "9da727e72cd425811cf37e36794ea7405a0eaa7530883097b0a4e5749cdef870",
+      "last_ingested": "2026-10-17T18:37:18.656499+00:00",
+      "pages_produced": [
+        "references/grettis-saga-glam-fight.md",
+        "entities/grettir-asmundarson.md",
+        "concepts/old-norse-nouns-adjectives-and-articles.md",
+        "concepts/norse-material-culture-and-society.md",
+        "concepts/old-norse-grammar.md",
+        "skills/ut-eieol-old-norse.md"
+      ]
+    },
+    "_raw/_archived/Wulfstan's \"Institutes of Polity\".md": {
+      "content_hash": "b34425212cc3e251a4f3efc765af8b27083e88f76bded73373846164c7416ce6",
+      "last_ingested": "2026-10-17T18:37:20.869891+00:00",
+      "pages_produced": [
+        "references/roep-titterington-institutes-of-polity.md",
+        "concepts/institutes-of-polity.md",
+        "entities/wulfstan-of-york.md"
+      ]
+    },
+    "_raw/_archived/The-Battle-of-Maldon.pdf": {
+      "content_hash": "746e8f0170fb551df8a8bb4b1a1aaafa5a175e678d0b2c82223e015f494630aa",
+      "last_ingested": "2026-10-17T18:37:21.181442+00:00",
+      "pages_produced": [
+        "references/glenn-1982-maldon-translation.md",
+        "references/battle-of-maldon.md",
+        "entities/byrhtnoth.md"
+      ]
+    },
+    "_raw/_archived/GITHUB Serial-Studio 2026-10-17.md": {
+      "content_hash": "2911366432301fca1bfdc980a0c0adf18ce69dd130a52a69fe5fbcd4d3f6cfb5",
+      "last_ingested": "2026-10-18T18:09:03.819649+00:00",
+      "pages_produced": [
+        "projects/aenglisc-toolkit/references/serial-studio.md",
+        "projects/aenglisc-toolkit/concepts/qt-app-design-references.md"
+      ]
+    },
+    "_raw/_archived/GITHUB letos 2026-10-18.md": {
+      "content_hash": "500210505a7b32aab7f4758a7aa48057ed6dc0cb045cb53c8d63346b63b73675",
+      "last_ingested": "2026-10-18T18:09:02.972098+00:00",
+      "pages_produced": [
+        "projects/aenglisc-toolkit/references/letos.md",
+        "projects/aenglisc-toolkit/concepts/qt-app-design-references.md"
+      ]
+    },
+    "_raw/_archived/GITHUB MuseScore 2026-10-17.md": {
+      "content_hash": "9387d5f31a7cbf8ac157d286a99d359f8a3f0482564aed7fa3c3f043f106063c",
+      "last_ingested": "2026-10-18T18:09:03.112182+00:00",
+      "pages_produced": [
+        "projects/aenglisc-toolkit/references/musescore.md",
+        "projects/aenglisc-toolkit/concepts/qt-app-design-references.md"
+      ]
+    },
+    "_raw/_archived/GITHUB QtExamples 2026-10-18.md": {
+      "content_hash": "8b8cd0edb7a40bf3ecef66bdf6fea0111badad15f9954b082151c9f277011f8c",
+      "last_ingested": "2026-10-18T18:09:03.261102+00:00",
+      "pages_produced": [
+        "projects/aenglisc-toolkit/references/qtexamples.md",
+        "projects/aenglisc-toolkit/concepts/qt-app-design-references.md"
+      ]
+    },
+    "_raw/_archived/GITHUB QTranslate 2026-10-18.md": {
+      "content_hash": "7a5a04c52b9a3a194321eb184dfeab43e590c4fd20a5cd79c376383e1d55efa9",
+      "last_ingested": "2026-10-18T18:09:03.406559+00:00",
+      "pages_produced": [
+        "projects/aenglisc-toolkit/references/qtranslate.md",
+        "projects/aenglisc-toolkit/concepts/qt-app-design-references.md"
+      ]
+    },
+    "_raw/_archived/GITHUB qtsass 2026-10-17.md": {
+      "content_hash": "4ec67456c2636955f44210b83544a3bfcd8abe43c554d68ca3edc65beb85ed9b",
+      "last_ingested": "2026-10-18T18:09:03.548154+00:00",
+      "pages_produced": [
+        "projects/aenglisc-toolkit/references/qtsass.md",
+        "projects/aenglisc-toolkit/concepts/qt-app-design-references.md"
+      ]
+    },
+    "_raw/_archived/GITHUB qutebrowser 2026-10-17.md": {
+      "content_hash": "77d72bbd80e0ca52ae901624c8faf2420fe7c2c9007fcc392a5881892903feed",
+      "last_ingested": "2026-10-18T18:09:03.685669+00:00",
+      "pages_produced": [
+        "projects/aenglisc-toolkit/references/qutebrowser.md",
+        "projects/aenglisc-toolkit/concepts/qt-app-design-references.md"
+      ]
+    },
+    "_raw/_archived/2026-10-18-agent-shell-quirks-cd-grep-context7.md": {
+      "content_hash": "62e4e82f25fb2397bc940cf22cac2add78ecbb6743238a76f8633aacb495573a",
+      "last_ingested": "2026-10-18T18:42:44.239037+00:00",
+      "pages_produced": [
+        "skills/agent-grep-and-docs-tool-quirks.md",
+        "skills/claude-code-builtin-cd.md"
+      ]
+    },
+    "_raw/_archived/Chapter 3 CONCEPTUALIZING INTERACTION.md": {
+      "content_hash": "8e4588bf17dcbc97577cbe4896eae438b6418e65f933fa3b578e79bd3b3f419c",
+      "last_ingested": "2026-10-18T19:45:11.891238+00:00",
+      "pages_produced": [
+        "concepts/ux-conceptual-models.md",
+        "references/interaction-design-5th-edition.md"
+      ]
+    },
+    "_raw/_archived/Chapter 4 COGNITIVE ASPECTS.md": {
+      "content_hash": "09aa337367b136982e3faefb0604027e14dfdf4971463bfa56dd7e2698e68838",
+      "last_ingested": "2026-10-18T19:45:12.032845+00:00",
+      "pages_produced": [
+        "concepts/ux-cognition.md",
+        "references/interaction-design-5th-edition.md"
+      ]
+    },
+    "_raw/_archived/Chapter 5 SOCIAL INTERACTION.md": {
+      "content_hash": "3faafbadbf69a0474ed55f25e2d8b470bf84563b76f2b052844dd437b07c9bee",
+      "last_ingested": "2026-10-18T19:45:12.184731+00:00",
+      "pages_produced": [
+        "concepts/ux-social-interaction.md",
+        "references/interaction-design-5th-edition.md"
+      ]
+    },
+    "_raw/_archived/Chapter 6 EMOTIONAL INTERACTION.md": {
+      "content_hash": "326e9bc144935f75d55f6f2836ff684593b3cf0dd2f5077a1fe125c65f4cc46b",
+      "last_ingested": "2026-10-18T19:45:12.357152+00:00",
+      "pages_produced": [
+        "concepts/ux-emotional-interaction.md",
+        "references/interaction-design-5th-edition.md"
+      ]
+    },
+    "_raw/_archived/Chapter 7 INTERFACES.md": {
+      "content_hash": "ee6a652b5263d6cacb3af1f424b5575b2a912bc1c0a04acc6f2ce5c75648bd7e",
+      "last_ingested": "2026-10-18T19:45:12.521112+00:00",
+      "pages_produced": [
+        "concepts/ux-interface-selection.md",
+        "references/interaction-design-5th-edition.md"
+      ]
+    },
+    "_raw/_archived/Chapter 8 DATA GATHERING.md": {
+      "content_hash": "3231a7d330c4b6ba61f9d5e4104ac1986b2e0ab73151345f1dc02a0b0a577975",
+      "last_ingested": "2026-10-18T19:45:12.673714+00:00",
+      "pages_produced": [
+        "skills/ux-data-gathering.md",
+        "references/interaction-design-5th-edition.md"
+      ]
+    },
+    "_raw/_archived/Chapter 9 DATA ANALYSIS, INTERPRETATION, AND PRESENTATION.md": {
+      "content_hash": "983dc56ccac34353d347f71192ca90e92a66cea6362e6618b76c3e0bdf6c8515",
+      "last_ingested": "2026-10-18T19:45:12.829868+00:00",
+      "pages_produced": [
+        "skills/ux-data-analysis.md",
+        "references/interaction-design-5th-edition.md"
+      ]
+    },
+    "_raw/_archived/Chapter 10 DATA AT SCALE.md": {
+      "content_hash": "9c12a1abbcc373326e0e0668f5890c1c197bd97af9d7c5ed0f68bd617ecb201d",
+      "last_ingested": "2026-10-18T19:45:12.993234+00:00",
+      "pages_produced": [
+        "concepts/ux-data-at-scale.md",
+        "references/interaction-design-5th-edition.md"
+      ]
+    },
+    "_raw/_archived/Chapter 11 DISCOVERING REQUIREMENTS.md": {
+      "content_hash": "5440a22d967c9ac066dda1d9c73cea0dc99702d95abbd7d15ad0bf9ed9db98d3",
+      "last_ingested": "2026-10-18T19:45:13.142499+00:00",
+      "pages_produced": [
+        "skills/ux-requirements-discovery.md",
+        "references/interaction-design-5th-edition.md"
+      ]
+    },
+    "_raw/_archived/Chapter 12 DESIGN, PROTOTYPING, AND CONSTRUCTION.md": {
+      "content_hash": "aaac085c3c97a7666193e7f7737bf21fa67d20da4788d52ac735f54913504f38",
+      "last_ingested": "2026-10-18T19:45:13.287768+00:00",
+      "pages_produced": [
+        "skills/ux-prototyping.md",
+        "references/interaction-design-5th-edition.md"
+      ]
+    },
+    "_raw/_archived/Chapter 13 INTERACTION DESIGN IN PRACTICE.md": {
+      "content_hash": "8da913f53e57f547bc4062debe7bf0f8cc3a31eb461612b83996e2dcc05bb280",
+      "last_ingested": "2026-10-18T19:45:13.431577+00:00",
+      "pages_produced": [
+        "concepts/ux-agile-practice.md",
+        "references/interaction-design-5th-edition.md"
+      ]
+    },
+    "_raw/_archived/Chapter 14 INTRODUCING EVALUATION.md": {
+      "content_hash": "1a61c72ff47037a60683a09556cc168e01f83fdad7f0daa463ee8740e32bd5ee",
+      "last_ingested": "2026-10-18T19:45:13.575376+00:00",
+      "pages_produced": [
+        "skills/ux-evaluation-planning.md",
+        "references/interaction-design-5th-edition.md"
+      ]
+    },
+    "_raw/_archived/Chapter 15 EVALUATION STUDIES FROM CONTROLLED TO NATURAL SETTINGS.md": {
+      "content_hash": "8c97964e2705ef1ad79a9f8f6c59ba52a902fe486b2e2453c92a499f31e6672b",
+      "last_ingested": "2026-10-18T19:45:13.720460+00:00",
+      "pages_produced": [
+        "skills/ux-usability-and-field-studies.md",
+        "references/interaction-design-5th-edition.md"
+      ]
+    },
+    "_raw/_archived/Chapter 16 EVALUATION INSPECTIONS, ANALYTICS, AND MODELS.md": {
+      "content_hash": "af8d3627e2d50c0ee2cb8d964ecd17a1cf0262db8a2548bf99c834f82a5a0629",
+      "last_ingested": "2026-10-18T19:45:13.867388+00:00",
+      "pages_produced": [
+        "skills/ux-inspections-and-models.md",
+        "references/interaction-design-5th-edition.md"
+      ]
+    },
+    "_raw/_archived/Interaction Design 5e - References.md": {
+      "content_hash": "bbe1dc85685173e2dcc485069f8d1bc770ae5bd22c9fd130c921a1de23b6e078",
+      "last_ingested": "2026-10-18T19:45:14.021304+00:00",
+      "pages_produced": [
+        "references/interaction-design-5th-edition.md"
+      ]
+    },
+    "_raw/_archived/Old English Corpus Cameron A*.md": {
+      "content_hash": "49b7d9f1dc7af4f7502613a50eac393a8b063e7b97686bf2995a188e0d19c287",
+      "last_ingested": "2026-10-18T19:52:37.362979+00:00",
+      "pages_produced": [
+        "references/doec-cameron-catalogue.md",
+        "entities/dictionary-of-old-english-corpus.md"
+      ]
+    },
+    "_raw/_archived/Old English Corpus Cameron B*.md": {
+      "content_hash": "41979c0111efa61931ced06468922407695943fe031f2f72cbaf2443b25c4bf8",
+      "last_ingested": "2026-10-18T19:52:37.453236+00:00",
+      "pages_produced": [
+        "references/doec-cameron-catalogue.md",
+        "entities/dictionary-of-old-english-corpus.md"
+      ]
+    },
+    "_raw/_archived/Old English Corpus Cameron C*.md": {
+      "content_hash": "e11989ad1d47343440f452c0c1fa5ebf9a882ece5cc8af99d995fa971edfd66f",
+      "last_ingested": "2026-10-18T19:52:37.532688+00:00",
+      "pages_produced": [
+        "references/doec-cameron-catalogue.md",
+        "entities/dictionary-of-old-english-corpus.md"
+      ]
+    },
+    "_raw/_archived/Old English Corpus Cameron D*.md": {
+      "content_hash": "e56035b0c64500acd13871527eeb1fb5c2727397727990fa40e7ec45cb3977fc",
+      "last_ingested": "2026-10-18T19:52:37.619537+00:00",
+      "pages_produced": [
+        "references/doec-cameron-catalogue.md",
+        "entities/dictionary-of-old-english-corpus.md"
+      ]
+    },
+    "_raw/_archived/Old English Corpus Cameron E*.md": {
+      "content_hash": "a3eb6853e4282c8f214f5e25745fe0aa100f8614e5caab42cba81ea985827d87",
+      "last_ingested": "2026-10-18T19:52:37.707027+00:00",
+      "pages_produced": [
+        "references/doec-cameron-catalogue.md",
+        "entities/dictionary-of-old-english-corpus.md"
+      ]
+    },
+    "_raw/_archived/Old English Corpus Cameron F*.md": {
+      "content_hash": "d3533cf32e17461488146578ef620a9c2dab1939f41790ec2e7d01a9b7b9cffb",
+      "last_ingested": "2026-10-18T19:52:37.793911+00:00",
+      "pages_produced": [
+        "references/doec-cameron-catalogue.md",
+        "entities/dictionary-of-old-english-corpus.md"
+      ]
+    },
+    "_raw/_archived/GITHUB BosworthAndToller 2026-10-15-1.md": {
+      "content_hash": "25d2bb235111b9b08a06a694646c998885cc6af70b12d4051e9f56f6b6f34994",
+      "last_ingested": "2026-10-18T19:48:29.448992+00:00",
+      "pages_produced": [
+        "references/oe-dictionary-repos.md"
+      ]
+    },
+    "_raw/_archived/GITHUB oeapp 2026-10-15-1.md": {
+      "content_hash": "f805b702aa11f736057726cc3b5a2c6ba33339dfdf35efe426383782d63eb32d",
+      "last_ingested": "2026-10-18T19:48:29.604768+00:00",
+      "pages_produced": [
+        "concepts/oe-github-tooling-landscape.md"
+      ]
+    },
+    "_raw/_archived/GITHUB FinceptTerminal 2026-10-15-1.md": {
+      "content_hash": "d479c0af04b69a4ba2f846585f968ca71fff6eb6f79dd7f401d9c4ac76b99dc7",
+      "last_ingested": "2026-10-18T19:48:29.751943+00:00",
+      "pages_produced": [
+        "references/fincept-terminal-qt-architecture.md"
+      ]
+    },
+    "_raw/_archived/GITHUB syntacticus-treebank-data 2026-10-18.md": {
+      "content_hash": "27a3325e057d2ffaa14624d2444d0e96eb688061f2c75d932f638ec31fdc3a06",
+      "last_ingested": "2026-10-18T19:48:29.902078+00:00",
+      "pages_produced": [
+        "references/syntacticus-treebank-data.md"
+      ]
+    },
+    "_raw/_archived/GITHUB PySide6-FluentUI-QML 2026-10-18.md": {
+      "content_hash": "3ba13fbc4c10471db449e3d74b6c58d70780b123257fa706cc8107a1b67823b3",
+      "last_ingested": "2026-10-18T19:52:37.879865+00:00",
+      "pages_produced": [
+        "projects/aenglisc-toolkit/references/pyside6-fluentui-qml.md",
+        "projects/aenglisc-toolkit/concepts/qt-app-design-references.md"
+      ]
+    },
+    "_raw/_archived/Old English in Middle-earth.md": {
+      "content_hash": "4abbc003f91b800db06a198222fbe9c493b04b58874b0ed29590cc6fe982e7cb",
+      "last_ingested": "2026-10-18T19:48:30.350145+00:00",
+      "pages_produced": [
+        "concepts/tolkien-old-english.md"
+      ]
+    },
+    "_raw/_archived/Old English Dialect Cues-1.md": {
+      "content_hash": "4ed1a2183f96689ae4a894f7e4e4e005ee515e343f2b236148aec77e272b53d4",
+      "last_ingested": "2026-10-18T19:48:30.502283+00:00",
+      "pages_produced": [
+        "concepts/old-english-dialects.md"
+      ]
+    },
+    "_raw/_archived/wightandwright2.pdf": {
+      "content_hash": "4d091f8511e7344183c32799d47a61ffdc45353c708941c3c53ff7632a2ef8ed",
+      "last_ingested": "2026-10-18T19:48:30.651430+00:00",
+      "pages_produced": [
+        "references/wright-and-wright-1914-grammar.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830154017-1.png": {
+      "content_hash": "ba2c82643df8747962b8a1489ea66f70b0618a9852c3800ec2b909f77fbe9400",
+      "last_ingested": "2026-10-18T19:51:17.202976+00:00",
+      "pages_produced": [
+        "references/visual-maps.md",
+        "references/anglo-saxon-visual-source-guide.md",
+        "concepts/anglo-saxon-kingdoms.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830160555-1.png": {
+      "content_hash": "bcd86b8f670d45003e6fcb11512222e7aa3661921265856ee9c089e9dff2a68c",
+      "last_ingested": "2026-10-18T19:52:37.968468+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830160615-1.png": {
+      "content_hash": "6356da4eba8aa3abb5320a5425a3b57228d372bcc375526769721b22b27fab2c",
+      "last_ingested": "2026-10-18T19:52:38.054530+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830160635-1.png": {
+      "content_hash": "f700c6b195ab428f77246139efa4e4cd67e9a56032632b72a056c2f93371866b",
+      "last_ingested": "2026-10-18T19:52:38.140831+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830160748-1.png": {
+      "content_hash": "7fb47337138cdce61bd9ad815b9b51804fc0098f7ed8b8d8d6d411c0a393488f",
+      "last_ingested": "2026-10-18T19:52:38.223639+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830160804-1.png": {
+      "content_hash": "f7c088df7cd87b6790ab48f11f4a8fece3d9ba6904356191424dad1c5c7c0135",
+      "last_ingested": "2026-10-18T19:52:38.311171+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830163430-1.png": {
+      "content_hash": "7fd2cbaeffffa45764522680642d7dbd0a2fcc39d35efac3695f429e43a817dd",
+      "last_ingested": "2026-10-18T19:52:38.402830+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830163616-1.png": {
+      "content_hash": "5a97ec2d16bd509615d2d1adad47ccfd0576cae3d92759d283c0d1d931412102",
+      "last_ingested": "2026-10-18T19:52:38.495516+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830163716-1.png": {
+      "content_hash": "910c5d162518db72d5d32f01b7eb88b11b3f1644ff000b2321a8419df1695939",
+      "last_ingested": "2026-10-18T19:52:38.582167+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830164425-1.png": {
+      "content_hash": "680191131ab338192cc131455a85d7f9a0882be8ed0c180a53d72a8afa49023e",
+      "last_ingested": "2026-10-18T19:52:38.666033+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830164614-1.png": {
+      "content_hash": "e2bd19ca52d2fff0ac1c27c5d948c28043757423f201134f0dcac02a3feadbd0",
+      "last_ingested": "2026-10-18T19:52:38.748931+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830164802-1.png": {
+      "content_hash": "1053e850152c087dfa7a20797dc486fc72f5348dbfcc13854fbf6976bd641c62",
+      "last_ingested": "2026-10-18T19:52:38.839044+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830170041-1.png": {
+      "content_hash": "14c06b4ff07f197f8822f72112dad7b0dc04a077f0c1e7a446a5b90797deb434",
+      "last_ingested": "2026-10-18T19:52:38.929532+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830170113-1.png": {
+      "content_hash": "3aeefd605451260a379001c7c21d18eb2d985fedf7ce2bee8ac6faef65bbf08d",
+      "last_ingested": "2026-10-18T19:52:39.014727+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830170822-1.png": {
+      "content_hash": "5c66d0184eb7e32aa91ee6113f3965a8b9d3967fe2b69d148b55726f49ce3b2c",
+      "last_ingested": "2026-10-18T19:52:39.096252+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830171949-1.png": {
+      "content_hash": "110aa681385aa3eca297aa8055f86132016b20f722e63cdecbb4d00bee82d58c",
+      "last_ingested": "2026-10-18T19:52:39.171521+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830171957-1.png": {
+      "content_hash": "d51bd9aaf7aed75f1bff00e4734058fcc036800c24e2874d292914d54791341e",
+      "last_ingested": "2026-10-18T19:52:39.249292+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830172131-1.png": {
+      "content_hash": "26bd2768973b341a6d515bc259c10f33704cecbb41debcc2f63b358ca2120459",
+      "last_ingested": "2026-10-18T19:52:39.336542+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830172143-1.png": {
+      "content_hash": "f0ff8482b9462ae2dcea1abfccf68e17d4bdd1b5ee2b0b53c23dd9d46cb06bc3",
+      "last_ingested": "2026-10-18T19:52:39.429910+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830172524-1.png": {
+      "content_hash": "f1ef594bfa4b343f44575b52a28bfb3a42f74386bdfbdfdb8eb9b5e0dd0d1597",
+      "last_ingested": "2026-10-18T19:52:39.525221+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830172922-1.png": {
+      "content_hash": "3a819558931dd31171b7fbac36503badbea53ca274d7fe9b69f11a95cef553e2",
+      "last_ingested": "2026-10-18T19:52:39.621531+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830173645-1.png": {
+      "content_hash": "befbe25b01599f892116170547b6695964a2ec2ca2332e27cbb5c23aba771442",
+      "last_ingested": "2026-10-18T19:52:39.705354+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830174204-1.png": {
+      "content_hash": "52e0219e2b5736b941d79005f499db1316388706146ec4b6de6ae84f374ad8a9",
+      "last_ingested": "2026-10-18T19:52:39.790017+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830181644-1.png": {
+      "content_hash": "3cb1524aeaf370b329d586b401c82a5342606944337ecac2eb847b5dc0c0e56b",
+      "last_ingested": "2026-10-18T19:52:39.879458+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830183021-1.png": {
+      "content_hash": "3c667a955d55da9ef51c655d575b742d6e2744ec58d02a7b2951c73ed4f500d1",
+      "last_ingested": "2026-10-18T19:52:39.969606+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830183845-1.png": {
+      "content_hash": "b4a9c16d0386401d13de5ba05f6c223912dc266da4846ccc06e3036a7c225003",
+      "last_ingested": "2026-10-18T19:52:40.061472+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830202252-1.png": {
+      "content_hash": "913ee2ba3e61483409dbdede2ae89e5352c683bfadcb8c39fb1cc0a674383d3f",
+      "last_ingested": "2026-10-18T19:52:40.145350+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830203437-1.png": {
+      "content_hash": "c58826ff9c2110a725d9dc76a12a5fd962806bfa41942562d192cc7e4686dedd",
+      "last_ingested": "2026-10-18T19:52:40.235401+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830210226-1.png": {
+      "content_hash": "c58826ff9c2110a725d9dc76a12a5fd962806bfa41942562d192cc7e4686dedd",
+      "last_ingested": "2026-10-18T19:52:40.325962+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830210255-1.png": {
+      "content_hash": "7e8704070da232417d2dd9c2b3966cd24f92b82268d0edc6e9af3481875dfc9d",
+      "last_ingested": "2026-10-18T19:52:40.416907+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830211108-1.png": {
+      "content_hash": "fe8b780e20065928f1af12354413da1425d5c848fef77693a9841b7ddf0b99f5",
+      "last_ingested": "2026-10-18T19:52:40.500866+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830211218-1.png": {
+      "content_hash": "cca6ffa579143cbc90beefd74085b68ce56856f5dfaec64520ca28cb9ca8ec27",
+      "last_ingested": "2026-10-18T19:52:40.584044+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830214826-1.png": {
+      "content_hash": "ec425be9b92bedfd15e5cdc7e8eaa3ff48584aebfe45d2686bfcf4046f9d68e7",
+      "last_ingested": "2026-10-18T19:52:40.676339+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830215046-1.png": {
+      "content_hash": "7e0bafe3eaa206310e184d8aa7d2f53173a7b5fe3cbe024461c5657345d6cd51",
+      "last_ingested": "2026-10-18T19:52:40.761945+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830215533-1.png": {
+      "content_hash": "844e93e912cee45653a87221f210f70decd755c1f941f29e15902bae2dc95307",
+      "last_ingested": "2026-10-18T19:52:40.852168+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830215717-1.png": {
+      "content_hash": "0f692316c1926739f17d3b852d4b139d928f7b09b92df56ad56f7beb40662c09",
+      "last_ingested": "2026-10-18T19:52:40.938763+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260831081202-1.png": {
+      "content_hash": "d230fcf857145f2f0f119bf1ec51fae78ffd067518af1d5c160d6b3e20bfe406",
+      "last_ingested": "2026-10-18T19:52:41.044065+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260831081553-1.png": {
+      "content_hash": "1804403dcb8ead5774cfecb103da572497f0690c05d40dc62c6f2abfcdfb4e92",
+      "last_ingested": "2026-10-18T19:52:41.129071+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260902165148-1.png": {
+      "content_hash": "64886f38033109f1949ac811c343a7d17b27747e797cb58085751555d3777b3f",
+      "last_ingested": "2026-10-18T19:52:41.225009+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260902165954-1.png": {
+      "content_hash": "5c31da78d9b3fc087984a2b0e9b8f5291e1f9b401f0ad73bff1963094626a8ec",
+      "last_ingested": "2026-10-18T19:52:41.317423+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260902170149-1.png": {
+      "content_hash": "874fd813397a2b113a28ef0b67772d45a1ba5b7d00cde6f8e8ad1066bc4d91c6",
+      "last_ingested": "2026-10-18T19:52:41.405379+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260902170213-1.png": {
+      "content_hash": "080b995b7b3fcc2f9cbd4a5cbf896dbb9af33c4a3185b62ed7f30a8d80bee57e",
+      "last_ingested": "2026-10-18T19:52:41.493246+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260902170245-1.png": {
+      "content_hash": "b74f491178ccca0af6046039beab6fd8e5471a55c78a13be3ed3a368ca527017",
+      "last_ingested": "2026-10-18T19:52:41.581914+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260902171052-1.png": {
+      "content_hash": "7931d374648a9e297fcf749292b4960b8fb4b0f4dabed386134bdcf7bf09d731",
+      "last_ingested": "2026-10-18T19:52:41.674845+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260902202456-1.png": {
+      "content_hash": "96107dd45f1cf594069969bea3029cd39ad339f92c718a4877ce497e8d084826",
+      "last_ingested": "2026-10-18T19:52:41.761686+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260905115642-1.png": {
+      "content_hash": "4b9871b5602436aca4024c8f5ca49d7f05b0b804da0b0a941770358746d20a3c",
+      "last_ingested": "2026-10-18T19:52:41.854543+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260906190049-1.png": {
+      "content_hash": "8f0ede80b5999a200e8167bea8a95e7fac4928ef5dde33956bae320ef1daccd8",
+      "last_ingested": "2026-10-18T19:52:41.945114+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260906190208-1.png": {
+      "content_hash": "07462f3d9f089ba32eaa8fb24bd95fedcebffa006ec3fb5f1c910a2b905e31aa",
+      "last_ingested": "2026-10-18T19:52:42.034411+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260906190310-1.png": {
+      "content_hash": "b4479d5feabccaacf0418866bb1c554cee7299bc19064d447b694b44183df8e4",
+      "last_ingested": "2026-10-18T19:52:42.132629+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20261009095102.png": {
+      "content_hash": "7820cfc957172a092917351b2039ab689bc94f3a044cf8562d2fa0be245cd461",
+      "last_ingested": "2026-10-18T19:52:42.220226+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20261009095124.png": {
+      "content_hash": "57889cfff33dfab10d38b38e60f1349ad5d52fd7a0e17ab9a2cc8ac28326c542",
+      "last_ingested": "2026-10-18T19:52:42.308112+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20261009095201.png": {
+      "content_hash": "7820cfc957172a092917351b2039ab689bc94f3a044cf8562d2fa0be245cd461",
+      "last_ingested": "2026-10-18T19:52:42.395538+00:00",
+      "pages_produced": [
+        "references/visual-maps.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830165431-1.png": {
+      "content_hash": "fe573aae831851c4d13a32cdf6df30ae3b22891e45cc54b16579fb9a4e7e2014",
+      "last_ingested": "2026-10-18T19:51:06.091520+00:00",
+      "pages_produced": [
+        "references/visual-objects.md",
+        "references/anglo-saxon-visual-source-guide.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830173038-1.png": {
+      "content_hash": "2e630c206b64b83a51eb63b3ce1814f5ec151790e21bd963107f72b0e416267b",
+      "last_ingested": "2026-10-18T19:52:42.482246+00:00",
+      "pages_produced": [
+        "references/visual-objects.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830181355-1.png": {
+      "content_hash": "15f0044e8b3d532ec9ad0e3ac9d5a0e4daf7d228c1322fe707600806f3ca593c",
+      "last_ingested": "2026-10-18T19:52:42.566560+00:00",
+      "pages_produced": [
+        "references/visual-objects.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830181819-1.png": {
+      "content_hash": "f929df74e14df0a56b22c1500e8039fe2ff34d20cedc9709328719a140619674",
+      "last_ingested": "2026-10-18T19:52:42.656768+00:00",
+      "pages_produced": [
+        "references/visual-objects.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830182208-1.png": {
+      "content_hash": "e23ee0359001e15556fa56b4465833705112345406946371ac36bcc369ca5302",
+      "last_ingested": "2026-10-18T19:52:42.747114+00:00",
+      "pages_produced": [
+        "references/visual-objects.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830182403-1.png": {
+      "content_hash": "d6fefd58bb416a7ba009ef00b36159af62143bb4ad74acc0c0b3bbc8b921d469",
+      "last_ingested": "2026-10-18T19:52:42.836804+00:00",
+      "pages_produced": [
+        "references/visual-objects.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830204430-1.png": {
+      "content_hash": "7a1a329091755e5d77ec98e6f7eb873976ab2aa9e42fa676d7f589ea9cb581aa",
+      "last_ingested": "2026-10-18T19:52:42.932426+00:00",
+      "pages_produced": [
+        "references/visual-objects.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830204832-1.png": {
+      "content_hash": "32cc9a1641592907680bb01dfcde90a07f30f6fdddd0f16ff4df4c03f4866dcb",
+      "last_ingested": "2026-10-18T19:52:43.025049+00:00",
+      "pages_produced": [
+        "references/visual-objects.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830204849-1.png": {
+      "content_hash": "0c8522d5c2634feb8cf5968185699152a72b1beef297238226d7233c038dc448",
+      "last_ingested": "2026-10-18T19:52:43.133722+00:00",
+      "pages_produced": [
+        "references/visual-objects.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830215800-1.png": {
+      "content_hash": "276d1c3a10b73102496d62a217b8c5bbdf2623e6498641812f9c017674e2418d",
+      "last_ingested": "2026-10-18T19:52:43.224650+00:00",
+      "pages_produced": [
+        "references/visual-objects.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830220014-1.png": {
+      "content_hash": "ae1ec631e18e2e6d2c61f1670113e4268afe15c60b7ff528e112e8af85adebd5",
+      "last_ingested": "2026-10-18T19:52:43.305476+00:00",
+      "pages_produced": [
+        "references/visual-objects.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830220441-1.png": {
+      "content_hash": "7c5cb630dfc0266a1d7e5e80e5fdd4bd40326a697d77cd3d24e07a197ba78f32",
+      "last_ingested": "2026-10-18T19:52:43.385775+00:00",
+      "pages_produced": [
+        "references/visual-objects.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830220647-1.png": {
+      "content_hash": "3e6ef885c10c303c7c404e72488a9e53952d53843919ff9afeae1c118656ca1b",
+      "last_ingested": "2026-10-18T19:52:43.470511+00:00",
+      "pages_produced": [
+        "references/visual-objects.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830220939-1.png": {
+      "content_hash": "4fda85d57447575fb6801506dd5e451bd19059a54868a281fe49ad12072d11ee",
+      "last_ingested": "2026-10-18T19:52:43.553380+00:00",
+      "pages_produced": [
+        "references/visual-objects.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830221433-1.png": {
+      "content_hash": "b8e696de298f6b6e95fff452d274e1a0980fa0b7912c74eca20d67c2457c1bee",
+      "last_ingested": "2026-10-18T19:52:43.635398+00:00",
+      "pages_produced": [
+        "references/visual-objects.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830221740-1.png": {
+      "content_hash": "69fbae43343bf159d129b5cb231d1c8dbc1c74e6eadd3149fb54cadf90eb92fa",
+      "last_ingested": "2026-10-18T19:52:43.727693+00:00",
+      "pages_produced": [
+        "references/visual-objects.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830222122-1.png": {
+      "content_hash": "615bd25bed438ac6337d7dce2879e729188c34ce365572bb3e1abb3f034cac80",
+      "last_ingested": "2026-10-18T19:52:43.822437+00:00",
+      "pages_produced": [
+        "references/visual-objects.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830222624-1.png": {
+      "content_hash": "83377b214a033dced3450907347c4a9a6739bfc9e25c347fcb5a88d947abd73a",
+      "last_ingested": "2026-10-18T19:52:43.919111+00:00",
+      "pages_produced": [
+        "references/visual-objects.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830222926-1.png": {
+      "content_hash": "537f679b6265187c47f509f3731599e2c40b2fc1bbd23d249e923f2380bf893a",
+      "last_ingested": "2026-10-18T19:52:44.006737+00:00",
+      "pages_produced": [
+        "references/visual-objects.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830223034-1.png": {
+      "content_hash": "f58d6a9a26f4f28c443a521a6257b5e474d06a909f9a74be5ccb15d4e9141052",
+      "last_ingested": "2026-10-18T19:52:44.096716+00:00",
+      "pages_produced": [
+        "references/visual-objects.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260902165649-1.png": {
+      "content_hash": "878f06c46d29baff923ced0b2f754f41283ea37dcdeb00b137227868390d022d",
+      "last_ingested": "2026-10-18T19:52:44.190758+00:00",
+      "pages_produced": [
+        "references/visual-objects.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260902165911-1.png": {
+      "content_hash": "6a41b96d22052784cba10126714f592085a206e51c94a67b4c546d7fa334f254",
+      "last_ingested": "2026-10-18T19:52:44.286181+00:00",
+      "pages_produced": [
+        "references/visual-objects.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260906182448-1.png": {
+      "content_hash": "c748fb45b40120429975a2d0a70d6b4214c65e2298c233977a600091bb673d5d",
+      "last_ingested": "2026-10-18T19:52:44.395002+00:00",
+      "pages_produced": [
+        "references/visual-objects.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260906182500-1.png": {
+      "content_hash": "4a7cc605898c0349f0c750c47955fbb3f154b5d0b21685b1bcb3b6ddb2b03610",
+      "last_ingested": "2026-10-18T19:52:44.482159+00:00",
+      "pages_produced": [
+        "references/visual-objects.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260906182516-1.png": {
+      "content_hash": "03da0dc349e09bc6ecd294c81e160ce7c7f42c540367a5ed5a3f2cd7e7ebd6db",
+      "last_ingested": "2026-10-18T19:52:44.569090+00:00",
+      "pages_produced": [
+        "references/visual-objects.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260906190103-1.png": {
+      "content_hash": "e63b1547eede933b81a0b6ce3062e1891a5dcb669cc78b37f38afefd9435c7f3",
+      "last_ingested": "2026-10-18T19:52:44.654458+00:00",
+      "pages_produced": [
+        "references/visual-objects.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260906190416-1.png": {
+      "content_hash": "0f4a8f7049710f0f433de67eab20bd7f67c2564bac68a4660c4bb276c25ae198",
+      "last_ingested": "2026-10-18T19:52:44.744142+00:00",
+      "pages_produced": [
+        "references/visual-objects.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260907085500-1.png": {
+      "content_hash": "2f20d51dd52fa7d9c6501ca85b2cd5b0ba68325954199cef52ced19db13a7fdd",
+      "last_ingested": "2026-10-18T19:52:44.830686+00:00",
+      "pages_produced": [
+        "references/visual-objects.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830172303-1.png": {
+      "content_hash": "1b26ecc674cc92ed6dcb6fa8cb4fb24bf256ab5d445b7325416b6c635348be6f",
+      "last_ingested": "2026-10-18T19:51:08.484090+00:00",
+      "pages_produced": [
+        "references/visual-manuscripts.md",
+        "references/anglo-saxon-visual-source-guide.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830174134-1.png": {
+      "content_hash": "0968a1af4331462ba8f650b9ad35d3988bcda6a03d7d5eda9ef9662c17fe8bc2",
+      "last_ingested": "2026-10-18T19:52:44.932141+00:00",
+      "pages_produced": [
+        "references/visual-manuscripts.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830182719-1.png": {
+      "content_hash": "3a03e01e927af918e31748bf2db2c2b7cf7e4d078e92201abaeef38a4b82b157",
+      "last_ingested": "2026-10-18T19:52:45.016300+00:00",
+      "pages_produced": [
+        "references/visual-manuscripts.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830204314-1.png": {
+      "content_hash": "2fd0a89e272b5617cedb1457c3e711b2946a11387d4fcbe8114f2659371fb360",
+      "last_ingested": "2026-10-18T19:52:45.108484+00:00",
+      "pages_produced": [
+        "references/visual-manuscripts.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830204335-1.png": {
+      "content_hash": "aebcb1e137b03ef6ff678a33e5ebf352f35268468884848c975502933fc92717",
+      "last_ingested": "2026-10-18T19:52:45.206776+00:00",
+      "pages_produced": [
+        "references/visual-manuscripts.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830204347-1.png": {
+      "content_hash": "1faa9e2d84d7728981c21259c68333d34bbf80518f221f48cd5ab046a643c3c0",
+      "last_ingested": "2026-10-18T19:52:45.301168+00:00",
+      "pages_produced": [
+        "references/visual-manuscripts.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830215151-1.png": {
+      "content_hash": "57ca7e52c29523debfb83b11c7dd5516c72754f2b81feef9e46e9a7a6745e7da",
+      "last_ingested": "2026-10-18T19:52:45.392275+00:00",
+      "pages_produced": [
+        "references/visual-manuscripts.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830221305-1.png": {
+      "content_hash": "2ab49dcd15208af7f0be4b3c2b38ae10e40b0d3141ad7d850cc2e7404b2cfd03",
+      "last_ingested": "2026-10-18T19:52:45.475597+00:00",
+      "pages_produced": [
+        "references/visual-manuscripts.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830221644-1.png": {
+      "content_hash": "273eeed57ed1796283e25c198c2e34350ebbcbdf1c03e6ec2f2221905a8f1230",
+      "last_ingested": "2026-10-18T19:52:45.560496+00:00",
+      "pages_produced": [
+        "references/visual-manuscripts.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830222824-1.png": {
+      "content_hash": "e08a8f50b4619640863b7efacb013ce265a48d2cc1e9b968cd0aedbdc7002c76",
+      "last_ingested": "2026-10-18T19:52:45.645513+00:00",
+      "pages_produced": [
+        "references/visual-manuscripts.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830222942-1.png": {
+      "content_hash": "4e5044a40943c12aaacd6752db559c505e1b56b4695a4b19928ce5d1a951143d",
+      "last_ingested": "2026-10-18T19:52:45.728684+00:00",
+      "pages_produced": [
+        "references/visual-manuscripts.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830224318-1.png": {
+      "content_hash": "88b4e24e6f68565daa46c6e60452cc09987b3620dcf43c5b64ffe72c05cfb3a6",
+      "last_ingested": "2026-10-18T19:52:45.820561+00:00",
+      "pages_produced": [
+        "references/visual-manuscripts.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830224525-1.png": {
+      "content_hash": "cf359f414959b791728fb261b0a1b739394381a65a92a3798b021d0b040c238d",
+      "last_ingested": "2026-10-18T19:52:45.904983+00:00",
+      "pages_produced": [
+        "references/visual-manuscripts.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260902205048-1.png": {
+      "content_hash": "01d90de61bae8115f9e91f44cf71e31e76fa8728610098f04b6ebac32ce9882a",
+      "last_ingested": "2026-10-18T19:52:45.996310+00:00",
+      "pages_produced": [
+        "references/visual-manuscripts.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260902213325-1.png": {
+      "content_hash": "27524edf53d63c7e8663ee7d11241a5b8cb2c21bf2e8257af2d37b383b2b3d96",
+      "last_ingested": "2026-10-18T19:52:46.085938+00:00",
+      "pages_produced": [
+        "references/visual-manuscripts.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260902213348-1.png": {
+      "content_hash": "fa5240edaf2e8184307d4bd994b0c3598af378aedd6f1b241b9c32471ed771a6",
+      "last_ingested": "2026-10-18T19:52:46.178626+00:00",
+      "pages_produced": [
+        "references/visual-manuscripts.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260902213823-1.png": {
+      "content_hash": "0e252450629459f2f11a52f71475e1d972a29cb13064dfb0bf0b514dd249227a",
+      "last_ingested": "2026-10-18T19:52:46.279285+00:00",
+      "pages_produced": [
+        "references/visual-manuscripts.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260902213926-1.png": {
+      "content_hash": "06ec526e15b1777af1bf93dbb98b27e215568c4fd94aca5407deac5aa60ec268",
+      "last_ingested": "2026-10-18T19:52:46.366748+00:00",
+      "pages_produced": [
+        "references/visual-manuscripts.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260906174625-1.png": {
+      "content_hash": "57730c68b559083b033f8c4495987c391a15f768c4827df002adf0e6db39a5b9",
+      "last_ingested": "2026-10-18T19:52:46.458322+00:00",
+      "pages_produced": [
+        "references/visual-manuscripts.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260906174649-1.png": {
+      "content_hash": "607bebb145edf4099b2d300482dad8cf2453cd700d6262b9c58689f47d85c286",
+      "last_ingested": "2026-10-18T19:52:46.547723+00:00",
+      "pages_produced": [
+        "references/visual-manuscripts.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260906175016-1.png": {
+      "content_hash": "51c9f9f3c2aee89d08e44da81969f9bf017a0adb461bb3923d015e23c07a7685",
+      "last_ingested": "2026-10-18T19:52:46.643649+00:00",
+      "pages_produced": [
+        "references/visual-manuscripts.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260906180106-1.png": {
+      "content_hash": "d0c239181d6aefa08df669bf6258e1a6346484e76796cce15e9edf496b240d13",
+      "last_ingested": "2026-10-18T19:52:46.740187+00:00",
+      "pages_produced": [
+        "references/visual-manuscripts.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260906182249-1.png": {
+      "content_hash": "f7392fb0efe30606eaa1bc2dc6dc1aa0eead30fb003cc92cb3e9cfa263028490",
+      "last_ingested": "2026-10-18T19:52:46.829785+00:00",
+      "pages_produced": [
+        "references/visual-manuscripts.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260906182610-1.png": {
+      "content_hash": "5abc3dd822da1be8e618c35464134396908e5f115dd9341701f3f1c66a2fe719",
+      "last_ingested": "2026-10-18T19:52:46.917070+00:00",
+      "pages_produced": [
+        "references/visual-manuscripts.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260906182637-1.png": {
+      "content_hash": "10d68976932a8511e9b61f54cc01272b7bb7486708ac21e2616230f165b5f375",
+      "last_ingested": "2026-10-18T19:52:47.020054+00:00",
+      "pages_produced": [
+        "references/visual-manuscripts.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260906182757-1.png": {
+      "content_hash": "a00e30648304ffc48b731bd62acb2663ea833d1129efcdf16baab3e7ff36d7ce",
+      "last_ingested": "2026-10-18T19:52:47.116033+00:00",
+      "pages_produced": [
+        "references/visual-manuscripts.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260906184203-1.png": {
+      "content_hash": "5935d2078d1643cbe18faf6eb01211decbba6ed1800210cd8b6eb49914c0239a",
+      "last_ingested": "2026-10-18T19:52:47.216381+00:00",
+      "pages_produced": [
+        "references/visual-manuscripts.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260907085255-1.png": {
+      "content_hash": "0e329b73ef105a2ba8edf66d0b69f5fc324f3fd9de6c54f5095b3fecebd3809f",
+      "last_ingested": "2026-10-18T19:52:47.305851+00:00",
+      "pages_produced": [
+        "references/visual-manuscripts.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260907085308-1.png": {
+      "content_hash": "01e3ef7f05a3820ace898f76f2be7bf4c84f976350fffa70889081c8b5622659",
+      "last_ingested": "2026-10-18T19:52:47.399122+00:00",
+      "pages_produced": [
+        "references/visual-manuscripts.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260907085521-1.png": {
+      "content_hash": "44160e04ee5334ee909a0fe6b2009fdead070e15b0002efefc4374f714de69e6",
+      "last_ingested": "2026-10-18T19:52:47.491535+00:00",
+      "pages_produced": [
+        "references/visual-manuscripts.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260907085708-1.png": {
+      "content_hash": "b88c147391c76404cc4318b082ec753ae833eacb7829bebfc95dc54eb7ba7381",
+      "last_ingested": "2026-10-18T19:52:47.579327+00:00",
+      "pages_produced": [
+        "references/visual-manuscripts.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260907085905-1.png": {
+      "content_hash": "0b9824f66bc5ac19cc0b22bf7b25aed8e36139258e8ea8688388d399286c722f",
+      "last_ingested": "2026-10-18T19:52:47.670753+00:00",
+      "pages_produced": [
+        "references/visual-manuscripts.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830163940-1.png": {
+      "content_hash": "4d2e8396f710f56ad3d0717660355744f51592a068acba81ca668f94e3bf978d",
+      "last_ingested": "2026-10-18T19:51:11.438448+00:00",
+      "pages_produced": [
+        "references/visual-buildings.md",
+        "references/anglo-saxon-visual-source-guide.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830165504-1.png": {
+      "content_hash": "cbc956770ddd1e1ddb6c31836683a58c316543eafb29a7f638ef767e6053454b",
+      "last_ingested": "2026-10-18T19:52:47.760239+00:00",
+      "pages_produced": [
+        "references/visual-buildings.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830165737-1.png": {
+      "content_hash": "4ec5929e4615fc213cf9bfb48fb2aba5b43a8caa29a45a4d0e07ac91f402adea",
+      "last_ingested": "2026-10-18T19:52:47.848442+00:00",
+      "pages_produced": [
+        "references/visual-buildings.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830171458-1.png": {
+      "content_hash": "24dc241051577c63c0066a711d8f1a22dbc03d02c45e4ce0dc9f398dd597a4d2",
+      "last_ingested": "2026-10-18T19:52:47.945259+00:00",
+      "pages_produced": [
+        "references/visual-buildings.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830174507-1.png": {
+      "content_hash": "9752bee72b059f0331969061a3c5c64df71f3f5e93014872e456dbd599b4620d",
+      "last_ingested": "2026-10-18T19:52:48.032729+00:00",
+      "pages_produced": [
+        "references/visual-buildings.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830181053-1.png": {
+      "content_hash": "abcdb7a1d073ea7a7bcde9cca642461b2247bec3d80e3be3bf42d1bac20a74af",
+      "last_ingested": "2026-10-18T19:52:48.128847+00:00",
+      "pages_produced": [
+        "references/visual-buildings.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830181656-1.png": {
+      "content_hash": "987ed2b1df4acea13e9a728943af59eb6ae77887d4b4d9628aa5d942d2f12e00",
+      "last_ingested": "2026-10-18T19:52:48.227650+00:00",
+      "pages_produced": [
+        "references/visual-buildings.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830204635-1.png": {
+      "content_hash": "9ab8d2feef075b6f91ee3886c4406e44a07eed6548f3ea3c404c8b60bf23005c",
+      "last_ingested": "2026-10-18T19:52:48.315376+00:00",
+      "pages_produced": [
+        "references/visual-buildings.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830221946-1.png": {
+      "content_hash": "3deb7fcf369e6419adf27be5caff6a6eb12183340abc5523fc526049c3e12cc2",
+      "last_ingested": "2026-10-18T19:52:48.407547+00:00",
+      "pages_produced": [
+        "references/visual-buildings.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830222018-1.png": {
+      "content_hash": "6de9f27c659ebc7054b3ceecd706a0c310494ce8c7f3aae0546ac64b8ea429a0",
+      "last_ingested": "2026-10-18T19:52:48.503564+00:00",
+      "pages_produced": [
+        "references/visual-buildings.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830222056-1.png": {
+      "content_hash": "2020278b9a4f2a0a6961fa84df1ecd4b7e511e7d640ba72d7c383292d77a9d8a",
+      "last_ingested": "2026-10-18T19:52:48.596142+00:00",
+      "pages_produced": [
+        "references/visual-buildings.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830222245-1.png": {
+      "content_hash": "34ae53dd6ca72dbde8f3047df7803a158f4f105136ea5e47a9b14ead33f5076f",
+      "last_ingested": "2026-10-18T19:52:48.697159+00:00",
+      "pages_produced": [
+        "references/visual-buildings.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830222312-1.png": {
+      "content_hash": "6555e874253de5fb8b4d86b7dc2a7e722cb140070e291cb005f71f2376b6b20f",
+      "last_ingested": "2026-10-18T19:52:48.792405+00:00",
+      "pages_produced": [
+        "references/visual-buildings.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830222452-1.png": {
+      "content_hash": "6127161cc2c3e5fb36aac68412f550216c4e34c87d21f47d9753dea9b3067f48",
+      "last_ingested": "2026-10-18T19:52:48.884802+00:00",
+      "pages_produced": [
+        "references/visual-buildings.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830222509-1.png": {
+      "content_hash": "491d662138beab43a3172904689c9c2eaeae5635a04af40252c85d3341162df0",
+      "last_ingested": "2026-10-18T19:52:48.981866+00:00",
+      "pages_produced": [
+        "references/visual-buildings.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830222537-1.png": {
+      "content_hash": "b1a49cf09f479ff4a8698fa1b094e5f5ba3614cde69d96b2c0c23b05dace6c0f",
+      "last_ingested": "2026-10-18T19:52:49.079398+00:00",
+      "pages_produced": [
+        "references/visual-buildings.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830222550-1.png": {
+      "content_hash": "774ac135461018070c2a775bd17c48827c4311e777748e18c38130e40c0f9291",
+      "last_ingested": "2026-10-18T19:52:49.170682+00:00",
+      "pages_produced": [
+        "references/visual-buildings.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830223008-1.png": {
+      "content_hash": "e25c78f729c20e2539ad60d8953f36e5e5f377d88bf1245ce454f184a5c1ee93",
+      "last_ingested": "2026-10-18T19:52:49.264794+00:00",
+      "pages_produced": [
+        "references/visual-buildings.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830223056-1.png": {
+      "content_hash": "3dabbb97b8925262423b20b0c1651090eee48f93f5bc74990b383baf204857a7",
+      "last_ingested": "2026-10-18T19:52:49.363919+00:00",
+      "pages_produced": [
+        "references/visual-buildings.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830223114-1.png": {
+      "content_hash": "c3fcde5df7fefca181f108d50cce515a545da08608b0a9a3d40c5357f49ae53c",
+      "last_ingested": "2026-10-18T19:52:49.459629+00:00",
+      "pages_produced": [
+        "references/visual-buildings.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260902165925-1.png": {
+      "content_hash": "bfc344b3d31069b2588a1bf136fc9b3fa1b2d2b8b8f10290e8d29bd3240de67d",
+      "last_ingested": "2026-10-18T19:52:49.566429+00:00",
+      "pages_produced": [
+        "references/visual-buildings.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260902165939-1.png": {
+      "content_hash": "8d73cbe634391a18bb3bf36b230a74d90a3f1f56255010e592900b39b0c7bce7",
+      "last_ingested": "2026-10-18T19:52:49.659435+00:00",
+      "pages_produced": [
+        "references/visual-buildings.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260902171231-1.png": {
+      "content_hash": "51c156b707ed9d8841f35a2376f8fd5c28ea5643b0f14029125ba12870c441fa",
+      "last_ingested": "2026-10-18T19:52:49.749122+00:00",
+      "pages_produced": [
+        "references/visual-buildings.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260902204709-1.png": {
+      "content_hash": "27c4b7cc7b33986b41bae8737a5cc2c08839dd0ecd6408ae417391da4cd0fd49",
+      "last_ingested": "2026-10-18T19:52:49.839160+00:00",
+      "pages_produced": [
+        "references/visual-buildings.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260902204915-1.png": {
+      "content_hash": "960cc6e0986a51871053bcbf62ed37fead64a29aeb5b87e21b1be37998d72190",
+      "last_ingested": "2026-10-18T19:52:49.934224+00:00",
+      "pages_produced": [
+        "references/visual-buildings.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260902213307-1.png": {
+      "content_hash": "3aced3f8c363928982f2974671d480e0d243324505e960b4a4f05b07988ea02d",
+      "last_ingested": "2026-10-18T19:52:50.022380+00:00",
+      "pages_produced": [
+        "references/visual-buildings.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260907085606-1.png": {
+      "content_hash": "5a7cc0a155a76cb42a138bfc63813f7827a11a98e1b1fc2d0cb505e57f6db78b",
+      "last_ingested": "2026-10-18T19:52:50.112495+00:00",
+      "pages_produced": [
+        "references/visual-buildings.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260907085620-1.png": {
+      "content_hash": "5a7cc0a155a76cb42a138bfc63813f7827a11a98e1b1fc2d0cb505e57f6db78b",
+      "last_ingested": "2026-10-18T19:52:50.222893+00:00",
+      "pages_produced": [
+        "references/visual-buildings.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260907085639-1.png": {
+      "content_hash": "84afc3afcd4bb115e678c406a6b05d83f0581a720e90b96d5a93c04da72f0dd9",
+      "last_ingested": "2026-10-18T19:52:50.328849+00:00",
+      "pages_produced": [
+        "references/visual-buildings.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260907085722-1.png": {
+      "content_hash": "72f9e98cc5214a520afa3c2b795e7136056ad36c2502e3824926991888130ed4",
+      "last_ingested": "2026-10-18T19:52:50.428644+00:00",
+      "pages_produced": [
+        "references/visual-buildings.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260907085810-1.png": {
+      "content_hash": "eef5b8e220b366c0ffa074e2b2c1869b5a30226eaeac6e02db6f3ce022406585",
+      "last_ingested": "2026-10-18T19:52:50.520608+00:00",
+      "pages_produced": [
+        "references/visual-buildings.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260907085813-1.png": {
+      "content_hash": "eef5b8e220b366c0ffa074e2b2c1869b5a30226eaeac6e02db6f3ce022406585",
+      "last_ingested": "2026-10-18T19:52:50.614840+00:00",
+      "pages_produced": [
+        "references/visual-buildings.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830160649-1.png": {
+      "content_hash": "9986b07fc67f4df05664ec0de58dbfa4b4c6c83a4901557a6db07960da0fd09a",
+      "last_ingested": "2026-10-18T19:51:14.354977+00:00",
+      "pages_produced": [
+        "references/visual-depictions.md",
+        "references/anglo-saxon-visual-source-guide.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830181936-1.png": {
+      "content_hash": "f278a3b86422839ffcff20b90cbb8109203bb8351b3368db510e66770db01a81",
+      "last_ingested": "2026-10-18T19:52:50.706178+00:00",
+      "pages_produced": [
+        "references/visual-depictions.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830182819-1.png": {
+      "content_hash": "0ae89cddcd174bbf5c0160159c0a3616e5edba58fc4f5816228131ab2ac52d61",
+      "last_ingested": "2026-10-18T19:52:50.797822+00:00",
+      "pages_produced": [
+        "references/visual-depictions.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830183627-1.png": {
+      "content_hash": "8b37ad0aa87fb22767ac10bdd95f643026c1258b5a42394ea7f2856be9d94c40",
+      "last_ingested": "2026-10-18T19:52:50.886761+00:00",
+      "pages_produced": [
+        "references/visual-depictions.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830202238-1.png": {
+      "content_hash": "d7d2a5845aa109dfa81ff2878e666effb82bd676d761c0c43dd682c1d5169d82",
+      "last_ingested": "2026-10-18T19:52:50.975096+00:00",
+      "pages_produced": [
+        "references/visual-depictions.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260830221250-1.png": {
+      "content_hash": "3022d64402f8e8c4073d89b652e8a987e4b2a0c32e8ebf0746a99ef960377c8f",
+      "last_ingested": "2026-10-18T19:52:51.067698+00:00",
+      "pages_produced": [
+        "references/visual-depictions.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260902165228-1.png": {
+      "content_hash": "1ae303bbbab5499f8388ebdd51daeac3741e23f55dab50d6e4efee133ad78e74",
+      "last_ingested": "2026-10-18T19:52:51.155036+00:00",
+      "pages_produced": [
+        "references/visual-depictions.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260902202312-1.png": {
+      "content_hash": "c5211adb611c893e887b1737d3fddcddf0f13987163249b2aa720b0101879997",
+      "last_ingested": "2026-10-18T19:52:51.242678+00:00",
+      "pages_produced": [
+        "references/visual-depictions.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260902202546-1.png": {
+      "content_hash": "2976bd3d8d1ac5ac517c7ab711755564f19861763c71e0b24ec7bcfadcae4711",
+      "last_ingested": "2026-10-18T19:52:51.343919+00:00",
+      "pages_produced": [
+        "references/visual-depictions.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260902203132-1.png": {
+      "content_hash": "9a530bba5c61a2d4c3199d5dd78ac5de7e20fc14c1c14c8f91d58f63a04e4714",
+      "last_ingested": "2026-10-18T19:52:51.441569+00:00",
+      "pages_produced": [
+        "references/visual-depictions.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260902203841-1.png": {
+      "content_hash": "cf08907f3332ce7c10e4b0f34eb6ef290cfee43ed74368be5ccdf30670b6ca17",
+      "last_ingested": "2026-10-18T19:52:51.533071+00:00",
+      "pages_produced": [
+        "references/visual-depictions.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260902204752-1.png": {
+      "content_hash": "2e80574da55b35d0ee04d38a4a96cdfd1e54d8d2151dfa27dff7d894f39b02cf",
+      "last_ingested": "2026-10-18T19:52:51.618793+00:00",
+      "pages_produced": [
+        "references/visual-depictions.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260902213023-1.png": {
+      "content_hash": "436e02beee75367490c283c48be4e8e274e689f3ffbac2761aafd3c2fa9021c1",
+      "last_ingested": "2026-10-18T19:52:51.708160+00:00",
+      "pages_produced": [
+        "references/visual-depictions.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260902213846-1.png": {
+      "content_hash": "69a05d94ecb296a32c8c3057da6ee8bdc1b99914b804269facec79366bd409f6",
+      "last_ingested": "2026-10-18T19:52:51.799121+00:00",
+      "pages_produced": [
+        "references/visual-depictions.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260902214103-1.png": {
+      "content_hash": "ab27de2925aa5ab7b9527f5f1150c69f04d88d081b1179ed2ccb4efd7194a7e2",
+      "last_ingested": "2026-10-18T19:52:51.892615+00:00",
+      "pages_produced": [
+        "references/visual-depictions.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260902214122-1.png": {
+      "content_hash": "979b92dd3a7518096dc23bcffcf31af45a7af79377871d13b8c3d99edf24a302",
+      "last_ingested": "2026-10-18T19:52:51.987313+00:00",
+      "pages_produced": [
+        "references/visual-depictions.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260906184144-1.png": {
+      "content_hash": "e521bb317a1ba85153e3eb10e8f069bf6f2b583d39eb09d229a17957c3739d84",
+      "last_ingested": "2026-10-18T19:52:52.090941+00:00",
+      "pages_produced": [
+        "references/visual-depictions.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260906184631-1.png": {
+      "content_hash": "b18fddfbcde1648fabda33782d839432af85fa52cc8af3a1e765776bf9ef6c2e",
+      "last_ingested": "2026-10-18T19:52:52.193899+00:00",
+      "pages_produced": [
+        "references/visual-depictions.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260906184648-1.png": {
+      "content_hash": "f4756ea3b044404b99674a10753f9b3e720c5f96b6486a3045f1535ef1b8c104",
+      "last_ingested": "2026-10-18T19:52:52.292634+00:00",
+      "pages_produced": [
+        "references/visual-depictions.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260906184708-1.png": {
+      "content_hash": "15e5802728c9cf76aa2f6cf1924a972750e1ac23bdc6759fceefee08190dfc75",
+      "last_ingested": "2026-10-18T19:52:52.388233+00:00",
+      "pages_produced": [
+        "references/visual-depictions.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260906184737-1.png": {
+      "content_hash": "1d118cc2efbb7a6aee66245aad6ed8e0bde4da03a68b2f875c65416748efd11c",
+      "last_ingested": "2026-10-18T19:52:52.479865+00:00",
+      "pages_produced": [
+        "references/visual-depictions.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260906184801-1.png": {
+      "content_hash": "b9b5cc48c818549c33452a473ac9594083c19832ac903c2d15da72d241457c9c",
+      "last_ingested": "2026-10-18T19:52:52.569723+00:00",
+      "pages_produced": [
+        "references/visual-depictions.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260906184826-1.png": {
+      "content_hash": "9ce698210c5dd5533bc35e836c883ae48edca35c3b42ad1d68622fe4fd74bfde",
+      "last_ingested": "2026-10-18T19:52:52.662503+00:00",
+      "pages_produced": [
+        "references/visual-depictions.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260906185004-1.png": {
+      "content_hash": "735ed0d10adfefd9be2c13c6564b26264b644c14e6cec817f30d3587d1d10641",
+      "last_ingested": "2026-10-18T19:52:52.747600+00:00",
+      "pages_produced": [
+        "references/visual-depictions.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260906185109-1.png": {
+      "content_hash": "29dac06631b43a8771775e74e30377910c2aba0cf3c5dd5dbe760491f864c89c",
+      "last_ingested": "2026-10-18T19:52:52.841556+00:00",
+      "pages_produced": [
+        "references/visual-depictions.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260906185713-1.png": {
+      "content_hash": "735ed0d10adfefd9be2c13c6564b26264b644c14e6cec817f30d3587d1d10641",
+      "last_ingested": "2026-10-18T19:52:52.945495+00:00",
+      "pages_produced": [
+        "references/visual-depictions.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260907085739-1.png": {
+      "content_hash": "a334082caf06c5000a50bb8e30bba4963aba7b83fe71266a468b3930294b9073",
+      "last_ingested": "2026-10-18T19:52:53.046600+00:00",
+      "pages_produced": [
+        "references/visual-depictions.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260907085844-1.png": {
+      "content_hash": "0a221d1541747ebfd9ef0d485923918646626719ae84eadef9ca6e56c2a77d59",
+      "last_ingested": "2026-10-18T19:52:53.144732+00:00",
+      "pages_produced": [
+        "references/visual-depictions.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260831075719-1.png": {
+      "content_hash": "1cc1729e601eeacf3e4a16879450c140cf3001048b1ca4334eb02e468abae60d",
+      "last_ingested": "2026-10-18T19:51:16.892129+00:00",
+      "pages_produced": [
+        "references/visual-language-charts.md",
+        "references/anglo-saxon-visual-source-guide.md"
+      ]
+    },
+    "_raw/_archived/Pasted image 20260831081610-1.png": {
+      "content_hash": "42e4cd0c032353f1728508a33a91610a535a391a8d24e515591b8a5db878d03b",
+      "last_ingested": "2026-10-18T19:52:53.239523+00:00",
+      "pages_produced": [
+        "references/visual-language-charts.md"
+      ]
+    },
+    "_raw/_archived/1. Getting Started with PyQt.md": {
+      "content_hash": "643e9eae8910534232008d2ae40c5110deee9af5adefe77173b747ca3cbefc0b",
+      "last_ingested": "2026-10-18T19:59:35.982886+00:00",
+      "pages_produced": [
+        "skills/pyqt6-widget-application-basics.md",
+        "references/beginning-pyqt-willman-2022.md"
+      ],
+      "source_type": "document",
+      "project": null
+    },
+    "_raw/_archived/2. Building a Simple GUI.md": {
+      "content_hash": "e3b8a3b7d6da932b8a94da61f64aed72f3cf0d13a344283fc9cc7aed6a7cf4df",
+      "last_ingested": "2026-10-18T19:59:36.072794+00:00",
+      "pages_produced": [
+        "skills/pyqt6-widget-application-basics.md",
+        "references/beginning-pyqt-willman-2022.md"
+      ],
+      "source_type": "document",
+      "project": null
+    },
+    "_raw/_archived/3. Adding More Functionality with Widgets.md": {
+      "content_hash": "6709b410fdc2bd617bb62d12b1caf1fc3a67036887dd792a5809502023cd23e8",
+      "last_ingested": "2026-10-18T19:59:36.158313+00:00",
+      "pages_produced": [
+        "skills/pyqt6-widget-application-basics.md",
+        "references/beginning-pyqt-willman-2022.md"
+      ],
+      "source_type": "document",
+      "project": null
+    },
+    "_raw/_archived/4. Learning About Layout Management.md": {
+      "content_hash": "a332e8ed6cef123ef0af3c4887c601190d94bacefd2ab2da1b6e2b6631b6eafe",
+      "last_ingested": "2026-10-18T19:59:36.245899+00:00",
+      "pages_produced": [
+        "skills/pyqt6-layout-management.md",
+        "references/beginning-pyqt-willman-2022.md"
+      ],
+      "source_type": "document",
+      "project": null
+    },
+    "_raw/_archived/5. Menus, Toolbars, and More.md": {
+      "content_hash": "371893dedcda62c7c601c83ce49def5cfc1caf283f147c182518a150a55068d7",
+      "last_ingested": "2026-10-18T19:59:36.332117+00:00",
+      "pages_produced": [
+        "skills/pyqt6-actions-and-main-windows.md",
+        "references/beginning-pyqt-willman-2022.md"
+      ],
+      "source_type": "document",
+      "project": null
+    },
+    "_raw/_archived/6. Styling Your GUIs.md": {
+      "content_hash": "7a6f31b590bf86e12e939ab0ad4138bb04117e76e00ef928c115102dff2651bb",
+      "last_ingested": "2026-10-18T19:59:36.433221+00:00",
+      "pages_produced": [
+        "skills/pyqt6-styles-and-widget-grouping.md",
+        "references/beginning-pyqt-willman-2022.md"
+      ],
+      "source_type": "document",
+      "project": null
+    },
+    "_raw/_archived/7. Handling Events in PyQt.md": {
+      "content_hash": "000209ee69355b91137d50c053d60874351dea86b9da7ccb6d1bddecf829bc7e",
+      "last_ingested": "2026-10-18T19:59:36.529384+00:00",
+      "pages_produced": [
+        "skills/pyqt6-signals-and-event-handlers.md",
+        "references/beginning-pyqt-willman-2022.md"
+      ],
+      "source_type": "document",
+      "project": null
+    },
+    "_raw/_archived/8. Creating GUIs with Qt Designer.md": {
+      "content_hash": "da24660bf33d8f9c48fc139f30af4baf360210065486d4c4cd4e8cdfd42ecdaf",
+      "last_ingested": "2026-10-18T19:59:36.613606+00:00",
+      "pages_produced": [
+        "skills/pyqt6-designer-workflow.md",
+        "references/beginning-pyqt-willman-2022.md"
+      ],
+      "source_type": "document",
+      "project": null
+    },
+    "_raw/_archived/9. Working with the Clipboard.md": {
+      "content_hash": "deb6d283a943f9aa7ba7679c19cfaba0e1257524ec459355f53078460ab51efd",
+      "last_ingested": "2026-10-18T19:59:36.697558+00:00",
+      "pages_produced": [
+        "skills/pyqt6-clipboard-and-mime-data.md",
+        "references/beginning-pyqt-willman-2022.md"
+      ],
+      "source_type": "document",
+      "project": null
+    },
+    "_raw/_archived/10. Presenting Data in PyQt.md": {
+      "content_hash": "0fe723e307ff32072eb770c666570b60147cb04ec3ee69ad7fef375643827e79",
+      "last_ingested": "2026-10-18T19:59:36.785288+00:00",
+      "pages_produced": [
+        "skills/pyqt6-item-widgets-and-drag-drop.md",
+        "references/beginning-pyqt-willman-2022.md"
+      ],
+      "source_type": "document",
+      "project": null
+    },
+    "_raw/_archived/11. Graphics and Animation in PyQt.md": {
+      "content_hash": "27b6458af97fa54c0a0e91bc1f946ce4978e74950b870df6294d42267ffd9dac",
+      "last_ingested": "2026-10-18T19:59:36.867959+00:00",
+      "pages_produced": [
+        "skills/pyqt6-painting-and-property-animation.md",
+        "references/beginning-pyqt-willman-2022.md"
+      ],
+      "source_type": "document",
+      "project": null
+    },
+    "_raw/_archived/12. Creating Custom Widgets.md": {
+      "content_hash": "33753546e8654a89cf3ed4e9ac091d155893375ffa48cfa67cbc54d48740d178",
+      "last_ingested": "2026-10-18T19:59:36.958062+00:00",
+      "pages_produced": [
+        "skills/pyqt6-custom-widgets.md",
+        "references/beginning-pyqt-willman-2022.md"
+      ],
+      "source_type": "document",
+      "project": null
+    },
+    "_raw/_archived/13. Working with Qt Quick.md": {
+      "content_hash": "902a718731b89ed45f1dfc3a58d260788106029f5c0d00cda817e1eadc23c232",
+      "last_ingested": "2026-10-18T19:59:37.059916+00:00",
+      "pages_produced": [
+        "skills/pyqt6-qml-and-qt-quick.md",
+        "references/beginning-pyqt-willman-2022.md"
+      ],
+      "source_type": "document",
+      "project": null
+    },
+    "_raw/_archived/14. Introduction to Handling Databases.md": {
+      "content_hash": "ff4231c334bf9d73e65b964b0df6076a8a7e23d18c020446fecc6311448ee163",
+      "last_ingested": "2026-10-18T19:59:37.153524+00:00",
+      "pages_produced": [
+        "skills/pyqt6-model-view-and-sql.md",
+        "references/beginning-pyqt-willman-2022.md",
+        "projects/aenglisc-toolkit/concepts/qt-app-design-references.md"
+      ],
+      "source_type": "document",
+      "project": null
+    },
+    "_raw/_archived/15. Managing Threads.md": {
+      "content_hash": "d4b7500cd96e2171b1e2bc148c8a9d686e00e4e36559363b05f53b28a8c7767c",
+      "last_ingested": "2026-10-18T19:59:37.253724+00:00",
+      "pages_produced": [
+        "skills/pyqt6-responsive-background-work.md",
+        "references/beginning-pyqt-willman-2022.md",
+        "projects/aenglisc-toolkit/concepts/qt-app-design-references.md"
+      ],
+      "source_type": "document",
+      "project": null
+    },
+    "_raw/_archived/Back Matter.md": {
+      "content_hash": "9eb1b53bc642111c1ee402525d04cbb26344bf97313047fb13af5a3bbbe7a829",
+      "last_ingested": "2026-10-18T19:59:37.348675+00:00",
+      "pages_produced": [
+        "references/beginning-pyqt-willman-2022.md"
+      ],
+      "source_type": "document",
+      "project": null
+    },
+    "_raw/_archived/Old English after 1066.md": {
+      "content_hash": "5345cecd3280993d2925dff52e37aec8f901ff27d8505ad2cdfcb5f46e9f1dcd",
+      "last_ingested": "2026-10-20T15:59:33.817090+00:00",
+      "pages_produced": [
+        "concepts/old-english-after-1066.md",
+        "concepts/old-english.md",
+        "concepts/history-of-english.md",
+        "entities/caedmon.md",
+        "references/battle-of-maldon.md",
+        "concepts/tolkien-old-english.md"
+      ]
+    },
+    "_raw/_archived/2026-10-18-pyside6-deploy-spec-only-config.md": {
+      "content_hash": "a6f2b2f24f4cc63e15b2915810c779f52916f1d7efb71053f5d697d4ae6a667d",
+      "last_ingested": "2026-10-20T15:59:33.922108+00:00",
+      "pages_produced": [
+        "projects/aenglisc-toolkit/skills/pyside6-deploy-on-6-11.md",
+        "projects/aenglisc-toolkit/concepts/aenglisc-toolkit-os-integration.md",
+        "references/qt-official-docs-best-practice.md",
+        "synthesis/Research: Qt and Translation Workbench Best Practice.md",
+        "projects/aenglisc-toolkit/aenglisc-toolkit.md"
+      ]
+    },
+    "_raw/_archived/2026-10-18-qt-offscreen-no-x11.md": {
+      "content_hash": "1e643515c434524737bb15fa071289d0892386034aa572fc5e52eb33253cca30",
+      "last_ingested": "2026-10-20T15:59:34.027319+00:00",
+      "pages_produced": [
+        "projects/aenglisc-toolkit/skills/pytest-qt-offscreen-macos.md",
+        "references/qt-official-docs-best-practice.md",
+        "synthesis/Research: Qt and Translation Workbench Best Practice.md",
+        "projects/aenglisc-toolkit/aenglisc-toolkit.md"
       ]
     }
   },
@@ -899,6 +2985,200 @@
         "synthesis/Research: Old English Morphology Generation.md",
         "projects/wyrdcraeft/concepts/morphology-generation.md"
       ]
+    },
+    {
+      "type": "research",
+      "topic": "Future tense in Old English",
+      "researched_at": "2026-10-12T22:05:00Z",
+      "rounds_completed": 3,
+      "sources_fetched": 14,
+      "pages_created": [
+        "references/wischer-2006-markers-of-futurity.md",
+        "references/cowper-2015-no-future-in-old-english.md",
+        "references/diewald-wischer-2013-futurity.md",
+        "references/stella-old-english-verb-phrase.md",
+        "references/smith-1896-oe-grammar.md",
+        "references/ycoe-modal-and-tense-tags.md",
+        "references/oldenglish-info-beon-wesan.md",
+        "references/laing-2010-beon-futurity.md",
+        "concepts/old-english-future-time.md",
+        "concepts/beon-and-wesan.md",
+        "entities/ilse-wischer.md",
+        "entities/margaret-laing.md",
+        "synthesis/Research: Future Tense in Old English.md"
+      ],
+      "pages_updated": [
+        "concepts/old-english-grammar.md",
+        "entities/ycoe.md",
+        "entities/dictionary-of-old-english.md"
+      ]
+    },
+    {
+      "type": "research",
+      "topic": "Usages of Old English beon, wesan, and weorthan, and the Spanish ser/estar comparison",
+      "researched_at": "2026-10-12T22:20:00Z",
+      "rounds_completed": 3,
+      "sources_fetched": 12,
+      "pages_created": [
+        "concepts/weorthan.md",
+        "concepts/ser-estar-and-old-english-be.md",
+        "references/petre-cuyckens-2009-copulas.md",
+        "references/petre-2010-weorthan.md",
+        "references/jones-macleod-2017-oe-passive.md",
+        "references/bradley-2011-two-copulas.md",
+        "references/romance-copula-ser-estar.md",
+        "entities/peter-petre.md",
+        "synthesis/Research: Beon, Wesan, and Weorthan.md"
+      ],
+      "pages_updated": [
+        "concepts/beon-and-wesan.md",
+        "concepts/old-english-grammar.md"
+      ]
+    },
+    {
+      "type": "research",
+      "topic": "Wulfstan, the Institutes of Polity, and the English church around 1000",
+      "researched_at": "2026-10-12T23:40:00Z",
+      "rounds_completed": 3,
+      "sources_fetched": 18,
+      "pages_created": [
+        "references/roep-titterington-institutes-of-polity.md",
+        "references/wulfstan-career.md",
+        "references/bodleian-junius-121.md",
+        "references/english-benedictine-reform.md",
+        "references/crisan-2024-three-orders.md",
+        "references/fourth-lateran-council-1215.md",
+        "references/catholic-sacraments-number-and-history.md",
+        "references/purgatory-conciliar-history.md",
+        "references/reinhard-gods-lore-and-worldly-law.md",
+        "references/immaculate-conception.md",
+        "references/clerical-celibacy-lateran-councils.md",
+        "references/east-west-schism.md",
+        "concepts/late-anglo-saxon-christianity.md",
+        "concepts/institutes-of-polity.md",
+        "concepts/three-orders-of-society.md",
+        "concepts/kingdom-of-the-english.md",
+        "entities/wulfstan-of-york.md",
+        "entities/aelfric-of-eynham.md",
+        "entities/cnut-the-great.md",
+        "synthesis/Research: Wulfstan and the Institutes of Polity.md"
+      ],
+      "pages_updated": [
+        "concepts/christianity-in-anglo-saxon-england.md",
+        "concepts/anglo-saxon-kingdoms.md",
+        "entities/aethelred-the-unready.md"
+      ]
+    },
+    {
+      "type": "research",
+      "topic": "The Battle of Maldon: context, people, purpose, manuscript, and speech",
+      "researched_at": "2026-10-13T03:45:00Z",
+      "rounds_completed": 3,
+      "sources_fetched": 14,
+      "pages_created": [
+        "references/karasawa-2025-griffith-maldon.md",
+        "references/thomas-2026-griffith-maldon.md",
+        "references/jones-1990-lexical-structure-maldon.md",
+        "references/neubauer-2019-olaf-maldon.md",
+        "references/scragg-1991-maldon-essays.md",
+        "references/halbrooks-2003-byrhtnoth-mirth.md",
+        "references/insley-2026-wigelm.md",
+        "references/niles-maldon-mythopoesis.md",
+        "concepts/ofermod.md",
+        "concepts/heroic-speech-in-maldon.md",
+        "concepts/people-named-in-maldon.md",
+        "entities/byrhtnoth.md",
+        "entities/olaf-tryggvason.md",
+        "synthesis/Research: The Battle of Maldon.md"
+      ],
+      "pages_updated": [
+        "references/battle-of-maldon.md",
+        "concepts/tolkien-old-english.md",
+        "entities/aethelred-the-unready.md"
+      ]
+    },
+    {
+      "type": "research",
+      "topic": "Old English g-palatalization: history, mechanism, rules, stop list",
+      "researched_at": "2026-10-17T18:25:00Z",
+      "rounds_completed": 3,
+      "sources_fetched": 14,
+      "pages_created": [
+        "concepts/old-english-g-palatalization.md",
+        "synthesis/Research: Old English G-Palatalization.md",
+        "references/kijak-2022-velar-palatalization.md",
+        "references/van-der-hoek-2010-palatalization-west-germanic.md",
+        "references/matsuse-2016-palatal-softening.md",
+        "references/wikipedia-old-english-phonology.md",
+        "entities/donka-minkova.md",
+        "entities/richard-hogg.md"
+      ],
+      "pages_updated": []
+    },
+    {
+      "type": "research",
+      "topic": "Qt and translation workbench best practice (aenglisc_toolkit)",
+      "researched_at": "2026-10-18T22:50:00Z",
+      "rounds_completed": 1,
+      "sources_fetched": 135,
+      "note": "Four parallel subagent passes (Qt docs, OS integration, desktop UX, translation tools); no separate gap-fill or contradiction round; Apple developer pages, duitdesign.com and Dribbble unreadable. sources_fetched counts subagent tool calls (22+30+39+44), not distinct sources; the log line's 120 was an estimate. Follow-up 2026-10-18: owner decisions recorded; paper-search CLI used; Mertens 2020 edition read in part.",
+      "pages_created": [
+        "synthesis/Research: Qt and Translation Workbench Best Practice.md",
+        "references/qt-official-docs-best-practice.md",
+        "references/desktop-os-integration-sources.md",
+        "references/desktop-ux-guidelines-sources.md",
+        "references/translation-tools-and-scholarly-editing-standards.md",
+        "references/ai-disclosure-and-suggestion-bias-sources.md",
+        "concepts/manual-translation-workbench-features.md",
+        "projects/aenglisc-toolkit/concepts/aenglisc-toolkit-qt-idiom-plan.md",
+        "projects/aenglisc-toolkit/concepts/aenglisc-toolkit-ux-recommendations.md",
+        "projects/aenglisc-toolkit/concepts/aenglisc-toolkit-academic-output-plan.md",
+        "projects/aenglisc-toolkit/concepts/aenglisc-toolkit-os-integration.md",
+        "projects/aenglisc-toolkit/concepts/aenglisc-toolkit-ai-context-policy.md",
+        "entities/omegat.md",
+        "entities/tei-p5-guidelines.md",
+        "references/mertens-2020-old-english-lives-of-st-martin.md",
+        "projects/aenglisc-toolkit/concepts/aenglisc-toolkit-remembered-annotations-and-bias.md",
+        "projects/aenglisc-toolkit/concepts/aenglisc-toolkit-cross-platform-conventions.md"
+      ],
+      "pages_updated": [
+        "projects/aenglisc-toolkit/aenglisc-toolkit.md",
+        "projects/aenglisc-toolkit/concepts/aenglisc-toolkit-qt-practice-gap-analysis.md",
+        "concepts/ux-interface-selection.md",
+        "projects/aenglisc-toolkit/concepts/aenglisc-toolkit-os-integration.md",
+        "projects/aenglisc-toolkit/concepts/aenglisc-toolkit-academic-output-plan.md",
+        "concepts/manual-translation-workbench-features.md"
+      ]
+    },
+    {
+      "type": "research",
+      "topic": "Todos t12, t14, t15: Maldon names, Wulfstan and 1002, OE g-palatalization",
+      "researched_at": "2026-10-18T23:20:00Z",
+      "rounds_completed": 2,
+      "sources_fetched": 14,
+      "note": "paper-search (google_scholar, openalex, crossref, semantic) plus web search. academia-mcp server does not start under mcp 2.x; its s2_search call hung. Hogg 1979 is not open access. Locherbie-Cameron 1991 and Wilcox 2000 were not obtained; judgments are from citing open works.",
+      "pages_created": [
+        "references/locherbie-cameron-1991-men-named.md",
+        "references/wilcox-2000-st-brice-wulfstan.md",
+        "references/roach-2016-aethelred-massacre.md",
+        "references/savill-2021-st-brictius.md",
+        "references/hogg-1992-palatalization.md"
+      ],
+      "pages_updated": [
+        "concepts/people-named-in-maldon.md",
+        "concepts/st-brices-day-massacre.md",
+        "concepts/old-english-g-palatalization.md",
+        "entities/wulfstan-of-york.md",
+        "entities/richard-hogg.md",
+        "references/scragg-1991-maldon-essays.md",
+        "synthesis/Research: The Battle of Maldon.md",
+        "synthesis/Research: St Brice's Day Massacre.md",
+        "synthesis/Research: Old English G-Palatalization.md"
+      ]
     }
-  ]
+  ],
+  "stats": {
+    "total_sources_ingested": 375,
+    "total_pages": 306
+  }
 }

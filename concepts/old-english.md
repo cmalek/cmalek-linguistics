@@ -21,29 +21,33 @@ relationships:
     type: related_to
   - target: "[[projects/aenglisc-toolkit/aenglisc-toolkit]]"
     type: related_to
+  - target: "[[concepts/old-english-after-1066]]"
+    type: related_to
 sources:
   - "https://www.thehistoryofenglish.com/old-english"
   - "https://oldenglish.info/history.html"
   - "https://lrc.la.utexas.edu/eieol/engol/0"
   - "https://lrc.la.utexas.edu/eieol/norol/20"
+  - "book:Godden-Lapidge-2013-old-english-after-1066"
 summary: "West Germanic language of England c. 500–1100; UT EIEOL treats it as sister to Old Saxon, with Anglian covering Mercia+Northumbria."
 provenance:
-  extracted: 0.78
+  extracted: 0.74
   inferred: 0.18
-  ambiguous: 0.04
+  ambiguous: 0.08
 base_confidence: 0.81
 lifecycle: draft
 lifecycle_changed: "2026-09-25"
 tier: core
 created: 2026-09-25T16:30:00Z
-updated: 2026-10-09T15:54:00Z
+updated: 2026-10-20T15:55:46Z
 snapshots:
-  - "[[_raw/_archived/Christianity in Anglo-Saxon England]]"
-  - "[[_raw/_archived/History of English]]"
-  - "[[_raw/_archived/Introduction to Old English]]"
-  - "[[_raw/_archived/Old English]]"
-  - "[[_raw/_archived/Wessex]]"
-  - "[[_raw/_archived/from the Prologue of Snorra Edda]]"
+  - "[[_raw/_archived/Christianity in Anglo-Saxon England|Christianity in Anglo-Saxon England]]"
+  - "[[_raw/_archived/History of English|History of English]]"
+  - "[[_raw/_archived/Introduction to Old English|Introduction to Old English]]"
+  - "[[_raw/_archived/Old English|Old English]]"
+  - "[[_raw/_archived/Wessex|Wessex]]"
+  - "[[_raw/_archived/from the Prologue of Snorra Edda|from the Prologue of Snorra Edda]]"
+  - "[[_raw/_archived/Old English after 1066|Old English after 1066]]"
 ---
 
 # Old English
@@ -60,6 +64,7 @@ Old English (also called Anglo-Saxon, OE *Englisc*) is the West Germanic languag
 - A sixth-century *sk* → *sh* change (*skield* → *shield*) means later *sk* words are typically Norse. Seventh-century [[concepts/germanic-sound-change|i-mutation]] yields pairs like *foot/feet* and *man/men*. ON **breaking** of *e* is why *gjalda* sits beside OE *geldan* ([[concepts/old-norse-grammar]]).
 - Viking settlement and the [[concepts/danelaw]] add up to ~1,000 Norse loans (*they/them/their*, *take*, *sky*, *law*) and accelerate loss of inflections.
 - Local tooling in this vault: [[projects/wyrdcraeft/wyrdcraeft]] generates inflected forms; [[projects/aenglisc-toolkit/aenglisc-toolkit]] is a Qt annotation editor. Those pages are session distillations, not linguistic sources. ^[inferred]
+- The language did become hard to read without study, but a 2013 Companion chapter argues it did not stop being used: twelfth-century copies, the Peterborough Chronicle to 1154, and later poets from Wheelock to Heaney. See [[concepts/old-english-after-1066]]. The "about 1100" end-date above is the usual linguistic period, not that chapter's literary one. ^[ambiguous]
 
 ## Open Questions
 
@@ -71,3 +76,4 @@ Old English (also called Anglo-Saxon, OE *Englisc*) is the West Germanic languag
 - [The History of English: Old English](https://www.thehistoryofenglish.com/old-english)
 - [oldenglish.info — History of English](https://oldenglish.info/history.html)
 - [UT LRC Old English Online — introduction](https://lrc.la.utexas.edu/eieol/engol/0)
+- [[_raw/_archived/Old English after 1066.md]]

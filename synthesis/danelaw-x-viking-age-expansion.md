@@ -23,7 +23,7 @@ lifecycle: draft
 lifecycle_changed: "2026-10-09"
 tier: supporting
 created: 2026-10-09T16:05:14Z
-updated: 2026-10-09T16:05:14Z
+updated: 2026-10-13T05:20:00Z
 ---
 
 # Danelaw × Viking-Age Expansion
@@ -57,7 +57,7 @@ Loans and place-names can still be bounded by the Alfred–Guthrum line even whe
 
 ## Open Questions
 
-- A density comparison of those place-name elements inside and outside the treaty line, with Anglian dialect area held constant, is not in the wiki.
+- The “London–Chester line” is the wrong boundary for the test. [[references/purkiss-2025-limits-of-the-danelaw|Purkiss]] reads the Alfred–Guthrum treaty as ending where the Ouse meets Watling Street at Stony Stratford. Drawing the frontier on along the road toward Chester is a later extension. [[references/fellows-jensen-1989-scandinavian-settlement|Fellows-Jensen]], using Smith’s 1956 map of Scandinavian parish names, finds very few of them south and west of the treaty line as written. The North and East Ridings, Lincolnshire, and Leicestershire are the concentrations. East Anglia is weaker. Essex, Cambridgeshire, and Hertfordshire are thin even beside the line. Holding Anglian constant: Lincolnshire and Leicestershire are Anglian and dense; western Mercia beyond the treaty line is also Anglian and scarce. The names follow the treaty boundary more than they follow the dialect area. No density per square kilometre was found. Domesday is the record date, so a name cannot be pinned to 877–954.
 
 ## Related
 
@@ -75,3 +75,5 @@ Co-occurrence evidence already on these wiki pages:
 - [[skills/ut-eieol-old-norse]] — lessons 1–2 as the shared classroom source
 - [[references/islendingabok]] — Ari's 870 synchronism with Edmund's killing
 - [[entities/aethelred-the-unready]] — the 980s–1016 tribute war on the expansion timeline, with a Danelaw link
+- [[references/fellows-jensen-1989-scandinavian-settlement]] — Smith’s map against the 886 line
+- [[references/purkiss-2025-limits-of-the-danelaw]] — the treaty stops at Stony Stratford

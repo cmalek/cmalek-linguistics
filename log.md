@@ -21,3 +21,31 @@ title: Wiki Log
 - [2026-10-09T18:33:17Z] WIKI_RESEARCH topic="Old English morphology generation" rounds=3 sources_fetched=24 pages_created=21 backends_used=defuddle-fetch
 - [2026-10-09T20:33:56Z] WIKI_RESEARCH topic="Nerthus project: background, contents, and guest search" rounds=1 sources_fetched=12 pages_created=1 backends_used=defuddle-fetch
 - [2026-10-12T04:37:00Z] WIKI_RESEARCH topic="Dictionary of Old English Corpus at the University of Toronto" rounds=3 sources_fetched=16 pages_created=3 backends_used=defuddle-fetch
+- [2026-10-12T21:59:11Z] WIKI_RESEARCH topic="Future tense in Old English" rounds=3 sources_fetched=14 pages_created=13 backends_used=paper-search-mcp,defuddle
+- [2026-10-12T22:08:54Z] WIKI_RESEARCH topic="Usages of Old English beon, wesan, and weorthan" rounds=3 sources_fetched=12 pages_created=9 backends_used=paper-search-mcp
+- [2026-10-12T22:34:47Z] WIKI_RESEARCH topic="Wulfstan, the Institutes of Polity, and the English church around 1000" rounds=3 sources_fetched=18 pages_created=20 backends_used=paper-search-mcp,web
+- [2026-10-12T22:44:10Z] WIKI_UPDATE topic="Junius 121 identified as the working Polity manuscript" pages_updated=2
+- [2026-10-13T03:48:10Z] WIKI_RESEARCH topic="The Battle of Maldon" rounds=3 sources_fetched=14 pages_created=14 backends_used=paper-search-mcp
+- [2026-10-13T04:52:21Z] INGEST source=_raw/Papers pages_created=1 pages_updated=11 mode=append
+- [2026-10-13T05:07:05Z] WIKI_RESEARCH query="open research threads" pages_created=4 pages_updated=12
+- [2026-10-15T17:02:32Z] INGEST source="_raw (2 session notes + 24 GitHub repo clips)" pages_created=12 pages_updated=4 mode=raw
+- [2026-10-15T17:04:51Z] LINT issues_found=94 orphans=2 broken_links=56 missing_frontmatter=6 missing_summary=3 relationship_issues=25 snapshot_mismatch=8
+- [2026-10-15T17:13:00Z] INGEST source=_raw/Papers/Heptarchy_v2.pdf pages_created=1 pages_updated=1 mode=raw
+- [2026-10-17T03:10:04Z] WIKI_RESEARCH topic="St Brice's Day Massacre, Wulfstan, Æthelred, Cnut" rounds=3 sources_fetched=9 pages_created=13 backends_used=none
+- [2026-10-17T18:23:27Z] WIKI_RESEARCH topic="Old English g-palatalization: history, mechanism, rules, stop list" rounds=3 sources_fetched=14 pages_created=8 backends_used=none
+- [2026-10-17T18:25:05Z] INGEST source="_raw/*.md (2 drafts)" pages_created=2 pages_updated=0 mode=raw
+- [2026-10-17T18:37:43Z] INGEST source="5 background batches (sagas; Genesis/Wulfstan/Maldon; prefixes/lexicon/Heptarchy/Tolkien; Adjectives/Verbs)" pages_created=14 pages_updated=12 mode=raw
+- [2026-10-18T17:54:37Z] LINT issues_found=116 orphans=1 broken_links=70 stale=0 contradictions=0 prov_issues=0 missing_summary=3 fragmented_clusters=0 visibility_issues=0 promotion_candidates=0 synthesis_gaps=0 relationship_issues=30 lifecycle_issues=4 temporal_issues=0 mode=cli-deterministic
+- [2026-10-18T18:09:07Z] INGEST source="_raw/GITHUB*.md (7 Qt clippings)" pages_created=8 pages_updated=1 mode=raw
+- [2026-10-18T20:45:00Z] WIKI_RESEARCH topic="aenglisc_toolkit baseline (intent, features, architecture, performance, docs, Qt gaps, Trello)" sources="repo @981e093, Trello board lEVKtPBa, 6 Qt 6 doc pages" pages_created=7 pages_updated=1 backends_used=none
+- [2026-10-18T18:42:49Z] INGEST source=_raw/2026-10-18-agent-shell-quirks-cd-grep-context7.md pages_created=1 pages_updated=1 mode=raw
+- [2026-10-18T18:55:56Z] WIKI_SYNTHESIZE pages_scanned=261 synthesis_created=5 candidates_skipped=10
+- [2026-10-18T19:45:14Z] INGEST source="_raw/User Experience" pages_created=15 pages_updated=0 mode=raw
+- [2026-10-18T19:48:30Z] INGEST source="_raw (Cameron catalogues, revised clips, Tolkien, dialect cues, Wright grammar)" pages_created=4 pages_updated=7 mode=raw
+- [2026-10-18T19:51:17Z] INGEST source="_raw pasted images" pages_created=7 pages_updated=1 mode=raw
+- [2026-10-18T19:54:11Z] INGEST_VERIFY sources_processed=203 pages_created=26 pages_updated=8 unchanged_skipped=135 unreadable_skipped=1 mode=raw
+- [2026-10-18T19:59:37Z] INGEST source="_raw/User Experience (Beginning PyQt, chapters 1–15 and back matter)" sources_processed=16 pages_created=14 pages_updated=1 mode=raw
+- [2026-10-18T20:19:36Z] WIKI_RESEARCH topic="qt and translation workbench best practice" rounds=1 sources_fetched=120 pages_created=14 backends_used=none
+- [2026-10-18T20:37:29Z] WIKI_RESEARCH topic="qt and translation workbench follow-up" rounds=1 sources_fetched=6 pages_created=3 backends_used="paper-search CLI"
+- [2026-10-18T23:01:35Z] WIKI_RESEARCH topic="t12 Maldon names, t14 Wulfstan and 1002, t15 OE g-palatalization" rounds=2 sources_fetched=14 pages_created=5 backends_used=paper-search,web-search
+- [2026-10-20T15:59:54Z] INGEST source="_raw (Old English after 1066 + two aenglisc_toolkit notes)" pages_created=3 pages_updated=9 mode=raw

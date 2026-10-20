@@ -60,7 +60,7 @@ These pages describe processes. They do not list internal symbols.
 ```mermaid
 flowchart TD
     start[Every CLI command] --> settings[Load settings]
-    settings --> ready[Database readiness gate]
+    settings --> ready[Database readiness gate, morphology and dictionary only]
     ready --> work{Which command}
 
     work --> convert[source convert]

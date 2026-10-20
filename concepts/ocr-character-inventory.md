@@ -50,6 +50,7 @@ The character inventory is the set of scalars the output is allowed to contain, 
 
 ## Related
 
+- [[synthesis/ocr-character-inventory-x-old-english-pronunciation|OCR Character Inventory × Old English Pronunciation]] — synthesis
 - [[concepts/diplomatic-ocr-target]]
 - [[concepts/pdf-text-layer-vs-ocr]] — if the text layer is already right, you never ask a model for this inventory
 - [[synthesis/Research: Scholarly PDF to Markdown]]

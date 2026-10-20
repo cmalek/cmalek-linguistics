@@ -1,0 +1,3048 @@
+---
+title: "6. Styling Your GUIs"
+source: "https://learning.oreilly.com/library/view/beginning-pyqt-a/9781484279991/html/490796_2_En_6_Chapter.xhtml"
+author:
+  - "Joshua M Willman"
+published: 2022-01-01
+created: 2026-10-18
+description: "© The Author(s), under exclusive license to APress Media, LLC, part of Springer Nature 2022J. M. WillmanBeginning PyQthttps://doi.org/10.1007/978-1-4842-7999-1_66. Styling Your..."
+tags:
+  - "ux"
+  - "qt"
+citation: "Willman, J. M. (2022). Beginning PyQt: A hands-on approach to GUI programming with PyQt6. Apress."
+---
+J. M. WillmanBeginning PyQt [https://doi.org/10.1007/978-1-4842-7999-1\_6](https://doi.org/10.1007/978-1-4842-7999-1_6)
+
+(1)
+
+Sunnyvale, CA, USA
+
+The GUIs you have created up until now have mainly focused on functionality and less on appearance and customization. Creating an interactive, coherent, and professional-looking GUI can be achieved not only with widgets and layout managers but also by modifying the look and behavior of each object in the interface. Choosing the right style, colors, fonts, and subtle forms of feedback can help create a consistent, easy-to-navigate, user-friendly experience.
+
+In this chapter, you will
+
+- Find out about styling PyQt applications
+- Learn how to customize the appearance of widgets with Qt Style Sheets and HTML
+- Use new PyQt widgets and classes, including QRadioButton, QGroupBox, and QTabWidget
+- Use containers and tabbed widgets for organizing and managing groups of widgets
+
+Let’s start by learning about what styles are in PyQt. After that, you’ll find out how to customize the look of an application’s windows and widgets.
+
+## What Are Styles in PyQt?
+
+When you use PyQt, the appearance of your applications are handled by Qt’s **QStyle** class. QStyle contains a number of subclasses that imitate the look of the system on which an application is being run. This makes your GUI look like a native macOS, Linux, or Windows application. Custom styles can be made either by modifying existing QStyle classes, creating your own classes, or using Qt Style Sheets.
+
+Without specifying a style in your code, PyQt will automatically choose a style that makes a GUI look like a native application. There are a number of built-in styles as well. You can use Listing [6-1](#PC1) to discover what styles are available on your operating system.
+
+\# styles.py
+
+\# Import necessary modules
+
+import sys
+
+from PyQt6.QtWidgets import QApplication, QStyleFactory
+
+\# Find out your OS's available styles
+
+print(f"Keys: {QStyleFactory.keys()}")
+
+\# Find out the default style applied to an application
+
+app = QApplication(sys.argv)
+
+print(f"Default style: {app.style().name()}")
+
+Listing 6-1
+
+Finding out what styles are available on your local system
+
+Running this short script will print out the following in a macOS shell:
+
+Keys: \['macOS', 'Windows', 'Fusion'\]
+
+Default style: macos
+
+On Windows, you will probably get a different set of keys (\['windowsvista', 'Windows', 'Fusion'\]) and style (windowsvista). Linux should also produce different outputs as well.
+
+The **QStyleFactory** class is used to create a QStyle object. Printing the QStyleFactory keys will return a list of all possible styles available on your OS. The output will change if you are on Windows or Linux. The Windows and Fusion styles are typically included on all systems.
+
+### Changing the Default Style
+
+It is possible to change the style being used by an application using the QApplication method setStyle(). Be sure to pass one of the available styles as an argument. For example:
+
+app.setStyle("Fusion")
+
+Styles can also be specified in the command line when running an application by including the -style option and a style type, such as
+
+$ python3 food\_order.py -style Fusion
+
+You should take a moment and try changing the style of previous programs. Be sure to include the -style option or use the setStyle() method and notice the differences in appearance.
+
+In the following sections, we will take a look at how you can customize the look of widgets in user interfaces.
+
+## Modifying Widget Appearances
+
+If you are going to modify the native styles given to widgets in PyQt, it is important to consider a few principles:
+
+1. 1.
+	**Consistency** is concerned with making sure widgets and other components of a GUI look and behave the same way.
+2. 2.
+	**Visual hierarchy** can be created through color, layout, size, or even depth.
+3. 3.
+	**Relationships** between different widgets can be established by how widgets are arranged or aligned. Widgets closer to one another or arranged vertically or horizontally in a line are generally perceived as related.
+4. 4.
+	**Emphasis** can be used to direct the user’s attention to specific widgets or parts of a window or dialog. This can be achieved using visual contrast, perhaps through different sizes or fonts.
+5. 5.
+	**Patterns** in the design of a GUI can be used to reduce the time it takes for a user to perform a task, maintain consistency, and create unity within an interface.
+
+In PyQt, it is possible to use **HyperText Markup Language** (**HTML**) for modifying the look of text and **Cascading Style Sheets** (**CSS**) for customizing the appearance of widgets and text. As of publishing, Qt is still using a subset of HTML4.[^3] We’ll look more at these languages in the following sections.
+
+### Using HTML to Change the Look of Text
+
+For classes in PyQt that can display rich text, such as QLabel and QLineEdit, HTML can be used to edit the appearance of text. To demonstrate, we’ll create a simple window in Listing [6-2](#PC5). The GUI displays two QLabel widgets – one where the text is not modified and another with changes to the text. You can use the basic\_window.py script from Chapter [1](https://learning.oreilly.com/library/view/beginning-pyqt-a/9781484279991/html/490796_2_En_1_Chapter.xhtml) to get started creating this example.
+
+\# html\_ex.py
+
+\# Import necessary modules
+
+import sys
+
+from PyQt6.QtWidgets import (QApplication, QWidget, QLabel,
+
+QVBoxLayout)
+
+class MainWindow(QWidget):
+
+def \_\_init\_\_(self):
+
+super().\_\_init\_\_()
+
+self.initializeUI()
+
+def initializeUI(self):
+
+"""Set up the application's GUI."""
+
+self.setMinimumSize(300, 100)
+
+self.setWindowTitle("HTML Example")
+
+no\_style\_label = QLabel(
+
+"""Have no fear of perfection
+
+\- you'll never reach it.
+
+\- Salvador Dali""")
+
+style\_label = QLabel("""
+
+\<p>\<font color='#DB8D31' face='Times' size='+2'>
+
+Have no fear of perfection -
+
+you'll never reach it.\</font>\</p>
+
+\<p align='right'>
+
+\<b> - \<i>Salvador Dali\</i>\</b>\</p>""")
+
+v\_box = QVBoxLayout()
+
+v\_box.addWidget(no\_style\_label)
+
+v\_box.addWidget(style\_label)
+
+self.setLayout(v\_box)
+
+self.show()
+
+if \_\_name\_\_ == '\_\_main\_\_':
+
+app = QApplication(sys.argv)
+
+window = MainWindow()
+
+sys.exit(app.exec())
+
+Listing 6-2
+
+Styling the text in a QLabel widget using HTML
+
+Setting up the main window is similar to previous programs, so we’ll focus more on the two QLabel instances, no\_style\_label and style\_label, in this example. The no\_style\_label instance is similar to other QLabel widgets we have created before. By using triple quotes, the text displayed in the label can also span across multiple lines. You can see this in Figure [6-1](#Fig1).
+
+Figure 6-1
+
+Two QLabel widgets display the same text, but the bottom label has been modified
+
+For style\_label, various HTML tags and attributes are used to describe the look of the text. **Tags** are used to define individual sections of text, while **attributes** are used to describe additional characteristics of a tag. Tags will typically consist of a starting tag, for example, \<p>, and a corresponding ending tag, \</p>. The p tag is used to define a single block of text within a larger section.
+
+Note
+
+Since Qt still uses HTML4, you are still able to use some tags that are deprecated in HTML5. In many cases, it may be more efficient to use HTML tags along with CSS formatting. (We’ll cover CSS in a little more detail in the next section.) This section merely provides one method for manipulating text.
+
+The style changes here are defined **inline**, meaning that the HTML code isn’t loaded from an external file but is instead directly specified for each widget. Doing it this way is useful for small adjustments to text or widgets. However, as we shall see in later examples, creating a separate variable or even file to store the styles is a better practice. Table [6-1](#Tab1) describes the tags and attributes used in Listing [6-2](#PC5).
+
+Table 6-1
+
+Some HTML4 tags and attributes that can be used in PyQt
+
+| Tag | Description |
+| --- | --- |
+| p | Defines a paragraph. Attributes such as align can be used to modify the tag |
+| font | Used to specify the look of a font using the color, face, and size attributes |
+| b | Specifies bold text |
+| i | Specifies italic text |
+
+More information about using HTML and the supported tags in Qt can be found at [https://doc.qt.io/qt-6/richtext-html-subset.html#using-html-markup-in-text-widgets](https://doc.qt.io/qt-6/richtext-html-subset.html%2523using-html-markup-in-text-widgets). The following section will discuss how to use the subset of CSS properties that are available in Qt.
+
+### Using Qt Style Sheets to Change the Look of Widgets
+
+CSS is a language that can be used alongside HTML to define how the different components of an application should be styled. Properties in CSS style sheets are applied in a “cascading” manner, meaning that properties are applied sequentially in a style sheet. Conflicts can sometimes arise depending on the order of the style sheet or between parent and child widgets, so you will need to pay attention to how you organize your style sheets. You will also face issues when you have multiple objects of the same widget type in a window but want to apply different styles.
+
+With **Qt Style Sheets**, you can customize a number of different widget properties, including background color, font size and color, border type, width, or style, as well as add padding to widgets. You can also modify **pseudostates**, which define special states of a widget, such as when a mouse hovers over a widget or when a widget changes states from active to disabled. **Subcontrols** can also be modified, allowing you to access a widget’s sub-elements and change their appearance, location, or other properties. For example, you could change the look of the indicator for QCheckBox to have a different color or icon when checked or unchecked.
+
+Customizations can be applied either to individual widgets or to an application’s QApplication instance using setStyleSheet(). For a list of widgets that can be styled or for a reference to all of the different properties supported in Qt, have a look at [https://doc.qt.io/qt-6/stylesheet-reference.html](https://doc.qt.io/qt-6/stylesheet-reference.html). Examples for using Qt Style Sheets are found at [https://doc.qt.io/qt-6/stylesheet-examples.html](https://doc.qt.io/qt-6/stylesheet-examples.html).
+
+Let’s look at a few examples before jumping into building an application. Changing the background color of a widget is quite common. To change the color from the standard gray color to blue, you could use the following line of code:
+
+line\_edit.setStyleSheet("background-color: blue")
+
+Pass a CSS property and a value separated by a colon as a string to setStyleSheet(). Here, the background color for line\_edit is set to blue using the CSS property background-color. This string that specifies the changes is called a **declaration**. If you are adjusting multiple properties in a single statement, separate each property with a semicolon.
+
+Colors in a style sheet can be specified using either hexadecimal, RGB, or color keyword formats. To change the foreground color (the text color) of a widget, have a look at the following code:
+
+line\_edit.setStyleSheet("color: rgb(244, 160, 25") # orange
+
+For windows and some widgets, you could even set a background image. To add a background image to the main window class, you could use the following code:
+
+self.setStyleSheet("background-image: url(images/logo.png)")
+
+You’ll need to use the url() syntax and pass a file location as an argument. A useful link regarding style sheet syntax is found at [https://doc.qt.io/qt-5/stylesheet-syntax.html](https://doc.qt.io/qt-5/stylesheet-syntax.html).
+
+The first example GUI you will build can be seen in Figure [6-2](#Fig2). The application consists of QLabel and QPushButton widgets, and styles are applied inline.
+
+Figure 6-2
+
+Customized QLabel and QPushButton widgets
+
+For comparison, have a look at the same GUI in Figure [6-3](#Fig3) where style sheets have not been applied.
+
+Figure 6-3
+
+PyQt GUI without style sheets
+
+Let’s see how to apply the concepts you’ve learned to build the application in the following section.
+
+### Explanation for Using “Inline” Qt Style Sheets
+
+In Listings [6-3](#PC9) to [6-5](#PC11), you will take a brief look at seeing how to customize individual widget properties. Let’s start by creating a new file using the basic\_window.py script, include the additional QtWidgets imports at the top, and modify the settings in initializeUI(). This GUI serves to demonstrate how to style widgets, so widgets are not connected to any signals. Be sure to download the images folder from this chapter’s GitHub repository.
+
+\# style\_sheet\_ex.py
+
+\# Import necessary modules
+
+import sys
+
+from PyQt6.QtWidgets import (QApplication, QWidget, QLabel,
+
+QPushButton, QVBoxLayout)
+
+class MainWindow(QWidget):
+
+def \_\_init\_\_(self):
+
+super().\_\_init\_\_()
+
+self.initializeUI()
+
+def initializeUI(self):
+
+"""Set up the application's GUI."""
+
+self.setMinimumSize(200, 200)
+
+self.setWindowTitle("Style Sheets Example")
+
+self.show()
+
+if \_\_name\_\_ == '\_\_main\_\_':
+
+app = QApplication(sys.argv)
+
+window = MainWindow()
+
+sys.exit(app.exec())
+
+Listing 6-3
+
+Setting up the main window for using Qt Style Sheets
+
+The code in Listing [6-4](#PC10) is placed before the show() method call in Listing [6-3](#PC9). The label created uses a combination of HTML and CSS to modify its appearance.
+
+\# style\_sheet\_ex.py
+
+label = QLabel("\<p align=center>Give me a like!\</p>")
+
+label.setStyleSheet("""
+
+background-color: skyblue;
+
+color: white;
+
+border-style: outset;
+
+border-width: 3px;
+
+border-radius: 5px;
+
+font: bold 24px 'Times New Roman'""")
+
+Listing 6-4
+
+Customizing the appearance for a QLabel widget in initializeUI()
+
+The label’s text is arranged in the center using the HTML attribute align. For the style sheet, the background is set to skyblue, and the text color is white. We can specify different border styles, widths, and radius values of the corners using CSS properties. Some commonly used border styles include outset, inset, and solid. Finally, the font style, weight, and size can also be set. A table of typically used properties can be found toward the end of the chapter in the “CSS Properties Reference” section.
+
+You should have a try and change the different pixel and color values and notice the differences. Refer to the Qt Style Sheets documentation for ideas about different properties that you can manipulate.
+
+#### Customizing Styles to React to Interactions
+
+When you use the general style settings for widgets, you will notice that they have their own ways of reacting to a user’s interaction. However, when you change some aspects of a widget using style sheets, other features may no longer work properly. In many instances, you’ll also need to style them as well. One common example is handling button presses after editing a button’s style.
+
+Let’s start by adding a QPushButton like in Listing [6-5](#PC11) after label.
+
+\# style\_sheet\_ex.py
+
+like\_button = QPushButton()
+
+like\_button.setStyleSheet("""
+
+QPushButton {background-color: lightgrey;
+
+padding: 5px;
+
+border-style: inset;
+
+border-width: 1px;
+
+border-radius: 5px;
+
+image: url(images/like\_normal.png);
+
+qproperty-iconSize: 20px 20px;}
+
+QPushButton:pressed {background-color: grey;
+
+padding: 5px;
+
+border-style: outset;
+
+border-width: 1px;
+
+border-radius: 5px;
+
+image: url(images/like\_clicked.png);
+
+qproperty-iconSize: 20px 20px;}""")
+
+v\_box = QVBoxLayout()
+
+v\_box.addWidget(label)
+
+v\_box.addWidget(like\_button)
+
+self.setLayout(v\_box)
+
+Listing 6-5
+
+Customizing the appearance for a QPushButton widget in initializeUI()
+
+We want to be able to handle the pseudostate when the button is being pressed. Unlike this GUI’s QLabel object, we’ll need to specify the **selector**, which is the widget type affected by the change (here, it is QPushButton), in order to access the:pressed state. By altering the normal look of the button, specifically the borders, the button will no longer display feedback when being pressed.
+
+Several properties that can be edited are common among many widgets, such as background-color, border, and padding. The padding property is used to add space around the text or image within the widget. If you wanted to add extra space outside of the widget, you can use the margin property.
+
+An image is also used for like\_button, and its size is adjusted using qproperty-iconSize. The qproperty property is used to modify specific aspects of a widget class. A simple example would be the text() getter from QLabel. If you wanted to use style sheets to specify the text of a label, you could use the following bit of code:
+
+label.setStyleSheet("qproperty-text: 'example text'")
+
+For the:pressed state, a darker background color, a darker image, and a different border style are used to convey to the user that the button is being pressed. The last step is to add the widgets to a layout and set the layout for the window.
+
+A list of all pseudostates can be found in Qt’s Style Sheet references. Let’s check out a more efficient alternative to using inline style sheets in the next section.
+
+### Explanation for Using “Embedded” Qt Style Sheets
+
+Embedded style sheets in CSS are used to define the styles for the entire document in one location, usually in the beginning of the script. We can follow a similar pattern when creating PyQt applications. This is especially useful when you have multiple widgets of the same type that all share the same style, allowing you to specify all of the modifications at one time. For example, the following code would set the background color for all QPushButton instances to red:
+
+app.setStyleSheet("QPushButton{background-color: #C92108}")
+
+Notice how the change is being applied to the QApplication object, app. For the example GUI in Figure [6-4](#Fig4), we are going to take a look at how to use embedded style sheets to apply changes to specific widgets.
+
+Figure 6-4
+
+GUI that demonstrates how to apply styles to specific widgets
+
+The window contains two QPushButton widgets – one with a native style and the other with a modified style.
+
+#### Applying Changes to Specific Widgets
+
+When you create an object in PyQt, such as a widget, you can give it a name using the QObject method setObjectName(). This can be useful for finding a particular child of a parent widget. When using style sheets, this allows us to give a widget an **ID Selector**, or a specific name, for identifying a particular widget.
+
+Listing [6-6](#PC14) shows how to use the ID Selector to apply a different style to a specified button.
+
+\# style\_sheet\_ex2.py
+
+\# Import necessary modules
+
+import sys
+
+from PyQt6.QtWidgets import (QApplication, QWidget, QLabel,
+
+QPushButton, QVBoxLayout)
+
+style\_sheet = """
+
+QPushButton#Warning\_Button{
+
+background-color: #C92108;
+
+border-radius: 5px;
+
+padding: 6px;
+
+color: #FFFFFF
+
+}
+
+QPushButton#Warning\_Button:pressed{
+
+background-color: #F4B519;
+
+}
+
+"""
+
+Listing 6-6
+
+Creating an embedded style sheet
+
+The window is simply composed of a QLabel and two QPushButton widgets. To target one specific widget, use the ID Selector. For this example, that is #Warning\_Button. To handle changes when the button is pressed, add the pseudostate:pressed after the ID Selector. These changes are added to the style\_sheet variable.
+
+Listing [6-7](#PC15) shows how to set up the MainWindow class, create the buttons, use setObjectName() to create the ID Selector, and arrange the widgets in a layout.
+
+\# style\_sheet\_ex2.py
+
+class MainWindow(QWidget):
+
+def \_\_init\_\_(self):
+
+super().\_\_init\_\_()
+
+self.initializeUI()
+
+def initializeUI(self):
+
+"""Set up the application's GUI."""
+
+self.setMinimumSize(230, 140)
+
+self.setWindowTitle("Style Sheets Example 2")
+
+label = QLabel("\<p align=center>Push a button.\</p>")
+
+normal\_button = QPushButton("Normal")
+
+warning\_button = QPushButton(“Warning!")
+
+\# Set ID Selector
+
+warning\_button.setObjectName("Warning\_Button")
+
+v\_box = QVBoxLayout()
+
+v\_box.addWidget(label)
+
+v\_box.addWidget(normal\_button)
+
+v\_box.addWidget(warning\_button)
+
+self.setLayout(v\_box)
+
+self.show()
+
+if \_\_name\_\_ == '\_\_main\_\_':
+
+app = QApplication(sys.argv)
+
+app.setStyleSheet(style\_sheet) # Set style of application
+
+window = MainWindow()
+
+sys.exit(app.exec())
+
+Listing 6-7
+
+Creating the MainWindow class and applying the style sheet
+
+The last task for this program is to apply the style sheet to the application’s QApplication object. Before moving on to a larger styling project, let’s find out about a few new and useful PyQt classes that are great for organization.
+
+## Organizing Widgets with Containers and Tabs
+
+Organization in a GUI can be achieved not only visually, but also by continuing to learn about new tools for structuring widgets. In Chapter [5](https://learning.oreilly.com/library/view/beginning-pyqt-a/9781484279991/html/490796_2_En_5_Chapter.xhtml), you saw how to use QWidget to group widgets together. In this section, you’ll
+
+- See how to create **containers** that create boxes around related widgets
+- Find out about radio buttons to practically see how relationships can be created and managed when developing GUIs
+- Explore the idea of organization in a user interface with tabbed interfaces, allowing for more content to be arranged in a GUI without overloading a user with too much visual information at one time
+
+You’ll learn all of this while creating the simple GUI in Figure [6-5](#Fig5).![](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781484279991/files/images/490796_2_En_6_Chapter/490796_2_En_6_Fig5_HTML.jpg)
+
+Figure 6-5 The contact form GUI. The Profile Details tab (left) contains two labels and two line edit widgets as well as a group box with two radio buttons. The Background tab (right) consists of a group box with five radio buttons
+
+The next few sections will discuss the new PyQt classes that we are going to use to build the application in Figure [6-5](#Fig5).
+
+### The QRadioButton Widget
+
+The **QRadioButton** class allows you to create option buttons that can be switched on when checked or off when unchecked. Radio buttons consist of a round button and a corresponding label or icon and are great for situations where you need to provide a user with multiple choices but only one choice can be checked at a time. As the user selects a new radio button, the other radio buttons are unchecked.
+
+To do so, you need to place multiple radio buttons in a parent widget. Those buttons will then become **autoexclusive**, meaning they automatically become members of a mutually exclusive group. If one radio button is checked inside of the parent, all of the other buttons will become unchecked. This functionality can be changed by setting the value of the QRadioButton method setAutoExclusive() to False.
+
+Multiple exclusive groups of radio buttons can also be placed into the same parent widget by using the QButtonGroup class to separate and manage the different groups. Refer back to Chapter [4](https://learning.oreilly.com/library/view/beginning-pyqt-a/9781484279991/html/490796_2_En_4_Chapter.xhtml) for information about QButtonGroup.
+
+Radio buttons are similar to the QCheckBox class when emitting signals. A radio button emits the toggled signal when checked on or off and can be connected to this signal to trigger a slot.
+
+### The QGroupBox Class
+
+The **QGroupBox** container is a rectangular frame used for grouping widgets together. A group box has a border with a title on the top. The title can also be checkable so that the child widgets inside the group box can be enabled or disabled when checked or unchecked.
+
+A group box object can contain any kind of widget. Since QGroupBox does not automatically arrange its child widgets, you will also need to apply a layout manager.
+
+The following block of code is a brief example of how to use QGroupBox:
+
+\# The title for the group box is passed as an argument
+
+effects\_gb = QGroupBox("Effects")
+
+\# Create two QRadioButton objects to arrange in the group box
+
+effect1\_rb = QRadioButton("Strikethrough")
+
+effect2\_rb = QRadioButton("Outline")
+
+\# Create a layout for the group box
+
+gb\_h\_box = QHBoxLayout()
+
+gb\_h\_box.addWidget(effect1\_rb)
+
+gb\_h\_box.addWidget(effect2\_rb)
+
+\# Set the layout for the group box
+
+effects\_gb.setLayout(gb\_h\_box)
+
+Let’s have a look at the final class for creating a tabbed user interface.
+
+### The QTabWidget Class
+
+Sometimes, you may need to organize related information onto separate pages rather than creating a cluttered GUI. The **QTabWidget** class provides a tab bar with an area under each tab (referred to as a **page**) to present information and widgets related to each tab. Only one page is displayed at a time, and the user can view a different page by clicking on the tab or by using a shortcut (if one is set for the tab).
+
+There are a few different ways to interact with and keep track of the different tabs. For example, if the user switches to a different tab, the index of the current tab can be returned when the currentChanged signal is emitted. You can also return a current page’s index with currentIndex(), or the widget of the current page with currentWidget(). A tab can also be enabled or disabled with the setTabEnabled() method.
+
+Tip
+
+If you want to create an interface with multiple pages, but without the tab bar, then you should consider using a **QStackedWidget**. However, if you do use QStackedWidget, you will need to provide some other means to switch between the windows, such as QComboBox or QListWidget, since there are no tabs.
+
+The following example creates a simple application that includes QRadioButton, QGroupBox, QTabWidget, and a few other classes. The program shows how to set up a tabbed interface and how to organize other widgets on the different pages.
+
+### Explanation for Using Containers and Tabs
+
+We’ll use the basic\_window.py script to get started with this application. Begin by importing the necessary classes in Listing [6-8](#PC17), including QRadioButton, QTabWidget, and QGroupBox from the QtWidgets module. Next, set up the MainWindow class and initialize its minimum size and title.
+
+\# containers.py
+
+\# Import necessary modules
+
+import sys
+
+from PyQt6.QtWidgets import (QApplication, QWidget, QLabel,
+
+QRadioButton, QGroupBox, QLineEdit, QTabWidget,
+
+QHBoxLayout, QVBoxLayout)
+
+class MainWindow(QWidget):
+
+def \_\_init\_\_(self):
+
+super().\_\_init\_\_()
+
+self.initializeUI()
+
+def initializeUI(self):
+
+"""Set up the application's GUI."""
+
+self.setMinimumSize(400, 300)
+
+self.setWindowTitle("Containers Example")
+
+self.setUpMainWindow()
+
+self.show()
+
+if \_\_name\_\_ == '\_\_main\_\_':
+
+app = QApplication(sys.argv)
+
+window = MainWindow()
+
+sys.exit(app.exec())
+
+Listing 6-8
+
+Setting up the main window for using containers and tabbed widgets
+
+Following that step, we need to set up the tab widget in setUpMainWindow(). You’ll need to first create an instance of QTabWidget. We’ll create the object, tab\_bar, in Listing [6-9](#PC18).
+
+\# containers.py
+
+def setUpMainWindow(self):
+
+"""Create and arrange widgets in the main window.
+
+Set up tab bar and different tab widgets."""
+
+\# Create tab bar and different page containers
+
+tab\_bar = QTabWidget(self)
+
+self.prof\_details\_tab = QWidget()
+
+self.background\_tab = QWidget()
+
+tab\_bar.addTab(self.prof\_details\_tab,
+
+"Profile Details")
+
+tab\_bar.addTab(self.background\_tab, "Background")
+
+\# Call methods to create the pages
+
+self.profileDetailsTab()
+
+self.backgroundTab()
+
+\# Create the layout for main window
+
+main\_h\_box = QHBoxLayout()
+
+main\_h\_box.addWidget(tab\_bar)
+
+self.setLayout(main\_h\_box)
+
+Listing 6-9
+
+The setUpMainWindow() method for using containers and tabbed widgets
+
+The next task is to create a container for each page. You could use QGroupBox or some other container class. For the purpose of this GUI, let’s use QWidget. There are two tabs for this project, prof\_details\_tab and background\_tab. Insert the two pages into tab\_bar using addTab(). Be sure to also give each tab an appropriate label.
+
+We’ll need to create two methods to create the different pages, profileDetailsTab() and backgroundTab(), and call them in setUpMainWindow(). Finally, arrange tab\_bar in the window. Listings [6-10](#PC19) and [6-11](#PC20) will set up the pages.
+
+\# containers.py
+
+def profileDetailsTab(self):
+
+"""Profile page allows the user to enter their name,
+
+address, and select their gender."""
+
+\# Set up labels and line edit widgets
+
+name\_label = QLabel("Name")
+
+name\_edit = QLineEdit()
+
+address\_label = QLabel("Address")
+
+address\_edit = QLineEdit()
+
+\# Create radio buttons and their layout manager
+
+male\_rb = QRadioButton("Male")
+
+female\_rb = QRadioButton("Female")
+
+gender\_h\_box = QHBoxLayout()
+
+gender\_h\_box.addWidget(male\_rb)
+
+gender\_h\_box.addWidget(female\_rb)
+
+\# Create group box to contain radio buttons
+
+gender\_gb = QGroupBox("Gender")
+
+gender\_gb.setLayout(gender\_h\_box)
+
+\# Add all widgets to the profile details page layout
+
+tab\_v\_box = QVBoxLayout()
+
+tab\_v\_box.addWidget(name\_label)
+
+tab\_v\_box.addWidget(name\_edit)
+
+tab\_v\_box.addStretch()
+
+tab\_v\_box.addWidget(address\_label)
+
+tab\_v\_box.addWidget(address\_edit)
+
+tab\_v\_box.addStretch()
+
+tab\_v\_box.addWidget(gender\_gb)
+
+\# Set layout for profile details tab
+
+self.prof\_details\_tab.setLayout(tab\_v\_box)
+
+Listing 6-10
+
+Code for the profileDetailsTab() page
+
+The first page includes a few widgets for collecting a user’s general information. You can refer back to Figure [6-5](#Fig5) to see how each page looks. The labels and line edit widgets are set up like normal. For the QRadioButton objects that ask about the user’s gender, they are added to a QGroupBox, gender\_gb, to make them mutually exclusive. The last step is to arrange the child widgets in a layout and call the method setLayout() for prof\_details\_tab to finish creating the page.
+
+The backgroundTab() method in Listing [6-11](#PC20) uses a for loop to instantiate each QRadioButton and add them to the page’s layout.
+
+\# containers.py
+
+def backgroundTab(self):
+
+"""Background page lets users select their educational
+
+background."""
+
+\# Layout for education\_gb
+
+ed\_v\_box = QVBoxLayout()
+
+\# Create and add radio buttons to ed\_v\_box
+
+education\_list = \["High School Diploma",
+
+"Associate's Degree”, "Bachelor's Degree",
+
+"Master's Degree", "Doctorate or Higher"\]
+
+for ed in education\_list:
+
+self.education\_rb = QRadioButton(ed)
+
+ed\_v\_box.addWidget(self.education\_rb)
+
+\# Set up group box to hold radio buttons
+
+self.education\_gb = QGroupBox(
+
+"Highest Level of Education")
+
+self.education\_gb.setLayout(ed\_v\_box)
+
+\# Create and set for background tab
+
+tab\_v\_box = QVBoxLayout()
+
+tab\_v\_box.addWidget(self.education\_gb)
+
+\# Set layout for background tab
+
+self.background\_tab.setLayout(tab\_v\_box)
+
+Listing 6-11
+
+Code for the backgroundTab() page
+
+With a basic understanding of style sheets and a few new PyQt classes, it’s now time to apply what you have learned to create a new GUI project.
+
+## Project 6.1 – Food Ordering GUI
+
+Food delivery service apps are everywhere. On your phone, on the Internet, and even on kiosks when you go into the actual restaurants themselves. They simplify the ordering process while also giving the user a feeling of control over their choices, asking us to select our own foods and items as we scroll through a list of organized categories.
+
+These types of GUIs may possibly need to contain hundreds of different items that fit into multiple groups. Rather than just throwing all of the products into the interface and letting the user waste their own time sorting through the items, goods are usually placed into categories often differentiated by tabs. These tabs contain titles for the products that can be found on those corresponding pages, such as Frozen Foods or Fruits/Vegetables.
+
+The GUI in this project allows the user to place an order for a pizza. It lays a foundation for a food ordering application using tab widgets to organize items onto separate pages. The project also shows how you can use style sheets to give a GUI made using PyQt a more aesthetic appearance. The tabbed interface can be seen in Figure [6-6](#Fig6).
+
+Figure 6-6
+
+The food ordering GUI. The GUI contains two tabs, Pizza (top) and Wings (bottom), to separate the types of food a customer can see at one time. The choices, which are QRadioButton widgets, that can be selected are separated using QGroupBox widgets. The main window has a red background, and each tab has a tan background. These colors and other styles are created with a style sheet
+
+### Design the Food Ordering GUI
+
+This application consists of two main tabs as seen in Figure [6-7](#Fig7), but more could be easily added. Each tab consists of a QWidget that acts as a container for all the other widgets. The first tab, Pizza, contains an image and text to convey the purpose of the tab to the user. This is followed by two QGroupBox widgets that each consist of a number of QRadioButton widgets. While the radio buttons in the Crust group box are mutually exclusive, the ones in the Toppings group box are not. This is done so that the user can select multiple toppings at one time.![](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781484279991/files/images/490796_2_En_6_Chapter/490796_2_En_6_Fig7_HTML.jpg)
+
+Figure 6-7 The design for the food ordering GUI
+
+The second tab, Wings, is set up in a similar fashion with the Flavor radio buttons being mutually exclusive.
+
+At the bottom of each page is an Add to Order QPushButton that will update the user’s order in the widget on the right-hand side of the window.
+
+### Explanation for the Food Ordering GUI
+
+This GUI does not contain a menu bar, so we’ll once again use the basic\_window.py script as the foundation for the application and the MainWindow class in Listing [6-12](#PC21).
+
+\# food\_order.py
+
+\# Import necessary modules
+
+import sys
+
+from PyQt6.QtWidgets import (QApplication, QWidget, QLabel,
+
+QPushButton, QRadioButton, QButtonGroup, QTabWidget,
+
+QGroupBox, QVBoxLayout, QHBoxLayout, QGridLayout)
+
+from PyQt6.QtCore import Qt
+
+from PyQt6.QtGui import QPixmap
+
+class MainWindow(QWidget):
+
+def \_\_init\_\_(self):
+
+super().\_\_init\_\_()
+
+self.initializeUI()
+
+def initializeUI(self):
+
+"""Set up the application's GUI."""
+
+self.setMinimumSize(700, 700)
+
+self.setWindowTitle("6.1 – Food Order GUI")
+
+self.setUpMainWindow()
+
+self.show()
+
+if \_\_name\_\_ == '\_\_main\_\_':
+
+app = QApplication(sys.argv)
+
+app.setStyleSheet(style\_sheet)
+
+window = MainWindow()
+
+sys.exit(app.exec())
+
+Listing 6-12
+
+Setting up the main window for the food ordering GUI
+
+There are quite a few imports for this GUI, but they have all been discussed in this chapter or in previous ones. Notice how the embedded style sheet for the food ordering GUI that we will create in the following section is imported with app.setStyleSheet(style\_sheet).
+
+#### Creating the Style Sheet
+
+If a style sheet is not applied to the food ordering GUI, then it will use your system’s native settings to style the application. Figure [6-8](#Fig8) shows what this looks like on macOS.![](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781484279991/files/images/490796_2_En_6_Chapter/490796_2_En_6_Fig8_HTML.jpg)
+
+Figure 6-8 The food ordering GUI before the style sheet is applied
+
+In the beginning of the program, you will need to create the style\_sheet instance that holds all of the different style specifications for the different widgets. To begin, we can specify a general red background color, #C92108, which is used for the main window in Listing [6-13](#PC22).
+
+\# food\_order.py
+
+\# Set up style sheet for the entire GUI
+
+style\_sheet = """
+
+QWidget{
+
+background-color: #C92108;
+
+}
+
+QWidget#Tabs{
+
+background-color: #FCEBCD;
+
+border-radius: 4px
+
+}
+
+QWidget#ImageBorder{
+
+background-color: #FCF9F3;
+
+border-width: 2px;
+
+border-style: solid;
+
+border-radius: 4px;
+
+border-color: #FABB4C
+
+}
+
+QWidget#Side{
+
+background-color: #EFD096;
+
+border-radius: 4px
+
+}
+
+Listing 6-13
+
+Setting up the style sheet for the food ordering GUI, part 1
+
+But if a QWidget has a specified ID Selector such as #Tabs, then it will get a tan background, #FCEBCD, and rounded corners. Widgets with these properties are used to style the pages for each tab.
+
+The QWidget instances with the ID Selector #ImageBorder are created with an off-white background for containing the labels that display information to the user about each page.
+
+The last QWidget selector with ID Selector #Side defines the settings for the side bar.
+
+In Listing [6-14](#PC23), create a general style for QLabel widgets, followed by a style for labels that appear as headers on each page. Take note that it is possible to specify a padding value for all four sides of a widget using padding, or for individual sides with padding-left, padding-top, and so on.
+
+\# food\_order.py
+
+QLabel{
+
+background-color: #EFD096;
+
+border-width: 2px;
+
+border-style: solid;
+
+border-radius: 4px;
+
+border-color: #EFD096
+
+}
+
+QLabel#ImageInfo{
+
+background-color: #FCF9F3;
+
+border-radius: 4px;
+
+}
+
+QGroupBox{
+
+background-color: #FCEBCD;
+
+color: #961A07
+
+}
+
+QRadioButton{
+
+background-color: #FCF9F3
+
+}
+
+QPushButton{
+
+background-color: #C92108;
+
+border-radius: 4px;
+
+padding: 6px;
+
+color: #FFFFFF
+
+}
+
+QPushButton:pressed{
+
+background-color: #C86354;
+
+border-radius: 4px;
+
+padding: 6px;
+
+color: #DFD8D7
+
+}
+
+"""
+
+Listing 6-14
+
+Setting up the style sheet for the food ordering GUI, part 2
+
+The QLabel selectors with #ImageInfo are for the informational images and text on each page. To finish off the style sheet, there are styles for the QGroupBox, QRadioButton, and QPushButton objects.
+
+We can now begin to tackle creating the MainWindow method setUpMainWindow().
+
+#### Building the Main Window
+
+To get started, create the structure for the tabs and layout for the main window in Listing [6-15](#PC24). Set up instances of the QTabWidget and QWidget objects that will be used for the pages of the tabs. The two tabs are the pizza\_tab, to display choices for building your own pizza, and the wings\_tab, to show choices for wing flavors.
+
+\# food\_order.py
+
+def setUpMainWindow(self):
+
+"""Create and arrange widgets in the main window."""
+
+\# Create tab bar, different tabs, and set object names
+
+self.tab\_bar = QTabWidget()
+
+self.pizza\_tab = QWidget()
+
+self.pizza\_tab.setObjectName("Tabs")
+
+self.wings\_tab = QWidget()
+
+self.wings\_tab.setObjectName("Tabs")
+
+self.tab\_bar.addTab(self.pizza\_tab, "Pizza")
+
+self.tab\_bar.addTab(self.wings\_tab, "Wings")
+
+\# Call methods that contain the widgets for each tab
+
+self.pizzaTab()
+
+self.wingsTab()
+
+Listing 6-15
+
+Setting up the main window for the food ordering GUI, part 1
+
+Some of the widgets in this GUI are given an ID Selector using the setObjectName() method. For example, pizza\_tab is given the #Tabs ID Selector. This name is used in the application’s style sheet to differentiate this widget from other QWidget objects with a different style.
+
+Listing [6-16](#PC25) shows how to build the side bar. The side\_widget is used to give feedback to users of their choices and can be seen even if the user switches tabs.
+
+\# food\_order.py
+
+\# Create side bar in the main window
+
+self.side\_widget = QWidget()
+
+self.side\_widget.setObjectName("Tabs")
+
+items\_box = QWidget()
+
+items\_box.setObjectName("Side")
+
+pizza\_label = QLabel("Pizza Type: ")
+
+self.display\_pizza\_label = QLabel("")
+
+toppings\_label = QLabel("Toppings: ")
+
+self.display\_toppings\_label = QLabel("")
+
+extra\_label = QLabel("Extra: ")
+
+self.display\_wings\_label = QLabel("")
+
+\# Set grid layout for objects in side widget
+
+items\_grid = QGridLayout()
+
+items\_grid.addWidget(pizza\_label, 0, 0,
+
+Qt.AlignmentFlag.AlignRight)
+
+items\_grid.addWidget(self.display\_pizza\_label, 0, 1)
+
+items\_grid.addWidget(toppings\_label, 1, 0,
+
+Qt.AlignmentFlag.AlignRight)
+
+items\_grid.addWidget(self.display\_toppings\_label,
+
+1, 1)
+
+items\_grid.addWidget(extra\_label, 2, 0,
+
+Qt.AlignmentFlag.AlignRight)
+
+items\_grid.addWidget(self.display\_wings\_label, 2, 1)
+
+items\_box.setLayout(items\_grid)
+
+Listing 6-16
+
+Setting up the main window for the food ordering GUI, part 2
+
+Labels that are meant to display a user’s choices will initially display an empty string. All of the children for side\_widget are arranged in a nested layout and added to the main QHBoxLayout in Listing [6-17](#PC26).
+
+\# food\_order.py
+
+\# Set main layout for side widget
+
+side\_v\_box = QVBoxLayout()
+
+side\_v\_box.addWidget(order\_label)
+
+side\_v\_box.addWidget(items\_box)
+
+side\_v\_box.addStretch()
+
+self.side\_widget.setLayout(side\_v\_box)
+
+\# Add widgets to main window and set layout
+
+main\_h\_box = QHBoxLayout()
+
+main\_h\_box.addWidget(self.tab\_bar, 1)
+
+main\_h\_box.addWidget(self.side\_widget)
+
+self.setLayout(main\_h\_box)
+
+Listing 6-17
+
+Setting up the main window for the food ordering GUI, part 3
+
+The pizzaTab() method, built in Listings [6-18](#PC27) and [6-19](#PC28), creates and arranges the child widgets for the first tab, pizza\_tab. The top of the first page gives users information about the purpose of the tab using images and text. The radio buttons that display the pizza crust choices are also instantiated.
+
+\# food\_order.py
+
+def pizzaTab(self):
+
+"""Create the pizza tab. Allows the user to select
+
+the pizza type and toppings using radio buttons."""
+
+\# Set up widgets and layouts to display information
+
+\# to the user about the page
+
+tab\_pizza\_label = QLabel("BUILD YOUR OWN PIZZA")
+
+tab\_pizza\_label.setObjectName("Header")
+
+description\_box = QWidget()
+
+description\_box.setObjectName("ImageBorder")
+
+pizza\_image\_path = "images/pizza.png"
+
+pizza\_image = self.loadImage(pizza\_image\_path)
+
+pizza\_desc = QLabel()
+
+pizza\_desc.setObjectName("ImageInfo")
+
+pizza\_desc.setText(
+
+"""\<p>Build a custom pizza for you. Start with
+
+your favorite crust and add any toppings, plus
+
+the perfect amount of cheese and sauce.\</p>""")
+
+pizza\_desc.setWordWrap(True)
+
+pizza\_desc.setContentsMargins(10, 10, 10, 10)
+
+pizza\_h\_box = QHBoxLayout()
+
+pizza\_h\_box.addWidget(pizza\_image)
+
+pizza\_h\_box.addWidget(pizza\_desc, 1)
+
+description\_box.setLayout(pizza\_h\_box)
+
+\# Create group box that will contain crust choices
+
+crust\_gbox = QGroupBox()
+
+crust\_gbox.setTitle("CHOOSE YOUR CRUST")
+
+\# The group box is used to group the widgets together,
+
+\# while the button group is used to get information
+
+\# about which radio button is checked
+
+self.crust\_group = QButtonGroup()
+
+gb\_v\_box = QVBoxLayout()
+
+crust\_list = \["Hand-Tossed", "Flat", "Stuffed"\]
+
+\# Create radio buttons for the different crusts and
+
+\# add to layout
+
+for cr in crust\_list:
+
+crust\_rb = QRadioButton(cr)
+
+gb\_v\_box.addWidget(crust\_rb)
+
+self.crust\_group.addButton(crust\_rb)
+
+crust\_gbox.setLayout(gb\_v\_box)
+
+Listing 6-18
+
+Code for the pizzaTab() page, part 1
+
+Be sure to follow along with the comments in Listing [6-18](#PC27) to understand how the page is structured. QRadioButton widgets are grouped together using group boxes. This allows each group to have a title. The QGroupBox class does provide exclusivity to radio buttons, but to get the type of functionality to find out which buttons are checked and return their text values, the QRadioButton objects are also grouped using QButtonGroup. Refer to Chapter [4](https://learning.oreilly.com/library/view/beginning-pyqt-a/9781484279991/html/490796_2_En_4_Chapter.xhtml) for more information about QButtonGroup.
+
+The code in Listing [6-19](#PC28) sets up the QRadioButton objects that display the pizza topping selections.
+
+\# food\_order.py
+
+\# Create group box that will contain toppings choices
+
+toppings\_gbox = QGroupBox()
+
+toppings\_gbox.setTitle("CHOOSE YOUR TOPPINGS")
+
+\# Set up button group for toppings radio buttons
+
+self.toppings\_group = QButtonGroup()
+
+gb\_v\_box = QVBoxLayout()
+
+toppings\_list = \["Pepperoni", "Sausage", "Bacon",
+
+"Canadian Bacon", "Beef", "Pineapple",
+
+"Olive", "Tomato", "Green Pepper",
+
+"Mushroom", "Onion", "Spinach",
+
+"Cheese"\]
+
+\# Create radio buttons for the different toppings and
+
+\# add to layout
+
+for top in toppings\_list:
+
+toppings\_rb = QRadioButton(top)
+
+gb\_v\_box.addWidget(toppings\_rb)
+
+self.toppings\_group.addButton(toppings\_rb)
+
+self.toppings\_group.setExclusive(False)
+
+toppings\_gbox.setLayout(gb\_v\_box)
+
+\# Create button to add information to side widget
+
+\# when clicked
+
+add\_to\_order\_button1 = QPushButton("Add To Order")
+
+add\_to\_order\_button1.clicked.connect(
+
+self.displayPizzaInOrder)
+
+\# Create layout for pizza tab (page 1)
+
+page1\_v\_box = QVBoxLayout()
+
+page1\_v\_box.addWidget(tab\_pizza\_label)
+
+page1\_v\_box.addWidget(description\_box)
+
+page1\_v\_box.addWidget(crust\_gbox)
+
+page1\_v\_box.addWidget(toppings\_gbox)
+
+page1\_v\_box.addStretch()
+
+page1\_v\_box.addWidget(add\_to\_order\_button1,
+
+alignment=Qt.AlignmentFlag.AlignRight)
+
+self.pizza\_tab.setLayout(page1\_v\_box)
+
+Listing 6-19
+
+Code for the pizzaTab() page, part 2
+
+While only one radio button can be selected in crust\_group in Listing [6-18](#PC27), users need to be able to select more than one topping. This is achieved by using the setExclusive() method to set the exclusivity of toppings\_group to False.
+
+The wingsTab() method in Listings [6-20](#PC29) and [6-21](#PC30) is set up in a similar manner to pizzaTab().
+
+\# food\_order.py
+
+def wingsTab(self):
+
+"""Create the wings tab. Allows the user to select
+
+the pizza type and toppings using radio buttons."""
+
+\# Set up widgets and layouts to display information
+
+\# to the user about the page
+
+tab\_wings\_label = QLabel("TRY OUR AMAZING WINGS")
+
+tab\_wings\_label.setObjectName("Header")
+
+description\_box = QWidget()
+
+description\_box.setObjectName("ImageBorder")
+
+wings\_image\_path = "images/wings.png"
+
+wings\_image = self.loadImage(wings\_image\_path)
+
+wings\_desc = QLabel()
+
+wings\_desc.setObjectName("ImageInfo")
+
+wings\_desc.setText(
+
+"""\<p>6 pieces of rich-tasting, white meat
+
+chicken that will have you coming back for
+
+more.\</p>""")
+
+wings\_desc.setWordWrap(True)
+
+wings\_desc.setContentsMargins(10, 10, 10, 10)
+
+wings\_h\_box = QHBoxLayout()
+
+wings\_h\_box.addWidget(wings\_image)
+
+wings\_h\_box.addWidget(wings\_desc, 1)
+
+description\_box.setLayout(wings\_h\_box)
+
+Listing 6-20
+
+Code for the wingsTab() page, part 1
+
+The widgets for selecting wings are organized and added to wings\_tab in Listing [6-21](#PC30).
+
+\# food\_order.py
+
+wings\_gbox = QGroupBox()
+
+wings\_gbox.setTitle("CHOOSE YOUR FLAVOR")
+
+self.wings\_group = QButtonGroup()
+
+gb\_v\_box = QVBoxLayout()
+
+flavors\_list = \[
+
+"Buffalo", "Sweet-Sour", "Teriyaki", "Barbecue"\]
+
+\# Create radio buttons for the different flavors and
+
+\# add to layout
+
+for fl in flavors\_list:
+
+flavor\_rb = QRadioButton(fl)
+
+gb\_v\_box.addWidget(flavor\_rb)
+
+self.wings\_group.addButton(flavor\_rb)
+
+wings\_gbox.setLayout(gb\_v\_box)
+
+\# Create button to add information to side widget
+
+\# when clicked
+
+add\_to\_order\_button2 = QPushButton("Add To Order")
+
+add\_to\_order\_button2.clicked.connect(
+
+self.displayWingsInOrder)
+
+\# create layout for wings tab (page 2)
+
+page2\_v\_box = QVBoxLayout()
+
+page2\_v\_box.addWidget(tab\_wings\_label)
+
+page2\_v\_box.addWidget(description\_box)
+
+page2\_v\_box.addWidget(wings\_gbox)
+
+page2\_v\_box.addWidget(add\_to\_order\_button2,
+
+alignment=Qt.AlignmentFlag.AlignRight)
+
+page2\_v\_box.addStretch()
+
+self.wings\_tab.setLayout(page2\_v\_box)
+
+Listing 6-21
+
+Code for the wingsTab() page, part 2
+
+If users press the add\_to\_order\_button on either page (either 1 or 2), the text from the selected radio buttons on that page are displayed in the side\_widget using one of the two methods in Listing [6-22](#PC31).
+
+\# food\_order.py
+
+def displayPizzaInOrder(self):
+
+"""Collect the text from the radio buttons that are
+
+checked on the pizza page. Display text in side
+
+widget."""
+
+if self.crust\_group.checkedButton():
+
+text = self.crust\_group.checkedButton().text()
+
+self.display\_pizza\_label.setText(text)
+
+toppings = self.collectToppingsInList()
+
+toppings\_str = '\\n'.join(toppings)
+
+self.display\_toppings\_label.setText(toppings\_str)
+
+self.update()
+
+def displayWingsInOrder(self):
+
+"""Collect the text from the radio buttons that are
+
+checked on the wings page. Display text in side
+
+widget."""
+
+if self.wings\_group.checkedButton():
+
+text = self.wings\_group.checkedButton().text() +\\
+
+" Wings"
+
+self.display\_wings\_label.setText(text)
+
+self.update()
+
+Listing 6-22
+
+Code for updating the side bar in the food ordering GUI
+
+For displayPizzaInOrder(), we check to see if any of the radio buttons in the QButtonGroup crust\_group are selected. If so, the text from the selected button is collected and displayed in display\_pizza\_label using setText(). For display\_toppings\_label, all of the selected toppings radio buttons are collected and returned using collectToppingsInList() in Listing [6-23](#PC32). The toppings are then depicted in the label. The update() method is used to ensure that the text is updated accordingly.
+
+\# food\_order.py
+
+def collectToppingsInList(self):
+
+"""Create list of all checked radio buttons."""
+
+toppings\_list = \[button.text() for i, button in \\
+
+enumerate(self.toppings\_group.buttons()) if \\
+
+button.isChecked()\]
+
+return toppings\_list
+
+Listing 6-23
+
+Code for collecting information about selected radio buttons in the food ordering GUI
+
+The last method to implement in Listing [6-24](#PC33), loadImage(), loads and scales the pizza and wing images used on the two pages.
+
+\# food\_order.py
+
+def loadImage(self, img\_path):
+
+"""Load and scale images."""
+
+aspect = Qt.AspectRatioMode.KeepAspectRatioByExpanding
+
+transform = Qt.TransformationMode.SmoothTransformation
+
+try:
+
+with open(img\_path):
+
+image = QLabel(self)
+
+image.setObjectName("ImageInfo")
+
+pixmap = QPixmap(img\_path)
+
+image.setPixmap(pixmap.scaled(image.size(),
+
+aspect, transform))
+
+return image
+
+except FileNotFoundError as error:
+
+print(f"Image not found. Error: {error}")
+
+Listing 6-24
+
+Code for loading images in the food ordering GUI
+
+A fairly long project, the food ordering GUI demonstrates just how intensive an interface can be to style. The next step could be to add more tabs and options as a way to practice building stylized tabbed interfaces or even use the Qt documentation to modify the properties of the GUI.
+
+## CSS Properties Reference
+
+Table [6-2](#Tab2) lists the CSS properties found throughout this chapter as well as some commonly used properties you may need for your early projects.
+
+Table 6-2
+
+Commonly used CSS properties in PyQt
+
+| Property | Description |
+| --- | --- |
+| background-color | Sets the background color for the widget |
+| border | Shorthand for setting the border color, style, and width  QLabel {border: 2px groove grey} |
+| border-color | Specifies the color of the border for all sides of the widget |
+| border-style | Specifies the pattern for drawing the widget’s border. Some of the patterns are dashed, dotted, groove, inset, outset, and solid |
+| border-width | Sets the border width for all sides of the widget (in pixels) |
+| border-radius | Sets the radius of the widget’s corners (in pixels) |
+| color | Specifies the color used for text |
+| font | Specifies the font weight, style, size, and family  QLabel {font: bold italic small 'Times'} |
+| image | Sets the image used within the widget. Be sure to include url(path\_to\_file) |
+| margin | Specifies the additional space around the widget (in pixels) |
+| padding | Specifies the additional space inside of the widget (in pixels) |
+
+## Summary
+
+In this chapter, we saw how to use Qt Style Sheets to modify the appearance of widgets to better fit the purpose and look of an application. We also saw how HTML can be used to manipulate the look of text.
+
+The benefits of using style sheets include easier updates to code, greater consistency in design, simpler way to format the look of widgets, increase in usability, and less difficulty for a developer to control colors, layouts, and other aesthetic aspects of UI design.
+
+Chapter [7](https://learning.oreilly.com/library/view/beginning-pyqt-a/9781484279991/html/490796_2_En_7_Chapter.xhtml) will discuss a very important topic – event handling.
+
+[^1]: (1)
+
+Sunnyvale, CA, USA
+
+[^2]: The GUIs you have created up until now have mainly focused on functionality and less on appearance and customization. Creating an interactive, coherent, and professional-looking GUI can be achieved not only with widgets and layout managers but also by modifying the look and behavior of each object in the interface. Choosing the right style, colors, fonts, and subtle forms of feedback can help create a consistent, easy-to-navigate, user-friendly experience.
+
+In this chapter, you will
+
+- Find out about styling PyQt applications
+- Learn how to customize the appearance of widgets with Qt Style Sheets and HTML
+- Use new PyQt widgets and classes, including QRadioButton, QGroupBox, and QTabWidget
+- Use containers and tabbed widgets for organizing and managing groups of widgets
+
+Let’s start by learning about what styles are in PyQt. After that, you’ll find out how to customize the look of an application’s windows and widgets.
+
+## What Are Styles in PyQt?
+
+When you use PyQt, the appearance of your applications are handled by Qt’s **QStyle** class. QStyle contains a number of subclasses that imitate the look of the system on which an application is being run. This makes your GUI look like a native macOS, Linux, or Windows application. Custom styles can be made either by modifying existing QStyle classes, creating your own classes, or using Qt Style Sheets.
+
+Without specifying a style in your code, PyQt will automatically choose a style that makes a GUI look like a native application. There are a number of built-in styles as well. You can use Listing [6-1](#PC1) to discover what styles are available on your operating system.
+
+\# styles.py
+
+\# Import necessary modules
+
+import sys
+
+from PyQt6.QtWidgets import QApplication, QStyleFactory
+
+\# Find out your OS's available styles
+
+print(f"Keys: {QStyleFactory.keys()}")
+
+\# Find out the default style applied to an application
+
+app = QApplication(sys.argv)
+
+print(f"Default style: {app.style().name()}")
+
+Listing 6-1
+
+Finding out what styles are available on your local system
+
+Running this short script will print out the following in a macOS shell:
+
+Keys: \['macOS', 'Windows', 'Fusion'\]
+
+Default style: macos
+
+On Windows, you will probably get a different set of keys (\['windowsvista', 'Windows', 'Fusion'\]) and style (windowsvista). Linux should also produce different outputs as well.
+
+The **QStyleFactory** class is used to create a QStyle object. Printing the QStyleFactory keys will return a list of all possible styles available on your OS. The output will change if you are on Windows or Linux. The Windows and Fusion styles are typically included on all systems.
+
+### Changing the Default Style
+
+It is possible to change the style being used by an application using the QApplication method setStyle(). Be sure to pass one of the available styles as an argument. For example:
+
+app.setStyle("Fusion")
+
+Styles can also be specified in the command line when running an application by including the -style option and a style type, such as
+
+$ python3 food\_order.py -style Fusion
+
+You should take a moment and try changing the style of previous programs. Be sure to include the -style option or use the setStyle() method and notice the differences in appearance.
+
+In the following sections, we will take a look at how you can customize the look of widgets in user interfaces.
+
+## Modifying Widget Appearances
+
+If you are going to modify the native styles given to widgets in PyQt, it is important to consider a few principles:
+
+1. 1.
+	**Consistency** is concerned with making sure widgets and other components of a GUI look and behave the same way.
+2. 2.
+	**Visual hierarchy** can be created through color, layout, size, or even depth.
+3. 3.
+	**Relationships** between different widgets can be established by how widgets are arranged or aligned. Widgets closer to one another or arranged vertically or horizontally in a line are generally perceived as related.
+4. 4.
+	**Emphasis** can be used to direct the user’s attention to specific widgets or parts of a window or dialog. This can be achieved using visual contrast, perhaps through different sizes or fonts.
+5. 5.
+	**Patterns** in the design of a GUI can be used to reduce the time it takes for a user to perform a task, maintain consistency, and create unity within an interface.
+
+In PyQt, it is possible to use **HyperText Markup Language** (**HTML**) for modifying the look of text and **Cascading Style Sheets** (**CSS**) for customizing the appearance of widgets and text. As of publishing, Qt is still using a subset of HTML4.<sup><a role="doc-noteref" href="#Fn1" aria-label="Footnote 1">1</a></sup> We’ll look more at these languages in the following sections.
+
+### Using HTML to Change the Look of Text
+
+For classes in PyQt that can display rich text, such as QLabel and QLineEdit, HTML can be used to edit the appearance of text. To demonstrate, we’ll create a simple window in Listing [6-2](#PC5). The GUI displays two QLabel widgets – one where the text is not modified and another with changes to the text. You can use the basic\_window.py script from Chapter [1](https://learning.oreilly.com/library/view/beginning-pyqt-a/9781484279991/html/490796_2_En_1_Chapter.xhtml) to get started creating this example.
+
+\# html\_ex.py
+
+\# Import necessary modules
+
+import sys
+
+from PyQt6.QtWidgets import (QApplication, QWidget, QLabel,
+
+QVBoxLayout)
+
+class MainWindow(QWidget):
+
+def \_\_init\_\_(self):
+
+super().\_\_init\_\_()
+
+self.initializeUI()
+
+def initializeUI(self):
+
+"""Set up the application's GUI."""
+
+self.setMinimumSize(300, 100)
+
+self.setWindowTitle("HTML Example")
+
+no\_style\_label = QLabel(
+
+"""Have no fear of perfection
+
+\- you'll never reach it.
+
+\- Salvador Dali""")
+
+style\_label = QLabel("""
+
+\<p>\<font color='#DB8D31' face='Times' size='+2'>
+
+Have no fear of perfection -
+
+you'll never reach it.\</font>\</p>
+
+\<p align='right'>
+
+\<b> - \<i>Salvador Dali\</i>\</b>\</p>""")
+
+v\_box = QVBoxLayout()
+
+v\_box.addWidget(no\_style\_label)
+
+v\_box.addWidget(style\_label)
+
+self.setLayout(v\_box)
+
+self.show()
+
+if \_\_name\_\_ == '\_\_main\_\_':
+
+app = QApplication(sys.argv)
+
+window = MainWindow()
+
+sys.exit(app.exec())
+
+Listing 6-2
+
+Styling the text in a QLabel widget using HTML
+
+Setting up the main window is similar to previous programs, so we’ll focus more on the two QLabel instances, no\_style\_label and style\_label, in this example. The no\_style\_label instance is similar to other QLabel widgets we have created before. By using triple quotes, the text displayed in the label can also span across multiple lines. You can see this in Figure [6-1](#Fig1).
+
+Figure 6-1
+
+Two QLabel widgets display the same text, but the bottom label has been modified
+
+For style\_label, various HTML tags and attributes are used to describe the look of the text. **Tags** are used to define individual sections of text, while **attributes** are used to describe additional characteristics of a tag. Tags will typically consist of a starting tag, for example, \<p>, and a corresponding ending tag, \</p>. The p tag is used to define a single block of text within a larger section.
+
+Note
+
+Since Qt still uses HTML4, you are still able to use some tags that are deprecated in HTML5. In many cases, it may be more efficient to use HTML tags along with CSS formatting. (We’ll cover CSS in a little more detail in the next section.) This section merely provides one method for manipulating text.
+
+The style changes here are defined **inline**, meaning that the HTML code isn’t loaded from an external file but is instead directly specified for each widget. Doing it this way is useful for small adjustments to text or widgets. However, as we shall see in later examples, creating a separate variable or even file to store the styles is a better practice. Table [6-1](#Tab1) describes the tags and attributes used in Listing [6-2](#PC5).
+
+Table 6-1
+
+Some HTML4 tags and attributes that can be used in PyQt
+
+| Tag | Description |
+| --- | --- |
+| p | Defines a paragraph. Attributes such as align can be used to modify the tag |
+| font | Used to specify the look of a font using the color, face, and size attributes |
+| b | Specifies bold text |
+| i | Specifies italic text |
+
+More information about using HTML and the supported tags in Qt can be found at [https://doc.qt.io/qt-6/richtext-html-subset.html#using-html-markup-in-text-widgets](https://doc.qt.io/qt-6/richtext-html-subset.html%2523using-html-markup-in-text-widgets). The following section will discuss how to use the subset of CSS properties that are available in Qt.
+
+### Using Qt Style Sheets to Change the Look of Widgets
+
+CSS is a language that can be used alongside HTML to define how the different components of an application should be styled. Properties in CSS style sheets are applied in a “cascading” manner, meaning that properties are applied sequentially in a style sheet. Conflicts can sometimes arise depending on the order of the style sheet or between parent and child widgets, so you will need to pay attention to how you organize your style sheets. You will also face issues when you have multiple objects of the same widget type in a window but want to apply different styles.
+
+With **Qt Style Sheets**, you can customize a number of different widget properties, including background color, font size and color, border type, width, or style, as well as add padding to widgets. You can also modify **pseudostates**, which define special states of a widget, such as when a mouse hovers over a widget or when a widget changes states from active to disabled. **Subcontrols** can also be modified, allowing you to access a widget’s sub-elements and change their appearance, location, or other properties. For example, you could change the look of the indicator for QCheckBox to have a different color or icon when checked or unchecked.
+
+Customizations can be applied either to individual widgets or to an application’s QApplication instance using setStyleSheet(). For a list of widgets that can be styled or for a reference to all of the different properties supported in Qt, have a look at [https://doc.qt.io/qt-6/stylesheet-reference.html](https://doc.qt.io/qt-6/stylesheet-reference.html). Examples for using Qt Style Sheets are found at [https://doc.qt.io/qt-6/stylesheet-examples.html](https://doc.qt.io/qt-6/stylesheet-examples.html).
+
+Let’s look at a few examples before jumping into building an application. Changing the background color of a widget is quite common. To change the color from the standard gray color to blue, you could use the following line of code:
+
+line\_edit.setStyleSheet("background-color: blue")
+
+Pass a CSS property and a value separated by a colon as a string to setStyleSheet(). Here, the background color for line\_edit is set to blue using the CSS property background-color. This string that specifies the changes is called a **declaration**. If you are adjusting multiple properties in a single statement, separate each property with a semicolon.
+
+Colors in a style sheet can be specified using either hexadecimal, RGB, or color keyword formats. To change the foreground color (the text color) of a widget, have a look at the following code:
+
+line\_edit.setStyleSheet("color: rgb(244, 160, 25") # orange
+
+For windows and some widgets, you could even set a background image. To add a background image to the main window class, you could use the following code:
+
+self.setStyleSheet("background-image: url(images/logo.png)")
+
+You’ll need to use the url() syntax and pass a file location as an argument. A useful link regarding style sheet syntax is found at [https://doc.qt.io/qt-5/stylesheet-syntax.html](https://doc.qt.io/qt-5/stylesheet-syntax.html).
+
+The first example GUI you will build can be seen in Figure [6-2](#Fig2). The application consists of QLabel and QPushButton widgets, and styles are applied inline.
+
+Figure 6-2
+
+Customized QLabel and QPushButton widgets
+
+For comparison, have a look at the same GUI in Figure [6-3](#Fig3) where style sheets have not been applied.
+
+Figure 6-3
+
+PyQt GUI without style sheets
+
+Let’s see how to apply the concepts you’ve learned to build the application in the following section.
+
+### Explanation for Using “Inline” Qt Style Sheets
+
+In Listings [6-3](#PC9) to [6-5](#PC11), you will take a brief look at seeing how to customize individual widget properties. Let’s start by creating a new file using the basic\_window.py script, include the additional QtWidgets imports at the top, and modify the settings in initializeUI(). This GUI serves to demonstrate how to style widgets, so widgets are not connected to any signals. Be sure to download the images folder from this chapter’s GitHub repository.
+
+\# style\_sheet\_ex.py
+
+\# Import necessary modules
+
+import sys
+
+from PyQt6.QtWidgets import (QApplication, QWidget, QLabel,
+
+QPushButton, QVBoxLayout)
+
+class MainWindow(QWidget):
+
+def \_\_init\_\_(self):
+
+super().\_\_init\_\_()
+
+self.initializeUI()
+
+def initializeUI(self):
+
+"""Set up the application's GUI."""
+
+self.setMinimumSize(200, 200)
+
+self.setWindowTitle("Style Sheets Example")
+
+self.show()
+
+if \_\_name\_\_ == '\_\_main\_\_':
+
+app = QApplication(sys.argv)
+
+window = MainWindow()
+
+sys.exit(app.exec())
+
+Listing 6-3
+
+Setting up the main window for using Qt Style Sheets
+
+The code in Listing [6-4](#PC10) is placed before the show() method call in Listing [6-3](#PC9). The label created uses a combination of HTML and CSS to modify its appearance.
+
+\# style\_sheet\_ex.py
+
+label = QLabel("\<p align=center>Give me a like!\</p>")
+
+label.setStyleSheet("""
+
+background-color: skyblue;
+
+color: white;
+
+border-style: outset;
+
+border-width: 3px;
+
+border-radius: 5px;
+
+font: bold 24px 'Times New Roman'""")
+
+Listing 6-4
+
+Customizing the appearance for a QLabel widget in initializeUI()
+
+The label’s text is arranged in the center using the HTML attribute align. For the style sheet, the background is set to skyblue, and the text color is white. We can specify different border styles, widths, and radius values of the corners using CSS properties. Some commonly used border styles include outset, inset, and solid. Finally, the font style, weight, and size can also be set. A table of typically used properties can be found toward the end of the chapter in the “CSS Properties Reference” section.
+
+You should have a try and change the different pixel and color values and notice the differences. Refer to the Qt Style Sheets documentation for ideas about different properties that you can manipulate.
+
+#### Customizing Styles to React to Interactions
+
+When you use the general style settings for widgets, you will notice that they have their own ways of reacting to a user’s interaction. However, when you change some aspects of a widget using style sheets, other features may no longer work properly. In many instances, you’ll also need to style them as well. One common example is handling button presses after editing a button’s style.
+
+Let’s start by adding a QPushButton like in Listing [6-5](#PC11) after label.
+
+\# style\_sheet\_ex.py
+
+like\_button = QPushButton()
+
+like\_button.setStyleSheet("""
+
+QPushButton {background-color: lightgrey;
+
+padding: 5px;
+
+border-style: inset;
+
+border-width: 1px;
+
+border-radius: 5px;
+
+image: url(images/like\_normal.png);
+
+qproperty-iconSize: 20px 20px;}
+
+QPushButton:pressed {background-color: grey;
+
+padding: 5px;
+
+border-style: outset;
+
+border-width: 1px;
+
+border-radius: 5px;
+
+image: url(images/like\_clicked.png);
+
+qproperty-iconSize: 20px 20px;}""")
+
+v\_box = QVBoxLayout()
+
+v\_box.addWidget(label)
+
+v\_box.addWidget(like\_button)
+
+self.setLayout(v\_box)
+
+Listing 6-5
+
+Customizing the appearance for a QPushButton widget in initializeUI()
+
+We want to be able to handle the pseudostate when the button is being pressed. Unlike this GUI’s QLabel object, we’ll need to specify the **selector**, which is the widget type affected by the change (here, it is QPushButton), in order to access the:pressed state. By altering the normal look of the button, specifically the borders, the button will no longer display feedback when being pressed.
+
+Several properties that can be edited are common among many widgets, such as background-color, border, and padding. The padding property is used to add space around the text or image within the widget. If you wanted to add extra space outside of the widget, you can use the margin property.
+
+An image is also used for like\_button, and its size is adjusted using qproperty-iconSize. The qproperty property is used to modify specific aspects of a widget class. A simple example would be the text() getter from QLabel. If you wanted to use style sheets to specify the text of a label, you could use the following bit of code:
+
+label.setStyleSheet("qproperty-text: 'example text'")
+
+For the:pressed state, a darker background color, a darker image, and a different border style are used to convey to the user that the button is being pressed. The last step is to add the widgets to a layout and set the layout for the window.
+
+A list of all pseudostates can be found in Qt’s Style Sheet references. Let’s check out a more efficient alternative to using inline style sheets in the next section.
+
+### Explanation for Using “Embedded” Qt Style Sheets
+
+Embedded style sheets in CSS are used to define the styles for the entire document in one location, usually in the beginning of the script. We can follow a similar pattern when creating PyQt applications. This is especially useful when you have multiple widgets of the same type that all share the same style, allowing you to specify all of the modifications at one time. For example, the following code would set the background color for all QPushButton instances to red:
+
+app.setStyleSheet("QPushButton{background-color: #C92108}")
+
+Notice how the change is being applied to the QApplication object, app. For the example GUI in Figure [6-4](#Fig4), we are going to take a look at how to use embedded style sheets to apply changes to specific widgets.
+
+Figure 6-4
+
+GUI that demonstrates how to apply styles to specific widgets
+
+The window contains two QPushButton widgets – one with a native style and the other with a modified style.
+
+#### Applying Changes to Specific Widgets
+
+When you create an object in PyQt, such as a widget, you can give it a name using the QObject method setObjectName(). This can be useful for finding a particular child of a parent widget. When using style sheets, this allows us to give a widget an **ID Selector**, or a specific name, for identifying a particular widget.
+
+Listing [6-6](#PC14) shows how to use the ID Selector to apply a different style to a specified button.
+
+\# style\_sheet\_ex2.py
+
+\# Import necessary modules
+
+import sys
+
+from PyQt6.QtWidgets import (QApplication, QWidget, QLabel,
+
+QPushButton, QVBoxLayout)
+
+style\_sheet = """
+
+QPushButton#Warning\_Button{
+
+background-color: #C92108;
+
+border-radius: 5px;
+
+padding: 6px;
+
+color: #FFFFFF
+
+}
+
+QPushButton#Warning\_Button:pressed{
+
+background-color: #F4B519;
+
+}
+
+"""
+
+Listing 6-6
+
+Creating an embedded style sheet
+
+The window is simply composed of a QLabel and two QPushButton widgets. To target one specific widget, use the ID Selector. For this example, that is #Warning\_Button. To handle changes when the button is pressed, add the pseudostate:pressed after the ID Selector. These changes are added to the style\_sheet variable.
+
+Listing [6-7](#PC15) shows how to set up the MainWindow class, create the buttons, use setObjectName() to create the ID Selector, and arrange the widgets in a layout.
+
+\# style\_sheet\_ex2.py
+
+class MainWindow(QWidget):
+
+def \_\_init\_\_(self):
+
+super().\_\_init\_\_()
+
+self.initializeUI()
+
+def initializeUI(self):
+
+"""Set up the application's GUI."""
+
+self.setMinimumSize(230, 140)
+
+self.setWindowTitle("Style Sheets Example 2")
+
+label = QLabel("\<p align=center>Push a button.\</p>")
+
+normal\_button = QPushButton("Normal")
+
+warning\_button = QPushButton(“Warning!")
+
+\# Set ID Selector
+
+warning\_button.setObjectName("Warning\_Button")
+
+v\_box = QVBoxLayout()
+
+v\_box.addWidget(label)
+
+v\_box.addWidget(normal\_button)
+
+v\_box.addWidget(warning\_button)
+
+self.setLayout(v\_box)
+
+self.show()
+
+if \_\_name\_\_ == '\_\_main\_\_':
+
+app = QApplication(sys.argv)
+
+app.setStyleSheet(style\_sheet) # Set style of application
+
+window = MainWindow()
+
+sys.exit(app.exec())
+
+Listing 6-7
+
+Creating the MainWindow class and applying the style sheet
+
+The last task for this program is to apply the style sheet to the application’s QApplication object. Before moving on to a larger styling project, let’s find out about a few new and useful PyQt classes that are great for organization.
+
+## Organizing Widgets with Containers and Tabs
+
+Organization in a GUI can be achieved not only visually, but also by continuing to learn about new tools for structuring widgets. In Chapter [5](https://learning.oreilly.com/library/view/beginning-pyqt-a/9781484279991/html/490796_2_En_5_Chapter.xhtml), you saw how to use QWidget to group widgets together. In this section, you’ll
+
+- See how to create **containers** that create boxes around related widgets
+- Find out about radio buttons to practically see how relationships can be created and managed when developing GUIs
+- Explore the idea of organization in a user interface with tabbed interfaces, allowing for more content to be arranged in a GUI without overloading a user with too much visual information at one time
+
+You’ll learn all of this while creating the simple GUI in Figure [6-5](#Fig5).![](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781484279991/files/images/490796_2_En_6_Chapter/490796_2_En_6_Fig5_HTML.jpg)
+
+Figure 6-5 The contact form GUI. The Profile Details tab (left) contains two labels and two line edit widgets as well as a group box with two radio buttons. The Background tab (right) consists of a group box with five radio buttons
+
+The next few sections will discuss the new PyQt classes that we are going to use to build the application in Figure [6-5](#Fig5).
+
+### The QRadioButton Widget
+
+The **QRadioButton** class allows you to create option buttons that can be switched on when checked or off when unchecked. Radio buttons consist of a round button and a corresponding label or icon and are great for situations where you need to provide a user with multiple choices but only one choice can be checked at a time. As the user selects a new radio button, the other radio buttons are unchecked.
+
+To do so, you need to place multiple radio buttons in a parent widget. Those buttons will then become **autoexclusive**, meaning they automatically become members of a mutually exclusive group. If one radio button is checked inside of the parent, all of the other buttons will become unchecked. This functionality can be changed by setting the value of the QRadioButton method setAutoExclusive() to False.
+
+Multiple exclusive groups of radio buttons can also be placed into the same parent widget by using the QButtonGroup class to separate and manage the different groups. Refer back to Chapter [4](https://learning.oreilly.com/library/view/beginning-pyqt-a/9781484279991/html/490796_2_En_4_Chapter.xhtml) for information about QButtonGroup.
+
+Radio buttons are similar to the QCheckBox class when emitting signals. A radio button emits the toggled signal when checked on or off and can be connected to this signal to trigger a slot.
+
+### The QGroupBox Class
+
+The **QGroupBox** container is a rectangular frame used for grouping widgets together. A group box has a border with a title on the top. The title can also be checkable so that the child widgets inside the group box can be enabled or disabled when checked or unchecked.
+
+A group box object can contain any kind of widget. Since QGroupBox does not automatically arrange its child widgets, you will also need to apply a layout manager.
+
+The following block of code is a brief example of how to use QGroupBox:
+
+\# The title for the group box is passed as an argument
+
+effects\_gb = QGroupBox("Effects")
+
+\# Create two QRadioButton objects to arrange in the group box
+
+effect1\_rb = QRadioButton("Strikethrough")
+
+effect2\_rb = QRadioButton("Outline")
+
+\# Create a layout for the group box
+
+gb\_h\_box = QHBoxLayout()
+
+gb\_h\_box.addWidget(effect1\_rb)
+
+gb\_h\_box.addWidget(effect2\_rb)
+
+\# Set the layout for the group box
+
+effects\_gb.setLayout(gb\_h\_box)
+
+Let’s have a look at the final class for creating a tabbed user interface.
+
+### The QTabWidget Class
+
+Sometimes, you may need to organize related information onto separate pages rather than creating a cluttered GUI. The **QTabWidget** class provides a tab bar with an area under each tab (referred to as a **page**) to present information and widgets related to each tab. Only one page is displayed at a time, and the user can view a different page by clicking on the tab or by using a shortcut (if one is set for the tab).
+
+There are a few different ways to interact with and keep track of the different tabs. For example, if the user switches to a different tab, the index of the current tab can be returned when the currentChanged signal is emitted. You can also return a current page’s index with currentIndex(), or the widget of the current page with currentWidget(). A tab can also be enabled or disabled with the setTabEnabled() method.
+
+Tip
+
+If you want to create an interface with multiple pages, but without the tab bar, then you should consider using a **QStackedWidget**. However, if you do use QStackedWidget, you will need to provide some other means to switch between the windows, such as QComboBox or QListWidget, since there are no tabs.
+
+The following example creates a simple application that includes QRadioButton, QGroupBox, QTabWidget, and a few other classes. The program shows how to set up a tabbed interface and how to organize other widgets on the different pages.
+
+### Explanation for Using Containers and Tabs
+
+We’ll use the basic\_window.py script to get started with this application. Begin by importing the necessary classes in Listing [6-8](#PC17), including QRadioButton, QTabWidget, and QGroupBox from the QtWidgets module. Next, set up the MainWindow class and initialize its minimum size and title.
+
+\# containers.py
+
+\# Import necessary modules
+
+import sys
+
+from PyQt6.QtWidgets import (QApplication, QWidget, QLabel,
+
+QRadioButton, QGroupBox, QLineEdit, QTabWidget,
+
+QHBoxLayout, QVBoxLayout)
+
+class MainWindow(QWidget):
+
+def \_\_init\_\_(self):
+
+super().\_\_init\_\_()
+
+self.initializeUI()
+
+def initializeUI(self):
+
+"""Set up the application's GUI."""
+
+self.setMinimumSize(400, 300)
+
+self.setWindowTitle("Containers Example")
+
+self.setUpMainWindow()
+
+self.show()
+
+if \_\_name\_\_ == '\_\_main\_\_':
+
+app = QApplication(sys.argv)
+
+window = MainWindow()
+
+sys.exit(app.exec())
+
+Listing 6-8
+
+Setting up the main window for using containers and tabbed widgets
+
+Following that step, we need to set up the tab widget in setUpMainWindow(). You’ll need to first create an instance of QTabWidget. We’ll create the object, tab\_bar, in Listing [6-9](#PC18).
+
+\# containers.py
+
+def setUpMainWindow(self):
+
+"""Create and arrange widgets in the main window.
+
+Set up tab bar and different tab widgets."""
+
+\# Create tab bar and different page containers
+
+tab\_bar = QTabWidget(self)
+
+self.prof\_details\_tab = QWidget()
+
+self.background\_tab = QWidget()
+
+tab\_bar.addTab(self.prof\_details\_tab,
+
+"Profile Details")
+
+tab\_bar.addTab(self.background\_tab, "Background")
+
+\# Call methods to create the pages
+
+self.profileDetailsTab()
+
+self.backgroundTab()
+
+\# Create the layout for main window
+
+main\_h\_box = QHBoxLayout()
+
+main\_h\_box.addWidget(tab\_bar)
+
+self.setLayout(main\_h\_box)
+
+Listing 6-9
+
+The setUpMainWindow() method for using containers and tabbed widgets
+
+The next task is to create a container for each page. You could use QGroupBox or some other container class. For the purpose of this GUI, let’s use QWidget. There are two tabs for this project, prof\_details\_tab and background\_tab. Insert the two pages into tab\_bar using addTab(). Be sure to also give each tab an appropriate label.
+
+We’ll need to create two methods to create the different pages, profileDetailsTab() and backgroundTab(), and call them in setUpMainWindow(). Finally, arrange tab\_bar in the window. Listings [6-10](#PC19) and [6-11](#PC20) will set up the pages.
+
+\# containers.py
+
+def profileDetailsTab(self):
+
+"""Profile page allows the user to enter their name,
+
+address, and select their gender."""
+
+\# Set up labels and line edit widgets
+
+name\_label = QLabel("Name")
+
+name\_edit = QLineEdit()
+
+address\_label = QLabel("Address")
+
+address\_edit = QLineEdit()
+
+\# Create radio buttons and their layout manager
+
+male\_rb = QRadioButton("Male")
+
+female\_rb = QRadioButton("Female")
+
+gender\_h\_box = QHBoxLayout()
+
+gender\_h\_box.addWidget(male\_rb)
+
+gender\_h\_box.addWidget(female\_rb)
+
+\# Create group box to contain radio buttons
+
+gender\_gb = QGroupBox("Gender")
+
+gender\_gb.setLayout(gender\_h\_box)
+
+\# Add all widgets to the profile details page layout
+
+tab\_v\_box = QVBoxLayout()
+
+tab\_v\_box.addWidget(name\_label)
+
+tab\_v\_box.addWidget(name\_edit)
+
+tab\_v\_box.addStretch()
+
+tab\_v\_box.addWidget(address\_label)
+
+tab\_v\_box.addWidget(address\_edit)
+
+tab\_v\_box.addStretch()
+
+tab\_v\_box.addWidget(gender\_gb)
+
+\# Set layout for profile details tab
+
+self.prof\_details\_tab.setLayout(tab\_v\_box)
+
+Listing 6-10
+
+Code for the profileDetailsTab() page
+
+The first page includes a few widgets for collecting a user’s general information. You can refer back to Figure [6-5](#Fig5) to see how each page looks. The labels and line edit widgets are set up like normal. For the QRadioButton objects that ask about the user’s gender, they are added to a QGroupBox, gender\_gb, to make them mutually exclusive. The last step is to arrange the child widgets in a layout and call the method setLayout() for prof\_details\_tab to finish creating the page.
+
+The backgroundTab() method in Listing [6-11](#PC20) uses a for loop to instantiate each QRadioButton and add them to the page’s layout.
+
+\# containers.py
+
+def backgroundTab(self):
+
+"""Background page lets users select their educational
+
+background."""
+
+\# Layout for education\_gb
+
+ed\_v\_box = QVBoxLayout()
+
+\# Create and add radio buttons to ed\_v\_box
+
+education\_list = \["High School Diploma",
+
+"Associate's Degree”, "Bachelor's Degree",
+
+"Master's Degree", "Doctorate or Higher"\]
+
+for ed in education\_list:
+
+self.education\_rb = QRadioButton(ed)
+
+ed\_v\_box.addWidget(self.education\_rb)
+
+\# Set up group box to hold radio buttons
+
+self.education\_gb = QGroupBox(
+
+"Highest Level of Education")
+
+self.education\_gb.setLayout(ed\_v\_box)
+
+\# Create and set for background tab
+
+tab\_v\_box = QVBoxLayout()
+
+tab\_v\_box.addWidget(self.education\_gb)
+
+\# Set layout for background tab
+
+self.background\_tab.setLayout(tab\_v\_box)
+
+Listing 6-11
+
+Code for the backgroundTab() page
+
+With a basic understanding of style sheets and a few new PyQt classes, it’s now time to apply what you have learned to create a new GUI project.
+
+## Project 6.1 – Food Ordering GUI
+
+Food delivery service apps are everywhere. On your phone, on the Internet, and even on kiosks when you go into the actual restaurants themselves. They simplify the ordering process while also giving the user a feeling of control over their choices, asking us to select our own foods and items as we scroll through a list of organized categories.
+
+These types of GUIs may possibly need to contain hundreds of different items that fit into multiple groups. Rather than just throwing all of the products into the interface and letting the user waste their own time sorting through the items, goods are usually placed into categories often differentiated by tabs. These tabs contain titles for the products that can be found on those corresponding pages, such as Frozen Foods or Fruits/Vegetables.
+
+The GUI in this project allows the user to place an order for a pizza. It lays a foundation for a food ordering application using tab widgets to organize items onto separate pages. The project also shows how you can use style sheets to give a GUI made using PyQt a more aesthetic appearance. The tabbed interface can be seen in Figure [6-6](#Fig6).
+
+Figure 6-6
+
+The food ordering GUI. The GUI contains two tabs, Pizza (top) and Wings (bottom), to separate the types of food a customer can see at one time. The choices, which are QRadioButton widgets, that can be selected are separated using QGroupBox widgets. The main window has a red background, and each tab has a tan background. These colors and other styles are created with a style sheet
+
+### Design the Food Ordering GUI
+
+This application consists of two main tabs as seen in Figure [6-7](#Fig7), but more could be easily added. Each tab consists of a QWidget that acts as a container for all the other widgets. The first tab, Pizza, contains an image and text to convey the purpose of the tab to the user. This is followed by two QGroupBox widgets that each consist of a number of QRadioButton widgets. While the radio buttons in the Crust group box are mutually exclusive, the ones in the Toppings group box are not. This is done so that the user can select multiple toppings at one time.![](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781484279991/files/images/490796_2_En_6_Chapter/490796_2_En_6_Fig7_HTML.jpg)
+
+Figure 6-7 The design for the food ordering GUI
+
+The second tab, Wings, is set up in a similar fashion with the Flavor radio buttons being mutually exclusive.
+
+At the bottom of each page is an Add to Order QPushButton that will update the user’s order in the widget on the right-hand side of the window.
+
+### Explanation for the Food Ordering GUI
+
+This GUI does not contain a menu bar, so we’ll once again use the basic\_window.py script as the foundation for the application and the MainWindow class in Listing [6-12](#PC21).
+
+\# food\_order.py
+
+\# Import necessary modules
+
+import sys
+
+from PyQt6.QtWidgets import (QApplication, QWidget, QLabel,
+
+QPushButton, QRadioButton, QButtonGroup, QTabWidget,
+
+QGroupBox, QVBoxLayout, QHBoxLayout, QGridLayout)
+
+from PyQt6.QtCore import Qt
+
+from PyQt6.QtGui import QPixmap
+
+class MainWindow(QWidget):
+
+def \_\_init\_\_(self):
+
+super().\_\_init\_\_()
+
+self.initializeUI()
+
+def initializeUI(self):
+
+"""Set up the application's GUI."""
+
+self.setMinimumSize(700, 700)
+
+self.setWindowTitle("6.1 – Food Order GUI")
+
+self.setUpMainWindow()
+
+self.show()
+
+if \_\_name\_\_ == '\_\_main\_\_':
+
+app = QApplication(sys.argv)
+
+app.setStyleSheet(style\_sheet)
+
+window = MainWindow()
+
+sys.exit(app.exec())
+
+Listing 6-12
+
+Setting up the main window for the food ordering GUI
+
+There are quite a few imports for this GUI, but they have all been discussed in this chapter or in previous ones. Notice how the embedded style sheet for the food ordering GUI that we will create in the following section is imported with app.setStyleSheet(style\_sheet).
+
+#### Creating the Style Sheet
+
+If a style sheet is not applied to the food ordering GUI, then it will use your system’s native settings to style the application. Figure [6-8](#Fig8) shows what this looks like on macOS.![](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781484279991/files/images/490796_2_En_6_Chapter/490796_2_En_6_Fig8_HTML.jpg)
+
+Figure 6-8 The food ordering GUI before the style sheet is applied
+
+In the beginning of the program, you will need to create the style\_sheet instance that holds all of the different style specifications for the different widgets. To begin, we can specify a general red background color, #C92108, which is used for the main window in Listing [6-13](#PC22).
+
+\# food\_order.py
+
+\# Set up style sheet for the entire GUI
+
+style\_sheet = """
+
+QWidget{
+
+background-color: #C92108;
+
+}
+
+QWidget#Tabs{
+
+background-color: #FCEBCD;
+
+border-radius: 4px
+
+}
+
+QWidget#ImageBorder{
+
+background-color: #FCF9F3;
+
+border-width: 2px;
+
+border-style: solid;
+
+border-radius: 4px;
+
+border-color: #FABB4C
+
+}
+
+QWidget#Side{
+
+background-color: #EFD096;
+
+border-radius: 4px
+
+}
+
+Listing 6-13
+
+Setting up the style sheet for the food ordering GUI, part 1
+
+But if a QWidget has a specified ID Selector such as #Tabs, then it will get a tan background, #FCEBCD, and rounded corners. Widgets with these properties are used to style the pages for each tab.
+
+The QWidget instances with the ID Selector #ImageBorder are created with an off-white background for containing the labels that display information to the user about each page.
+
+The last QWidget selector with ID Selector #Side defines the settings for the side bar.
+
+In Listing [6-14](#PC23), create a general style for QLabel widgets, followed by a style for labels that appear as headers on each page. Take note that it is possible to specify a padding value for all four sides of a widget using padding, or for individual sides with padding-left, padding-top, and so on.
+
+\# food\_order.py
+
+QLabel{
+
+background-color: #EFD096;
+
+border-width: 2px;
+
+border-style: solid;
+
+border-radius: 4px;
+
+border-color: #EFD096
+
+}
+
+QLabel#Header{
+
+background-color: #EFD096;
+
+border-width: 2px;
+
+border-style: solid;
+
+border-radius: 4px;
+
+border-color: #EFD096;
+
+padding-left: 10px;
+
+color: #961A07
+
+}
+
+QLabel#ImageInfo{
+
+background-color: #FCF9F3;
+
+border-radius: 4px;
+
+}
+
+QGroupBox{
+
+background-color: #FCEBCD;
+
+color: #961A07
+
+}
+
+QRadioButton{
+
+background-color: #FCF9F3
+
+}
+
+QPushButton{
+
+background-color: #C92108;
+
+border-radius: 4px;
+
+padding: 6px;
+
+color: #FFFFFF
+
+}
+
+QPushButton:pressed{
+
+background-color: #C86354;
+
+border-radius: 4px;
+
+padding: 6px;
+
+color: #DFD8D7
+
+}
+
+"""
+
+Listing 6-14
+
+Setting up the style sheet for the food ordering GUI, part 2
+
+The QLabel selectors with #ImageInfo are for the informational images and text on each page. To finish off the style sheet, there are styles for the QGroupBox, QRadioButton, and QPushButton objects.
+
+We can now begin to tackle creating the MainWindow method setUpMainWindow().
+
+#### Building the Main Window
+
+To get started, create the structure for the tabs and layout for the main window in Listing [6-15](#PC24). Set up instances of the QTabWidget and QWidget objects that will be used for the pages of the tabs. The two tabs are the pizza\_tab, to display choices for building your own pizza, and the wings\_tab, to show choices for wing flavors.
+
+\# food\_order.py
+
+def setUpMainWindow(self):
+
+"""Create and arrange widgets in the main window."""
+
+\# Create tab bar, different tabs, and set object names
+
+self.tab\_bar = QTabWidget()
+
+self.pizza\_tab = QWidget()
+
+self.pizza\_tab.setObjectName("Tabs")
+
+self.wings\_tab = QWidget()
+
+self.wings\_tab.setObjectName("Tabs")
+
+self.tab\_bar.addTab(self.pizza\_tab, "Pizza")
+
+self.tab\_bar.addTab(self.wings\_tab, "Wings")
+
+\# Call methods that contain the widgets for each tab
+
+self.pizzaTab()
+
+self.wingsTab()
+
+Listing 6-15
+
+Setting up the main window for the food ordering GUI, part 1
+
+Some of the widgets in this GUI are given an ID Selector using the setObjectName() method. For example, pizza\_tab is given the #Tabs ID Selector. This name is used in the application’s style sheet to differentiate this widget from other QWidget objects with a different style.
+
+Listing [6-16](#PC25) shows how to build the side bar. The side\_widget is used to give feedback to users of their choices and can be seen even if the user switches tabs.
+
+\# food\_order.py
+
+\# Create side bar in the main window
+
+self.side\_widget = QWidget()
+
+self.side\_widget.setObjectName("Tabs")
+
+order\_label = QLabel("YOUR ORDER")
+
+order\_label.setObjectName("Header")
+
+items\_box = QWidget()
+
+items\_box.setObjectName("Side")
+
+pizza\_label = QLabel("Pizza Type: ")
+
+self.display\_pizza\_label = QLabel("")
+
+toppings\_label = QLabel("Toppings: ")
+
+self.display\_toppings\_label = QLabel("")
+
+extra\_label = QLabel("Extra: ")
+
+self.display\_wings\_label = QLabel("")
+
+\# Set grid layout for objects in side widget
+
+items\_grid = QGridLayout()
+
+items\_grid.addWidget(pizza\_label, 0, 0,
+
+Qt.AlignmentFlag.AlignRight)
+
+items\_grid.addWidget(self.display\_pizza\_label, 0, 1)
+
+items\_grid.addWidget(toppings\_label, 1, 0,
+
+Qt.AlignmentFlag.AlignRight)
+
+items\_grid.addWidget(self.display\_toppings\_label,
+
+1, 1)
+
+items\_grid.addWidget(extra\_label, 2, 0,
+
+Qt.AlignmentFlag.AlignRight)
+
+items\_grid.addWidget(self.display\_wings\_label, 2, 1)
+
+items\_box.setLayout(items\_grid)
+
+Listing 6-16
+
+Setting up the main window for the food ordering GUI, part 2
+
+Labels that are meant to display a user’s choices will initially display an empty string. All of the children for side\_widget are arranged in a nested layout and added to the main QHBoxLayout in Listing [6-17](#PC26).
+
+\# food\_order.py
+
+\# Set main layout for side widget
+
+side\_v\_box = QVBoxLayout()
+
+side\_v\_box.addWidget(order\_label)
+
+side\_v\_box.addWidget(items\_box)
+
+side\_v\_box.addStretch()
+
+self.side\_widget.setLayout(side\_v\_box)
+
+\# Add widgets to main window and set layout
+
+main\_h\_box = QHBoxLayout()
+
+main\_h\_box.addWidget(self.tab\_bar, 1)
+
+main\_h\_box.addWidget(self.side\_widget)
+
+self.setLayout(main\_h\_box)
+
+Listing 6-17
+
+Setting up the main window for the food ordering GUI, part 3
+
+The pizzaTab() method, built in Listings [6-18](#PC27) and [6-19](#PC28), creates and arranges the child widgets for the first tab, pizza\_tab. The top of the first page gives users information about the purpose of the tab using images and text. The radio buttons that display the pizza crust choices are also instantiated.
+
+\# food\_order.py
+
+def pizzaTab(self):
+
+"""Create the pizza tab. Allows the user to select
+
+the pizza type and toppings using radio buttons."""
+
+\# Set up widgets and layouts to display information
+
+\# to the user about the page
+
+tab\_pizza\_label = QLabel("BUILD YOUR OWN PIZZA")
+
+tab\_pizza\_label.setObjectName("Header")
+
+description\_box = QWidget()
+
+description\_box.setObjectName("ImageBorder")
+
+pizza\_image\_path = "images/pizza.png"
+
+pizza\_image = self.loadImage(pizza\_image\_path)
+
+pizza\_desc = QLabel()
+
+pizza\_desc.setObjectName("ImageInfo")
+
+pizza\_desc.setText(
+
+"""\<p>Build a custom pizza for you. Start with
+
+your favorite crust and add any toppings, plus
+
+the perfect amount of cheese and sauce.\</p>""")
+
+pizza\_desc.setWordWrap(True)
+
+pizza\_desc.setContentsMargins(10, 10, 10, 10)
+
+pizza\_h\_box = QHBoxLayout()
+
+pizza\_h\_box.addWidget(pizza\_image)
+
+pizza\_h\_box.addWidget(pizza\_desc, 1)
+
+description\_box.setLayout(pizza\_h\_box)
+
+\# Create group box that will contain crust choices
+
+crust\_gbox = QGroupBox()
+
+crust\_gbox.setTitle("CHOOSE YOUR CRUST")
+
+\# The group box is used to group the widgets together,
+
+\# while the button group is used to get information
+
+\# about which radio button is checked
+
+self.crust\_group = QButtonGroup()
+
+gb\_v\_box = QVBoxLayout()
+
+crust\_list = \["Hand-Tossed", "Flat", "Stuffed"\]
+
+\# Create radio buttons for the different crusts and
+
+\# add to layout
+
+for cr in crust\_list:
+
+crust\_rb = QRadioButton(cr)
+
+gb\_v\_box.addWidget(crust\_rb)
+
+self.crust\_group.addButton(crust\_rb)
+
+crust\_gbox.setLayout(gb\_v\_box)
+
+Listing 6-18
+
+Code for the pizzaTab() page, part 1
+
+Be sure to follow along with the comments in Listing [6-18](#PC27) to understand how the page is structured. QRadioButton widgets are grouped together using group boxes. This allows each group to have a title. The QGroupBox class does provide exclusivity to radio buttons, but to get the type of functionality to find out which buttons are checked and return their text values, the QRadioButton objects are also grouped using QButtonGroup. Refer to Chapter [4](https://learning.oreilly.com/library/view/beginning-pyqt-a/9781484279991/html/490796_2_En_4_Chapter.xhtml) for more information about QButtonGroup.
+
+The code in Listing [6-19](#PC28) sets up the QRadioButton objects that display the pizza topping selections.
+
+\# food\_order.py
+
+\# Create group box that will contain toppings choices
+
+toppings\_gbox = QGroupBox()
+
+toppings\_gbox.setTitle("CHOOSE YOUR TOPPINGS")
+
+\# Set up button group for toppings radio buttons
+
+self.toppings\_group = QButtonGroup()
+
+gb\_v\_box = QVBoxLayout()
+
+toppings\_list = \["Pepperoni", "Sausage", "Bacon",
+
+"Canadian Bacon", "Beef", "Pineapple",
+
+"Olive", "Tomato", "Green Pepper",
+
+"Mushroom", "Onion", "Spinach",
+
+"Cheese"\]
+
+\# Create radio buttons for the different toppings and
+
+\# add to layout
+
+for top in toppings\_list:
+
+toppings\_rb = QRadioButton(top)
+
+gb\_v\_box.addWidget(toppings\_rb)
+
+self.toppings\_group.addButton(toppings\_rb)
+
+self.toppings\_group.setExclusive(False)
+
+toppings\_gbox.setLayout(gb\_v\_box)
+
+\# Create button to add information to side widget
+
+\# when clicked
+
+add\_to\_order\_button1 = QPushButton("Add To Order")
+
+add\_to\_order\_button1.clicked.connect(
+
+self.displayPizzaInOrder)
+
+\# Create layout for pizza tab (page 1)
+
+page1\_v\_box = QVBoxLayout()
+
+page1\_v\_box.addWidget(tab\_pizza\_label)
+
+page1\_v\_box.addWidget(description\_box)
+
+page1\_v\_box.addWidget(crust\_gbox)
+
+page1\_v\_box.addWidget(toppings\_gbox)
+
+page1\_v\_box.addStretch()
+
+page1\_v\_box.addWidget(add\_to\_order\_button1,
+
+alignment=Qt.AlignmentFlag.AlignRight)
+
+self.pizza\_tab.setLayout(page1\_v\_box)
+
+Listing 6-19
+
+Code for the pizzaTab() page, part 2
+
+While only one radio button can be selected in crust\_group in Listing [6-18](#PC27), users need to be able to select more than one topping. This is achieved by using the setExclusive() method to set the exclusivity of toppings\_group to False.
+
+The wingsTab() method in Listings [6-20](#PC29) and [6-21](#PC30) is set up in a similar manner to pizzaTab().
+
+\# food\_order.py
+
+def wingsTab(self):
+
+"""Create the wings tab. Allows the user to select
+
+the pizza type and toppings using radio buttons."""
+
+\# Set up widgets and layouts to display information
+
+\# to the user about the page
+
+tab\_wings\_label = QLabel("TRY OUR AMAZING WINGS")
+
+tab\_wings\_label.setObjectName("Header")
+
+description\_box = QWidget()
+
+description\_box.setObjectName("ImageBorder")
+
+wings\_image\_path = "images/wings.png"
+
+wings\_image = self.loadImage(wings\_image\_path)
+
+wings\_desc = QLabel()
+
+wings\_desc.setObjectName("ImageInfo")
+
+wings\_desc.setText(
+
+"""\<p>6 pieces of rich-tasting, white meat
+
+chicken that will have you coming back for
+
+more.\</p>""")
+
+wings\_desc.setWordWrap(True)
+
+wings\_desc.setContentsMargins(10, 10, 10, 10)
+
+wings\_h\_box = QHBoxLayout()
+
+wings\_h\_box.addWidget(wings\_image)
+
+wings\_h\_box.addWidget(wings\_desc, 1)
+
+description\_box.setLayout(wings\_h\_box)
+
+Listing 6-20
+
+Code for the wingsTab() page, part 1
+
+The widgets for selecting wings are organized and added to wings\_tab in Listing [6-21](#PC30).
+
+\# food\_order.py
+
+wings\_gbox = QGroupBox()
+
+wings\_gbox.setTitle("CHOOSE YOUR FLAVOR")
+
+self.wings\_group = QButtonGroup()
+
+gb\_v\_box = QVBoxLayout()
+
+flavors\_list = \[
+
+"Buffalo", "Sweet-Sour", "Teriyaki", "Barbecue"\]
+
+\# Create radio buttons for the different flavors and
+
+\# add to layout
+
+for fl in flavors\_list:
+
+flavor\_rb = QRadioButton(fl)
+
+gb\_v\_box.addWidget(flavor\_rb)
+
+self.wings\_group.addButton(flavor\_rb)
+
+wings\_gbox.setLayout(gb\_v\_box)
+
+\# Create button to add information to side widget
+
+\# when clicked
+
+add\_to\_order\_button2 = QPushButton("Add To Order")
+
+add\_to\_order\_button2.clicked.connect(
+
+self.displayWingsInOrder)
+
+\# create layout for wings tab (page 2)
+
+page2\_v\_box = QVBoxLayout()
+
+page2\_v\_box.addWidget(tab\_wings\_label)
+
+page2\_v\_box.addWidget(description\_box)
+
+page2\_v\_box.addWidget(wings\_gbox)
+
+page2\_v\_box.addWidget(add\_to\_order\_button2,
+
+alignment=Qt.AlignmentFlag.AlignRight)
+
+page2\_v\_box.addStretch()
+
+self.wings\_tab.setLayout(page2\_v\_box)
+
+Listing 6-21
+
+Code for the wingsTab() page, part 2
+
+If users press the add\_to\_order\_button on either page (either 1 or 2), the text from the selected radio buttons on that page are displayed in the side\_widget using one of the two methods in Listing [6-22](#PC31).
+
+\# food\_order.py
+
+def displayPizzaInOrder(self):
+
+"""Collect the text from the radio buttons that are
+
+checked on the pizza page. Display text in side
+
+widget."""
+
+if self.crust\_group.checkedButton():
+
+text = self.crust\_group.checkedButton().text()
+
+self.display\_pizza\_label.setText(text)
+
+toppings = self.collectToppingsInList()
+
+toppings\_str = '\\n'.join(toppings)
+
+self.display\_toppings\_label.setText(toppings\_str)
+
+self.update()
+
+def displayWingsInOrder(self):
+
+"""Collect the text from the radio buttons that are
+
+checked on the wings page. Display text in side
+
+widget."""
+
+if self.wings\_group.checkedButton():
+
+text = self.wings\_group.checkedButton().text() +\\
+
+" Wings"
+
+self.display\_wings\_label.setText(text)
+
+self.update()
+
+Listing 6-22
+
+Code for updating the side bar in the food ordering GUI
+
+For displayPizzaInOrder(), we check to see if any of the radio buttons in the QButtonGroup crust\_group are selected. If so, the text from the selected button is collected and displayed in display\_pizza\_label using setText(). For display\_toppings\_label, all of the selected toppings radio buttons are collected and returned using collectToppingsInList() in Listing [6-23](#PC32). The toppings are then depicted in the label. The update() method is used to ensure that the text is updated accordingly.
+
+\# food\_order.py
+
+def collectToppingsInList(self):
+
+"""Create list of all checked radio buttons."""
+
+toppings\_list = \[button.text() for i, button in \\
+
+enumerate(self.toppings\_group.buttons()) if \\
+
+button.isChecked()\]
+
+return toppings\_list
+
+Listing 6-23
+
+Code for collecting information about selected radio buttons in the food ordering GUI
+
+The last method to implement in Listing [6-24](#PC33), loadImage(), loads and scales the pizza and wing images used on the two pages.
+
+\# food\_order.py
+
+def loadImage(self, img\_path):
+
+"""Load and scale images."""
+
+aspect = Qt.AspectRatioMode.KeepAspectRatioByExpanding
+
+transform = Qt.TransformationMode.SmoothTransformation
+
+try:
+
+with open(img\_path):
+
+image = QLabel(self)
+
+image.setObjectName("ImageInfo")
+
+pixmap = QPixmap(img\_path)
+
+image.setPixmap(pixmap.scaled(image.size(),
+
+aspect, transform))
+
+return image
+
+except FileNotFoundError as error:
+
+print(f"Image not found. Error: {error}")
+
+Listing 6-24
+
+Code for loading images in the food ordering GUI
+
+A fairly long project, the food ordering GUI demonstrates just how intensive an interface can be to style. The next step could be to add more tabs and options as a way to practice building stylized tabbed interfaces or even use the Qt documentation to modify the properties of the GUI.
+
+## CSS Properties Reference
+
+Table [6-2](#Tab2) lists the CSS properties found throughout this chapter as well as some commonly used properties you may need for your early projects.
+
+Table 6-2
+
+Commonly used CSS properties in PyQt
+
+| Property | Description |
+| --- | --- |
+| background-color | Sets the background color for the widget |
+| border | Shorthand for setting the border color, style, and width  QLabel {border: 2px groove grey} |
+| border-color | Specifies the color of the border for all sides of the widget |
+| border-style | Specifies the pattern for drawing the widget’s border. Some of the patterns are dashed, dotted, groove, inset, outset, and solid |
+| border-width | Sets the border width for all sides of the widget (in pixels) |
+| border-radius | Sets the radius of the widget’s corners (in pixels) |
+| color | Specifies the color used for text |
+| font | Specifies the font weight, style, size, and family  QLabel {font: bold italic small 'Times'} |
+| image | Sets the image used within the widget. Be sure to include url(path\_to\_file) |
+| margin | Specifies the additional space around the widget (in pixels) |
+| padding | Specifies the additional space inside of the widget (in pixels) |
+
+## Summary
+
+In this chapter, we saw how to use Qt Style Sheets to modify the appearance of widgets to better fit the purpose and look of an application. We also saw how HTML can be used to manipulate the look of text.
+
+The benefits of using style sheets include easier updates to code, greater consistency in design, simpler way to format the look of widgets, increase in usability, and less difficulty for a developer to control colors, layouts, and other aesthetic aspects of UI design.
+
+Chapter [7](https://learning.oreilly.com/library/view/beginning-pyqt-a/9781484279991/html/490796_2_En_7_Chapter.xhtml) will discuss a very important topic – event handling.
+
+[^3]: Higher levels of HTML currently exist, such as HTML5. For more information about HTML4, have a look at www.w3.org/TR/html401/.

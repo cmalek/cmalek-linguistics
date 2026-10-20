@@ -24,7 +24,7 @@ lifecycle: draft
 lifecycle_changed: "2026-10-09"
 tier: supporting
 created: 2026-10-09T16:05:14Z
-updated: 2026-10-09T16:05:14Z
+updated: 2026-10-13T05:20:00Z
 ---
 
 # Bede × Christianity in Anglo-Saxon England
@@ -58,7 +58,7 @@ Gregory's correspondence and non-Bedan lives, including the *Life of St Wilfrid*
 
 ## Open Questions
 
-- How much of the hymn's vowel shape in the wiki is Alfredian West Saxon normalization, and how much English wording Bede's Latin paraphrase never preserved.
+- The split is now on [[entities/caedmon]]. Bede’s Latin is the sense (*Hic est sensus, non autem ordo ipse verborum*). It does not preserve the English wording. The vowel shape printed in the wiki is the West Saxon *eorðan* recension (*eorðan bearnum*, *heofonrīces*, *sculon*). The earliest copies, Moore and St Petersburg, are Northumbrian and read *aelda barnum*. The *ylda* recension is the one that travels with the Old English translation of the *Historia*. Alfredian normalization is that later spelling layer, not the poem’s sense and not the eighth-century English.
 
 ## Related
 
@@ -76,3 +76,4 @@ Co-occurrence evidence already on these wiki pages:
 - [[entities/anglo-saxons]] — Bede's origin story and the conversion as a political process
 - [[concepts/anglo-saxon-paganism]] — Bede as a Latin witness who treats the cult as already fading
 - [[references/passion-peter-and-paul]] — Bede glossing a gospel place-name in a later homily
+- [[entities/caedmon]] — Northumbrian *aelda* copies against the West Saxon *eorðan* text, and Bede’s *sensus* sentence

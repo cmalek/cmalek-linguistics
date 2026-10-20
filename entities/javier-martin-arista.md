@@ -26,7 +26,10 @@ lifecycle: draft
 lifecycle_changed: 2026-10-09
 tier: peripheral
 created: 2026-10-09T19:50:00Z
-updated: 2026-10-09T20:32:00Z
+updated: 2026-10-13T04:50:00Z
+snapshots:
+  - "[[_raw/_archived/encyclopedia-05-00137-v2-1.pdf|encyclopedia-05-00137-v2-1.pdf]]"
+  - "[[_raw/_archived/encyclopedia-05-00137-v2.pdf|encyclopedia-05-00137-v2.pdf]]"
 ---
 
 # Javier Martín Arista
@@ -44,4 +47,4 @@ Earlier articles from the same project, indexed on the project’s publication l
 ## Sources
 
 - [Nerthus project](https://www.nerthusproject.com/database-description)
-- [Encyclopedia 2025](https://doi.org/10.3390/encyclopedia5030137)
+- [[_raw/_archived/encyclopedia-05-00137-v2-1.pdf]]

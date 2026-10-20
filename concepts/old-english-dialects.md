@@ -18,20 +18,21 @@ sources:
   - "https://lrc.la.utexas.edu/eieol/engol/0"
 summary: "Practical spelling cues for West Saxon versus Anglian and Kentish; copied texts mix dialects, so clusters of cues beat single letters."
 provenance:
-  extracted: 0.85
+  extracted: 0.82
   inferred: 0.12
-  ambiguous: 0.03
+  ambiguous: 0.06
 base_confidence: 0.72
 lifecycle: draft
 lifecycle_changed: "2026-09-25"
 tier: supporting
 created: 2026-09-25T16:30:00Z
-updated: 2026-10-09T19:50:00Z
+updated: "2026-10-18T19:48:28.152600+00:00"
 snapshots:
-  - "[[_raw/_archived/0002 Recognizing Old English Dialects in Writing]]"
-  - "[[_raw/_archived/History of English]]"
-  - "[[_raw/_archived/Introduction to Old English]]"
-  - "[[_raw/_archived/Old English Dialect Cues]]"
+  - "[[_raw/_archived/0002 Recognizing Old English Dialects in Writing|0002 Recognizing Old English Dialects in Writing]]"
+  - "[[_raw/_archived/History of English|History of English]]"
+  - "[[_raw/_archived/Introduction to Old English|Introduction to Old English]]"
+  - "[[_raw/_archived/Old English Dialect Cues|Old English Dialect Cues]]"
+  - "[[_raw/_archived/Old English Dialect Cues-1|Old English Dialect Cues-1]]"
 ---
 
 # Old English Dialects
@@ -74,9 +75,16 @@ These cues are spelling correspondences, not a published paradigm generator. [[c
 
 - [[synthesis/danelaw-x-old-english-dialects|Danelaw × Old English Dialects]] — synthesis
 
+## Revised cue-sheet qualification
+
+The revised local cue sheet adds a Late West Saxon checklist: y for earlier ie, loss of a diphthong after sc (scolde versus sceolde), and an uncontracted third-person present illustrated by ġe-hyreð. These are recorded as the note’s diagnostic suggestions; their exact distribution needs checking against the cited grammar. ^[ambiguous]
+
+Its broader principle is unchanged: identify repeated clusters of spelling correspondences rather than assigning a dialect from one form. [[references/wright-and-wright-1914-grammar]] now identifies the local scan and its section map.
+
 ## Sources
 
 - Vault lesson *0002 Recognizing Old English Dialects in Writing* (Wright)
 - [oldenglish.info — History](https://oldenglish.info/history.html)
 - Vault cue sheet *Old English Dialect Cues* (Wright; Bosworth-Toller as lexical support)
 - [UT Old English Online intro](https://lrc.la.utexas.edu/eieol/engol/0)
+- [[_raw/_archived/Old English Dialect Cues-1.md]]

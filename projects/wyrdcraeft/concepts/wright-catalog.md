@@ -52,7 +52,7 @@ flowchart TD
     audit --> report[Report only: malformed, contradiction, unclassified, blank-but-classified]
 ```
 
-`wyrdcraeft dictionary ingest-wright-text --source PATH` parses `§ N` headings and fills empty `section_text` cells. `--force` overwrites. It reports markdown sections missing from the catalog, catalog sections still empty, and a coverage percent. The bundled `wright.md` currently has phonology §1–58 only, so inflection citations at §330 and above show an ingest-needed message until a fuller markdown file is ingested.
+`wyrdcraeft dictionary ingest-wright-text --source PATH` parses `§ N` headings and fills empty `section_text` cells. `--force` overwrites. It reports markdown sections missing from the catalog, catalog sections still empty, and a coverage percent. The bundled `wright.md` currently ends at §289 (preface, contents, select list, introduction, and phonology; checked 2026-10-15), so inflection citations at §330 and above show an ingest-needed message until a fuller markdown file is ingested.
 
 `wyrdcraeft dictionary audit-wright` compares legacy source `wright` values with the assigned classes. Categories are malformed legacy Wright, contradiction against the assigned section, unclassified lemma plus part of speech, and blank legacy field on a classified lemma. Version 1 does not rewrite sources and exits 0. `--json` prints the full result.
 

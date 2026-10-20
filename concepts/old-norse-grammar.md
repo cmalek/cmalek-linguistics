@@ -15,6 +15,9 @@ relationships:
 sources:
   - "https://lrc.la.utexas.edu/eieol/norol/10"
   - "https://lrc.la.utexas.edu/eieol/norol/20"
+  - "https://lrc.la.utexas.edu/eieol/norol/30"
+  - "https://lrc.la.utexas.edu/eieol/norol/40"
+  - "https://lrc.la.utexas.edu/eieol/norol/50"
 summary: "EIEOL: classical vs modern Icelandic pronunciation; breaking *e>ja/jǫ; i- and u-stems; dual pronouns; three weak classes and -sk middle."
 provenance:
   extracted: 0.88
@@ -25,10 +28,13 @@ lifecycle: draft
 lifecycle_changed: "2026-09-25"
 tier: supporting
 created: 2026-09-25T18:30:00Z
-updated: 2026-09-25T18:30:00Z
+updated: 2026-10-17T12:00:00Z
 snapshots:
-  - "[[_raw/_archived/Ari Þorgilsson On the Settling of Iceland]]"
-  - "[[_raw/_archived/from the Prologue of Snorra Edda]]"
+  - "[[_raw/_archived/Ari Þorgilsson On the Settling of Iceland|Ari Þorgilsson On the Settling of Iceland]]"
+  - "[[_raw/_archived/from the Prologue of Snorra Edda|from the Prologue of Snorra Edda]]"
+  - "[[_raw/_archived/from the Egils saga|from the Egils saga]]"
+  - "[[_raw/_archived/from the Njáls saga|from the Njáls saga]]"
+  - "[[_raw/_archived/from the Grettis saga|from the Grettis saga]]"
 ---
 
 # Old Norse Grammar
@@ -51,6 +57,8 @@ Krause & Slocum lessons 1–2. Distill the rules, not the interlinear glossaries
 
 **Particles:** *ok, en, eða, né*; *er* as all-purpose relative after demonstratives (*þá er* “when”). Verb + preposition often changes meaning without the preposition taking an object (*sœkja at* “attack”).
 
+**Lessons 3-5 (added):** consonant/weak noun stems, postposed article, strong/weak adjectives, participles and supine: [[concepts/old-norse-nouns-adjectives-and-articles]]; numerals, negatives, strong verb classes I-II, adverbs: [[concepts/old-norse-numerals-and-strong-verbs]]. Readings: [[references/grettis-saga-glam-fight]], [[references/njals-saga-gunnars-last-stand]], [[references/egils-saga-eirik-court-passage]].
+
 ## Open Questions
 
 - Mechanism of ON breaking (they flag the debate).
@@ -59,3 +67,4 @@ Krause & Slocum lessons 1–2. Distill the rules, not the interlinear glossaries
 
 - [EIEOL lesson 1](https://lrc.la.utexas.edu/eieol/norol/10) (alphabet, sound system)
 - [EIEOL lesson 2](https://lrc.la.utexas.edu/eieol/norol/20) (breaking, stems, pronouns, weak verbs)
+- Lessons 3-5 snapshots: [[_raw/_archived/from the Grettis saga]], [[_raw/_archived/from the Njáls saga]], [[_raw/_archived/from the Egils saga]]

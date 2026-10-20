@@ -45,7 +45,12 @@ Start from **early West Saxon** as the classroom baseline, then notice repeated 
 |`wio-` where WS has `wu-`|Kentish|
 |Odd-looking umlauted forms like `featu`|Mercian|
 |Unusual Northumbrian-looking spellings like `eorm`, `æhher`|Northumbrian|
+### Late Old English (West Saxon)
 
+* y for mutation of u/ū. ēa and io 
+* y for ie
+* no dipthongs after sc (scolde not sceolde)
+* uncontrated thrid person present (ġe-hyreð)
 ## Best Caution
 
 Copied manuscripts mix forms. A single spelling can be suggestive, but a **cluster** of spellings is much better evidence.

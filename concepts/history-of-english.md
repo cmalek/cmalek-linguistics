@@ -8,26 +8,30 @@ relationships:
     type: extends
   - target: "[[concepts/germanic-sound-change]]"
     type: uses
+  - target: "[[concepts/old-english-after-1066]]"
+    type: related_to
 sources:
   - "https://oldenglish.info/history.html"
   - "https://www.thehistoryofenglish.com/old-english"
   - "https://www.polilingua.com/blog/post/origin-evolution-of-group-germanic-languages.htm"
   - "https://lrc.la.utexas.edu/eieol/engol/0"
+  - "book:Godden-Lapidge-2013-old-english-after-1066"
 summary: "Timeline from reconstructed PIE through Old, Middle, and Early Modern English, keyed to texts and contact events."
 provenance:
-  extracted: 0.82
-  inferred: 0.15
-  ambiguous: 0.03
+  extracted: 0.78
+  inferred: 0.14
+  ambiguous: 0.08
 base_confidence: 0.81
 lifecycle: draft
 lifecycle_changed: "2026-09-25"
 tier: core
 created: 2026-09-25T16:30:00Z
-updated: 2026-09-25T18:15:00Z
+updated: 2026-10-20T15:55:46Z
 snapshots:
-  - "[[_raw/_archived/Germanic Languages A History of Migration and Conquest]]"
-  - "[[_raw/_archived/History of English]]"
-  - "[[_raw/_archived/Old English]]"
+  - "[[_raw/_archived/Germanic Languages A History of Migration and Conquest|Germanic Languages A History of Migration and Conquest]]"
+  - "[[_raw/_archived/History of English|History of English]]"
+  - "[[_raw/_archived/Old English|Old English]]"
+  - "[[_raw/_archived/Old English after 1066|Old English after 1066]]"
 ---
 
 # History of English
@@ -43,7 +47,7 @@ A compact periodization of English, from reconstructed Proto-Indo-European to th
 - **9th century.** Viking raids and settlement; Old Norse contact; West Saxon survives under [[entities/alfred-the-great]], so most teaching texts are WS even though Modern English descends mainly from Anglian. Northumbrian survives in Scots.
 - **10th century.** [[references/beowulf]] manuscript c. 975–1025; mixed WS/Anglian; two scribes.
 - **11th century.** Hastings (1066): Norman French becomes the elite language. Animal/meat split (*cu* → cow vs. French *bœuf* → beef) is a classic contact fossil.
-- **12th century.** *The Grave* (Bodley 343) is treated as a last OE poem with anachronistic older language in a Middle English century.
+- **12th century.** *The Grave* (Bodley 343) is treated as a last OE poem with anachronistic older language in a Middle English century. A 2013 Companion chapter tells this differently: Old English was still copied accurately well into the twelfth century, the Peterborough Chronicle runs to 1154, and *The Grave* sits with other post-Conquest poems that still draw on the tradition, not as a unique last poem. See [[concepts/old-english-after-1066]]. ^[ambiguous]
 - **13th century.** Middle English: loss of þ/ð as letters, simplification of endings to *-e*, plurals mostly *-s*, grammatical gender discarded. Provisions of Oxford (1258) is the first post-Conquest government document in English.
 - **14th century.** English returns as a national language: Edward III addresses Parliament in English (1362); Pleading in English Act; Chaucer.
 - **15th–16th century (German, not English).** PoliLingua: print + Luther’s 1534 Bible (Saxon dialect) as a written-German standard. English’s analogous print/London/GVS story is already on the 15th-c. line above. See [[concepts/germanic-language-family]].
@@ -58,3 +62,4 @@ A compact periodization of English, from reconstructed Proto-Indo-European to th
 - [oldenglish.info — History](https://oldenglish.info/history.html)
 - [The History of English: Old English](https://www.thehistoryofenglish.com/old-english)
 - UT EIEOL intro; PoliLingua Germanic-family blog (chronology unreliable)
+- [[_raw/_archived/Old English after 1066.md]]

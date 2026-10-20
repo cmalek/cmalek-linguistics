@@ -46,6 +46,7 @@ Inside a PDF, text is a sequence of character codes for a font, not a sequence o
 
 ## Related
 
+- [[synthesis/tounicode-cmap-x-typography-as-linguistic-signal|ToUnicode CMap × Typography as Linguistic Signal]] — synthesis
 - [[concepts/pdf-text-layer-vs-ocr]]
 - [[entities/pymupdf]] — reads whatever the CMap says
 - [[synthesis/Research: Scholarly PDF to Markdown]]

@@ -14,17 +14,17 @@ sources:
   - "[[concepts/old-english]]"
   - "[[concepts/old-english-dialects]]"
 summary: >-
-    Alfred's court made late West Saxon the spelling learners meet, after Grimm, Verner, breaking, and i-mutation had already layered.
+    The textbook vowel is the West Saxon copy dialect. Published shares disagree: about 60 percent, or up to 90 percent written in West Saxon.
 provenance:
-  extracted: 0.25
-  inferred: 0.65
-  ambiguous: 0.10
+  extracted: 0.55
+  inferred: 0.25
+  ambiguous: 0.20
 base_confidence: 0.72
 lifecycle: draft
 lifecycle_changed: "2026-10-09"
 tier: supporting
 created: 2026-10-09T16:05:14Z
-updated: 2026-10-09T16:05:14Z
+updated: 2026-10-13T05:20:00Z
 ---
 
 # Alfred the Great × Germanic Sound Change
@@ -58,7 +58,7 @@ Wessex's political survival explains which manuscripts were copied. The sound la
 
 ## Open Questions
 
-- A count of copies, rather than Wright's cue list, for how often the "normal" textbook vowel is the West Saxon outcome and how often an Anglian spelling is the one that survived.
+- A token count of textbook *ea* against Anglian *æ* or *a* across every copy was not found. What is published is a share of the written record. [[references/den-hertog-2024-oe-dialects|den Hertog]] says up to ninety percent of surviving Old English was written, not necessarily composed, in West Saxon. [[references/computational-study-of-old-english-2025|Martín Arista]] says about 60 percent. ^[ambiguous] Either way the classroom vowel is the spelling of the bulk of the copies. Anglian spellings survive in a named minority of early witnesses, not as the default page a learner opens. Grimm and Verner are not what those copies disagree about.
 
 ## Related
 
@@ -76,3 +76,5 @@ Co-occurrence evidence already on these wiki pages:
 - [[concepts/history-of-english]] — ninth-century West Saxon survival beside the sound-change link
 - [[concepts/old-english]] — tenth-century written standard and seventh-century i-mutation
 - [[references/beowulf]] — Grimm's Law as an etymology test; Alfred in the related list
+- [[references/den-hertog-2024-oe-dialects]] — up to ninety percent written in West Saxon
+- [[references/computational-study-of-old-english-2025]] — about 60 percent West Saxon

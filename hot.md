@@ -1,7 +1,7 @@
 ---
 title: Hot Cache
-updated: 2026-10-12T04:37:00Z
-pages: 136
+updated: 2026-10-20T15:59:54Z
+pages: 331
 generated_by: obsidian-wiki memory hot
 ---
 
@@ -11,24 +11,25 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-09] WIKI_RESEARCH topic=Old English morphology generation rounds=3 sources_fetched=24 ...
-- [2026-10-09] WIKI_RESEARCH topic=Nerthus project: background, contents, and guest search rounds=1 sources_fetched=12 ...
-- [2026-10-12] WIKI_RESEARCH topic=Dictionary of Old English Corpus at the University of Toron... rounds=3 sources_fetched=16 ...
+- [2026-10-18] WIKI_RESEARCH topic=qt and translation workbench follow-up rounds=1 sources_fetched=6 ...
+- [2026-10-18] WIKI_RESEARCH topic=t12 Maldon names, t14 Wulfstan and 1002, t15 OE g-palataliz... rounds=2 sources_fetched=14 ...
+- [2026-10-20] INGEST source=_raw (Old English after 1066 + two aenglisc_toolkit notes) pages_created=3 pages_updated=9 ...
 
 ## Active Threads
 
-- **t1** Count West Saxon versus Anglian copies for whether textbook vowels match Wright's cue list or the minority ou... — synthesis/alfred-the-great-x-germanic-sound-change.md (touched 2026-10-09)
-- **t2** Separate Alfredian West Saxon normalization in Cædmon's hymn from wording Bede's Latin paraphrase never prese... — synthesis/bede-x-christianity-in-anglo-saxon-england.md (touched 2026-10-09)
-- **t3** Compare Norse place-name density inside and outside the London–Chester line, holding Anglian dialect area con... — synthesis/danelaw-x-viking-age-expansion.md (touched 2026-10-09)
-- **t4** Tag magic-sheet principal parts by layer: ablaut, i-mutation, breaking, Verner, or ending class only. — synthesis/germanic-sound-change-x-old-english-grammar.md (touched 2026-10-09)
-- **t5** Test whether the sk/sh loan cue and the ea/æ dialect cue disagree inside a single copied text. — synthesis/danelaw-x-old-english-dialects.md (touched 2026-10-09)
 - **t7** Measure CER on a real Junicode textbook after a Kraken or Calamari fine-tune that keeps macrons and dotted co... — synthesis/Research: Scholarly PDF to Markdown.md (touched 2026-10-09)
 - **t8** Build a case-frame lexicon beyond PaVeDa's 80 ValPaL verbs, without reading government off YCOE's ambiguous c... — synthesis/Research: Old English Morphology Generation.md (touched 2026-10-09)
+- **t9** Generate late West Saxon paradigms, then labeled Anglian and Kentish variant layers, keeping DOE attested spe... — synthesis/Research: Old English Morphology Generation.md (touched 2026-10-09)
+- **t10** Count future-referring clauses in non-gospel Old English prose, using both gospel-alignment and a bleached-pr... — synthesis/Research: Future Tense in Old English.md (touched 2026-10-12)
+- **t12** Locherbie-Cameron 1991 pp. 238-49 is still unread. Miller 2013's page-cited judgments (Ælfwine, Offa, Byrhtwo... — synthesis/Research: The Battle of Maldon.md (touched 2026-10-18)
+- **t14** Wilcox 2000 and Roach, Æthelred, pp. 186-251 are still unread. Filed: Roach's 2016 Yale essay omits Wulfstan;... — synthesis/Research: St Brice's Day Massacre.md (touched 2026-10-18)
+- **t15** Hogg 1979 and Campbell 1959 §§426-430 are still unread (no open copy). Filed: Hogg 1992 §§7.15-17 and §7.42,... — synthesis/Research: Old English G-Palatalization.md (touched 2026-10-18)
 
 ## Key Takeaways
 
-The DOEC is the unlemmatized record of surviving Old English; the 2009 release has 3,060 texts and 3,033,142 Old English words, and the Web Corpus is the subscribed search.
+Old English after 1066 is a reception history, not a hard stop at the Conquest: twelfth-century copies and later poets keep using it. On aenglisc_toolkit, PySide6 6.11.2 deploy reads a spec file rather than pyproject.toml, and pytest-qt offscreen runs on macOS without X11.
 
 ## Flagged Contradictions
 
-*None flagged.*
+- [[projects/aenglisc-toolkit/skills/pytest-qt-offscreen-macos]] contradicts [[references/qt-official-docs-best-practice]]
+- [[concepts/oe-prefixes-for-fore-oth]] contradicts [[entities/bosworth-toller]]

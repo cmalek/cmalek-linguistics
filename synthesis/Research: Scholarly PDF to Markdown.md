@@ -84,7 +84,7 @@ Capture or render one lossless image per page, and keep an unretouched master se
 - **Binarize or not.** NDNP-era practice binarizes only the OCR derivative. Kraken now says binarization often hurts. Reul’s best Calamari numbers used a chosen binarization. Follow the checkpoint.
 - **CATMuS versus a facsimile edition.** CATMuS folds shapes and drops font style so that many transcribers agree. A grammar’s italic and macrons are meaningful. Using CATMuS unchanged will train a model that cannot emit the edition you want.
 - **Reul’s 1.5% CER** is after macron-to-tilde and whitespace rules. It is not a score for this diplomatic policy.
-- **No published CER** on a Junicode Old English or Old Norse textbook with macrons, dotted consonants, and paradigm tables. The IPA, Icelandic, and historical-Latin results are the nearest evidence.
+- **No published CER** on a Junicode Old English or Old Norse textbook with macrons, dotted consonants, and paradigm tables. A search on 13 October 2026 still found none. The nearest numbers remain other languages and other typefaces: Reul’s Calamari scores on early printed Latin, German, and Dutch, and a Kraken Middle English manuscript project. No Kraken or Calamari fine-tune was trained for this inventory, so there is still no measured CER to report.
 - **olmOCR-Bench and OmniDocBench** still do not test this inventory. They are irrelevant to the go/no-go decision here.
 
 ## Sources consulted

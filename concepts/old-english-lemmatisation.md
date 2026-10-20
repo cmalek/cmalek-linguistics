@@ -60,6 +60,9 @@ The encyclopedia’s example is *bær*, either a form of *beran* or the adjectiv
 
 ## Related
 
+- [[synthesis/old-english-lemmatisation-x-old-english-inflectional-class|Old English Lemmatisation × Old English Inflectional Class]] — synthesis
+- [[concepts/oe-lexicon-size-and-gaps]]: how big the OE lexicon was and how to find unattested words
+
 - [[concepts/old-english-form-generation]]
 - [[concepts/old-english-inflectional-class]]
 - [[entities/varioe]]

@@ -24,8 +24,8 @@ tier: supporting
 created: 2026-09-25T18:00:00Z
 updated: 2026-09-25T18:00:00Z
 snapshots:
-  - "[[_raw/_archived/Ælfric_s Life of St. Edmund]]"
-  - "[[_raw/_archived/Ælfric_s Life of St. Edmund_side_by_side.pdf]]"
+  - "[[_raw/_archived/Ælfric_s Life of St. Edmund|Ælfric_s Life of St. Edmund]]"
+  - "[[_raw/_archived/Ælfric_s Life of St. Edmund_side_by_side.pdf|Ælfric_s Life of St. Edmund_side_by_side.pdf]]"
 ---
 
 # Ælfric's Life of St Edmund

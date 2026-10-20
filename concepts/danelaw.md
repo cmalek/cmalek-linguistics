@@ -27,7 +27,7 @@ lifecycle: draft
 lifecycle_changed: "2026-09-25"
 tier: supporting
 created: 2026-09-25T16:30:00Z
-updated: 2026-10-09T16:05:14Z
+updated: 2026-10-13T05:20:00Z
 snapshots:
   - "[[_raw/_archived/Ari Þorgilsson On the Settling of Iceland]]"
   - "[[_raw/_archived/Danelaw]]"
@@ -41,7 +41,7 @@ Old English *Dena lagu*. Region of England, late ninth century to 1066, in which
 
 ## Key Ideas
 
-- After [[entities/alfred-the-great]] defeats Guthrum at Edington (878), treaties (Wedmore; Treaty of Alfred and Guthrum, by 890) draw a boundary roughly London–Chester: Norsemen north and east, Anglo-Saxons south and west. Approximate coverage: Yorkshire, central/eastern Midlands, East of England. EIEOL lesson 1: Danish colonizing focus on NE England ~870; **open** whether the bulk of settlement was large armies or smaller forces plus follow-on farmers. See [[concepts/viking-age-expansion]].
+- After [[entities/alfred-the-great]] defeats Guthrum at Edington (878), the treaty of Alfred and Guthrum runs up the Thames, up the Lea to its source, straight to Bedford, and up the Ouse to Watling Street at Stony Stratford. A line from London to Chester along the whole of Watling Street is a later extension of that text ([[references/purkiss-2025-limits-of-the-danelaw]]). Scandinavian parish names concentrate north and east of the treaty line as written, and are scarce south and west of it ([[references/fellows-jensen-1989-scandinavian-settlement]]). Approximate coverage of the settlement names: Yorkshire, Lincolnshire, Leicestershire, and a thinner East Anglia. EIEOL lesson 1: Danish colonizing focus on NE England ~870; **open** whether the bulk of settlement was large armies or smaller forces plus follow-on farmers. See [[concepts/viking-age-expansion]].
 - Linguistic effects on [[concepts/old-english]]: Norse place-names (*-by, -thorpe, -thwaite, -toft, -kirk*, *Whitby*, *Scunthorpe*); *-son* vs OE *-ing* in surnames; up to ~1,000 permanent loans (*they/them/their*, *take*, *give*, *sky*, *law*, *window*, *egg*); synonym pairs (*craft/skill*, *sick/ill*, *hide/skin*).
 - Inflections erode fastest under Danish contact; prepositions carry more of the grammar. Pronouns *they/them/their* reach London/south only in the fifteenth century.
 - Northern English accents still show Norse influence; the History of English source claims they remain largely intelligible in Iceland. ^[ambiguous] Literary ON (mostly Icelandic) vs the Danish of the Danelaw: [[skills/ut-eieol-old-norse]] — ON is a dialect cluster, not one spoken standard.
@@ -54,6 +54,7 @@ The political Danelaw lasted less than a century in its original treaty form; th
 
 ## Related
 
+- [[synthesis/old-english-g-palatalization-x-danelaw|Old English g-Palatalization × Danelaw]] — synthesis
 - [[synthesis/danelaw-x-viking-age-expansion|Danelaw × Viking-Age Expansion]] — synthesis
 - [[synthesis/danelaw-x-old-english-dialects|Danelaw × Old English Dialects]] — synthesis
 

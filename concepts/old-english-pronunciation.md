@@ -63,6 +63,10 @@ See [[concepts/historical-linguistics-sound-terms]] for stop/fricative/palatal v
 
 - Exact value of palatal `c` (and some long-vowel heights) across teaching traditions.
 
+## Related
+
+- [[synthesis/ocr-character-inventory-x-old-english-pronunciation|OCR Character Inventory × Old English Pronunciation]] — synthesis
+
 ## Sources
 
 - Vault lesson *0003 Pronouncing Old English Letters*

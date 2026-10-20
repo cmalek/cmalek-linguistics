@@ -23,7 +23,7 @@ lifecycle: draft
 lifecycle_changed: "2026-10-09"
 tier: supporting
 created: 2026-10-09T16:05:14Z
-updated: 2026-10-09T16:05:14Z
+updated: 2026-10-13T05:20:00Z
 ---
 
 # Danelaw × Old English Dialects
@@ -57,7 +57,7 @@ Norse contact may itself have conditioned northern spelling. If so, Anglian vowe
 
 ## Open Questions
 
-- Whether the *sk*/*sh* test and the *ea*/*æ* cue ever disagree inside a single copied text. The wiki states both tests and never applies them to one witness.
+- They disagree, but not as a textbook *sk* cluster beside an *ea*/*æ* pair in one line. [[references/wulfstan-career|Wulfstan’s]] homilies and laws are late West Saxon, the dialect whose vowels are the *ea* side of Wright’s cue list, and the same copies use the Norse words *þræl*, *bonda*, *eorl*, and *lagu*. The *sk*/*sh* pairs on the Danelaw page (*skill*, *skin*) are later English outcomes of that contact. This pass did not find one Old English sentence that prints both a surviving *sk* and an *ea*/*æ* cue. Maldon is a weaker witness: it says *wicinga*, and [[references/karasawa-2025-griffith-maldon|Karasawa]] treats Scandinavian coloring of the Vikings as weakly evidenced while the lexical coloring he does accept is southern.
 
 ## Related
 
@@ -75,3 +75,4 @@ Co-occurrence evidence already on these wiki pages:
 - [[concepts/anglo-saxon-kingdoms]] — dialect names and the Danelaw on one political table
 - [[entities/alfred-the-great]] — the 878 partition and the West Saxon written koiné
 - [[concepts/old-english]] — four dialects, the Danelaw loan stock, and the *sk*/*sh* test
+- [[references/wulfstan-career]] — late West Saxon copies that also use *lagu*, *eorl*, *þræl*, *bonda*
