@@ -13,6 +13,8 @@ relationships:
     type: related_to
   - target: "[[concepts/old-norse-grammar]]"
     type: related_to
+  - target: "[[concepts/great-vowel-shift]]"
+    type: related_to
 sources:
   - "agent:raw-lesson 0001 Old English Sound Change and Reconstruction"
   - "agent:raw-notes Germanic Sound Change Map"
@@ -27,7 +29,7 @@ lifecycle: draft
 lifecycle_changed: "2026-09-25"
 tier: core
 created: 2026-09-25T16:30:00Z
-updated: 2026-10-09T16:05:14Z
+updated: 2026-10-30T18:40:00Z
 snapshots:
   - "[[_raw/_archived/0001 Old English Sound Change and Reconstruction]]"
   - "[[_raw/_archived/Germanic Sound Change Map]]"
@@ -50,6 +52,7 @@ Named sound laws are **layers**, not rival theories. Reconstruction works becaus
 - **Breaking:** a vowel becomes a diphthong or more complex vowel near certain consonants — very common in OE spelling histories.
 - **Palatalization:** consonants pull toward the palate near front vowels or *j*; beginner reminder: OE `c`/`g` can stay velar or move toward *ch*/*y*; dotted `ċ`/`ġ` is modern teaching notation, not a native manuscript norm.
 - Beginner rule of thumb: Grimm/Verner are earlier and broader; mutations like i-umlaut are later and more local.
+- **Great Vowel Shift.** A still later reorganization of long stressed vowels, conventionally from about 1400 through Early Modern English. *Foot*/*feet* is i-mutation. *Bite* and *meet* belong to the later shift. See [[concepts/great-vowel-shift]].
 - Causes of Grimm's first shift are not settled; Lehmann notes no widely accepted physical explanation. Intervocalic *h* loss is ordinary lenition in a weak environment. ^[inferred]
 - Order of famous changes is inferred from **dependency** (what must precede what), not from knowing the articulatory cause: Grimm before Verner (Verner voices Grimm’s fricatives); mobile PIE accent still relevant at Verner; fixed Germanic stress and i-mutation later.
 

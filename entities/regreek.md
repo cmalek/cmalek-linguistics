@@ -14,7 +14,7 @@ lifecycle: draft
 lifecycle_changed: "2026-10-09"
 tier: supporting
 created: 2026-10-09T18:20:00Z
-updated: 2026-10-09T18:20:00Z
+updated: 2026-10-28T17:40:07+00:00
 relationships:
   - target: "[[concepts/tounicode-cmap]]"
     type: implements
@@ -36,9 +36,15 @@ The same pattern applies to other legacy scholarly fonts (MUFI PUA, old phonetic
 
 ## Related
 
+- [[synthesis/ocr-character-inventory-x-regreek|OCR Character Inventory × regreek]] — synthesis
+
 - [[entities/pymupdf]]
 - [[references/reading-or-guessing-vlm-ocr]]
 - [[synthesis/Research: Scholarly PDF to Markdown]]
+
+## Research update — 28 October 2026
+
+The [project README](https://github.com/romain-girardi-eng/regreek) preserves and flags unmapped codes, rather than silently repairing them. Its corpus-attestation percentages are project-reported and are not aligned character-error measurements; see [[synthesis/ocr-character-inventory-x-regreek]].
 
 ## Sources
 

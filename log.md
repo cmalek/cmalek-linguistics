@@ -49,3 +49,12 @@ title: Wiki Log
 - [2026-10-18T20:37:29Z] WIKI_RESEARCH topic="qt and translation workbench follow-up" rounds=1 sources_fetched=6 pages_created=3 backends_used="paper-search CLI"
 - [2026-10-18T23:01:35Z] WIKI_RESEARCH topic="t12 Maldon names, t14 Wulfstan and 1002, t15 OE g-palatalization" rounds=2 sources_fetched=14 pages_created=5 backends_used=paper-search,web-search
 - [2026-10-20T15:59:54Z] INGEST source="_raw (Old English after 1066 + two aenglisc_toolkit notes)" pages_created=3 pages_updated=9 mode=raw
+- [2026-10-21T02:48:44Z] WIKI_RESEARCH topic="Old English c-palatalization rules and lexical counterexamples" rounds=3 sources_fetched=10 pages_created=12 pages_updated=2 backends_used=none
+- [2026-10-23T15:12:40Z] WIKI_RESEARCH topic="expected gaps in the Old English lexicon, 670-1100" rounds=3 sources_fetched=14 pages_created=15 pages_updated=2 backends_used="paper-search; defuddle invoke failed; yt-dlp absent; perplexity unset"
+- [2026-10-28T17:29:16Z] WIKI_SYNTHESIZE pages_scanned=358 synthesis_created=5 candidates_skipped=705
+- [2026-10-28T17:40:57Z] WIKI_RESEARCH topic="External evidence for five synthesis drafts" rounds=3 sources_fetched=12 sources_partial=3 pages_created=8 pages_updated=10 backends_used=web
+- [2026-10-28T18:35:51Z] WIKI_RESEARCH topic="Living Old English scoping review 2016–2026" rounds=3 sources_fetched=untracked records_charted=64 main_records=49 batch=B001 pages_created=19 backends_used=web
+- [2026-10-28T19:11:34Z] WIKI_RESEARCH topic="Living Old English scoping review 2016–2026, batch B002" rounds=3 sources_fetched=untracked new_main=59 main_records=108 records_charted=126 batch=B002 pages_created=0 pages_updated=7 backends_used="web search, publisher HTML"
+- [2026-10-28T19:25:54Z] WIKI_RESEARCH topic="Living Old English scoping review 2016–2026, batch B003" rounds=3 sources_fetched=untracked new_main=32 main_records=140 records_charted=161 batch=B003 pages_created=0 pages_updated=7 backends_used="publisher HTML"
+- [2026-10-30T18:13:00Z] WIKI_RESEARCH topic="The Great Vowel Shift" rounds=3 sources_fetched=12 pages_created=14 backends_used=none
+- [2026-10-30T19:13:59Z] WIKI_RESEARCH topic="Early and late Old English spelling and inflection by dialect" rounds=2 sources_fetched=10 pages_created=12 backends_used=none

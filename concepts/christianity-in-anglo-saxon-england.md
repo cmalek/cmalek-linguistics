@@ -25,7 +25,7 @@ lifecycle: draft
 lifecycle_changed: "2026-09-25"
 tier: supporting
 created: 2026-09-25T16:40:00Z
-updated: 2026-10-12T23:40:00Z
+updated: 2026-10-28T17:28:59+00:00
 snapshots:
   - "[[_raw/_archived/Christianity in Anglo-Saxon England]]"
 ---
@@ -53,6 +53,8 @@ The church [[entities/wulfstan-of-york]] writes for, around 1000, is a later sta
 - Scale of Romano-British Christian survival under early Anglo-Saxon elites (*ecclēs* place-names).
 
 ## Related
+
+- [[synthesis/christianity-in-anglo-saxon-england-x-alfred-the-great|Christianity in Anglo-Saxon England × Alfred the Great]] — synthesis
 
 - [[synthesis/bede-x-christianity-in-anglo-saxon-england|Bede × Christianity in Anglo-Saxon England]] — synthesis
 

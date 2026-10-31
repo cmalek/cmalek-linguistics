@@ -26,7 +26,7 @@ lifecycle: draft
 lifecycle_changed: "2026-09-25"
 tier: supporting
 created: 2026-09-25T16:30:00Z
-updated: 2026-10-09T18:20:00Z
+updated: 2026-10-20T19:48:43-07:00
 snapshots:
   - "[[_raw/_archived/0003 Pronouncing Old English Letters]]"
   - "[[_raw/_archived/Diacritics - The Passion of the Apostles Peter and Paul]]"
@@ -47,7 +47,7 @@ A usable first-pass system for reading [[concepts/old-english]], not a claim of 
 
 **Tricky consonants:**
 
-- `c`: [k] before consonants and in back-vowel environments (*bōc*); learner-safe [tʃ] in palatal / front environments (*cild*, *benc*). Narrow IPA for palatal *c* is not settled (Wright more conservative than many teaching texts).
+- `c`: [k] or a palatal outcome conventionally read [tʃ]. Present-day adjacent letters alone do not decide it: *cynn* has /k/, *sēċan* is palatal, and *cyċene* has both. See [[concepts/old-english-c-palatalization]] and [[synthesis/Research: Old English C-Palatalization]] for historical rules, exclusions and reverse cases. Early and northern palatalization need not imply assibilation to [tʃ].
 - `g`: [g] initially before back vowels, before consonants, after [ŋ], when doubled; [ɣ] medially between back vowels; **oldenglish.info** also gives palatal [j] before front vowels (*ġeond*, *werig*), which 0003 treats more as [ɣ] in back environments — palatal *g* is a teaching split. ^[ambiguous]
 - `n` is [ŋ] before velars; `r` as a light tap [ɾ] is a classroom compromise.
 - `sc` is usually [ʃ] (*scip*, *fisc*); [sk] in compounds (*iscald*) and next to back vowels (*ascian*, *tusc*).

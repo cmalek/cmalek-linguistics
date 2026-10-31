@@ -10,6 +10,8 @@ relationships:
     type: uses
   - target: "[[concepts/old-english-after-1066]]"
     type: related_to
+  - target: "[[concepts/great-vowel-shift]]"
+    type: related_to
 sources:
   - "https://oldenglish.info/history.html"
   - "https://www.thehistoryofenglish.com/old-english"
@@ -26,7 +28,7 @@ lifecycle: draft
 lifecycle_changed: "2026-09-25"
 tier: core
 created: 2026-09-25T16:30:00Z
-updated: 2026-10-20T15:55:46Z
+updated: 2026-10-30T18:40:00Z
 snapshots:
   - "[[_raw/_archived/Germanic Languages A History of Migration and Conquest|Germanic Languages A History of Migration and Conquest]]"
   - "[[_raw/_archived/History of English|History of English]]"
@@ -50,7 +52,8 @@ A compact periodization of English, from reconstructed Proto-Indo-European to th
 - **12th century.** *The Grave* (Bodley 343) is treated as a last OE poem with anachronistic older language in a Middle English century. A 2013 Companion chapter tells this differently: Old English was still copied accurately well into the twelfth century, the Peterborough Chronicle runs to 1154, and *The Grave* sits with other post-Conquest poems that still draw on the tradition, not as a unique last poem. See [[concepts/old-english-after-1066]]. ^[ambiguous]
 - **13th century.** Middle English: loss of þ/ð as letters, simplification of endings to *-e*, plurals mostly *-s*, grammatical gender discarded. Provisions of Oxford (1258) is the first post-Conquest government document in English.
 - **14th century.** English returns as a national language: Edward III addresses Parliament in English (1362); Pleading in English Act; Chaucer.
-- **15th–16th century (German, not English).** PoliLingua: print + Luther’s 1534 Bible (Saxon dialect) as a written-German standard. English’s analogous print/London/GVS story is already on the 15th-c. line above. See [[concepts/germanic-language-family]].
+- **15th–18th centuries.** The [[concepts/great-vowel-shift|Great Vowel Shift]] reorganizes the long stressed vowels. On the usual dating it begins in late Middle English, around 1400, and runs through Early Modern English, with some outcomes in the eighteenth century. Printing was fixing a late Middle English spelling while those pronunciations moved.
+- **15th–16th century (German).** PoliLingua: print + Luther’s 1534 Bible (Saxon dialect) as a written-German standard. The English print and vowel-shift story is the previous item. See [[concepts/germanic-language-family]].
 
 ## Open Questions
 

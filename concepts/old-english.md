@@ -23,6 +23,8 @@ relationships:
     type: related_to
   - target: "[[concepts/old-english-after-1066]]"
     type: related_to
+  - target: "[[concepts/oe-expected-lexical-gaps]]"
+    type: related_to
 sources:
   - "https://www.thehistoryofenglish.com/old-english"
   - "https://oldenglish.info/history.html"
@@ -39,7 +41,7 @@ lifecycle: draft
 lifecycle_changed: "2026-09-25"
 tier: core
 created: 2026-09-25T16:30:00Z
-updated: 2026-10-20T15:55:46Z
+updated: 2026-10-23T16:05:00Z
 snapshots:
   - "[[_raw/_archived/Christianity in Anglo-Saxon England|Christianity in Anglo-Saxon England]]"
   - "[[_raw/_archived/History of English|History of English]]"
@@ -61,6 +63,7 @@ Old English (also called Anglo-Saxon, OE *Englisc*) is the West Germanic languag
 - Literacy arrives with Augustine's mission (597) as part of [[concepts/christianity-in-anglo-saxon-england]]; it displaces [[concepts/anglo-saxon-paganism]] over the seventh century. Runes give way to the Roman alphabet plus *wynn*, thorn (þ), eth (ð), yogh (ȝ), and ash (æ). Latin loans at this stage are mostly ecclesiastical, with some domestic vocabulary.
 - About 400 OE texts survive. The language is highly inflected (three genders, multiple cases, strong/weak verbs); word order is freer than in Modern English. See [[concepts/old-english-grammar]].
 - Core Modern English function words and everyday vocabulary are overwhelmingly OE in origin, even though perhaps 85% of the attested OE lexicon later dropped out under Norse and Norman pressure. False friends include *wif* (any woman), *fugol* (any bird), *sona* (immediately). Slocum/Lehmann’s classroom stats (most-common-word overlap both ways) are the same point, not a second corpus.
+- Dictionary counts near 32,000–34,000 are attested forms. Research on farms, plants, dress, crafts, and place-names asks which meaning classes that life would require are thin in those dictionaries: [[concepts/oe-expected-lexical-gaps]] and [[synthesis/Research: Expected Gaps in the Old English Lexicon]].
 - A sixth-century *sk* → *sh* change (*skield* → *shield*) means later *sk* words are typically Norse. Seventh-century [[concepts/germanic-sound-change|i-mutation]] yields pairs like *foot/feet* and *man/men*. ON **breaking** of *e* is why *gjalda* sits beside OE *geldan* ([[concepts/old-norse-grammar]]).
 - Viking settlement and the [[concepts/danelaw]] add up to ~1,000 Norse loans (*they/them/their*, *take*, *sky*, *law*) and accelerate loss of inflections.
 - Local tooling in this vault: [[projects/wyrdcraeft/wyrdcraeft]] generates inflected forms; [[projects/aenglisc-toolkit/aenglisc-toolkit]] is a Qt annotation editor. Those pages are session distillations, not linguistic sources. ^[inferred]

@@ -3,8 +3,8 @@ title: Todo Index
 category: _meta
 tags: [meta/todos]
 sources: [conversation]
-created: 2026-10-18
-updated: 2026-10-18
+created: 2026-10-30
+updated: 2026-10-30
 generated_by: obsidian-wiki memory todo
 ---
 
@@ -34,6 +34,20 @@ safe to edit by hand — the table round-trips. An open item untouched for
 | t25 | open | Add a derived needs-context state and N-of-M fully-annotated counter; consider a setting to exclude meaning and sense from remembered templates | synthesis/Research: Qt and Translation Workbench Best Practice.md | 2026-10-18 | 2026-10-18 |
 | t26 | open | Spike a pyside6-deploy build on macOS, Windows 11 and Linux: check QtHelp qch, Tectonic, fonts, size and build time before dropping the PyInstaller spec | synthesis/Research: Qt and Translation Workbench Best Practice.md | 2026-10-18 | 2026-10-18 |
 | t27 | open | Decide whether the exported PDF prints a conventions page and DOE Short Title and Cameron metadata, per the Mertens edition | synthesis/Research: Qt and Translation Workbench Best Practice.md | 2026-10-18 | 2026-10-18 |
+| t28 | open | No published list yet names Old English words predicted from daily life in 670-1100 and shown to be absent from the dictionaries. The Vocabulary of English Place-Names still stops in the early alphabet. | synthesis/Research: Expected Gaps in the Old English Lexicon.md | 2026-10-23 | 2026-10-23 |
+| t29 | open | Which Alfredian preface passages support institutional continuity, and which later reformers reused them to argue for an independent English church? | synthesis/christianity-in-anglo-saxon-england-x-alfred-the-great.md | 2026-10-28 | 2026-10-28 |
+| t30 | open | Which hand-checked Bosworth-Toller entries would distinguish parser fidelity from errors inherited through the shared digitized source? | synthesis/bosworth-toller-x-dictionary-build.md | 2026-10-28 | 2026-10-28 |
+| t31 | open | Does an inventory-based audit detect additional rare-mark errors in matched decoded and OCR outputs, beyond ordinary readability checks? | synthesis/ocr-character-inventory-x-regreek.md | 2026-10-28 | 2026-10-28 |
+| t32 | open | How often do early modern arguments for vernacular Christian precedent explicitly invoke Alfred rather than Ælfric or a generalized Anglo-Saxon past? | synthesis/old-english-after-1066-x-alfred-the-great.md | 2026-10-28 | 2026-10-28 |
+| t33 | open | Which features of the Egill court passage have independent metrical or manuscript evidence for an earlier date than the surviving prose witness? | synthesis/old-norse-grammar-x-snorri-sturluson.md | 2026-10-28 | 2026-10-28 |
+| t34 | open | What surviving evidence distinguishes intended episcopal distribution from actual teaching and pupil uptake? | synthesis/christianity-in-anglo-saxon-england-x-alfred-the-great.md | 2026-10-28 | 2026-10-28 |
+| t35 | open | Which entries expose the sibling-merge step’s most consequential distinctions when checked against page images and an independently edited lexical source? | synthesis/bosworth-toller-x-dictionary-build.md | 2026-10-28 | 2026-10-28 |
+| t36 | open | What extra rare-mark errors does this audit detect on the actual corpus, and how much correction time does it save or add? | synthesis/ocr-character-inventory-x-regreek.md | 2026-10-28 | 2026-10-28 |
+| t37 | open | Across specified editions and prefaces from 1560–1625, how do royal reputation, access to Old English texts, and doctrinal citation distribute? | synthesis/old-english-after-1066-x-alfred-the-great.md | 2026-10-28 | 2026-10-28 |
+| t38 | open | Which attribution results survive manuscript and normalization controls, and which specific features of the court passage have independent dating evidence? | synthesis/old-norse-grammar-x-snorri-sturluson.md | 2026-10-28 | 2026-10-28 |
+| t40 | open | Open chapter abstracts in Rudolf and Irvine, The Anonymous Old English Homily (Brill, 2020), and the Brepols homily volume. JEPNS items still title-only: Wager 2017, Cole 2016, James 2019. | synthesis/Research: Old English Scholarship 2016–2026.md | 2026-10-28 | 2026-10-28 |
+| t41 | open | Read Stenbrenden 2016 beyond the introduction, and Stockwell and Minkova 1988, before treating the Great Vowel Shift as one chain with a known cause. | synthesis/Research: The Great Vowel Shift.md | 2026-10-30 | 2026-10-30 |
+| t42 | open | Mercian and Kentish cells for dative -an, class II -ige, and a Wulfstan-versus-Maldon sylf count are still unread. | synthesis/Research: Early and Late Old English Spelling and Inflection.md | 2026-10-30 | 2026-10-30 |
 | t1 | done | Count West Saxon versus Anglian copies for whether textbook vowels match Wright's cue list or the minority outcome. | synthesis/alfred-the-great-x-germanic-sound-change.md | 2026-10-09 | 2026-10-13 |
 | t2 | done | Separate Alfredian West Saxon normalization in Cædmon's hymn from wording Bede's Latin paraphrase never preserved. | synthesis/bede-x-christianity-in-anglo-saxon-england.md | 2026-10-09 | 2026-10-13 |
 | t3 | done | Compare Norse place-name density inside and outside the London–Chester line, holding Anglian dialect area constant. | synthesis/danelaw-x-viking-age-expansion.md | 2026-10-09 | 2026-10-13 |
@@ -42,4 +56,5 @@ safe to edit by hand — the table round-trips. An open item untouched for
 | t6 | done | No published CER yet on a Junicode Old English or Old Norse textbook PDF (macrons, dotted c/g, paradigm tables). | synthesis/Research: Scholarly PDF to Markdown.md | 2026-10-09 | 2026-10-09 |
 | t11 | done | Identify which Institutes of Polity witness is the working B manuscript: Junius 121, Nero A.i, or Corpus 201. | synthesis/Research: Wulfstan and the Institutes of Polity.md | 2026-10-12 | 2026-10-12 |
 | t20 | done | Decide the project document model: export file (A) or database per project (B) | synthesis/Research: Qt and Translation Workbench Best Practice.md | 2026-10-18 | 2026-10-18 |
+| t39 | done | Open abstracts for Brill 2020 and Brepols 2025 Old English homily chapters, and for Journal of the English Place-Name Society articles only listed in batch B002. | synthesis/Research: Old English Scholarship 2016–2026.md | 2026-10-28 | 2026-10-28 |
 | t13 | dropped | Resolve open grill questions: Strataforge scope for Lambda/MCP, login chain, observability stack, KB store, MySQL data classification | _raw/2026-10-15-agentcore-gateway-policy-cli-findings.md | 2026-10-15 | 2026-10-15 |

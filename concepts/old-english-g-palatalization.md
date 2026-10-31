@@ -32,7 +32,7 @@ lifecycle: draft
 lifecycle_changed: "2026-10-17"
 tier: core
 created: 2026-10-17T12:00:00Z
-updated: 2026-10-18T23:20:00Z
+updated: 2026-10-20T19:48:43-07:00
 ---
 
 # Old English g-Palatalization (ġ vs. g)
@@ -89,7 +89,7 @@ The dot in ġ is a modern editorial convention. Manuscripts write plain `g` for 
 
 These are not Old English exceptions. The Old English word, where it is *ġeat*, *ġiest*, or *ġiefu*, is palatal. The modern velar is a later history.
 
-**Group D: analogy and levelling.** *seek* (from *sēcþ*, not *sēċan*), and Northumbrian forms, where palatalization is weaker (Scots *kirk* ~ *church*, *brig* ~ *bridge*).
+**Group D: analogy and levelling.** *seek* (from *sēcþ*, not *sēċan*), and northern outcomes. The c-specific evidence for *kirk* versus *church* requires distinguishing palatalization from later assibilation; see [[synthesis/Research: Old English C-Palatalization]]. *Brig* versus *bridge* concerns g and needs its own analysis.
 
 ## The reverse list: looks velar, is palatal
 
@@ -99,7 +99,7 @@ These are not Old English exceptions. The Old English word, where it is *ġeat*,
 
 - West Saxon: palatal diphthongization is regular, so *ġe/ġæ* is rare in stressed syllables (*ġiefan*, *ġeaf*).
 - Anglian and Mercian: more *ġæ/ġe* spellings (*ġæf*, *ġet*, *ġeldan*). Mercian *geatu* beside West Saxon *gatu*.
-- Northumbrian: markedly less palatalization, probably Scandinavian influence.
+- Northumbrian: distinguish palatalization from assibilation. For c, Laker and Versloot discuss native northern outcomes as well as Scandinavian contact; a northern /k/ alone does not establish Norse replacement. See [[synthesis/Research: Old English C-Palatalization]]. Do not generalize this c-specific argument into an automatic rule for g.
 
 ## Caveats
 

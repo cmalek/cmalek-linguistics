@@ -1,7 +1,7 @@
 ---
 title: Hot Cache
-updated: 2026-10-20T15:59:54Z
-pages: 331
+updated: 2026-10-30T19:13:59Z
+pages: 416
 generated_by: obsidian-wiki memory hot
 ---
 
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-18] WIKI_RESEARCH topic=qt and translation workbench follow-up rounds=1 sources_fetched=6 ...
-- [2026-10-18] WIKI_RESEARCH topic=t12 Maldon names, t14 Wulfstan and 1002, t15 OE g-palataliz... rounds=2 sources_fetched=14 ...
-- [2026-10-20] INGEST source=_raw (Old English after 1066 + two aenglisc_toolkit notes) pages_created=3 pages_updated=9 ...
+- [2026-10-28] WIKI_RESEARCH topic=Living Old English scoping review 2016–2026, batch B003 rounds=3 sources_fetched=untracked ...
+- [2026-10-30] WIKI_RESEARCH topic=The Great Vowel Shift rounds=3 sources_fetched=12 ...
+- [2026-10-30] WIKI_RESEARCH topic=Early and late Old English spelling and inflection by diale... rounds=2 sources_fetched=10 ...
 
 ## Active Threads
 
@@ -27,7 +27,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-Old English after 1066 is a reception history, not a hard stop at the Conquest: twelfth-century copies and later poets keep using it. On aenglisc_toolkit, PySide6 6.11.2 deploy reads a spec file rather than pyproject.toml, and pytest-qt offscreen runs on macOS without X11.
+Early and late Old English spelling and inflection differ by dialect: West Saxon ie becomes y and -um meets -an, while late Northumbrian simplifies the verb sooner. The present-subjunctive -an, class II -ige, and a rise in sylf were not found in the opened studies.
 
 ## Flagged Contradictions
 

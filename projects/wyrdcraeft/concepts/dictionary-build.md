@@ -27,7 +27,7 @@ lifecycle: draft
 lifecycle_changed: "2026-10-09"
 tier: supporting
 created: 2026-10-09T16:50:00Z
-updated: 2026-10-09T16:50:00Z
+updated: 2026-10-28T17:28:59+00:00
 ---
 
 # Dictionary build
@@ -66,3 +66,7 @@ Unmatched or ambiguous form joins leave `entry_id` null. The relink step clears 
 Morphology is not a separate product command anymore. Generation runs inside this build when `forms` is empty, or whenever `--with-morphology` is passed. See [[projects/wyrdcraeft/concepts/morphology-generation]].
 
 `docs/context/morphology.md` still lists `morphology build`. The live CLI registers build on `dictionary`.
+
+## Related
+
+- [[synthesis/bosworth-toller-x-dictionary-build|Bosworth-Toller × Dictionary build]] — synthesis

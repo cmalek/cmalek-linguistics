@@ -14,7 +14,7 @@ lifecycle: draft
 lifecycle_changed: "2026-10-09"
 tier: supporting
 created: 2026-10-09T18:20:00Z
-updated: 2026-10-09T18:20:00Z
+updated: 2026-10-28T17:40:07+00:00
 relationships:
   - target: "[[references/ocr-for-the-ipa]]"
     type: derived_from
@@ -29,6 +29,7 @@ sources:
   - "url:https://mufi.info/projects/mufi/pdfs/MUFI%20v4.0%20chart.pdf"
   - "url:https://arxiv.org/pdf/2604.12978"
   - "url:https://sigurdurhaukur.com/articles/ocr-lit-review"
+  - "sources/kraken-6-recognition-codec-training.md"
 ---
 
 # OCR Character Inventory
@@ -45,15 +46,21 @@ The character inventory is the set of scalars the output is allowed to contain, 
 - A vision-language model has a tokenizer instead of a small codec. Rare scalars may be several tokens, or absent. [[references/ocr-for-the-ipa]] expands Qwen’s tokenizer with the IPA characters before fine-tuning. Without that, generation drifts to neighbours. [[references/reading-or-guessing-vlm-ocr]] shows it will also “repair” a rare sequence into a likely word.
 - Synthetic line images in the real fonts (Junicode, Brill, Charis SIL, and the typeface of the book) are the cheap way to grow ground truth. Springmann and colleagues, on Fraktur and early modern Latin (JLCL 2018, GT4HistOCR), found that synthetic Fraktur fonts omit long s and the ligatures real type uses, so real line transcriptions still have to be in the mix.
 - eScriptorium’s virtual keyboard is how you put this inventory into a Kraken training set without hunting through a character map. Transkribus’s EVMsaurus minimus (2026) is a handwriting model for English vernacular minuscule, trained to read thorn, eth, wynn, Tironian marks, and abbreviations, with 4.96% CER on its own validation. That number is a manuscript hand, not a textbook face.
-- Fine-tuning a Kraken recognizer onto new letters uses `--load` plus a codec mode. `union` adds characters from the new ground truth and keeps the old output layer. `new` drops characters the new set never shows. For þ, macrons, and IPA, `union` is the mode that adds them without deleting the Latin letters the base model already knew. `new` is right only when the new set is the closed inventory of the book and later pages will not introduce another mark. ^[inferred]
+- Fine-tuning a Kraken recognizer onto new letters uses `--load` plus a codec mode. `union` adds characters from the new ground truth and keeps the old output layer. `new` drops characters the new set never shows. Codec membership does not establish retained accuracy; see [[sources/kraken-6-recognition-codec-training]] for the versioned training warning.
 - The ground-truth lines have to contain the rare marks often enough. A base model fine-tuned on pages that happen to lack ċ will not grow a ċ. Oversample lines that contain the rare scalars, the way the IPA study did. [[references/ocr-for-the-ipa]].
 
 ## Related
+
+- [[synthesis/ocr-character-inventory-x-regreek|OCR Character Inventory × regreek]] — synthesis
 
 - [[synthesis/ocr-character-inventory-x-old-english-pronunciation|OCR Character Inventory × Old English Pronunciation]] — synthesis
 - [[concepts/diplomatic-ocr-target]]
 - [[concepts/pdf-text-layer-vs-ocr]] — if the text layer is already right, you never ask a model for this inventory
 - [[synthesis/Research: Scholarly PDF to Markdown]]
+
+## Research update — 28 October 2026
+
+The earlier `union` recommendation was too broad; use the documented qualification above.
 
 ## Sources
 
@@ -62,3 +69,4 @@ The character inventory is the set of scalars the output is allowed to contain, 
 - [[references/glotocr-bench]]
 - [[references/state-of-icelandic-ocr]]
 - [[references/reading-or-guessing-vlm-ocr]]
+- [[sources/kraken-6-recognition-codec-training]]

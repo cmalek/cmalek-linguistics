@@ -6,6 +6,8 @@ tags: [old-english, dialects, orthography]
 relationships:
   - target: "[[concepts/old-english-dialects]]"
     type: extends
+  - target: "[[concepts/old-english-early-late-writing]]"
+    type: related_to
   - target: "[[references/tichy-2017-morphological-analyser]]"
     type: derived_from
   - target: "[[references/martin-arista-2026-oe-lemmatisation]]"
@@ -27,7 +29,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-09
 tier: supporting
 created: 2026-10-09T19:50:00Z
-updated: 2026-10-09T19:50:00Z
+updated: 2026-10-30T20:15:00Z
 ---
 
 # Old English orthographic variation
@@ -59,6 +61,7 @@ Inflectional endings differ by dialect as well as stems. Generating “the same 
 ## Related
 
 - [[concepts/old-english-dialects]]
+- [[concepts/old-english-early-late-writing]]
 - [[concepts/old-english-form-generation]]
 - [[synthesis/danelaw-x-old-english-dialects]]
 

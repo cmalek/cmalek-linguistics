@@ -14,7 +14,7 @@ lifecycle: draft
 lifecycle_changed: "2026-10-09"
 tier: supporting
 created: 2026-10-09T18:20:00Z
-updated: 2026-10-09T18:20:00Z
+updated: 2026-10-28T17:40:07+00:00
 relationships:
   - target: "[[concepts/ocr-character-inventory]]"
     type: implements
@@ -24,6 +24,7 @@ sources:
   - "url:https://kraken.re/7.0/introduction_to_atr.html"
   - "url:https://escriptorium.eu/transcribe/"
   - "url:https://arxiv.org/html/2605.27750v2"
+  - "sources/kraken-6-recognition-codec-training.md"
 ---
 
 # Kraken
@@ -53,9 +54,14 @@ The default baseline model emits one line type and one generic region. A grammar
 - [[entities/calamari-ocr]]
 - [[synthesis/Research: Scholarly PDF to Markdown]]
 
+## Research update — 28 October 2026
+
+For the fine-tuning qualification, see [[sources/kraken-6-recognition-codec-training]] and [[synthesis/ocr-character-inventory-x-regreek]].
+
 ## Sources
 
 - <https://kraken.re/7.0/introduction_to_atr.html>
 - <https://escriptorium.eu/transcribe/>
 - <https://www.transkribus.org/models/evmsaurus-minimus>
 - [[references/reading-or-guessing-vlm-ocr]]
+- [[sources/kraken-6-recognition-codec-training]]

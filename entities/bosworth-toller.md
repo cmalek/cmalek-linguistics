@@ -28,7 +28,7 @@ lifecycle: draft
 lifecycle_changed: "2026-09-25"
 tier: supporting
 created: 2026-09-25T16:55:00Z
-updated: 2026-10-09T19:50:00Z
+updated: 2026-10-28T17:28:59+00:00
 snapshots:
   - "[[_raw/_archived/Bosworth-Toller p. 27 A-FLYGE - A-GǢLAN|Bosworth-Toller p. 27 A-FLYGE - A-GǢLAN]]"
 ---
@@ -52,6 +52,8 @@ Worked examples from this leaf: *a-flýman* “put to flight” (Maldon 243); *a
 The scan is messy (OCR, mixed type). Prefer a modern digital Bosworth-Toller (bosworthtoller.com / DOE when available) for quoting. ^[inferred]
 
 ## Related
+
+- [[synthesis/bosworth-toller-x-dictionary-build|Bosworth-Toller × Dictionary build]] — synthesis
 
 - [[synthesis/oe-prefixes-for-fore-oth-x-bosworth-toller|Old English for-, fore-, and oþ- Prefixes × Bosworth-Toller]] — synthesis
 - [[projects/wyrdcraeft/concepts/dictionary-build]] — how this toolkit parses a Bosworth-Toller source file into SQLite.

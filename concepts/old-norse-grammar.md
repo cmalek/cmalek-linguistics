@@ -28,7 +28,7 @@ lifecycle: draft
 lifecycle_changed: "2026-09-25"
 tier: supporting
 created: 2026-09-25T18:30:00Z
-updated: 2026-10-17T12:00:00Z
+updated: 2026-10-28T17:28:59+00:00
 snapshots:
   - "[[_raw/_archived/Ari Þorgilsson On the Settling of Iceland|Ari Þorgilsson On the Settling of Iceland]]"
   - "[[_raw/_archived/from the Prologue of Snorra Edda|from the Prologue of Snorra Edda]]"
@@ -62,6 +62,10 @@ Krause & Slocum lessons 1–2. Distill the rules, not the interlinear glossaries
 ## Open Questions
 
 - Mechanism of ON breaking (they flag the debate).
+
+## Related
+
+- [[synthesis/old-norse-grammar-x-snorri-sturluson|Old Norse Grammar × Snorri Sturluson]] — synthesis
 
 ## Sources
 

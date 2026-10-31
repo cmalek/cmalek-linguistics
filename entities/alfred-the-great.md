@@ -13,6 +13,7 @@ relationships:
 sources:
   - "url:https://en.wikipedia.org/wiki/Alfred_the_Great"
   - "https://www.thehistoryofenglish.com/old-english"
+  - "sources/firth-2024-alfred-the-great.md"
 summary: "King of the West Saxons (871–c. 886) then of the Anglo-Saxons (to 899); checked Vikings, fostered vernacular learning, and made West Saxon the written standard."
 provenance:
   extracted: 0.88
@@ -23,7 +24,7 @@ lifecycle: draft
 lifecycle_changed: "2026-09-25"
 tier: supporting
 created: 2026-09-25T16:30:00Z
-updated: 2026-10-09T16:05:14Z
+updated: 2026-10-28T17:40:07+00:00
 snapshots:
   - "[[_raw/_archived/Alfred the Great]]"
   - "[[_raw/_archived/Old English]]"
@@ -47,9 +48,18 @@ Old English *Ælfrǣd* (c. 849 – 26 October 899). King of the West Saxons from
 
 ## Related
 
+- [[synthesis/old-english-after-1066-x-alfred-the-great|Old English after 1066 × Alfred the Great]] — synthesis
+
+- [[synthesis/christianity-in-anglo-saxon-england-x-alfred-the-great|Christianity in Anglo-Saxon England × Alfred the Great]] — synthesis
+
 - [[synthesis/alfred-the-great-x-germanic-sound-change|Alfred the Great × Germanic Sound Change]] — synthesis
+
+## Research update — 28 October 2026
+
+Firth’s 2024 research documents a wider medieval English and Icelandic tradition for Alfred’s byname, qualifying a story centred on its later popularization. See [[sources/firth-2024-alfred-the-great]].
 
 ## Sources
 
 - Wikipedia clipping *Alfred the Great*
 - [The History of English: Old English](https://www.thehistoryofenglish.com/old-english)
+- [[sources/firth-2024-alfred-the-great]]

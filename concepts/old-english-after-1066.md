@@ -31,7 +31,7 @@ lifecycle: draft
 lifecycle_changed: "2026-10-20"
 tier: supporting
 created: 2026-10-20T15:55:46Z
-updated: 2026-10-20T15:55:46Z
+updated: 2026-10-28T17:28:59+00:00
 snapshots:
   - "[[_raw/_archived/Old English after 1066|Old English after 1066]]"
 ---
@@ -81,6 +81,10 @@ Jack Niles's question about *Beowulf* — what work a text did, not only what it
 - When, exactly, the alliterative two-verse line dropped out of use. The chapter says the date is arguable.
 - Whether the Tremulous Hand composed *The First Worcester Fragment* or only copied it.
 - How the radical seventeenth-century uses Hill describes sit beside Wheelock's royal poem. The chapter flags the contrast and does not make it.
+
+## Related
+
+- [[synthesis/old-english-after-1066-x-alfred-the-great|Old English after 1066 × Alfred the Great]] — synthesis
 
 ## Sources
 

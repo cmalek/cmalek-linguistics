@@ -12,19 +12,25 @@ relationships:
     type: related_to
   - target: "[[concepts/old-english-lemmatisation]]"
     type: related_to
+  - target: "[[concepts/oe-expected-lexical-gaps]]"
+    type: related_to
+  - target: "[[entities/thesaurus-of-old-english]]"
+    type: related_to
 sources:
   - "agent:chat-notes Old English Lexicon Size and Missing Vocabulary Conversation"
-summary: "Why counts of OE words (23k, 40k, 62k, 3M tokens, 17M generated forms) measure different things, a prior of 20-35k known lexemes, and five methods for finding unattested words."
+  - "https://ebrary.net/344705/language_literature/english_semantics_lexicon_christian"
+  - "https://www.researchgate.net/publication/307852792_Using_the_Dictionary_of_Old_English_Corpus_for_linguistic_analyses_A_basic_classification_of_the_textual_sources"
+summary: "Why counts of OE words (23k, 34k, 40k, 62k, 3M tokens) measure different things, and where the academic record of missing meanings now stands."
 provenance:
-  extracted: 0.50
-  inferred: 0.45
-  ambiguous: 0.05
-base_confidence: 0.42
+  extracted: 0.58
+  inferred: 0.36
+  ambiguous: 0.06
+base_confidence: 0.58
 lifecycle: draft
 lifecycle_changed: "2026-10-17"
 tier: supporting
 created: 2026-10-17T12:10:00Z
-updated: 2026-10-17T12:10:00Z
+updated: 2026-10-23T16:05:00Z
 snapshots:
   - "[[_raw/_archived/Old English Lexicon Size and Missing Vocabulary Conversation|Old English Lexicon Size and Missing Vocabulary Conversation]]"
 ---
@@ -67,6 +73,12 @@ Evidence labels suggested: inherited with high confidence, probable West Germani
 
 **Suggested reading** (from the note): Kastovsky "Semantics and Vocabulary" (CHEL 1); Nation and Coxhead 2021; Brysbaert et al. 2016; Roberts and Kay, *A Thesaurus of Old English*; DOE/DOEC; Nerthus; Cichosz et al. 2022 frequency dictionary; Faulkner 2023; Baayen 2001; Bhat and Sproat 2009; Kroonen 2013; Ringe and Taylor 2014; Biggam and Bierbaumer on plant names (336 native botanical names); Banham and Faith on farming. Plants then farming tools recommended as pilot domains.
 
+## Academic check, October 2026
+
+A literature review filed at [[synthesis/Research: Expected Gaps in the Old English Lexicon]] reads the lifestyle question against published scholarship. Two figures on this page are now tied to sources. [[sources/kay-2012-oe-semantics-lexicon|Kay]] counts about 34,000 word forms and 50,700 meanings in [[entities/thesaurus-of-old-english]]. [[sources/mohlig-falke-2015-doec|Möhlig-Falke]] repeats the 2009 corpus total of 3,033,142 Old English running words. The chat-note rows for Kastovsky, Bosworth–Toller, Faulkner, and the 20,000–35,000 personal lexicon remain secondary claims from that note.
+
+The review did not find a list of words predicted from Anglo-Saxon life and shown to be absent. It did find domain arguments, summarized in [[concepts/oe-expected-lexical-gaps]], and a warning in [[concepts/toponymic-register]] that a place-name element is not automatically one of those missing words. The five methods listed above still match the literature: thesaurus gaps, archaeology, comparative Germanic, derivational gaps, and hapax statistics. The lifestyle studies actually carried out are strongest on the first two, and they stop short of naming the unrecorded residue. ^[inferred]
+
 ## Open Questions
 
 - What is the true number of distinct lemmas and lexemes in Bosworth-Toller after merging supplement records?
@@ -75,3 +87,6 @@ Evidence labels suggested: inherited with high confidence, probable West Germani
 ## Sources
 
 - [[_raw/_archived/Old English Lexicon Size and Missing Vocabulary Conversation]]
+- [[sources/kay-2012-oe-semantics-lexicon]]
+- [[sources/mohlig-falke-2015-doec]]
+- [[synthesis/Research: Expected Gaps in the Old English Lexicon]]

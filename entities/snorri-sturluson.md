@@ -13,6 +13,7 @@ relationships:
     type: related_to
 sources:
   - "https://lrc.la.utexas.edu/eieol/norol/20"
+  - "sources/thorgeirsson-2018-egils-saga-stylometry.md"
 summary: "Icelander (1179–1241): Prose Edda, likely Heimskringla; killed at home after falling out with Hákon of Norway."
 provenance:
   extracted: 0.88
@@ -23,7 +24,7 @@ lifecycle: draft
 lifecycle_changed: "2026-09-25"
 tier: supporting
 created: 2026-09-25T18:30:00Z
-updated: 2026-09-25T18:30:00Z
+updated: 2026-10-28T17:40:07+00:00
 snapshots:
   - "[[_raw/_archived/from the Prologue of Snorra Edda]]"
 ---
@@ -42,6 +43,15 @@ EIEOL lesson 2: 1179–1241. Two visits to Hákon Hákonarson; aligned with Hák
 
 - Extent of the “Snorri wrote everything anonymous” habit in scholarship.
 
+## Related
+
+- [[synthesis/old-norse-grammar-x-snorri-sturluson|Old Norse Grammar × Snorri Sturluson]] — synthesis
+
+## Research update — 28 October 2026
+
+The absence of direct attribution of *Egils saga* is compatible with positive indirect evidence: Þorgeirsson’s 2018 frequency-based study supports common authorship with *Heimskringla*. Attribution remains debated. ^[ambiguous] See [[sources/thorgeirsson-2018-egils-saga-stylometry]].
+
 ## Sources
 
 - [Old Norse Online, lesson 2](https://lrc.la.utexas.edu/eieol/norol/20)
+- [[sources/thorgeirsson-2018-egils-saga-stylometry]]

@@ -2846,9 +2846,59 @@
         "synthesis/Research: Qt and Translation Workbench Best Practice.md",
         "projects/aenglisc-toolkit/aenglisc-toolkit.md"
       ]
+    },
+    "references/old-english-2016-2026-corpus.json": {
+      "content_hash": "1345456c502866e6d1bd38efec8ce41aeb8da12ab2f13f7563af2b8f1ac3b690",
+      "last_ingested": "2026-10-28T18:35:50.790452+00:00",
+      "pages_produced": [
+        "references/old-english-2016-2026-literature-map.md",
+        "concepts/old-english-research-topics.md",
+        "concepts/old-english-research-methodologies.md",
+        "sources/oe-taylor-2026-genitive.md",
+        "sources/oe-brookman-robinson-2016-teaching.md",
+        "sources/oe-garner-2017-deaf-studies.md",
+        "sources/oe-paz-2025-ecopoetry.md",
+        "sources/oe-rowley-2026-palaeography.md",
+        "sources/oe-ivarsen-2022-ine-law.md",
+        "sources/oe-neidorf-2019-stylometry.md",
+        "sources/oe-sweany-2020-comparison.md",
+        "sources/oe-ywes-2024-overview.md",
+        "entities/years-work-in-english-studies.md",
+        "entities/echoe.md",
+        "synthesis/Research: Old English Scholarship 2016–2026.md",
+        "references/old-english-scoping-review-protocol.md",
+        "CONTEXT.md",
+        "references/old-english-review-batch-log.md",
+        "skills/incremental-old-english-literature-review.md"
+      ]
     }
   },
   "research": [
+    {
+      "type": "research",
+      "topic": "Early and late Old English spelling and inflection by dialect",
+      "researched_at": "2026-10-30T20:15:00Z",
+      "rounds_completed": 2,
+      "sources_fetched": 10,
+      "pages_created": [
+        "synthesis/Research: Early and Late Old English Spelling and Inflection.md",
+        "concepts/old-english-early-late-writing.md",
+        "sources/condorelli-2019-west-saxon-ie.md",
+        "sources/armborst-1977-unstressed-endings.md",
+        "sources/walters-2004-case-syncretism.md",
+        "sources/kranenburg-2019-dative.md",
+        "sources/fernandez-cuesta-langmuir-2025-northumbrian-subjunctive.md",
+        "sources/ramirez-perez-2023-weak-class-ii.md",
+        "sources/zimmermann-2012-old-english-self.md",
+        "sources/vezzosi-2003-himself.md",
+        "sources/goralczyk-2013-chronicle-self.md",
+        "sources/lutz-1984-late-west-saxon-standard.md"
+      ],
+      "pages_updated": [
+        "concepts/old-english-dialects.md",
+        "concepts/old-english-orthographic-variation.md"
+      ]
+    },
     {
       "type": "research",
       "topic": "Scholarly PDF to Markdown for linguistic and dead-language texts",
@@ -3175,6 +3225,247 @@
         "synthesis/Research: St Brice's Day Massacre.md",
         "synthesis/Research: Old English G-Palatalization.md"
       ]
+    },
+    {
+      "type": "research",
+      "topic": "Old English c-palatalization: historical rules, exclusion and reverse inventories",
+      "researched_at": "2026-10-20T19:48:43-07:00",
+      "rounds_completed": 3,
+      "sources_fetched": 10,
+      "pages_created": [
+        "sources/wright-1914-c-palatalization.md",
+        "sources/laker-2007-palatalization.md",
+        "sources/laker-2021-place-names.md",
+        "sources/versloot-2023-yorkshire.md",
+        "sources/versloot-2026-reconstructing-old-english.md",
+        "sources/lass-laing-2013-ik.md",
+        "sources/freeborn-old-english-pronunciation.md",
+        "sources/kirby-harrington-2026-sound-change.md",
+        "concepts/old-english-c-palatalization.md",
+        "entities/stephen-laker.md",
+        "entities/arjen-versloot.md",
+        "synthesis/Research: Old English C-Palatalization.md"
+      ],
+      "pages_updated": [
+        "concepts/old-english-pronunciation.md",
+        "concepts/old-english-g-palatalization.md"
+      ],
+      "note": "Seven substantive source sections read; Laker 2021 abstract/bibliography and Hogg/Kijak landing pages also checked. Hogg detailed rules reuse prior vault extract. No exhaustive all-lexeme inventory claimed. Defuddle fetch failed; yt-dlp and perplexity unavailable; perplexity key unset.",
+      "qmd_status": "QMD refreshed: update + embed + verified",
+      "validation": "YAML parsed; provenance sums, internal links, index entry and manifest JSON verified for 14 pages"
+    },
+    {
+      "type": "research",
+      "topic": "Expected gaps in the Old English lexicon given Anglo-Saxon life, 670-1100",
+      "researched_at": "2026-10-23T16:05:00Z",
+      "rounds_completed": 3,
+      "sources_fetched": 14,
+      "pages_created": [
+        "sources/roberts-kay-toe-distribution.md",
+        "sources/kay-2012-oe-semantics-lexicon.md",
+        "sources/kay-alexander-2015-thesauruses.md",
+        "sources/hough-2010-toponymicon-lexicon.md",
+        "sources/biggam-2013-plant-name-studies.md",
+        "sources/mohlig-falke-2015-doec.md",
+        "sources/banham-faith-2014-farms.md",
+        "sources/coatsworth-pinder-2002-metalworking.md",
+        "sources/owen-crocker-1979-wynflaed.md",
+        "concepts/oe-expected-lexical-gaps.md",
+        "concepts/toponymic-register.md",
+        "entities/carole-hough.md",
+        "entities/carole-biggam.md",
+        "entities/thesaurus-of-old-english.md",
+        "synthesis/Research: Expected Gaps in the Old English Lexicon.md"
+      ],
+      "pages_updated": [
+        "concepts/oe-lexicon-size-and-gaps.md",
+        "concepts/old-english.md"
+      ],
+      "note": "No lifestyle-to-missing-lexeme inventory found. Kay ~34k TOE forms; Hough toponymic register vs colloquial recovery left as a contradiction. Banham, Coatsworth, and Owen-Crocker read from introduction or abstract. defuddle invoke failed; yt-dlp absent; perplexity key unset; paper-search used (semantic scholar rate-limited).",
+      "qmd_status": "QMD refreshed: update + embed + verified"
+    },
+    {
+      "type": "research",
+      "topic": "External evidence for five synthesis drafts: Alfredian education and reception, dictionary lineage, OCR validation, and Snorri attribution",
+      "researched_at": "2026-10-28T17:40:07+00:00",
+      "rounds_completed": 3,
+      "sources_fetched": 12,
+      "sources_partial": 3,
+      "pages_created": [
+        "sources/alfred-pastoral-care-preface-evidence.md",
+        "sources/firth-2024-alfred-the-great.md",
+        "sources/testimonie-antiquitie-library-evidence.md",
+        "sources/germanic-lexicon-bosworth-toller-lineage.md",
+        "sources/crist-2011-dictionary-processing.md",
+        "sources/kraken-6-recognition-codec-training.md",
+        "sources/utrecht-codex-trajectinus-transmission.md",
+        "sources/thorgeirsson-2018-egils-saga-stylometry.md"
+      ],
+      "pages_updated": [
+        "synthesis/christianity-in-anglo-saxon-england-x-alfred-the-great.md",
+        "synthesis/bosworth-toller-x-dictionary-build.md",
+        "synthesis/ocr-character-inventory-x-regreek.md",
+        "synthesis/old-english-after-1066-x-alfred-the-great.md",
+        "synthesis/old-norse-grammar-x-snorri-sturluson.md",
+        "concepts/ocr-character-inventory.md",
+        "entities/kraken.md",
+        "entities/snorri-sturluson.md",
+        "entities/alfred-the-great.md",
+        "entities/regreek.md"
+      ],
+      "note": "Five existing A × B pages revised in place rather than creating duplicate Research masters. Major new references filed in eight source notes; existing regreek entity and IPA reference reused. Firth read through abstract and indexed article passages; British Library catalogue likewise partial. Full Firth PDF, Faulkes edition, and recent Egill poetry paper unavailable. Defuddle fetches failed; yt-dlp/perplexity unavailable and paid key unset. No OCR benchmark or dictionary code audit run. Confidence and draft lifecycles preserved; trust ledger untouched.",
+      "qmd_status": "QMD refreshed: update + embed + verified",
+      "validation": "18 pages checked for resolving wiki links; eight source notes and five syntheses have valid summary lengths and index entries; memory status has no index drift; QMD returned revised and new pages."
+    },
+    {
+      "type": "research",
+      "topic": "Living scoping review: Old English scholarship 2016–2026, batch B001",
+      "researched_at": "2026-10-28T18:35:51.148489+00:00",
+      "rounds_completed": 3,
+      "sources_fetched": null,
+      "sources_fetched_note": "Raw successful fetch counts were not tracked. Record counts below are charted bibliographic items, not fetch totals.",
+      "records_charted": 64,
+      "main_articles_chapters": 49,
+      "books_editions": 11,
+      "adjacent_experiments": 2,
+      "supplementary_items": 2,
+      "pages_created": [
+        "references/old-english-2016-2026-literature-map.md",
+        "concepts/old-english-research-topics.md",
+        "concepts/old-english-research-methodologies.md",
+        "sources/oe-taylor-2026-genitive.md",
+        "sources/oe-brookman-robinson-2016-teaching.md",
+        "sources/oe-garner-2017-deaf-studies.md",
+        "sources/oe-paz-2025-ecopoetry.md",
+        "sources/oe-rowley-2026-palaeography.md",
+        "sources/oe-ivarsen-2022-ine-law.md",
+        "sources/oe-neidorf-2019-stylometry.md",
+        "sources/oe-sweany-2020-comparison.md",
+        "sources/oe-ywes-2024-overview.md",
+        "entities/years-work-in-english-studies.md",
+        "entities/echoe.md",
+        "synthesis/Research: Old English Scholarship 2016–2026.md",
+        "references/old-english-scoping-review-protocol.md",
+        "CONTEXT.md",
+        "references/old-english-review-batch-log.md",
+        "skills/incremental-old-english-literature-review.md"
+      ],
+      "pages_updated": [],
+      "corpus": "references/old-english-2016-2026-corpus.json",
+      "status": "pilot batch charted; living review incomplete",
+      "next_batch": "B002 planned, not searched",
+      "backends_used": [
+        "web search/open"
+      ],
+      "backends_skipped": {
+        "defuddle": "registry syntax corrected to parse, then fetch failed",
+        "yt-dlp": "binary unavailable",
+        "perplexity": "binary unavailable; key unset"
+      },
+      "qmd_status": "QMD refreshed: update + embed + verified",
+      "note": "User authorized abstract-based topic/method classification and incremental synthesis into the same page at a scale of hundreds. Initial 64 records are pilot coverage, not a sufficient decade-wide map. No complete initial selection register or formal PRISMA-ScR compliance claim. Next batches preserve IDs, deduplicate, update cumulative synthesis and coverage in place.",
+      "validation": "19 Markdown pages checked for supported frontmatter, summary lengths, table continuity, resolving wiki links and index entries; 64 unique IDs/titles and nonduplicate supplied DOIs; 49 main records; batch counters and date bounds consistent; memory index has no drift."
+    },
+    {
+      "type": "research",
+      "topic": "Living scoping review: Old English scholarship 2016–2026, batch B002",
+      "researched_at": "2026-10-28T19:15:00-07:00",
+      "rounds_completed": 3,
+      "sources_fetched_note": "Publisher pages for Anglo-Saxon England 45–50 and Early Medieval England 51, plus targeted gap searches. Raw hit counts were not retained.",
+      "new_main_records": 59,
+      "cumulative_main_records": 108,
+      "cumulative_total_records": 126,
+      "pages_created": [],
+      "pages_updated": [
+        "synthesis/Research: Old English Scholarship 2016–2026.md",
+        "references/old-english-2016-2026-literature-map.md",
+        "references/old-english-2016-2026-corpus.json",
+        "references/old-english-review-batch-log.md",
+        "concepts/old-english-research-topics.md",
+        "concepts/old-english-research-methodologies.md",
+        "skills/incremental-old-english-literature-review.md"
+      ],
+      "backends_used": [
+        "web search",
+        "publisher HTML via doi.org and Cambridge contents pages"
+      ],
+      "backends_skipped": {
+        "defuddle": "installed; not required for this pass",
+        "yt-dlp": "binary unavailable",
+        "perplexity": "binary unavailable; key unset"
+      },
+      "status": "B002 charted into the living review; B003 planned"
+    },
+    {
+      "type": "research",
+      "topic": "Living scoping review: Old English scholarship 2016–2026, batch B003",
+      "researched_at": "2026-10-28T19:40:00-07:00",
+      "rounds_completed": 3,
+      "sources_fetched_note": "Late returns from three retrieval workers, deduplicated against the B002 corpus. Raw hit counts were not retained.",
+      "new_main_records": 32,
+      "cumulative_main_records": 140,
+      "cumulative_total_records": 161,
+      "pages_created": [],
+      "pages_updated": [
+        "synthesis/Research: Old English Scholarship 2016–2026.md",
+        "references/old-english-2016-2026-literature-map.md",
+        "references/old-english-2016-2026-corpus.json",
+        "references/old-english-review-batch-log.md",
+        "concepts/old-english-research-topics.md",
+        "concepts/old-english-research-methodologies.md",
+        "skills/incremental-old-english-literature-review.md"
+      ],
+      "backends_used": [
+        "publisher and repository pages opened by retrieval workers"
+      ],
+      "backends_skipped": {
+        "defuddle": "installed; not required",
+        "yt-dlp": "binary unavailable",
+        "perplexity": "binary unavailable; key unset"
+      },
+      "workers": [
+        "43e6fddf-4e84-4151-8d2f-b932fe35074d",
+        "4aa1f26b-1e3c-49b4-9a7b-c13f63107858",
+        "13a703d2-e99d-4fdf-b92a-6ca7f59fb236"
+      ],
+      "status": "B003 charted into the living review; B004 planned"
+    },
+    {
+      "type": "research",
+      "topic": "The Great Vowel Shift",
+      "researched_at": "2026-10-30T18:40:00Z",
+      "rounds_completed": 3,
+      "sources_fetched": 12,
+      "pages_created": [
+        "sources/stenbrenden-2016-long-vowel-shifts.md",
+        "sources/ikegashira-2020-stenbrenden-review.md",
+        "sources/prichard-2014-northern-gvs.md",
+        "sources/schlueter-2012-emode-phonology.md",
+        "sources/oed-periods-and-great-vowel-shift.md",
+        "sources/nevalainen-2017-early-modern-english.md",
+        "sources/krug-2003-gvs-inception.md",
+        "sources/harvard-chaucer-great-vowel-shift.md",
+        "concepts/great-vowel-shift.md",
+        "entities/otto-jespersen.md",
+        "entities/karl-luick.md",
+        "entities/gjertrud-stenbrenden.md",
+        "entities/manfred-krug.md",
+        "synthesis/Research: The Great Vowel Shift.md"
+      ],
+      "pages_updated": [
+        "concepts/history-of-english.md",
+        "concepts/germanic-sound-change.md",
+        "entities/donka-minkova.md"
+      ],
+      "backends_used": [
+        "web search",
+        "doi.org resolution"
+      ],
+      "backends_skipped": {
+        "defuddle": "binary present; registered invoke `defuddle URL` failed (CLI requires `defuddle parse`)",
+        "yt-dlp": "binary unavailable",
+        "perplexity": "binary unavailable; PERPLEXITY_API_KEY unset"
+      }
     }
   ],
   "stats": {

@@ -11,6 +11,8 @@ relationships:
     type: related_to
   - target: "[[concepts/old-english-orthographic-variation]]"
     type: related_to
+  - target: "[[concepts/old-english-early-late-writing]]"
+    type: related_to
 sources:
   - "agent:raw-lesson 0002 Recognizing Old English Dialects in Writing"
   - "https://oldenglish.info/history.html"
@@ -26,7 +28,7 @@ lifecycle: draft
 lifecycle_changed: "2026-09-25"
 tier: supporting
 created: 2026-09-25T16:30:00Z
-updated: "2026-10-18T19:48:28.152600+00:00"
+updated: "2026-10-30T20:15:00Z"
 snapshots:
   - "[[_raw/_archived/0002 Recognizing Old English Dialects in Writing|0002 Recognizing Old English Dialects in Writing]]"
   - "[[_raw/_archived/History of English|History of English]]"
@@ -77,7 +79,9 @@ These cues are spelling correspondences, not a published paradigm generator. [[c
 
 ## Revised cue-sheet qualification
 
-The revised local cue sheet adds a Late West Saxon checklist: y for earlier ie, loss of a diphthong after sc (scolde versus sceolde), and an uncontracted third-person present illustrated by ġe-hyreð. These are recorded as the note’s diagnostic suggestions; their exact distribution needs checking against the cited grammar. ^[ambiguous]
+The revised local cue sheet adds a Late West Saxon checklist: y for earlier ie, loss of a diphthong after sc (scolde versus sceolde), and an uncontracted third-person present illustrated by ġe-hyreð. [[sources/condorelli-2019-west-saxon-ie]] supports the ⟨ie⟩ to ⟨y⟩ correspondence from Chronicle manuscripts and from Campbell and Hogg, and reports that early and late West Saxon are probably not a straight line of descent. The *sc* and *ġe-hyreð* items are still the cue sheet’s suggestions. ^[extracted]
+
+Early and late, crossed with the four dialects, are set out in [[concepts/old-english-early-late-writing]] and [[synthesis/Research: Early and Late Old English Spelling and Inflection]].
 
 Its broader principle is unchanged: identify repeated clusters of spelling correspondences rather than assigning a dialect from one form. [[references/wright-and-wright-1914-grammar]] now identifies the local scan and its section map.
 
