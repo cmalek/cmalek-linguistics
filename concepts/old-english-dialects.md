@@ -28,7 +28,7 @@ lifecycle: draft
 lifecycle_changed: "2026-09-25"
 tier: supporting
 created: 2026-09-25T16:30:00Z
-updated: "2026-10-30T20:15:00Z"
+updated: "2026-10-31T03:30:00Z"
 snapshots:
   - "[[_raw/_archived/0002 Recognizing Old English Dialects in Writing|0002 Recognizing Old English Dialects in Writing]]"
   - "[[_raw/_archived/History of English|History of English]]"
@@ -68,10 +68,14 @@ Modern English derives mostly from Anglian; classrooms still teach West Saxon be
 
 These cues are spelling correspondences, not a published paradigm generator. [[concepts/old-english-orthographic-variation]] records the computational choice: Tichý generates one variety and applies dialect filters at match time. Late West Saxon prose is near ceiling. Northumbrian glosses and an early Kentish charter are where that fails.
 
+## History of the endings
+
+The cue sheet can stop at Anglian versus Kentish and only then split Mercian from Northumbrian. The history of the endings cannot. [[concepts/old-english-early-late-writing]] keeps four strands. West Saxon and Northumbrian each have an early layer and a late layer. Mercian and Kentish are thinner, and they stay in the design. Late Northumbrian loss of final *-n*, and of the weak class II *-i-*, is not a Mercian change. Worcester copies, including [[concepts/institutes-of-polity|Junius 121]], are the late West Saxon standard on Mercian ground.
+
 ## Open Questions
 
 - Separating Mercian from Northumbrian in mixed copies remains the hard step.
-- Whether a generator should emit four dialect labels or two blocs (Anglian, and West Saxon with Kentish). ^[ambiguous]
+- Whether a generator should emit four dialect labels or two blocs (Anglian, and West Saxon with Kentish). The morphological history keeps four even if a generator uses fewer. ^[ambiguous]
 
 ## Related
 

@@ -23,7 +23,7 @@ generated_by: obsidian-wiki memory index
 - [[concepts/danish-conquest-of-england]] — Swein's 1013 conquest, Æthelred's return, the 1015–16 war with Edmund Ironside, Assandun, and Cnut's consolidation. ( #history #viking-age #cnut)
 - [[concepts/ux-data-at-scale]] — Large datasets need contextual interpretation, visual literacy, and scrutiny of what personal information can be revealed. ( #ux #interaction-design)
 - [[concepts/diplomatic-ocr-target]] — Write the transcription rules before correcting. CATMuS is graphemic and drops font style; a linguistic edition must add macrons, dots, and a style channel. ( #ocr #transcription #evaluation)
-- [[concepts/old-english-early-late-writing]] — Early and late are stages of written Old English, crossed with dialect. West Saxon and late Northumbrian do not show the same ending changes. ( #old-english #orthography #inflection #dialects)
+- [[concepts/old-english-early-late-writing]] — Early and late Old English endings need four dialect strands. Some drivers are shared. Late Northumbrian verbs are not the Mercian pattern. ( #old-english #orthography #inflection #dialects)
 - [[concepts/ux-emotional-interaction]] — Interfaces evoke emotion, communicate affect, and influence behavior; those are distinct design choices. ( #ux #interaction-design)
 - [[concepts/english-idioms]] — MnE idioms by image (nautical, horse, cards); Morgan PDF supplies glosses the capture list left blank. ( #linguistics #english #lexicon)
 - [[concepts/oe-expected-lexical-gaps]] — Lifestyle research finds thin Old English meaning classes and some name-only words. It does not list the unrecorded everyday lexicon. ( #old-english #lexicography #vocabulary #daily-life)

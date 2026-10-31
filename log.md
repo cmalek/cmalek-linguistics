@@ -58,3 +58,4 @@ title: Wiki Log
 - [2026-10-28T19:25:54Z] WIKI_RESEARCH topic="Living Old English scoping review 2016–2026, batch B003" rounds=3 sources_fetched=untracked new_main=32 main_records=140 records_charted=161 batch=B003 pages_created=0 pages_updated=7 backends_used="publisher HTML"
 - [2026-10-30T18:13:00Z] WIKI_RESEARCH topic="The Great Vowel Shift" rounds=3 sources_fetched=12 pages_created=14 backends_used=none
 - [2026-10-30T19:13:59Z] WIKI_RESEARCH topic="Early and late Old English spelling and inflection by dialect" rounds=2 sources_fetched=10 pages_created=12 backends_used=none
+- [2026-10-31T03:28:59Z] WIKI_UPDATE topic="Four dialect strands for Old English ending change" pages_updated=4

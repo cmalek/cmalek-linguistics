@@ -29,9 +29,9 @@ lifecycle: draft
 lifecycle_changed: 2026-10-12
 tier: supporting
 created: 2026-10-12T23:40:00Z
-updated: 2026-10-12T23:50:00Z
+updated: 2026-10-31T03:30:00Z
 snapshots:
-  - "[[_raw/_archived/Wulfstan's "Institutes of Polity"|Wulfstan's "Institutes of Polity"]]"
+  - "[[_raw/_archived/Wulfstans "Institutes of Polity"|Wulfstan's "Institutes of Polity"]]"
 ---
 
 # Institutes of Polity
@@ -61,6 +61,24 @@ The ranks are the offices of one kingdom: heavenly king, earthly king, throne, c
 ## Reuse and classification
 
 Titterington's point, from the archived ROEP clip, is that *Polity* is hard to classify: the chapter divisions look like a law code, the style is Wulfstan's, but it is neither law nor homily, and none of the copies gives a purpose. Its best fit is estates literature. Unlike the *Sermo Lupi*, which harangues, it lays out an ideal Christian society rank by rank and names where the real one has slipped, so the better society is "a much-improved version" of Wulfstan's own rather than a distant dream. Wulfstan reuses his own work (and Ælfric's, including whole homilies) and keeps revising it: the closing exhortation to keep the baptismal promise is nearly the same as the end of the *Sermo*, with *hellewites* for *helle pites* (perhaps a p/w confusion in insular script) and no cry for God's help. The print history runs Wilkins 1721, Thorpe 1840, Jost's attribution to Wulfstan in 1918, Jost 1959, Rabin 2020. Nero A.i's twenty-seven bishops' chapters and Wulfstan's own annotations show where he cared most. See [[references/roep-titterington-institutes-of-polity]] and [[concepts/sermo-lupi-ad-anglos]].
+
+## Spelling mixture in Junius 121
+
+A West Saxon study and a Northumbrian study would answer the history of the language. They would miss the book you are actually reading. Junius 121 is one Worcester compilation, about 1060–1072, of sentences Wulfstan wrote a generation earlier. Worcester writes the late West Saxon standard on a Mercian ground. Northumbrian is a third tradition, and it is not the second voice in this manuscript.
+
+The sentence you are answering still stands for the language as a whole. West Saxon and late Northumbrian do not move on one timeline. A single late book can hold several of those layers at once, plus the spelling habits of one scriptorium. That is what your *sculan* list is showing. Splitting the survey into two dialect monographs would sort the layers into separate projects and leave the mixture, which is the Polity problem, in neither of them.
+
+The useful cut is inside this text, token by token, and then against the earlier copies. Nero A.i is the copy Wulfstan annotated. Corpus 201 is the earlier Polity. A form that is only in Junius 121 belongs to the Worcester compiler. A form already in Nero can be his.
+
+Your two lists are not the same kind of variation.
+
+The present third-person forms are one grammatical cell written three ways. *sceal* is the ordinary West Saxon spelling. *sceall* is that same vowel with a doubled *l*. *scall* is the Anglian vowel, the one this vault already records beside West Saxon *sceal* in the pair *sceal*/*scæl*. The dialect signal in that trio is *ea* against *a*. The single *l* against *ll* is orthographic.
+
+*sculan*, *scylan*, and *sceolan* still have to be parsed before they can be called spellings of one form. *sculan* is the infinitive. *sceolan* is the shape back umlaut gives that infinitive, and back umlaut of *u* is a Mercian habit showing up in a Worcester book. *scylan* may be the present plural subjunctive *scylen* written with *-an*, which is the ending confusion already on your list, or it may be another spelling of the infinitive or the plural. Those are different cells. Counting them as three dialects, or as three spellings of one inflection, comes after that parse.
+
+So keep the dialect survey as the map of early and late inside each dialect. Make the next study Junius 121 itself: each *sculan* token gets a grammatical cell, then a layer. Late West Saxon standard, Mercian or Anglian relic, or a late spelling of one ending. The same words in Nero A.i and Corpus 201 tell you whether the layer is Wulfstan’s or the compiler’s.
+
+The four-strand design that this book sits in is on [[concepts/old-english-early-late-writing]]. For *Polity*, the Mercian strand is the one that meets the late West Saxon standard. Northumbrian is a different part of the language.
 
 ## Open questions
 

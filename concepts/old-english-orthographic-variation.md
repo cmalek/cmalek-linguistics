@@ -29,7 +29,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-09
 tier: supporting
 created: 2026-10-09T19:50:00Z
-updated: 2026-10-30T20:15:00Z
+updated: 2026-10-31T03:30:00Z
 ---
 
 # Old English orthographic variation
@@ -57,6 +57,8 @@ The [[entities/dictionary-of-old-english|DOE]] FORM line is the same kind of obj
 Simon den Hertog, “Subgrouping the Old English Dialects Using Historical Glottometry,” *Amsterdamer Beiträge zur älteren Germanistik* 84, no. 4 (2024), treats Anglian as one bloc and West Saxon with Kentish as another (“Saxo-Kentish”), and treats the four-way split as partly prescriptive. ^[ambiguous] That argument does not supply paradigms. The grain the handbooks actually write rules for is a late West Saxon canonical form, then named correspondences for Anglian and Kentish, with Mercian and Northumbrian split only where the endings or the vowels actually differ. ^[inferred] Elżbieta Adamczyk, “Disintegration of the Nominal Inflection in Anglian: The Case of i-Stems,” *Studia Anglica Posnaniensia* 44 (2008), documents one such ending difference: Anglian i-stems take the productive *-as* plural beside the inherited ending, and she lists loss of final *-n* in weak nouns among the Anglian inflectional features.
 
 Inflectional endings differ by dialect as well as stems. Generating “the same endings, different vowels” under-generates Anglian nouns. ^[inferred]
+
+For the history of those endings, [[concepts/old-english-early-late-writing]] keeps four strands. Late Northumbrian loss of final *-n* and of the class II *-i-* is not the Mercian pattern. den Hertog’s two blocs are a subgrouping claim. They are not a reason to drop Kentish, or to merge the two Anglian varieties, when the endings differ.
 
 ## Related
 
