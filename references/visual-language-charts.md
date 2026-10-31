@@ -2,6 +2,9 @@
 title: "Old English articulation and rune charts"
 category: "references"
 tags: ["old-english", "images", "provenance"]
+relationships:
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources: ["image:sha256:1cc1729e601eeacf3e4a16879450c140cf3001048b1ca4334eb02e468abae60d", "image:sha256:42e4cd0c032353f1728508a33a91610a535a391a8d24e515591b8a5db878d03b"]
 summary: "A linked visual inventory of old english articulation and rune charts, with observable content separated from uncertain identification."
 provenance: {"extracted": 0.1, "inferred": 0.8, "ambiguous": 0.1}
@@ -16,7 +19,8 @@ snapshots:
   - "[[_raw/_archived/Pasted image 20260831081610-1.png|Pasted image 20260831081610-1.png]]"
 ---
 
-# Old English articulation and rune charts
+
+# [[concepts/old-english|Old English]] articulation and rune charts
 
 The articulation chart groups consonant symbols beneath the labels “Bilabial,” “Labiodental,” “Dental,” “Alveolar,” “Postalveolar,” “Palatal,” and “Velar.” It relates them to a side-view diagram of lips and tongue positions, using examples such as Preost, Biscop, Mann, Wif, Fæder, Heofan, and Þæt.
 

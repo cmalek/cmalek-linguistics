@@ -10,6 +10,10 @@ relationships:
     type: derived_from
   - target: "[[concepts/old-english-lemmatisation]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
+  - target: "[[entities/bede]]"
+    type: related_to
 sources:
   - "[[concepts/oe-prefixes-for-fore-oth]]"
   - "[[entities/bosworth-toller]]"
@@ -29,7 +33,8 @@ created: 2026-10-18T19:00:00Z
 updated: 2026-10-18T19:00:00Z
 ---
 
-# Old English for-, fore-, and oþ- Prefixes × Bosworth-Toller
+
+# [[concepts/old-english|Old English]] for-, fore-, and oþ- Prefixes × Bosworth-Toller
 
 ## The Connection
 
@@ -43,7 +48,7 @@ updated: 2026-10-18T19:00:00Z
 
 ## Cross-cutting Insight
 
-The contradiction is about which layer of B–T to trust. As a citation index (headword, gloss, passages from Maldon, Orosius, Bede) it is not in dispute. As a lexical ontology (how many distinct lemmas exist) its length marks are editorial. Tichý's generator takes it for the second job. Every editorial split becomes a separate lemma, and each lemma gets generated paradigms and lookup hits. Tichý's average token already returns about two lemmas ([[concepts/old-english-lemmatisation]]); editorial duplicates could add to that. ^[inferred]
+The contradiction is about which layer of B–T to trust. As a citation index (headword, gloss, passages from Maldon, Orosius, [[entities/bede|Bede]]) it is not in dispute. As a lexical ontology (how many distinct lemmas exist) its length marks are editorial. Tichý's generator takes it for the second job. Every editorial split becomes a separate lemma, and each lemma gets generated paradigms and lookup hits. Tichý's average token already returns about two lemmas ([[concepts/old-english-lemmatisation]]); editorial duplicates could add to that. ^[inferred]
 
 So the practical rule from the prefix page, "use *fore-* in normalized text, record overlapping senses under *oþ-*", belongs at lexicon-build time, not at lookup time. A normalized headword with sense notes is cheaper than a post-hoc merge of paradigms. ^[inferred]
 

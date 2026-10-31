@@ -22,6 +22,12 @@ relationships:
     type: related_to
   - target: "[[skills/using-doec]]"
     type: related_to
+  - target: "[[concepts/old-english-dialects]]"
+    type: related_to
+  - target: "[[entities/paveda]]"
+    type: related_to
+  - target: "[[entities/dictionary-of-old-english]]"
+    type: related_to
 sources:
   - "repo:github.com/cmalek/wyrdcraeft"
 summary: >-
@@ -37,6 +43,7 @@ tier: supporting
 created: 2026-10-09T16:50:00Z
 updated: 2026-10-12T04:37:00Z
 ---
+
 
 # Morphology generation
 
@@ -79,4 +86,4 @@ Verb generators are engines, not Wright conjugation classes. Strong is ablaut. W
 
 ## Scholarship
 
-The design matches [[references/tichy-2017-morphological-analyser|Tichý 2017]]: a closed lemma list, class assignment, then paradigm expansion. His measured recall is 95 percent on 2,554 words of mostly late West Saxon prose, and he deliberately does not emit a dialect label on every cell or inflect compounds that are not already headwords. [[synthesis/Research: Old English Morphology Generation]] collects the later resources (Nerthus class fields, PaVeDa case frames, DOE attested spellings) that sit outside this stage. Class for a headword already in Nerthus is looked up in the guest database; the steps are [[skills/using-nerthus]]. Whether a generated spelling is attested is a separate search of the Dictionary of Old English Web Corpus ([[skills/using-doec]]). The corpus is not redistributed with this project.
+The design matches [[references/tichy-2017-morphological-analyser|Tichý 2017]]: a closed lemma list, class assignment, then paradigm expansion. His measured recall is 95 percent on 2,554 words of mostly late [[concepts/old-english-dialects|West Saxon]] prose, and he deliberately does not emit a dialect label on every cell or inflect compounds that are not already headwords. [[synthesis/Research: Old English Morphology Generation]] collects the later resources (Nerthus class fields, [[entities/paveda|PaVeDa]] case frames, DOE attested spellings) that sit outside this stage. Class for a headword already in Nerthus is looked up in the guest database; the steps are [[skills/using-nerthus]]. Whether a generated spelling is attested is a separate search of the [[entities/dictionary-of-old-english|Dictionary of Old English]] Web Corpus ([[skills/using-doec]]). The corpus is not redistributed with this project.

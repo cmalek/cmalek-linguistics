@@ -13,6 +13,8 @@ relationships:
     type: related_to
   - target: "[[concepts/old-english-early-late-writing]]"
     type: related_to
+  - target: "[[entities/bosworth-toller]]"
+    type: related_to
 sources:
   - "agent:raw-lesson 0002 Recognizing Old English Dialects in Writing"
   - "https://oldenglish.info/history.html"
@@ -36,6 +38,7 @@ snapshots:
   - "[[_raw/_archived/Old English Dialect Cues|Old English Dialect Cues]]"
   - "[[_raw/_archived/Old English Dialect Cues-1|Old English Dialect Cues-1]]"
 ---
+
 
 # Old English Dialects
 
@@ -93,6 +96,6 @@ Its broader principle is unchanged: identify repeated clusters of spelling corre
 
 - Vault lesson *0002 Recognizing Old English Dialects in Writing* (Wright)
 - [oldenglish.info — History](https://oldenglish.info/history.html)
-- Vault cue sheet *Old English Dialect Cues* (Wright; Bosworth-Toller as lexical support)
+- Vault cue sheet *Old English Dialect Cues* (Wright; [[entities/bosworth-toller|Bosworth-Toller]] as lexical support)
 - [UT Old English Online intro](https://lrc.la.utexas.edu/eieol/engol/0)
 - [[_raw/_archived/Old English Dialect Cues-1.md]]

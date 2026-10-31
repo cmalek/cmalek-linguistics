@@ -26,6 +26,10 @@ relationships:
     type: related_to
   - target: "[[references/griffith-2022-vengeance-of-offa]]"
     type: related_to
+  - target: "[[concepts/old-english-dialects]]"
+    type: related_to
+  - target: "[[entities/snorri-sturluson]]"
+    type: related_to
 sources:
   - "https://www.oldenglishaerobics.net/maldon.php"
   - "url:https://en.wikipedia.org/wiki/Byrhtnoth"
@@ -53,19 +57,20 @@ snapshots:
   - "[[_raw/_archived/Old English after 1066|Old English after 1066]]"
 ---
 
+
 # The Battle of Maldon
 
 > [!tldr] Incomplete alliterative poem on the 991 fight at Maldon, Essex: ealdorman Byrhtnoth refuses *gafol*, lets Vikings cross the causeway, and is killed.
 
 ## Problem & Motivation
 
-The surviving text opens mid-sentence (*brocen wurde*) and is the chief literary witness for late West Saxon heroic ethos under Æthelred.
+The surviving text opens mid-sentence (*brocen wurde*) and is the chief literary witness for late [[concepts/old-english-dialects|West Saxon]] heroic ethos under Æthelred.
 
 ## Method / Architecture
 
 **Historical frame (Aerobics + Wikipedia):** August 991. Vikings camp on Northey Island in the Blackwater estuary, tied to the mainland by a tidal causeway. Byrhtnoth (*beorht* + *nōþ*, “bright courage”), ealdorman of Essex (c. 931–11 August 991), liege of Æthelred, arrays the *heorðwerod*.
 
-**Foard 2003 (Battlefields Trust, 33 pp.):** campaign paper, not a new edition of the poem. ASC E: Olaf + 93 ships; later tradition (Snorri) ~30 men per ship → ~2790, or up to ~5580 if the muster is larger. English force = Essex *fyrd* plus Byrhtnoth’s household; numbers unknown. Aftermath: first recorded *gafol* of £10,000. **Site:** Northey (Laborde 1925; Petty geology: sea-level ~6 ft lower, saltings later) is the consensus; Heybridge and Osea have been proposed. The battlefield is **not** archaeologically confirmed. *Liber Eliensis* is a late, unreliable source for the fight. ^[ambiguous]
+**Foard 2003 (Battlefields Trust, 33 pp.):** campaign paper, not a new edition of the poem. ASC E: Olaf + 93 ships; later tradition ([[entities/snorri-sturluson|Snorri]]) ~30 men per ship → ~2790, or up to ~5580 if the muster is larger. English force = Essex *fyrd* plus Byrhtnoth’s household; numbers unknown. Aftermath: first recorded *gafol* of £10,000. **Site:** Northey (Laborde 1925; Petty geology: sea-level ~6 ft lower, saltings later) is the consensus; Heybridge and Osea have been proposed. The battlefield is **not** archaeologically confirmed. *Liber Eliensis* is a late, unreliable source for the fight. ^[ambiguous]
 
 **Poem’s action (opening):** retainers abandon horses; Offa’s kinsman looses his hawk and takes weapons; Eadric keeps faith. Byrhtnoth rides the line, teaching shield-wall. A Viking herald offers peace for *bēagas* / *gafol*. Byrhtnoth’s answer: they will give *gāras*, “Æthelred’s land” will be guarded, heathens shall fall; *ord and ecg* will settle it before tribute.
 

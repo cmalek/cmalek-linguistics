@@ -27,9 +27,10 @@ created: 2026-10-13T03:45:00Z
 updated: 2026-10-18T23:20:00Z
 ---
 
+
 # Scragg 1991, The Battle of Maldon AD 991
 
-Donald Scragg, ed., *The Battle of Maldon AD 991* (Manchester / Blackwell, 1991). The book was not read. OpenAlex supplies this contents list, and later citations point at two of its chapters. Scragg’s 1981 edition remains the older standard text; Griffith 2024 is the newer critical edition ([[references/karasawa-2025-griffith-maldon]]).
+Donald Scragg, ed., *The [[references/battle-of-maldon|Battle of Maldon]] AD 991* (Manchester / Blackwell, 1991). The book was not read. OpenAlex supplies this contents list, and later citations point at two of its chapters. Scragg’s 1981 edition remains the older standard text; Griffith 2024 is the newer critical edition ([[references/karasawa-2025-griffith-maldon]]).
 
 ## Contents, from the publisher record
 
@@ -39,7 +40,7 @@ Donald Scragg, ed., *The Battle of Maldon AD 991* (Manchester / Blackwell, 1991)
 
 **The poem.** Kathryn Sutherland, Byrhtnoth’s eighteenth-century context; Roberta Frank, the poem and heroic literature; Nicholas Brooks, weapons and armour; Gale R. Owen-Crocker, hawks and horse-trappings as insignia of rank; M. A. L. Locherbie-Cameron, the men named in the poem.
 
-**The man.** Locherbie-Cameron again, on Byrhtnoth and his family; Mildred Budny on the Byrhtnoth tapestry or embroidery; Elizabeth Coatsworth on the tomb; Marilyn Deegan and Stanley Rubin on the remains and his stature.
+**The man.** Locherbie-Cameron again, on [[entities/byrhtnoth|Byrhtnoth]] and his family; Mildred Budny on the Byrhtnoth tapestry or embroidery; Elizabeth Coatsworth on the tomb; Marilyn Deegan and Stanley Rubin on the remains and his stature.
 
 The named-men chapter (pp. 238–49) is the usual prosopographical essay. The chapter text is still unread. Miller’s 2013 thesis now supplies several page-cited judgments. See [[references/locherbie-cameron-1991-men-named]] and [[concepts/people-named-in-maldon]].
 

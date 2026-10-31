@@ -11,6 +11,8 @@ relationships:
     type: related_to
   - target: "[[concepts/late-anglo-saxon-christianity]]"
     type: related_to
+  - target: "[[concepts/old-english-dialects]]"
+    type: related_to
 sources:
   - "url:https://en.wikipedia.org/wiki/English_Benedictine_reform"
   - "url:https://roep.site.ox.ac.uk/article/wulfstans-institutes-of-polity"
@@ -29,9 +31,10 @@ created: 2026-10-12T23:40:00Z
 updated: 2026-10-12T23:40:00Z
 ---
 
+
 # Ælfric of Eynsham
 
-Monk, homilist, and abbot, pupil of Æthelwold of Winchester, and the writer the Benedictine-reform survey calls the outstanding author of late West Saxon. He died about 1010. He is the other great vernacular author of [[entities/wulfstan-of-york]]’s generation.
+Monk, homilist, and abbot, pupil of Æthelwold of Winchester, and the writer the Benedictine-reform survey calls the outstanding author of late [[concepts/old-english-dialects|West Saxon]]. He died about 1010. He is the other great vernacular author of [[entities/wulfstan-of-york]]’s generation.
 
 ## Why he matters for Polity
 

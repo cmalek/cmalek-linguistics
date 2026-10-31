@@ -12,6 +12,12 @@ relationships:
     type: related_to
   - target: "[[projects/wyrdcraeft/concepts/morphology-generation]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
+  - target: "[[entities/dictionary-of-old-english-corpus]]"
+    type: related_to
+  - target: "[[concepts/old-english-dialects]]"
+    type: related_to
 sources:
   - "url:https://casopispromodernifilologii.ff.cuni.cz/wp-content/uploads/sites/9/2017/06/Ondřej_Tichý_40-54.pdf"
   - "url:http://www.cs.cmu.edu/~jmadams/NLPLabProject.pdf"
@@ -30,7 +36,8 @@ created: 2026-10-09T19:50:00Z
 updated: 2026-10-09T19:50:00Z
 ---
 
-# Old English form generation
+
+# [[concepts/old-english|Old English]] form generation
 
 A form generator turns a lemma plus a class into the inflected strings of that lemma. Analysis is the inverse: a string in a text is matched back to one or more lemma-and-tag pairs. The published Old English systems do the first job in order to do the second, and they are built for texts that already exist.
 
@@ -40,7 +47,7 @@ A form generator turns a lemma plus a class into the inflected strings of that l
 
 [[references/adams-2007-oe-verb-analyzer|Adams]] showed the same job for verbs alone as one Xerox transducer, so generation and analysis are the same network. He did not attach a dictionary of the whole lexicon.
 
-[[references/nerthus-v5-database|Nerthus v5]] also generates canonical inflectional forms, and it keeps the forms that are attested in the Dictionary of Old English Corpus. v3 already stored alternative spellings and an inflectional-class label such as “strong III.”
+[[references/nerthus-v5-database|Nerthus v5]] also generates canonical inflectional forms, and it keeps the forms that are attested in the [[entities/dictionary-of-old-english-corpus|Dictionary of Old English Corpus]]. v3 already stored alternative spellings and an inflectional-class label such as “strong III.”
 
 [[projects/wyrdcraeft/concepts/morphology-generation|wyrdcraeft]] is a Python port of Tichý’s generator, judged in that project against grammar references rather than against the Perl output.
 
@@ -48,7 +55,7 @@ A form generator turns a lemma plus a class into the inflected strings of that l
 
 Tichý intersects the generated list with the DOEC and throws away unattested cells. He can do that because he treats the surviving corpus as closed. Nerthus v5’s generated list is the same kind of object: canonical forms that happen to be attested.
 
-He also refuses to generate the full dialect-by-period cartesian product. Dialect spelling is a **filter at match time**, selectable by the user, not a label on each cell. Recall on his 2,554-word sample is 95 percent, and 97.3 percent with filters. Late West Saxon prose is at the ceiling. The Kentish charter and the Northumbrian gloss are the floor. See [[concepts/old-english-orthographic-variation]].
+He also refuses to generate the full dialect-by-period cartesian product. Dialect spelling is a **filter at match time**, selectable by the user, not a label on each cell. Recall on his 2,554-word sample is 95 percent, and 97.3 percent with filters. Late West Saxon prose is at the ceiling. The [[concepts/old-english-dialects|Kentish]] charter and the Northumbrian gloss are the floor. See [[concepts/old-english-orthographic-variation]].
 
 A generator whose purpose is every grammatical cell, including cells no manuscript shows, and including compounds no dictionary has entered, is a different product from either of those systems. ^[inferred]
 

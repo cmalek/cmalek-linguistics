@@ -8,6 +8,8 @@ relationships:
     type: related_to
   - target: "[[entities/dictionary-of-old-english]]"
     type: derived_from
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "repo:github.com/anasfkhan81/OldEnglish"
   - "repo:github.com/anasfkhan81/OldEnglishWordnet"
@@ -28,7 +30,8 @@ snapshots:
   - "[[_raw/_archived/GITHUB OldEnglishWordnet 2026-10-15|GITHUB OldEnglishWordnet 2026-10-15]]"
 ---
 
-# Old English WordNet repos (anasfkhan81)
+
+# [[concepts/old-english|Old English]] WordNet repos (anasfkhan81)
 
 `OldEnglish`, `OldEnglishWordnet`, and [[references/oldenglishmorphology-shacl|OldEnglishMorphology]] are by the same author. The first two are one pipeline.
 

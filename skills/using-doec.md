@@ -12,6 +12,10 @@ relationships:
     type: related_to
   - target: "[[concepts/old-english-orthographic-variation]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
+  - target: "[[references/beowulf]]"
+    type: related_to
 sources:
   - "url:https://doe.artsci.utoronto.ca/?p=498"
   - "url:https://doe.artsci.utoronto.ca/?p=990"
@@ -34,9 +38,10 @@ created: 2026-10-12T04:37:00Z
 updated: 2026-10-12T04:37:00Z
 ---
 
+
 # Using the DOEC
 
-The Dictionary of Old English Web Corpus is a subscription search over the [[entities/dictionary-of-old-english-corpus|DOEC]]. The 2009 CD-ROM has the texts and no search engine, and as of 2025 it is not normally sold. Background and the 2009 counts are on the corpus page.
+The Dictionary of [[concepts/old-english|Old English]] Web Corpus is a subscription search over the [[entities/dictionary-of-old-english-corpus|DOEC]]. The 2009 CD-ROM has the texts and no search engine, and as of 2025 it is not normally sold. Background and the 2009 counts are on the corpus page.
 
 The project’s 2014 help manual and its two corpus videos (Alexandra Bolintineanu, Xin Xiang, and Antonette diPaolo Healey, on the Toronto “A Word Is Born” site) describe the search gestures below. The new-corpus announcement says the current site has improved search and does not print a new operator list. Treat the 2014 gestures as the last written manual, and expect the screen to have moved.
 
@@ -44,7 +49,7 @@ The project’s 2014 help manual and its two corpus videos (Alexandra Bolintinea
 
 **Open the right door.** Institutions, on campus: https://corpus.doe.utoronto.ca. The contact page also prints https://corpus.doe.utoronto.ca/doecorpus/#/oec. Off campus, use the library catalogue so the proxy is updated. Individuals: https://indiv.corpus.doe.utoronto.ca/, subscription email, then the usual corpus password. The individual announcement says the password is entered a second time before the corpus displays. The product page lists institutions at $200 a year and individuals at $75 a year, with 20 free logins a year from a store account before an invoice. Outside Canada the prices are US dollars.
 
-**Search one spelling.** Type the string and press Search. Restrict by class (the video’s example is verse) or by short title. Short titles and Cameron numbers are on List of Texts: *Beowulf* is `Beo`. The citation’s opening link is the full title and the bibliography. In the video, plain `helm` returns 110 citations, 28 of them in *Beowulf*.
+**Search one spelling.** Type the string and press Search. Restrict by class (the video’s example is verse) or by short title. Short titles and Cameron numbers are on List of Texts: *[[references/beowulf|Beowulf]]* is `Beo`. The citation’s opening link is the full title and the bibliography. In the video, plain `helm` returns 110 citations, 28 of them in *Beowulf*.
 
 **Include inflections and compounds with asterisks.** The same video puts asterisks around `helm` and, still inside *Beowulf*, goes from 28 citations to 43. The extra hits are strings that contain `helm`, such as *helme* and *grimhelmas*. That is a character search. The corpus is not lemmatized, so the asterisk is how a paradigm cell or a compound is found. `?` in a slashed expression is one character. `*` is empty, one character, or many.
 

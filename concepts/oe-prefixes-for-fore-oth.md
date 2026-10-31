@@ -10,6 +10,8 @@ relationships:
     type: contradicts
   - target: "[[concepts/old-english-orthographic-variation]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "agent:chat-notes Old English For-, Fore-, and Oþ- Prefixes Conversation"
 summary: "for- (away/wrongly/intensive) and fore- (before) differ in meaning though scribes confuse the spellings; the macrons in fōre-/ōþ- are editorial and not a reliable semantic signal."
@@ -28,7 +30,8 @@ snapshots:
   - "[[_raw/_archived/old-english-for--fore--and-oth--prefixes-conversation|old-english-for--fore--and-oth--prefixes-conversation]]"
 ---
 
-# Old English for-, fore-, and oþ- Prefixes
+
+# [[concepts/old-english|Old English]] for-, fore-, and oþ- Prefixes
 
 Distilled from a chat-style research note (the claims cite Alcorn, Minkova, Ruiz Narbona and dictionary entries; they were not independently checked here). Extends the prefix list in [[concepts/oe-word-formation]].
 

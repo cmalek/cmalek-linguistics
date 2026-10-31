@@ -3,6 +3,9 @@ title: >-
   Research: The Battle of Maldon
 category: synthesis
 tags: [old-english, literature, history, manuscripts, research]
+relationships:
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "[[references/battle-of-maldon]]"
   - "[[references/karasawa-2025-griffith-maldon]]"
@@ -32,11 +35,12 @@ created: 2026-10-13T03:45:00Z
 updated: 2026-10-18T23:20:00Z
 ---
 
+
 # Research: The Battle of Maldon
 
 ## Overview
 
-*The Battle of Maldon* is a late Old English alliterative fragment on the death of Ealdorman Byrhtnoth at Maldon in August 991, during the renewed Viking attacks of Æthelred’s reign. The unique manuscript, Cotton Otho A. xii, burned in 1731. What we read is David Casley’s transcript, printed by Thomas Hearne in 1726. The poem’s distinctive art is a run of formal speeches: a tribute challenge and Byrhtnoth’s refusal, then, after the flight, a chain of vows that end in Byrhtwold’s “mind must be the harder.” The fragment is heroic verse about a real defeat. Readings of *ofermod*, and of the poem’s purpose, diverge.
+*The Battle of Maldon* is a late [[concepts/old-english|Old English]] alliterative fragment on the death of Ealdorman Byrhtnoth at Maldon in August 991, during the renewed Viking attacks of Æthelred’s reign. The unique manuscript, Cotton Otho A. xii, burned in 1731. What we read is David Casley’s transcript, printed by Thomas Hearne in 1726. The poem’s distinctive art is a run of formal speeches: a tribute challenge and Byrhtnoth’s refusal, then, after the flight, a chain of vows that end in Byrhtwold’s “mind must be the harder.” The fragment is heroic verse about a real defeat. Readings of *ofermod*, and of the poem’s purpose, diverge.
 
 ## Key Findings
 

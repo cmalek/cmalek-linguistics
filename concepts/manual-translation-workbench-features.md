@@ -12,6 +12,10 @@ relationships:
     type: related_to
   - target: "[[projects/aenglisc-toolkit/references/qtranslate]]"
     type: related_to
+  - target: "[[entities/omegat]]"
+    type: related_to
+  - target: "[[entities/bosworth-toller]]"
+    type: related_to
 sources:
   - "[[references/translation-tools-and-scholarly-editing-standards]]"
   - "[[references/ai-disclosure-and-suggestion-bias-sources]]"
@@ -29,19 +33,20 @@ created: 2026-10-18T22:30:00Z
 updated: 2026-10-18T22:30:00Z
 ---
 
+
 # Manual translation workbench: which features fit and which do not
 
 A working test: **does the feature show the translator's own earlier work or reference material, or does it write a candidate into the target?** The first kind is safe; the second is the automation that a manual scholarly tool excludes. The test is the vault's synthesis of the tool sources, not a published rule. ^[inferred]
 
 | Feature | Source | Safe for manual work | Why |
 |---|---|---|---|
-| Glossary pane lit for the current segment, from the user's own entries | OmegaT, Weblate | yes | Surfaces own work |
+| Glossary pane lit for the current segment, from the user's own entries | [[entities/omegat|OmegaT]], Weblate | yes | Surfaces own work |
 | Consistency check (one term, two renderings) | Weblate "Inconsistent" | yes | Flags, never rewrites |
 | Per-segment status and an "unfinished" report | Weblate states | yes | Bookkeeping |
 | Concordance search over own text | OmegaT | yes | Search |
 | Dockable panes with a reset command | OmegaT | yes | Layout |
 | Autosave and a plain, backed-up project folder | OmegaT | yes | Data safety |
-| Source record per gloss | Bosworth-Toller citation, Recogito | yes | Provenance |
+| Source record per gloss | [[entities/bosworth-toller|Bosworth-Toller]] citation, Recogito | yes | Provenance |
 | Translation memory auto-insert, fuzzy matches | OmegaT `tm/auto`, `tm/enforce` | **no** | Writes candidates into the target |
 | MT or LLM suggestion panes | OmegaT, MateCat | **no** | Translation by machine |
 | Recommenders, active learning | INCEpTION | **no** | Machine-made suggestions, even if "accepted" |

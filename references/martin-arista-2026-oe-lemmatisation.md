@@ -14,6 +14,10 @@ relationships:
     type: related_to
   - target: "[[entities/ycoe]]"
     type: uses
+  - target: "[[concepts/old-english]]"
+    type: related_to
+  - target: "[[entities/varioe]]"
+    type: related_to
 summary: >-
   Character-level Transformer lemmatiser: 67.58 percent lemma accuracy and 82.75 percent UPOS on a YCOE held-out split.
 provenance:
@@ -28,7 +32,8 @@ created: 2026-10-09T19:50:00Z
 updated: 2026-10-09T19:50:00Z
 ---
 
-# Old English automatic lemmatisation (Martín Arista 2026)
+
+# [[concepts/old-english|Old English]] automatic lemmatisation (Martín Arista 2026)
 
 Javier Martín Arista, “Data Curation, Annotation Quality, and Error Patterns in Old English Automatic Lemmatisation,” *Proceedings of LaTeLL 2026*, pp. 8–17 ([PDF](https://acl-bg.org/proceedings/2026/LaTeLL%202026/pdf/2026.latell-1.2.pdf)). The model card says this conference paper is authoritative where it differs from the companion article in *Procesamiento del Lenguaje Natural* (2026). Weights: [Nerthus-Project/Old_English_Lemmatiser](https://huggingface.co/Nerthus-Project/Old_English_Lemmatiser).
 
@@ -36,7 +41,7 @@ The model is a character-level Transformer encoder–decoder with a joint UPOS h
 
 ## Training and scores
 
-Corpus-only condition: word–lemma–POS triples from [[entities/ycoe|YCOE]] prose (Taylor et al. 2003) and the York–Helsinki poetry corpus (Pintzuk and Plug 2001). After harmonisation: 105,063 instances, split 84,050 / 10,506 / 10,507, 37,627 lemmas, 11.7 percent *ge-* forms, **11.3 percent inconsistently lemmatised types**. Dictionary augmentation (DOE A–I, Bosworth–Toller, DOEC embeddings) was an ablation and is not the released model. VARIOE is listed as a related lemma inventory.
+Corpus-only condition: word–lemma–POS triples from [[entities/ycoe|YCOE]] prose (Taylor et al. 2003) and the York–Helsinki poetry corpus (Pintzuk and Plug 2001). After harmonisation: 105,063 instances, split 84,050 / 10,506 / 10,507, 37,627 lemmas, 11.7 percent *ge-* forms, **11.3 percent inconsistently lemmatised types**. Dictionary augmentation (DOE A–I, Bosworth–Toller, DOEC embeddings) was an ablation and is not the released model. [[entities/varioe|VARIOE]] is listed as a related lemma inventory.
 
 Held-out test: **lemma accuracy 67.58 percent**, **UPOS accuracy 82.75 percent**. A BiLSTM seq2seq baseline reached 53.15 percent lemma accuracy on dev. Word2Vec fusion and a 500-merge BPE both lowered test lemma accuracy (63.53 and 54.66 percent).
 

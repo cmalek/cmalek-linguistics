@@ -15,6 +15,12 @@ relationships:
     type: related_to
   - target: "[[entities/aelfric-of-eynham]]"
     type: related_to
+  - target: "[[entities/edward-the-martyr]]"
+    type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
+  - target: "[[concepts/old-english-dialects]]"
+    type: related_to
 sources:
   - "url:https://en.wikipedia.org/wiki/Wulfstan_(died_1023)"
   - "url:https://www.britannica.com/biography/Wulfstan"
@@ -35,6 +41,7 @@ snapshots:
   - "[[_raw/_archived/Wulfstan's "Institutes of Polity"|Wulfstan's "Institutes of Polity"]]"
 ---
 
+
 # Wulfstan of York
 
 Wulfstan, called Lupus in Latin, died at York on 28 May 1023 and was buried at Ely. He is the author of the [[concepts/institutes-of-polity]] and of the *Sermo Lupi ad Anglos*, and the man who put the late laws of [[entities/aethelred-the-unready]] and [[entities/cnut-the-great]] into their homiletic shape.
@@ -47,13 +54,13 @@ Bishop of London from 996. Archbishop of York from 1002 until his death, and bis
 
 His youth is obscure. Fenland and Peterborough connections are likely, and he was uncle of Bishop Beorhtheah of Worcester as well as of the saint. Whether he had been a monk is disputed in the medieval sources and is not settled by direct evidence. Britannica calls him a product of the Benedictine revival, probably with an early link to a Fenland abbey, and says nothing is known for certain before he became a bishop.
 
-From about 1005 he drafts Æthelred’s codes. In 1008 at Enham the code covers the cult of Edward the Martyr, naval service, tithes, and a ban on exporting Christian slaves. In 1009, during Thorkell’s raids, a national fast and daily Mass. After 1016 he drafts for Cnut, including the Winchester code of 1021 or 1022, later called in Domesday the law of King Edward. In 1020 he consecrates Æthelnoth as archbishop of Canterbury.
+From about 1005 he drafts Æthelred’s codes. In 1008 at Enham the code covers the cult of [[entities/edward-the-martyr|Edward the Martyr]], naval service, tithes, and a ban on exporting Christian slaves. In 1009, during Thorkell’s raids, a national fast and daily Mass. After 1016 he drafts for Cnut, including the Winchester code of 1021 or 1022, later called in Domesday the law of King Edward. In 1020 he consecrates Æthelnoth as archbishop of Canterbury.
 
 Catherine Cubitt’s 2024 article traces his portrait of Antichrist as the chief hypocrite to Gregory the Great. The abstract was read; the article’s examples were not.
 
 ## Writer
 
-His Old English is late West Saxon built in two-stress phrases, alliteration, and repeating pairs. He rewrites even Ælfric’s prose into that rhythm. Bethurum groups the homilies into eschatology (from his London years), the basics of the faith, the work of an archbishop, and the evil days around 1014–1023. The *Sermo Lupi* rubric in Nero A.i dates that sermon to 1014; the date has been disputed.
+His [[concepts/old-english|Old English]] is late [[concepts/old-english-dialects|West Saxon]] built in two-stress phrases, alliteration, and repeating pairs. He rewrites even Ælfric’s prose into that rhythm. Bethurum groups the homilies into eschatology (from his London years), the basics of the faith, the work of an archbishop, and the evil days around 1014–1023. The *Sermo Lupi* rubric in Nero A.i dates that sermon to 1014; the date has been disputed.
 
 Norse words cluster where he talks about ranks and law: *þræl*, *bonda*, *eorl*, *lagu*. Whitelock heard his years at York in that vocabulary.
 

@@ -3,6 +3,9 @@ title: >-
   Zimmermann 2012: Old English self
 category: references
 tags: [old-english, syntax, pronouns]
+relationships:
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "https://www.unige.ch/lettres/linge/syntaxe/journal/Volume8/3_Zimmermann_2012.pdf"
 source_url: "https://www.unige.ch/lettres/linge/syntaxe/journal/Volume8/3_Zimmermann_2012.pdf"
@@ -18,7 +21,8 @@ created: 2026-10-30T20:15:00Z
 updated: 2026-10-30T20:15:00Z
 ---
 
-# Zimmermann 2012: Old English self
+
+# Zimmermann 2012: [[concepts/old-english|Old English]] self
 
 Richard Zimmermann, “Self as a non-postposing element in Old English,” *Generative Grammar in Geneva* 8 (2012): 39–58. The PDF was read for the classification of *self*, not for the word-order argument that is the article’s main subject.
 

@@ -12,6 +12,8 @@ relationships:
     type: related_to
   - target: "[[concepts/great-vowel-shift]]"
     type: related_to
+  - target: "[[concepts/old-english-dialects]]"
+    type: related_to
 sources:
   - "https://oldenglish.info/history.html"
   - "https://www.thehistoryofenglish.com/old-english"
@@ -36,6 +38,7 @@ snapshots:
   - "[[_raw/_archived/Old English after 1066|Old English after 1066]]"
 ---
 
+
 # History of English
 
 A compact periodization of English, from reconstructed Proto-Indo-European to the Great Vowel Shift. [[concepts/old-english]] is the first attested English stage.
@@ -46,7 +49,7 @@ A compact periodization of English, from reconstructed Proto-Indo-European to th
 - **5th–6th centuries.** Germanic settlement; inflection, grammatical gender, runes; [[concepts/germanic-sound-change|i-mutation]] produces *tooth/teeth*, *man/men* (and formerly *boc/bec* “book/books”).
 - **7th century.** [[entities/caedmon|Cædmon's Hymn]] (composed 658–680; copies in the early eighth century) is the oldest surviving non-runic OE poem; 19 manuscript witnesses, all tied to [[entities/bede|Bede]]'s *Historia ecclesiastica*.
 - **8th century.** Ruthwell Cross runes (possibly added later, even 10th century): *Krist wæs on rodi*.
-- **9th century.** Viking raids and settlement; Old Norse contact; West Saxon survives under [[entities/alfred-the-great]], so most teaching texts are WS even though Modern English descends mainly from Anglian. Northumbrian survives in Scots.
+- **9th century.** Viking raids and settlement; Old Norse contact; West Saxon survives under [[entities/alfred-the-great]], so most teaching texts are WS even though Modern English descends mainly from [[concepts/old-english-dialects|Anglian]]. Northumbrian survives in Scots.
 - **10th century.** [[references/beowulf]] manuscript c. 975–1025; mixed WS/Anglian; two scribes.
 - **11th century.** Hastings (1066): Norman French becomes the elite language. Animal/meat split (*cu* → cow vs. French *bœuf* → beef) is a classic contact fossil.
 - **12th century.** *The Grave* (Bodley 343) is treated as a last OE poem with anachronistic older language in a Middle English century. A 2013 Companion chapter tells this differently: Old English was still copied accurately well into the twelfth century, the Peterborough Chronicle runs to 1154, and *The Grave* sits with other post-Conquest poems that still draw on the tradition, not as a unique last poem. See [[concepts/old-english-after-1066]]. ^[ambiguous]

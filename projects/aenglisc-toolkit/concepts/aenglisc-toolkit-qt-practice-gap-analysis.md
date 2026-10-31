@@ -12,6 +12,8 @@ relationships:
     type: related_to
   - target: "[[references/fincept-terminal-qt-architecture]]"
     type: related_to
+  - target: "[[entities/bosworth-toller]]"
+    type: related_to
 sources:
   - "repo:/Users/cmalek/src/personal/aenglisc_toolkit @ 981e093 (grep counts, 2026-10-18)"
   - "url:https://doc.qt.io/qt-6/qundostack.html"
@@ -34,7 +36,8 @@ created: 2026-10-18T20:25:00Z
 updated: 2026-10-18T20:25:00Z
 ---
 
-# aenglisc_toolkit: Qt practice gap analysis
+
+# [[projects/aenglisc-toolkit/aenglisc-toolkit|aenglisc_toolkit]]: Qt practice gap analysis
 
 Purpose: a baseline for deciding where to apply Qt patterns from other codebases. Written for an author who has built desktop apps before but not in Qt, so the entries explain the Qt facility as well as the gap.
 
@@ -82,7 +85,7 @@ These map the seven clipped apps ([[projects/aenglisc-toolkit/concepts/qt-app-de
 | [[projects/aenglisc-toolkit/references/qtexamples]] | Idiomatic PySide patterns for threads, model/view, delegates and drag-and-drop, as small runnable code |
 | [[projects/aenglisc-toolkit/references/qtsass]] | Centralised stylesheet source and variables for a theme layer |
 | [[projects/aenglisc-toolkit/references/serial-studio]] | A declarative project file driving the UI; worker/IO separation from the dashboard; relevant to presets and POS field catalog as data |
-| [[projects/aenglisc-toolkit/references/qtranslate]] | Select-then-lookup flow and plugin boundary for external dictionaries, relevant to the Bosworth-Toller and Wiktionary lookup cards and a future dictionary |
+| [[projects/aenglisc-toolkit/references/qtranslate]] | Select-then-lookup flow and plugin boundary for external dictionaries, relevant to the [[entities/bosworth-toller|Bosworth-Toller]] and Wiktionary lookup cards and a future dictionary |
 | [[references/fincept-terminal-qt-architecture]] | Already compared: ExtraSelection ownership, worker threads, and screen/state lifecycle |
 
 ## Suggested order of study (for discussion)

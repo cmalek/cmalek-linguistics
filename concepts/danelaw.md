@@ -12,6 +12,8 @@ relationships:
     type: related_to
   - target: "[[concepts/viking-age-expansion]]"
     type: related_to
+  - target: "[[concepts/history-of-english]]"
+    type: related_to
 sources:
   - "url:https://en.wikipedia.org/wiki/Danelaw"
   - "https://www.thehistoryofenglish.com/old-english"
@@ -35,6 +37,7 @@ snapshots:
   - "[[_raw/_archived/Old English]]"
 ---
 
+
 # Danelaw
 
 Old English *Dena lagu*. Region of England, late ninth century to 1066, in which Danish law applied after Viking conquest and later English reconquest that left Danish custom in place for loyal settlers. Geographic term is eleventh-century (*Dena lage*); the occupation begins with the Great Heathen Army (865).
@@ -44,7 +47,7 @@ Old English *Dena lagu*. Region of England, late ninth century to 1066, in which
 - After [[entities/alfred-the-great]] defeats Guthrum at Edington (878), the treaty of Alfred and Guthrum runs up the Thames, up the Lea to its source, straight to Bedford, and up the Ouse to Watling Street at Stony Stratford. A line from London to Chester along the whole of Watling Street is a later extension of that text ([[references/purkiss-2025-limits-of-the-danelaw]]). Scandinavian parish names concentrate north and east of the treaty line as written, and are scarce south and west of it ([[references/fellows-jensen-1989-scandinavian-settlement]]). Approximate coverage of the settlement names: Yorkshire, Lincolnshire, Leicestershire, and a thinner East Anglia. EIEOL lesson 1: Danish colonizing focus on NE England ~870; **open** whether the bulk of settlement was large armies or smaller forces plus follow-on farmers. See [[concepts/viking-age-expansion]].
 - Linguistic effects on [[concepts/old-english]]: Norse place-names (*-by, -thorpe, -thwaite, -toft, -kirk*, *Whitby*, *Scunthorpe*); *-son* vs OE *-ing* in surnames; up to ~1,000 permanent loans (*they/them/their*, *take*, *give*, *sky*, *law*, *window*, *egg*); synonym pairs (*craft/skill*, *sick/ill*, *hide/skin*).
 - Inflections erode fastest under Danish contact; prepositions carry more of the grammar. Pronouns *they/them/their* reach London/south only in the fifteenth century.
-- Northern English accents still show Norse influence; the History of English source claims they remain largely intelligible in Iceland. ^[ambiguous] Literary ON (mostly Icelandic) vs the Danish of the Danelaw: [[skills/ut-eieol-old-norse]] — ON is a dialect cluster, not one spoken standard.
+- Northern English accents still show Norse influence; the [[concepts/history-of-english|History of English]] source claims they remain largely intelligible in Iceland. ^[ambiguous] Literary ON (mostly Icelandic) vs the Danish of the Danelaw: [[skills/ut-eieol-old-norse]] — ON is a dialect cluster, not one spoken standard.
 
 The political Danelaw lasted less than a century in its original treaty form; the legal-cultural label persists until the Conquest.
 

@@ -10,6 +10,10 @@ relationships:
     type: related_to
   - target: "[[references/old-english-texts-iswoc]]"
     type: related_to
+  - target: "[[concepts/old-english-dialects]]"
+    type: related_to
+  - target: "[[projects/wyrdcraeft/wyrdcraeft]]"
+    type: related_to
 sources:
   - "repo:github.com/ECHOEProject/echoe"
 source_url: "https://github.com/ECHOEProject/echoe"
@@ -29,6 +33,7 @@ snapshots:
   - "[[_raw/_archived/GITHUB echoe 2026-10-15|GITHUB echoe 2026-10-15]]"
 ---
 
+
 # ECHOE corpus
 
 A data and documentation repo, not an application. `xml/NNN.NN.xml` holds 337 files, one per Ker manuscript article, across 60 manuscripts: 33,866 sentences and 553,249 tokens (`metadata/corpus_stats.json`).
@@ -43,12 +48,12 @@ A data and documentation repo, not an application. `xml/NNN.NN.xml` holds 337 fi
 ## Limits
 
 - No lemma or POS annotation; tokens are diplomatic text only.
-- The plaintext normalisation is lossy and keeps no macrons or ġ/ċ. Orthography is late and transitional (up to s. xii), not standard West Saxon.
+- The plaintext normalisation is lossy and keeps no macrons or ġ/ċ. Orthography is late and transitional (up to s. xii), not standard [[concepts/old-english-dialects|West Saxon]].
 - GPL-3.0 (copyleft). Last commit 2026-06-12. No tests.
 
 ## Use
 
-A large, recent, sentence-segmented prose corpus for spelling-variation, normalisation, or tokenisation work. Lemmas would have to be supplied, for example by wyrdcraeft. Homilies of [[entities/wulfstan-of-york]] and others make it relevant to [[concepts/institutes-of-polity]] work. ^[inferred]
+A large, recent, sentence-segmented prose corpus for spelling-variation, normalisation, or tokenisation work. Lemmas would have to be supplied, for example by [[projects/wyrdcraeft/wyrdcraeft|wyrdcraeft]]. Homilies of [[entities/wulfstan-of-york]] and others make it relevant to [[concepts/institutes-of-polity]] work. ^[inferred]
 
 ## Sources
 

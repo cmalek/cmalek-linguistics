@@ -2,6 +2,9 @@
 title: Old English scholarship 2016–2026 — scoping review protocol and search record
 category: references
 tags: [old-english, research, literature]
+relationships:
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - https://www.prisma-statement.org/scoping
   - https://jbi-global.atlassian.net/wiki/spaces/MANUAL/pages/355862707/10.2.4+Inclusion+criteria
@@ -18,7 +21,8 @@ lifecycle: draft
 lifecycle_changed: 2026-10-28
 ---
 
-# Old English scholarship 2016–2026 — scoping review protocol and search record
+
+# [[concepts/old-english|Old English]] scholarship 2016–2026 — scoping review protocol and search record
 
 ## Objective and author decisions
 

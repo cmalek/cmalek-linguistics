@@ -12,6 +12,10 @@ relationships:
     type: derived_from
   - target: "[[references/tichy-2017-morphological-analyser]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
+  - target: "[[projects/wyrdcraeft/wyrdcraeft]]"
+    type: related_to
 sources:
   - "url:https://www.nerthusproject.com/database-description"
   - "url:https://varieng.helsinki.fi/CoRD/corpora/Nerthus/structure.html"
@@ -30,7 +34,8 @@ created: 2026-10-09T19:50:00Z
 updated: 2026-10-09T19:50:00Z
 ---
 
-# Old English inflectional class
+
+# [[concepts/old-english|Old English]] inflectional class
 
 Part of speech says “verb” or “noun.” Inflectional class says which paradigm: strong III, weak II, masculine a-stem, and so on. Generation needs the second. A UPOS tag does not carry it.
 
@@ -42,7 +47,7 @@ Part of speech says “verb” or “noun.” Inflectional class says which para
 
 [[entities/dictionary-of-old-english|DOE]] entries, as [[references/computational-study-of-old-english-2025|Martín Arista (2025)]] describes them, carry part of speech and gender, and strong or weak when the word is a noun or a verb, plus a FORM line of attested spellings. That is coarser than Krygier’s subclasses and coarser than Tichý’s 132.
 
-[[projects/wyrdcraeft/concepts/wright-catalog|Wright’s catalog]] in wyrdcraeft is this same layer: class labels from the grammar, attached to dictionary lemmas before any form is written.
+[[projects/wyrdcraeft/concepts/wright-catalog|Wright’s catalog]] in [[projects/wyrdcraeft/wyrdcraeft|wyrdcraeft]] is this same layer: class labels from the grammar, attached to dictionary lemmas before any form is written.
 
 ## What taggers return instead
 

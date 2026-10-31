@@ -31,6 +31,7 @@ snapshots:
   - "[[_raw/_archived/Screenshot 2026-08-31 at 8.03.48 AM.jpg]]"
 ---
 
+
 # Visual Clippings (Wikipedia maps and later art)
 
 A dump of pasted PNGs (late Aug–early Sep 2026), mostly Wikimedia maps and later images that sat next to Wikipedia clippings already distilled. Vision sampled across dates; most remaining files are the same kinds of maps. They are **illustrations**, not excavation reports. Three files copied to `attachments/` for reuse.
@@ -51,7 +52,7 @@ A dump of pasted PNGs (late Aug–early Sep 2026), mostly Wikimedia maps and lat
 
 ![[ipa-vowel-trapezium.jpg]]
 
-**Later art (do not treat as eighth-century evidence).** Stained glass *Alfredus Rex* / *leges Angliae*; reconstructed woman in wool with amber beads; early-modern woodcut “barbarian” king; inscribed bone plaques (hunter, ship); church wall-painting with bow and oversized figure; Whitby Cædmon memorial cross (“fell asleep hard by 680”).
+**Later art (do not treat as eighth-century evidence).** Stained glass *Alfredus Rex* / *leges Angliae*; reconstructed woman in wool with amber beads; early-modern woodcut “barbarian” king; inscribed bone plaques (hunter, ship); church wall-painting with bow and oversized figure; Whitby [[entities/caedmon|Cædmon]] memorial cross (“fell asleep hard by 680”).
 
 ## Open Questions
 

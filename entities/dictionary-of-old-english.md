@@ -16,6 +16,8 @@ relationships:
     type: related_to
   - target: "[[concepts/beon-and-wesan]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "url:https://doe.artsci.utoronto.ca/?page_id=11"
   - "url:https://doe.artsci.utoronto.ca/?p=87"
@@ -36,7 +38,8 @@ created: 2026-10-09T19:50:00Z
 updated: 2026-10-12T22:05:00Z
 ---
 
-# Dictionary of Old English
+
+# Dictionary of [[concepts/old-english|Old English]]
 
 The Dictionary of Old English (DOE) at the University of Toronto writes entries from the [[entities/dictionary-of-old-english-corpus|Dictionary of Old English Corpus]], not by inheriting [[entities/bosworth-toller|Bosworth–Toller]]’s headword list. The About page says the corpus determines the headwords, the definitions, and the quotations, and that each entry gives the attested spellings, grammatical information, and sense divisions with citations. It is the Old English leg of a set the same page names with the Middle English Dictionary and the Oxford English Dictionary. The public site is [doe.artsci.utoronto.ca](https://doe.artsci.utoronto.ca/).
 

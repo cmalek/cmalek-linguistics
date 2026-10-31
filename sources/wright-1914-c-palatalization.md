@@ -2,6 +2,11 @@
 title: "Wright and Wright 1914: Old English c"
 category: references
 tags: [old-english, phonology, palatalization]
+relationships:
+  - target: "[[concepts/old-english]]"
+    type: related_to
+  - target: "[[concepts/old-english-grammar]]"
+    type: related_to
 sources:
   - "https://archive.org/details/oldenglishgramma00wrig"
 summary: "Wright and Wright 1914: Old English c; scope and access limits recorded."
@@ -17,9 +22,10 @@ created: 2026-10-20T19:48:43-07:00
 updated: 2026-10-20T19:48:43-07:00
 ---
 
-# Wright and Wright 1914: Old English c
 
-Joseph Wright and Elizabeth Mary Wright, *Old English Grammar*, second edition (Oxford, 1914), §§309–311, pp. 152–155. Public-domain OCR downloaded and read; scan images were not collated. [OCR text](https://archive.org/download/oldenglishgramma00wrig/oldenglishgramma00wrig_djvu.txt).
+# Wright and Wright 1914: [[concepts/old-english|Old English]] c
+
+Joseph Wright and Elizabeth Mary Wright, *[[concepts/old-english-grammar|Old English Grammar]]*, second edition (Oxford, 1914), §§309–311, pp. 152–155. Public-domain OCR downloaded and read; scan images were not collated. [OCR text](https://archive.org/download/oldenglishgramma00wrig/oldenglishgramma00wrig_djvu.txt).
 
 The grammar distinguishes velar and palatal c by historical environment, not recorded spelling alone. Section 310 gives a long velar inventory; §311 gives the corresponding palatal inventory and final-c examples. Both complete bounded inventories are transcribed in [[synthesis/Research: Old English C-Palatalization]]. The examples illustrate [[concepts/old-english-c-palatalization]].
 

@@ -13,6 +13,8 @@ relationships:
     type: implements
   - target: "[[entities/ycoe]]"
     type: uses
+  - target: "[[concepts/old-english]]"
+    type: related_to
 summary: >-
   PaVeDa codes Old English case frames for the 80 ValPaL verb meanings, from YCOE and YCOEP, including preposition plus case.
 provenance:
@@ -27,7 +29,8 @@ created: 2026-10-09T19:50:00Z
 updated: 2026-10-09T19:50:00Z
 ---
 
-# PaVeDa Old English valency
+
+# PaVeDa [[concepts/old-english|Old English]] valency
 
 [PaVeDa Old English contribution](https://paveda.unipv.it/contributions/olde1238), Martina Giarda, University of Pavia and University of Bergamo. Glottocode `olde1238`, ISO 639-3 `ang`. Collected in the second half of 2022 and in 2023.
 

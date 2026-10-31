@@ -12,6 +12,8 @@ relationships:
     type: derived_from
   - target: "[[references/martin-arista-2026-oe-lemmatisation]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "url:https://casopispromodernifilologii.ff.cuni.cz/wp-content/uploads/sites/9/2017/06/Ondřej_Tichý_40-54.pdf"
   - "url:https://doi.org/10.3390/encyclopedia5030137"
@@ -32,7 +34,8 @@ created: 2026-10-09T19:50:00Z
 updated: 2026-10-31T03:30:00Z
 ---
 
-# Old English orthographic variation
+
+# [[concepts/old-english|Old English]] orthographic variation
 
 Manuscript spelling mixes dialect, date, scriptorium, and scribal habit. A generator has to decide which of those differences are cells it will emit, and whether each cell carries a dialect label.
 

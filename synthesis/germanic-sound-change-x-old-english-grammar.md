@@ -8,6 +8,8 @@ relationships:
     type: derived_from
   - target: "[[concepts/old-english-grammar]]"
     type: derived_from
+  - target: "[[concepts/old-english-dialects]]"
+    type: related_to
 sources:
   - "[[concepts/classroom-grammar-terms]]"
   - "[[concepts/old-english]]"
@@ -27,6 +29,7 @@ updated: 2026-10-13T05:20:00Z
 snapshots:
   - "[[_raw/_archived/OE magic sheet.pdf|OE magic sheet.pdf]]"
 ---
+
 
 # Germanic Sound Change × Old English Grammar
 
@@ -83,7 +86,7 @@ The archived sheet (`OE magic sheet.pdf`) prints one West Saxon column. It does 
 | *mann* | *mannes, menn* | i-mutation in the dative singular and the plural |
 | *þæs* / *þǣre* | demonstrative | ending class only |
 
-Anglian and Kentish counterparts are not on the sheet. *eall* beside Anglian *all* is a dialect cue, not a principal part printed here. Generating those layers is still the open build on the morphology synthesis.
+[[concepts/old-english-dialects|Anglian]] and Kentish counterparts are not on the sheet. *eall* beside Anglian *all* is a dialect cue, not a principal part printed here. Generating those layers is still the open build on the morphology synthesis.
 
 ## Related
 

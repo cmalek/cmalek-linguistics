@@ -15,6 +15,14 @@ relationships:
     type: related_to
   - target: "[[entities/wulfstan-of-york]]"
     type: related_to
+  - target: "[[entities/cnut-the-great]]"
+    type: related_to
+  - target: "[[entities/swein-forkbeard]]"
+    type: related_to
+  - target: "[[entities/edmund-ironside]]"
+    type: related_to
+  - target: "[[concepts/anglo-saxon-kingdoms]]"
+    type: related_to
 sources:
   - "url:https://en.wikipedia.org/wiki/Æthelred_the_Unready"
   - "Glenn Foard, 'The Battle of Maldon 991', Battlefields Trust (2003)"
@@ -37,6 +45,7 @@ snapshots:
   - "[[_raw/_archived/Æthelred the Unready]]"
 ---
 
+
 # Æthelred the Unready
 
 Æthelred II (c. 968 – 23 April 1016). King of the English March 978–December 1013 and February 1014–death. Son of Edgar and Ælfthryth. Succeeded after the killing of half-brother [[entities/edward-the-martyr]]. Too young to be blamed for it.
@@ -45,9 +54,9 @@ snapshots:
 
 - OE name *Æðel* + *ræd* “noble counsel.” Epithet *unræd* (“ill counsel”) is a pun first recorded in the **early thirteenth century**, later misunderstood as adjective “unready.” Not an Anglo-Saxon nickname.
 - Child king (9–12) under father’s advisers including his mother. Mid-980s: new advisers, church property grants later regretted as cause of Viking punishment.
-- Viking raids resume in the 980s after a generation of peace; large attacks from the 990s. Tribute (*gafol*) when battles fail — the political background of [[references/battle-of-maldon]] (991). Foard (2003): ASC E gives Olaf + 93 ships; first recorded tribute after the fight is £10,000. EIEOL: 994 London bought off at **16,000** pounds; 1002 massacre; Svein bought off at **36,000**; 1013 conquest; Cnut at about age 20. St Brice’s Day massacre of Danes (1002). Eadric Streona dominant by 1009. Swein Forkbeard conquers England December 1013; Æthelred flees to Normandy; returns 1014 after Swein’s death and drives out Cnut; dies 1016 during Cnut’s return; Edmund Ironside continues until December. Full sequence: [[concepts/viking-age-expansion]].
+- Viking raids resume in the 980s after a generation of peace; large attacks from the 990s. Tribute (*gafol*) when battles fail — the political background of [[references/battle-of-maldon]] (991). Foard (2003): ASC E gives Olaf + 93 ships; first recorded tribute after the fight is £10,000. EIEOL: 994 London bought off at **16,000** pounds; 1002 massacre; Svein bought off at **36,000**; 1013 conquest; [[entities/cnut-the-great|Cnut]] at about age 20. St Brice’s Day massacre of Danes (1002). Eadric Streona dominant by 1009. [[entities/swein-forkbeard|Swein Forkbeard]] conquers England December 1013; Æthelred flees to Normandy; returns 1014 after Swein’s death and drives out Cnut; dies 1016 during Cnut’s return; [[entities/edmund-ironside|Edmund Ironside]] continues until December. Full sequence: [[concepts/viking-age-expansion]].
 - 990s–early 1000s: strongest years — able advisers, Latin and [[concepts/old-english]] literary culture. Post-Conquest historians treated him as a bad king until late-twentieth-century reassessment: catastrophic end, real mid-reign achievements.
-- From about 1005, [[entities/wulfstan-of-york]] drafts his law codes, including Enham (1008) and the penitential edict of 1009. The earlier stage of the [[concepts/institutes-of-polity]] is placed in this reign. He is king of the English, not of one heptarchy kingdom.
+- From about 1005, [[entities/wulfstan-of-york]] drafts his law codes, including Enham (1008) and the penitential edict of 1009. The earlier stage of the [[concepts/institutes-of-polity]] is placed in this reign. He is king of the English, not of one [[concepts/anglo-saxon-kingdoms|heptarchy]] kingdom.
 
 ## Open Questions
 

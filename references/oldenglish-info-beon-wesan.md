@@ -11,6 +11,8 @@ relationships:
     type: related_to
   - target: "[[concepts/old-english-future-time]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
 summary: >-
   Teaching page: wesan is the ordinary present of be, beon is for gnomic truths and for future, as in ic beo gearo sona.
 provenance:
@@ -25,7 +27,8 @@ created: 2026-10-12T22:05:00Z
 updated: 2026-10-12T22:05:00Z
 ---
 
-# Old English Online: Beon and Wesan
+
+# [[concepts/old-english|Old English]] Online: [[concepts/beon-and-wesan|Beon and Wesan]]
 
 [Old English Online](https://oldenglish.info/irgv2.html), irregular verbs, “Beon and Wesan.” A classroom page with paradigms and two worked sentences. It is the sort of documentation a learner meets before Mitchell or the Helsinki Corpus.
 

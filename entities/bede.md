@@ -11,6 +11,8 @@ relationships:
     type: related_to
   - target: "[[concepts/history-of-english]]"
     type: related_to
+  - target: "[[concepts/old-english-dialects]]"
+    type: related_to
 sources:
   - "url:https://en.wikipedia.org/wiki/Bede"
 summary: "Northumbrian Benedictine (c. 673–735) whose Ecclesiastical History is the foundation narrative for English origins, Cædmon, and early dating."
@@ -28,9 +30,10 @@ snapshots:
   - "[[_raw/_archived/Bede]]"
 ---
 
+
 # Bede
 
-Old English *Bēda* (c. 672/3 – 26 May 735), Benedictine of Monkwearmouth–Jarrow in [[concepts/old-english|Northumbrian]] Anglian territory. Best-known work: *Historia ecclesiastica gentis Anglorum* (“Father of English History”). Wrote mostly in Latin; also a translator who made Greek and Latin Fathers accessible.
+Old English *Bēda* (c. 672/3 – 26 May 735), Benedictine of Monkwearmouth–Jarrow in [[concepts/old-english|Northumbrian]] [[concepts/old-english-dialects|Anglian]] territory. Best-known work: *Historia ecclesiastica gentis Anglorum* (“Father of English History”). Wrote mostly in Latin; also a translator who made Greek and Latin Fathers accessible.
 
 ## Key Ideas
 

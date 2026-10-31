@@ -2,6 +2,11 @@
 title: "Freeborn: Old English pronunciation commentary"
 category: references
 tags: [old-english, phonology, palatalization]
+relationships:
+  - target: "[[concepts/old-english-pronunciation]]"
+    type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "https://res.cloudinary.com/bloomsbury-online-resources/raw/upload/RGP/F/freeborn/pdfs/commentary/27_Ch3_OE_pronunciation.pdf"
 summary: "Freeborn: Old English pronunciation commentary; scope and access limits recorded."
@@ -17,9 +22,10 @@ created: 2026-10-20T19:48:43-07:00
 updated: 2026-10-20T19:48:43-07:00
 ---
 
-# Freeborn: Old English pronunciation commentary
 
-Dennis Freeborn, supplementary “Text Commentary Book – OE pronunciation” for *From Old English to Standard English*, third edition, pp. 13–14. The publisher-hosted PDF sections and example tables were read.
+# Freeborn: [[concepts/old-english-pronunciation|Old English pronunciation]] commentary
+
+Dennis Freeborn, supplementary “Text Commentary Book – OE pronunciation” for *From [[concepts/old-english|Old English]] to Standard English*, third edition, pp. 13–14. The publisher-hosted PDF sections and example tables were read.
 
 The tables distinguish velar and palatal c and explicitly flag words containing both, including kitchen and crutch. They also compare OE forms with Modern English and northern outcomes.
 

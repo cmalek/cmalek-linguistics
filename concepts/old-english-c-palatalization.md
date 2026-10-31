@@ -2,6 +2,9 @@
 title: "Old English c-Palatalization"
 category: concepts
 tags: [old-english, phonology, palatalization]
+relationships:
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "https://archive.org/details/oldenglishgramma00wrig"
   - "https://stephenlaker.wordpress.com/wp-content/uploads/2013/01/laker2007abag64.pdf"
@@ -18,7 +21,8 @@ created: 2026-10-20T19:48:43-07:00
 updated: 2026-10-20T19:48:43-07:00
 ---
 
-# Old English c-Palatalization
+
+# [[concepts/old-english|Old English]] c-Palatalization
 
 C can represent velar /k/ or a palatal outcome conventionally read as /tʃ/. The modern dot is an editorial interpretation, not a normal manuscript distinction.
 

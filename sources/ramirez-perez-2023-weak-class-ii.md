@@ -3,6 +3,11 @@ title: >-
   Ramírez Pérez 2023: Late Northumbrian weak class II
 category: references
 tags: [old-english, inflection, northumbrian]
+relationships:
+  - target: "[[concepts/old-english]]"
+    type: related_to
+  - target: "[[concepts/old-english-dialects]]"
+    type: related_to
 sources:
   - "https://orca.cardiff.ac.uk/id/eprint/165028/1/Final%20PhD%20thesis-ERP%2021.12.23.pdf"
 source_url: "https://orca.cardiff.ac.uk/id/eprint/165028/1/Final%20PhD%20thesis-ERP%2021.12.23.pdf"
@@ -18,11 +23,12 @@ created: 2026-10-30T20:15:00Z
 updated: 2026-10-30T20:15:00Z
 ---
 
+
 # Ramírez Pérez 2023: Late Northumbrian weak class II
 
-Eduardo Ramírez Pérez, “The restructuring of the Old English second weak verbal class: Evidence from late Northumbrian” (PhD thesis, Cardiff University, 2023). The open thesis PDF was read in its introductory and methodological chapters, not as a line check of every table.
+Eduardo Ramírez Pérez, “The restructuring of the [[concepts/old-english|Old English]] second weak verbal class: Evidence from late Northumbrian” (PhD thesis, Cardiff University, 2023). The open thesis PDF was read in its introductory and methodological chapters, not as a line check of every table.
 
-The dialect is the tenth-century Northumbrian of the Lindisfarne gloss, Owun’s portion of the Rushworth gloss, and Durham Cathedral Library MS A.iv.19. Farman’s Rushworth glosses are Mercian and were excluded. ^[extracted]
+The dialect is the tenth-century Northumbrian of the Lindisfarne gloss, Owun’s portion of the Rushworth gloss, and Durham Cathedral Library MS A.iv.19. Farman’s Rushworth glosses are [[concepts/old-english-dialects|Mercian]] and were excluded. ^[extracted]
 
 The change is loss of the *-i-* formative in weak class II. That formative belongs, on the historical account he gives, to the infinitive, the inflected infinitive, the first singular and the plural present indicative, the present subjunctive, the imperative plural, and the present participle. He argues the loss is already underway in these glosses, against accounts that date it to Middle English, and that low-frequency verbs lead it. ^[extracted]
 

@@ -2,6 +2,9 @@
 title: "Biggam 2013: Anglo-Saxon Plant-Name Studies"
 category: references
 tags: [old-english, plants, lexicography, daily-life]
+relationships:
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "https://digital.library.leeds.ac.uk/12218/1/LSE2013_pp.1-9_Biggam_article.pdf"
   - "https://oldenglishteaching.arts.gla.ac.uk/Units/12_Plants.html"
@@ -18,9 +21,10 @@ created: 2026-10-23T16:05:00Z
 updated: 2026-10-23T16:05:00Z
 ---
 
+
 # Biggam 2013: Anglo-Saxon Plant-Name Studies
 
-C. P. Biggam, “An Introduction to Anglo-Saxon Plant-Name Studies and to this Special Issue,” *Leeds Studies in English*, n.s. 44 (2013), 1–9, the opening of *Magic and Medicine: Early Medieval Plant-Name Studies*. The introduction was read. Author: [[entities/carole-biggam]]. A Glasgow teaching unit on Old English plants, on the Historical Thesaurus site, was read as her later plain-language statement of the same project.
+C. P. Biggam, “An Introduction to Anglo-Saxon Plant-Name Studies and to this Special Issue,” *Leeds Studies in English*, n.s. 44 (2013), 1–9, the opening of *Magic and Medicine: Early Medieval Plant-Name Studies*. The introduction was read. Author: [[entities/carole-biggam]]. A Glasgow teaching unit on [[concepts/old-english|Old English]] plants, on the Historical Thesaurus site, was read as her later plain-language statement of the same project.
 
 Biggam dates the surviving written records mostly from the seventh century to about 1100. She says the principal evidence is manuscripts, so the illiterate majority, mostly agricultural workers and country-dwellers with regional names, cannot pass those names on directly. That is “a great loss of evidence.” Educated writers, almost all ecclesiastics, knew many English plant-names, but they did not represent every village, and Latin often shaped the names they wrote. Latin *canis caput* is translated *hundes heafod*, both “dog’s head.” She asks whether any Anglo-Saxon villager would have used that English name. A glossary or herbal pair shows only that the scribe who added the English believed the two names equivalent. The English name may have meant something else elsewhere, may have been unknown to much of the population, or may have been a physician’s technical term.
 

@@ -29,6 +29,7 @@ snapshots:
   - "[[_raw/_archived/GITHUB btc_anglo_saxon 2026-10-15|GITHUB btc_anglo_saxon 2026-10-15]]"
 ---
 
+
 # btc_anglo_saxon
 
 Madeleine Thompson's "Bosworth-Toller/Charles Anglo-Saxon Dictionary". A Python build pipeline produces a roughly 71 MB SQLite database (about 10 minutes to build), which a Java Android app searches.
@@ -56,7 +57,7 @@ flowchart LR
 - Noun and adjective inflection is not in the repo. `db/build_dict_db.sh` expects `generator-output.txt` from the external [[entities/ondrej-tichy|Tichý]] generator; only a 625-byte test file is checked in.
 - Code MIT, data public domain, documented in `LICENSE.md`. Python tests, Java instrumented tests, flake8, isort, `mypy --strict`, black. Last commit 2025-07-06.
 
-## Use for wyrdcraeft
+## Use for [[projects/wyrdcraeft/wyrdcraeft|wyrdcraeft]]
 
 The rule-plus-oracle design is the transferable part: validate generated paradigms against an independent source. The BT parser and `ascify` normalisation are relevant to [[projects/wyrdcraeft/concepts/dictionary-build]], and the data lineage is the same [[entities/bosworth-toller|Bosworth-Toller]] scan used elsewhere (see [[references/oe-dictionary-repos]]).
 

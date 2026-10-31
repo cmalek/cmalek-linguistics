@@ -21,6 +21,10 @@ relationships:
     type: related_to
   - target: "[[concepts/oe-word-formation]]"
     type: extends
+  - target: "[[entities/javier-martin-arista]]"
+    type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
 summary: >-
   Nerthus v5 (2024): 32,812 headwords, class, attested forms, derivation, and a dictionary comparison.
 provenance:
@@ -35,11 +39,12 @@ created: 2026-10-09T19:50:00Z
 updated: 2026-10-09T20:32:00Z
 ---
 
+
 # Nerthus v5 lexical database
 
-[Nerthus v5 database description](https://www.nerthusproject.com/database-description), Javier Martín Arista and the [[entities/nerthus-project|Nerthus Project]], University of La Rioja. Headword spelling follows Clark Hall. The Helsinki CoRD page documents the earlier Nerthus v3 file (2016). Guest search: [[skills/using-nerthus]]. The live door is [https://muga.unirioja.es/fmi/webd/ONLINENerthusV5.fmp12](https://muga.unirioja.es/fmi/webd/ONLINENerthusV5.fmp12).
+[Nerthus v5 database description](https://www.nerthusproject.com/database-description), [[entities/javier-martin-arista|Javier Martín Arista]] and the [[entities/nerthus-project|Nerthus Project]], University of La Rioja. Headword spelling follows Clark Hall. The Helsinki CoRD page documents the earlier Nerthus v3 file (2016). Guest search: [[skills/using-nerthus]]. The live door is [https://muga.unirioja.es/fmi/webd/ONLINENerthusV5.fmp12](https://muga.unirioja.es/fmi/webd/ONLINENerthusV5.fmp12).
 
-Cite it as the project asks: Martín Arista, Javier (ed.), Sara Domínguez Barragán, Luisa Fidalgo Allo, Laura García Fernández, Yosra Hamdoun Bghiyel, Miguel Lacalle Palacios, Raquel Mateo Mendaza, Carmen Novo Urraca, Ana Elvira Ojanguren López, Esaúl Ruíz Narbona, Roberto Torre Alonso, Marta Tío Sáenz & Raquel Vea Escarza. 2024. *Nerthusv5. Interface of textual, lexicographical and secondary sources of Old English.* Nerthus Project, Universidad de La Rioja, www.nerthusproject.com.
+Cite it as the project asks: Martín Arista, Javier (ed.), Sara Domínguez Barragán, Luisa Fidalgo Allo, Laura García Fernández, Yosra Hamdoun Bghiyel, Miguel Lacalle Palacios, Raquel Mateo Mendaza, Carmen Novo Urraca, Ana Elvira Ojanguren López, Esaúl Ruíz Narbona, Roberto Torre Alonso, Marta Tío Sáenz & Raquel Vea Escarza. 2024. *Nerthusv5. Interface of textual, lexicographical and secondary sources of [[concepts/old-english|Old English]].* Nerthus Project, Universidad de La Rioja, www.nerthusproject.com.
 
 The version page says v5 adds four things v3 did not publish together: a dictionary interface comparing current Old English dictionaries; attested inflectional forms from morphological generation for every inflecting class; secondary-source references on the headword; and a ParCorOEv3 citation for each headword the corpus contains. v4 was an unpublished transition.
 

@@ -8,6 +8,8 @@ relationships:
     type: related_to
   - target: "[[entities/bede]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "agent:raw-text Passion of the Apostles Peter and Paul"
   - "url:https://en.wikipedia.org/wiki/Simon_Magus"
@@ -29,9 +31,10 @@ snapshots:
   - "[[_raw/_archived/The Passion of the Apostles Peter and Paul]]"
 ---
 
+
 # Passion of the Apostles Peter and Paul
 
-> [!tldr] Old English homily headed *III Kalendas Iulii* (29 June): gospel of Peter’s confession, Bede as *trahtnere*, then an apocryphal Roman *passio* against Simon the magician.
+> [!tldr] [[concepts/old-english|Old English]] homily headed *III Kalendas Iulii* (29 June): gospel of Peter’s confession, Bede as *trahtnere*, then an apocryphal Roman *passio* against Simon the magician.
 
 ## Problem & Motivation
 

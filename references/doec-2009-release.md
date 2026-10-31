@@ -13,6 +13,10 @@ relationships:
     type: related_to
   - target: "[[skills/using-doec]]"
     type: related_to
+  - target: "[[entities/dictionary-of-old-english]]"
+    type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
 summary: >-
   November 2009 DOEC: 3,060 texts, TEI-P5 and HTML, Cameron prefixes, and the published word counts.
 provenance:
@@ -27,11 +31,12 @@ created: 2026-10-12T04:37:00Z
 updated: 2026-10-12T04:37:00Z
 ---
 
+
 # DOEC 2009 release
 
-[The Dictionary of Old English Corpus in Electronic Form, 2009 release](https://doe.artsci.utoronto.ca/?p=197), November 2009, Dictionary of Old English Project, University of Toronto. The live host returned a browser check during this research. The text below is the Internet Archive capture of that page, checked against the CoRD entry Antonette diPaolo Healey submitted on 23 November 2009.
+[The Dictionary of Old English Corpus in Electronic Form, 2009 release](https://doe.artsci.utoronto.ca/?p=197), November 2009, [[entities/dictionary-of-old-english|Dictionary of Old English]] Project, University of Toronto. The live host returned a browser check during this research. The text below is the Internet Archive capture of that page, checked against the CoRD entry Antonette diPaolo Healey submitted on 23 November 2009.
 
-The page calls the corpus a complete record of surviving Old English except for some variant manuscripts of individual texts. There are **3,060 texts**, in TEI-P5 XML (about 62 megabytes) and in HTML. Compilers of this release, as CoRD states them: Antonette diPaolo Healey, Joan Holland, Ian McDougall, and David McDougall, with the TEI-P5 version by Xin Xiang. Copy-editor Catherine Monahan. The 1981 release was Cameron, Ashley Crandell Amos, Sharon Butler, and Healey.
+The page calls the corpus a complete record of surviving [[concepts/old-english|Old English]] except for some variant manuscripts of individual texts. There are **3,060 texts**, in TEI-P5 XML (about 62 megabytes) and in HTML. Compilers of this release, as CoRD states them: Antonette diPaolo Healey, Joan Holland, Ian McDougall, and David McDougall, with the TEI-P5 version by Xin Xiang. Copy-editor Catherine Monahan. The 1981 release was Cameron, Ashley Crandell Amos, Sharon Butler, and Healey.
 
 ## What the disc contains
 

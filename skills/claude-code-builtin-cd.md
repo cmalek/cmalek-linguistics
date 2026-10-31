@@ -8,6 +8,8 @@ relationships:
     type: related_to
   - target: "[[projects/wyrdcraeft/wyrdcraeft]]"
     type: related_to
+  - target: "[[projects/aenglisc-toolkit/aenglisc-toolkit]]"
+    type: related_to
 sources:
   - "agent:wyrdcraeft-session-2026-10-08"
 summary: >-
@@ -26,6 +28,7 @@ snapshots:
   - "[[_raw/_archived/2026-10-08-claude-code-bash-cd-fails-use-builtin-cd|2026-10-08-claude-code-bash-cd-fails-use-builtin-cd]]"
   - "[[_raw/_archived/2026-10-18-agent-shell-quirks-cd-grep-context7|2026-10-18-agent-shell-quirks-cd-grep-context7]]"
 ---
+
 
 # Claude Code Bash: Use builtin cd
 
@@ -46,7 +49,7 @@ A [[skills/verify-plan-in-throwaway-worktree]] run on [[projects/wyrdcraeft/wyrd
 
 ## Second sighting: `/usr/bin/cd` is not a substitute
 
-On 2026-10-18 the aenglisc_toolkit repo's `AGENTS.md` said to "always use `/usr/bin/cd`; bare `cd` is a bash function and breaks agent shells", and the user repeated it mid-session. The same `chdir: command not found` appeared from the snapshot, and `type cd` reported `cd is a function`.
+On 2026-10-18 the [[projects/aenglisc-toolkit/aenglisc-toolkit|aenglisc_toolkit]] repo's `AGENTS.md` said to "always use `/usr/bin/cd`; bare `cd` is a bash function and breaks agent shells", and the user repeated it mid-session. The same `chdir: command not found` appeared from the snapshot, and `type cd` reported `cd is a function`.
 
 - `/usr/bin/cd` is a separate process, so it exits 0 and changes nothing. `/usr/bin/cd dir && cat file` ran in the old directory and failed with "No such file".
 - `builtin cd dir && pwd` did enter the directory, within that one Bash call.

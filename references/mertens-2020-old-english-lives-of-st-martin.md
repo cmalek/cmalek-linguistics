@@ -10,6 +10,8 @@ relationships:
     type: extends
   - target: "[[entities/dictionary-of-old-english]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "https://doi.org/10.17875/gup2017-1033"
   - "https://univerlag.uni-goettingen.de/handle/3/isbn-978-3-86395-313-3"
@@ -28,7 +30,8 @@ created: 2026-10-18T23:30:00Z
 updated: 2026-10-18T23:30:00Z
 ---
 
-# Mertens 2020: The Old English Lives of St Martin of Tours
+
+# Mertens 2020: The [[concepts/old-english|Old English]] Lives of St Martin of Tours
 
 Andre Mertens, *The Old English Lives of St Martin of Tours: Edition and Study* (Göttingen University Press; dissertation PDF `mertens_diss.pdf`, open access). It was found with `paper-search` and read from the PDF on 2026-10-18: the contents, the manuscript sigla table and the Editorial Policy chapter (pp. 155–164). The rest was not read. It is one edition by one editor, a research edition and not a student one, so it shows one set of conventions and not the field's. ^[inferred]
 

@@ -23,7 +23,10 @@ relationships:
     type: related_to
   - target: "[[references/reading-or-guessing-vlm-ocr]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
 ---
+
 
 # Error Patterns in Historical OCR
 
@@ -43,7 +46,7 @@ A companion discussion of the same risk, aimed at post-correction rather than fi
 
 ## Limitations
 
-The print is eighteenth-century English, not Old English or a linguistic apparatus. The architectural contrast (encoder–decoder OCR vs open generation) matches [[references/reading-or-guessing-vlm-ocr]] on Greek and Arabic. ^[inferred]
+The print is eighteenth-century English, not [[concepts/old-english|Old English]] or a linguistic apparatus. The architectural contrast (encoder–decoder OCR vs open generation) matches [[references/reading-or-guessing-vlm-ocr]] on Greek and Arabic. ^[inferred]
 
 ## Related
 

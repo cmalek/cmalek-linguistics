@@ -27,6 +27,7 @@ snapshots:
   - "[[_raw/_archived/GITHUB ang 2026-10-15|GITHUB ang 2026-10-15]]"
 ---
 
+
 # unimorph/ang
 
 The repo holds one data file, `ang` (6.7 MB, 178,373 lines), and no code. Each line is `lemma<TAB>form<TAB>features`, for example `beran	bireþ	V;IND;SG;3;PRS`. It was machine-extracted from English Wiktionary inflection tables.
@@ -49,7 +50,7 @@ Features are standard UniMorph (NOM, ACC, GEN, DAT, INS, SG, PL, genders, PRS, P
 - CC BY-SA 3.0 inherited from Wiktionary, so redistribution inside another repo carries share-alike terms.
 - Single commit, last 2022-03-22, no tests.
 
-## Use for wyrdcraeft
+## Use for [[projects/wyrdcraeft/wyrdcraeft|wyrdcraeft]]
 
 Good as a gold or evaluation set for a paradigm generator and as a form-to-(lemma, features) lookup. Verbs are the most complete. Normalise macrons and dotted consonants before matching against corpus text. See [[concepts/old-english-form-generation]] and [[projects/wyrdcraeft/concepts/morphology-generation]].
 

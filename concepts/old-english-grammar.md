@@ -16,6 +16,8 @@ relationships:
     type: related_to
   - target: "[[concepts/beon-and-wesan]]"
     type: related_to
+  - target: "[[entities/caedmon]]"
+    type: related_to
 sources:
   - "agent:raw-notes Nouns and Articles (HJ2011)"
   - "agent:raw-notes Verbs"
@@ -58,6 +60,7 @@ snapshots:
   - "[[_raw/_archived/Adjectives 2|Adjectives 2]]"
   - "[[_raw/_archived/Verbs 2|Verbs 2]]"
 ---
+
 
 # Old English Grammar
 
@@ -134,7 +137,7 @@ Conjunctions mark clause boundaries for translators. Coordinators include *ac, o
 
 ## Translating sentences
 
-Do **not** gloss left-to-right. Algorithm: (1) locate independent / dependent / relative / impersonal clauses; (2) find the **finite** verb (personal/tense endings; second position in many independent clauses); (3) find the subject; (4) fill remaining roles; (5) repeat. Sequence of tense/mood tends to stay past once past, subjunctive once subjunctive. Impersonal clauses have no expressed subject (*[it] befitted his tongue to sing* in the Cædmon prose). See [[skills/translating-ancient-texts]].
+Do **not** gloss left-to-right. Algorithm: (1) locate independent / dependent / relative / impersonal clauses; (2) find the **finite** verb (personal/tense endings; second position in many independent clauses); (3) find the subject; (4) fill remaining roles; (5) repeat. Sequence of tense/mood tends to stay past once past, subjunctive once subjunctive. Impersonal clauses have no expressed subject (*[it] befitted his tongue to sing* in the [[entities/caedmon|Cædmon]] prose). See [[skills/translating-ancient-texts]].
 
 ## Open Questions
 

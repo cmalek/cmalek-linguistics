@@ -2,6 +2,9 @@
 title: "Creativity, Translation, and Teaching Old English Poetry"
 category: references
 tags: [old-english, research, literature]
+relationships:
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources: ["https://ora.ox.ac.uk/objects/uuid%3Ad78cf90f-299e-4460-a20b-186158cbad35"]
 created: 2026-10-28T18:29:23.218356+00:00
 updated: 2026-10-28T18:29:23.218356+00:00
@@ -15,7 +18,8 @@ lifecycle: draft
 lifecycle_changed: 2026-10-28
 ---
 
-# Creativity, Translation, and Teaching Old English Poetry
+
+# Creativity, Translation, and Teaching [[concepts/old-english|Old English]] Poetry
 
 Helen Brookman; Olivia Robinson (2016). *Translation and Literature 25(3), 275–297*. [Source](https://ora.ox.ac.uk/objects/uuid%3Ad78cf90f-299e-4460-a20b-186158cbad35).
 

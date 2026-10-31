@@ -14,6 +14,12 @@ relationships:
     type: related_to
   - target: "[[entities/ycoe]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
+  - target: "[[concepts/weorthan]]"
+    type: related_to
+  - target: "[[concepts/old-english-dialects]]"
+    type: related_to
 sources:
   - "url:http://ifa.amu.edu.pl/sap/files/42/12Wischer.pdf"
   - "url:https://cla-acl.ca/pdfs/actes-2015/Cowper_Hall_Bjorkman_Tollan_Banerjee-2015.pdf"
@@ -36,15 +42,16 @@ created: 2026-10-12T22:05:00Z
 updated: 2026-10-12T22:05:00Z
 ---
 
-# Research: Future Tense in Old English
+
+# Research: Future Tense in [[concepts/old-english|Old English]]
 
 ## Overview
 
-Old English documents future time without a future tense. Finite verbs have a present and a preterite. The present is non-past, so it covers “she goes,” “she is going,” and “she will go.” From Smith’s 1896 exercise book through the York corpus manual, that two-tense description is stable. What the literature argues about is the extra machinery: *willan* and *sculan* plus a bare infinitive, the *bēon* present of ‘be’, a present-tense *weorþan* passive, and, in older work, perfective *ge-*. English eventually grammaticalized *will* and *shall*. German grammaticalized *werden*. Neither outcome is an Old English paradigm.
+Old English documents future time without a future tense. Finite verbs have a present and a preterite. The present is non-past, so it covers “she goes,” “she is going,” and “she will go.” From Smith’s 1896 exercise book through the York corpus manual, that two-tense description is stable. What the literature argues about is the extra machinery: *willan* and *sculan* plus a bare infinitive, the *bēon* present of ‘be’, a present-tense *[[concepts/weorthan|weorþan]]* passive, and, in older work, perfective *ge-*. English eventually grammaticalized *will* and *shall*. German grammaticalized *werden*. Neither outcome is an Old English paradigm.
 
 ## Key Findings
 
-- **There is no inflectional future.** Smith (1896) says Early West Saxon used the present for present and future ([[references/smith-1896-oe-grammar]]). STELLA §§37 and 44 teach the same rule and tell the reader that *iċ wille gān* means “I want to go” ([[references/stella-old-english-verb-phrase]]). The vault’s own verb notes already say this, with *hēo gāþ* as the three-way gloss ([[concepts/old-english-grammar]]).
+- **There is no inflectional future.** Smith (1896) says Early [[concepts/old-english-dialects|West Saxon]] used the present for present and future ([[references/smith-1896-oe-grammar]]). STELLA §§37 and 44 teach the same rule and tell the reader that *iċ wille gān* means “I want to go” ([[references/stella-old-english-verb-phrase]]). The vault’s own verb notes already say this, with *hēo gāþ* as the three-way gloss ([[concepts/old-english-grammar]]).
 - **Close biblical translation uses the present for Latin and Greek futures.** In 1,118 matched futurate clauses, the Anglo-Saxon Gospels use a present form 84.8% of the time and a modal 2.1% ([[references/cowper-2015-no-future-in-old-english]]). Cowper and colleagues conclude that modality was not yet a contrastive inflectional feature, so the present was free to be predictive. By Purvey, *shall* is about 81%. By the King James Version, a modal is effectively required.
 - ***Willan* and *sculan* are already auxiliary-like, and sometimes predictive, in Alfredian prose.** In Wischer’s Helsinki selection, 84% of *willan* and 96% of *sculan* take a bare infinitive, and some of those tokens cannot mean ‘want’ or ‘must’ ([[references/wischer-2006-markers-of-futurity]]). She quotes Denison (1993: 304) that by late Old English they were “almost a future tense.” Modal colouring is still the usual sense. YCOE records that range inside the gloss of *willan* (“wish … be about to, shall, will”) and does not give the corpus a future tag ([[references/ycoe-modal-and-tense-tags]]).
 - ***Bēon* is the future-leaning present of ‘be’, not a general future auxiliary.** *Eom/is* marks a current state. *Bēo/biþ* is preferred for future, habitual, and generic states ([[concepts/beon-and-wesan]]). It rarely takes an infinitive, so it could not become “will” plus a lexical verb. The Dictionary of Old English published the verb as Kilpiö’s *BEON* fascicle (1992). Laing (2010) finds some early Middle English systems in which singular *b*-forms are future-only ([[references/laing-2010-beon-futurity]]).

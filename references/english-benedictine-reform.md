@@ -15,6 +15,8 @@ relationships:
     type: related_to
   - target: "[[concepts/kingdom-of-the-english]]"
     type: related_to
+  - target: "[[concepts/old-english-dialects]]"
+    type: related_to
 summary: >-
   Late tenth-century English monastic reform under Dunstan, Æthelwold, and Oswald: celibate monks, the Regularis Concordia, royal backing.
 provenance:
@@ -29,6 +31,7 @@ created: 2026-10-12T23:40:00Z
 updated: 2026-10-12T23:40:00Z
 ---
 
+
 # English Benedictine Reform
 
 Wikipedia, “English Benedictine Reform,” a survey of the late tenth-century movement, citing John Blair, Nicholas Brooks, Rosamond McKitterick, and others. [en.wikipedia.org](https://en.wikipedia.org/wiki/English_Benedictine_reform).
@@ -42,7 +45,7 @@ Wikipedia, “English Benedictine Reform,” a survey of the late tenth-century 
 - Æthelwold expelled secular clerks from the Old and New Minsters at Winchester and put monks in the cathedral. That was not continental practice. Oswald put monks at Worcester but kept the clerks. Canterbury became fully monastic only after Dunstan’s death. English monks also preached and taught, despite the Rule’s bar on outside ministry.
 - The reformers condemned married clergy. [[entities/wulfstan-of-york]], of the next generation, cited Dunstan’s view that a married cleric charged with a crime should be tried as a layman.
 - Surviving accounts are by the reformers. Blair and others treat the portrait of secular clerks as foul and lazy as Æthelwold’s propaganda.
-- Æthelwold’s pupil [[entities/aelfric-of-eynham]] is the leading writer of the standard late West Saxon those schools produced.
+- Æthelwold’s pupil [[entities/aelfric-of-eynham]] is the leading writer of the standard late [[concepts/old-english-dialects|West Saxon]] those schools produced.
 - After Edgar’s death in 975, nobles seized back land in the so-called anti-monastic reaction. Ann Williams reads that crisis as politics among kin-groups, not a simple pagan or anti-monastic party.
 
 ## Limits

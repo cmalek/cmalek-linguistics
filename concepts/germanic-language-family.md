@@ -32,6 +32,7 @@ snapshots:
   - "[[_raw/_archived/Introduction to Old Norse]]"
 ---
 
+
 # Germanic Language Family
 
 Classroom three-way split. Slocum/Lehmann (UT) is the better source; a PoliLingua marketing post adds a modern-language list and some shaky chronology. ^[ambiguous]
@@ -42,7 +43,7 @@ Classroom three-way split. Slocum/Lehmann (UT) is the better source; a PoliLingu
 
 | Branch | Early witnesses | Living outcomes (rough) |
 |---|---|---|
-| West | Old English, Old Saxon, Old Frisian, Old Franconian, Old High German | English, German, Dutch, Afrikaans, Yiddish, Frisian |
+| West | [[concepts/old-english|Old English]], Old Saxon, Old Frisian, Old Franconian, Old High German | English, German, Dutch, Afrikaans, Yiddish, Frisian |
 | North | Old Norse | Danish, Swedish, Norwegian (Bokmål/Nynorsk), Icelandic, Faroese |
 | East | Gothic (best attested); Vandalic, Burgundian poorly attested | none |
 

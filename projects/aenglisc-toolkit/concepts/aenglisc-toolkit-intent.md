@@ -10,6 +10,8 @@ relationships:
     type: related_to
   - target: "[[concepts/old-english]]"
     type: related_to
+  - target: "[[references/the-seafarer]]"
+    type: related_to
 sources:
   - "repo:/Users/cmalek/src/personal/aenglisc_toolkit (README.md, CONTEXT.md, oeapp/help/topics/start-here.md)"
   - "url:https://trello.com/b/lEVKtPBa/aenglisc-toolkit"
@@ -27,7 +29,8 @@ created: 2026-10-18T20:00:00Z
 updated: 2026-10-18T20:00:00Z
 ---
 
-# aenglisc_toolkit: intent and product principles
+
+# [[projects/aenglisc-toolkit/aenglisc-toolkit|aenglisc_toolkit]]: intent and product principles
 
 ## One-sentence intent
 
@@ -37,7 +40,7 @@ A local-first desktop workbench that keeps an Old English source text, the trans
 
 ## Who it is for
 
-- The author, a translator working on long texts (verse such as *The Seafarer* and *Maldon* appear in fixtures and Trello examples). ^[inferred]
+- The author, a translator working on long texts (verse such as *[[references/the-seafarer|The Seafarer]]* and *Maldon* appear in fixtures and Trello examples). ^[inferred]
 - Students and scholars of [[concepts/old-english]]; the README says they "don't need software that guesses at grammar for you".
 - Distribution is a macOS `.app`/`.dmg` today; Windows and Linux builds are Backlog cards. Other people's desktops are a real constraint (see the Alembic rule in [[projects/aenglisc-toolkit/concepts/aenglisc-toolkit-architecture]]).
 

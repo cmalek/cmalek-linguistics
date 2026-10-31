@@ -2,6 +2,9 @@
 title: "Beginning PyQt (Willman, 2022): a connected reading guide"
 category: "references"
 tags: ["qt", "pyqt", "gui", "books"]
+relationships:
+  - target: "[[projects/aenglisc-toolkit/aenglisc-toolkit]]"
+    type: related_to
 sources: ["book:isbn:9781484279991/chapter/1", "book:isbn:9781484279991/chapter/2", "book:isbn:9781484279991/chapter/3", "book:isbn:9781484279991/chapter/4", "book:isbn:9781484279991/chapter/5", "book:isbn:9781484279991/chapter/6", "book:isbn:9781484279991/chapter/7", "book:isbn:9781484279991/chapter/8", "book:isbn:9781484279991/chapter/9", "book:isbn:9781484279991/chapter/10", "book:isbn:9781484279991/chapter/11", "book:isbn:9781484279991/chapter/12", "book:isbn:9781484279991/chapter/13", "book:isbn:9781484279991/chapter/14", "book:isbn:9781484279991/chapter/15", "book:isbn:9781484279991/back-matter"]
 summary: "A topic map of Willman’s PyQt6 chapters 1–15, connected to UX methods and aenglisc_toolkit references, with source inconsistencies and example limits stated."
 provenance: {"extracted": 0.75, "inferred": 0.2, "ambiguous": 0.05}
@@ -29,6 +32,7 @@ snapshots:
   - "[[_raw/_archived/15. Managing Threads|15. Managing Threads]]"
   - "[[_raw/_archived/Back Matter|Back Matter]]"
 ---
+
 
 # Beginning PyQt (Willman, 2022): a connected reading guide
 
@@ -69,7 +73,7 @@ This is a reading synthesis, not a mandatory implementation order. ^[inferred]
 
 [[projects/aenglisc-toolkit/concepts/qt-app-design-references]] provides desktop applications and component references. This book supplies smaller instructional examples for interpreting them. [[concepts/ux-conceptual-models]] and [[skills/ux-evaluation-planning]] remain the complementary tools for deciding what to build and whether it serves users. ^[inferred]
 
-The book uses PyQt6. The existing aenglisc_toolkit notes concern a PySide application; shared Qt concepts do not establish identical Python binding syntax or justify replacing its existing architecture. ^[inferred]
+The book uses PyQt6. The existing [[projects/aenglisc-toolkit/aenglisc-toolkit|aenglisc_toolkit]] notes concern a PySide application; shared Qt concepts do not establish identical Python binding syntax or justify replacing its existing architecture. ^[inferred]
 
 ## Source quality and limits
 

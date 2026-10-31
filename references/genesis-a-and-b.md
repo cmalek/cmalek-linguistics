@@ -17,6 +17,14 @@ relationships:
     type: related_to
   - target: "[[concepts/christianity-in-anglo-saxon-england]]"
     type: related_to
+  - target: "[[concepts/institutes-of-polity]]"
+    type: related_to
+  - target: "[[entities/bede]]"
+    type: related_to
+  - target: "[[entities/byrhtnoth]]"
+    type: related_to
+  - target: "[[concepts/old-english-dialects]]"
+    type: related_to
 sources:
   - "url:https://sacred-texts.com/book/the-complete-corpus-of-anglo-saxon-poetry/shell/genesis-a-b"
 summary: >-
@@ -35,6 +43,7 @@ snapshots:
   - "[[_raw/_archived/Genesis A, B – The Complete…|Genesis A, B – The Complete…]]"
 ---
 
+
 # Genesis A and B (Old English poem, Junius 11)
 
 > [!tldr] A verse retelling of the first book of the Bible, in the Junius manuscript, in which a translated Old Saxon passage (Genesis B) was spliced into the native poem (Genesis A).
@@ -43,7 +52,7 @@ The vault holds the Old English text only, from the Internet Sacred Text Archive
 
 ## Manuscript
 
-The poem is the first item in the Junius manuscript, which the headnote says has been in the Bodleian Library, Oxford, since 1677. That book is Bodleian MS Junius 11, the manuscript once attributed to [[entities/caedmon]]. It is not [[references/bodleian-junius-121]], the Worcester bishop's book that carries Wulfstan's *Institutes of Polity*; the two share only the name of the donor, Franciscus Junius. ^[inferred] The Junius 11 poems (*Genesis*, *Exodus*, *Daniel*, *Christ and Satan*) are linked to Cædmon only by tradition: Bede names *Genesis* among his subjects, but nothing in the manuscript is his. ^[inferred]
+The poem is the first item in the Junius manuscript, which the headnote says has been in the Bodleian Library, Oxford, since 1677. That book is Bodleian MS Junius 11, the manuscript once attributed to [[entities/caedmon]]. It is not [[references/bodleian-junius-121]], the Worcester bishop's book that carries Wulfstan's *[[concepts/institutes-of-polity|Institutes of Polity]]*; the two share only the name of the donor, Franciscus Junius. ^[inferred] The Junius 11 poems (*Genesis*, *Exodus*, *Daniel*, *Christ and Satan*) are linked to Cædmon only by tradition: [[entities/bede|Bede]] names *Genesis* among his subjects, but nothing in the manuscript is his. ^[inferred]
 
 ## Structure
 
@@ -62,11 +71,11 @@ Verified against the clip: the opening praise passage, the first fall of the ang
 - **Lordship and service.** The angels are *þegnas þrymfæste* ("glorious thegns") and God is *þeoden*, *liffrea*, *frea ælmihtig*; Satan's refusal is that he will not be a *geongra* ("follower", one who serves) and calls for his own *strange geneatas* ("strong companions"). The vocabulary is that of the heroic retinue, the same world as [[concepts/heroic-speech-in-maldon]] and [[references/beowulf]]. ^[inferred]
 - **Pride (*oferhygd*, *ofermod*).** The angel's *ofermod* is the cause of the fall (*se engel ofermodes*). Compare [[concepts/ofermod]] in Maldon; the word is the same, the moral weight is not settled. ^[inferred]
 - **Obedience and its loss.** In Genesis B the temptation of Eve is told sympathetically to her, and Adam's eventual lament is full of blame; the poem keeps *lengest læsten* ("hold out longest") in the mouths of God and the narrator as the test.
-- **Sacred history as heroic narrative.** Hell is a *hellgeþwing* ("hell-constraint") and Satan a *hellsceaða* ("hell-scather"), the same compounds the dying Byrhtnoth uses for devils in his prayer.
+- **Sacred history as heroic narrative.** Hell is a *hellgeþwing* ("hell-constraint") and Satan a *hellsceaða* ("hell-scather"), the same compounds the dying [[entities/byrhtnoth|Byrhtnoth]] uses for devils in his prayer.
 
 ## Language
 
-- Early West Saxon with Anglian traces; spellings such as *swiðfeorm*, *gyldan*, and *Euan* show that the clip preserves manuscript-like variation. ^[inferred]
+- Early West Saxon with [[concepts/old-english-dialects|Anglian]] traces; spellings such as *swiðfeorm*, *gyldan*, and *Euan* show that the clip preserves manuscript-like variation. ^[inferred]
 - Two-stress half-lines in alliterative verse, with repeated variation: God is *rodera weard*, *wereda wuldorcining*, *heafod ealra heahgesceafta*, *frea ælmihtig* in the opening five lines alone.
 - Genesis B differs: more speech, longer sentences, and a vocabulary with some Old Saxon forms that were not fully Anglicised. ^[inferred]
 

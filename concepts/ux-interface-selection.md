@@ -17,9 +17,12 @@ updated: "2026-10-18T19:45:11.748670+00:00"
 relationships:
   - target: "[[references/interaction-design-5th-edition]]"
     type: derived_from
+  - target: "[[projects/aenglisc-toolkit/aenglisc-toolkit]]"
+    type: related_to
 snapshots:
   - "[[_raw/_archived/Chapter 7 INTERFACES|Chapter 7 INTERFACES]]"
 ---
+
 
 # Choosing an interface for an activity
 
@@ -40,7 +43,7 @@ Use [[concepts/ux-conceptual-models]] to specify the interaction before implemen
 
 ## Related source
 
-- [[projects/aenglisc-toolkit/concepts/aenglisc-toolkit-ux-recommendations]] — applied to aenglisc_toolkit
+- [[projects/aenglisc-toolkit/concepts/aenglisc-toolkit-ux-recommendations]] — applied to [[projects/aenglisc-toolkit/aenglisc-toolkit|aenglisc_toolkit]]
 [[references/interaction-design-5th-edition]] places this topic in the book’s research and design workflow.
 
 ## Sources

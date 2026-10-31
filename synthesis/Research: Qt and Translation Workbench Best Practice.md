@@ -16,6 +16,8 @@ relationships:
     type: derived_from
   - target: "[[projects/aenglisc-toolkit/concepts/aenglisc-toolkit-ai-context-policy]]"
     type: derived_from
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "[[references/qt-official-docs-best-practice]]"
   - "[[references/desktop-os-integration-sources]]"
@@ -41,6 +43,7 @@ snapshots:
   - "[[_raw/_archived/2026-10-18-pyside6-deploy-spec-only-config|2026-10-18-pyside6-deploy-spec-only-config]]"
   - "[[_raw/_archived/2026-10-18-qt-offscreen-no-x11|2026-10-18-qt-offscreen-no-x11]]"
 ---
+
 
 # Research: Qt and Translation Workbench Best Practice
 
@@ -88,7 +91,7 @@ Remembered-annotation propagation sits at the junction of three results: it is m
 - **Deployment: decided to move to `pyside6-deploy`** (no signing option documented; its PyInstaller page says Qt 6 is unsupported, which its own index contradicts). Not yet tested on this app. On the installed PySide6 6.11.2, the tool reads `pysidedeploy.spec`, not the `[tool.pyside6.deploy]` table in the current docs. See [[projects/aenglisc-toolkit/skills/pyside6-deploy-on-6-11]].
 - **Offscreen testing.** Qt Test says fully supported "only on X11". On macOS with `DISPLAY` unset, `QT_QPA_PLATFORM=offscreen` in `conftest.py` reported platform `offscreen` and two test files passed. Linux and Windows are still unverified. See [[projects/aenglisc-toolkit/skills/pytest-qt-offscreen-macos]]. ^[ambiguous]
 - **Suggestion bias.** Picinini and Ueffing found bias errors; Green et al. found post-editing improved quality. Different settings, no test of a context-only pane.
-- **Open:** Does a docked editor handle the full POS form? What is a "document" (export file or database per project)? Which dictionary should the glossary cite? How do real Old English facing-page editions lay out notes?
+- **Open:** Does a docked editor handle the full POS form? What is a "document" (export file or database per project)? Which dictionary should the glossary cite? How do real [[concepts/old-english|Old English]] facing-page editions lay out notes?
 
 ## Evidence gaps
 

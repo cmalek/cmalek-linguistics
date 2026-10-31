@@ -15,6 +15,12 @@ relationships:
     type: related_to
   - target: "[[references/jones-macleod-2017-oe-passive]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
+  - target: "[[entities/bede]]"
+    type: related_to
+  - target: "[[entities/ilse-wischer]]"
+    type: related_to
 sources:
   - "url:https://lirias.kuleuven.be/server/api/core/bitstreams/896f7007-04d1-4114-b59d-03dbf3707799/content"
   - "url:https://lirias.kuleuven.be/retrieve/fc67dcc4-422f-448f-bdad-c11b556a6d1e"
@@ -33,9 +39,10 @@ created: 2026-10-12T22:20:00Z
 updated: 2026-10-12T22:20:00Z
 ---
 
+
 # Weorthan
 
-*Weorþan* (past *wearþ*, *wurdon*) is the Old English change-of-state verb, the cognate of German *werden*. It is the third “be” verb beside [[concepts/beon-and-wesan|bēon and wesan]], and it is not a second present of “be.” In Old English it is about the fifth most frequent verb, around 1,500 tokens per million words. By the end of the fourteenth century Petré and Cuyckens count 43 per million ([[references/petre-cuyckens-2009-copulas]], [[references/petre-2010-weorthan]]).
+*Weorþan* (past *wearþ*, *wurdon*) is the [[concepts/old-english|Old English]] change-of-state verb, the cognate of German *werden*. It is the third “be” verb beside [[concepts/beon-and-wesan|bēon and wesan]], and it is not a second present of “be.” In Old English it is about the fifth most frequent verb, around 1,500 tokens per million words. By the end of the fourteenth century Petré and Cuyckens count 43 per million ([[references/petre-cuyckens-2009-copulas]], [[references/petre-2010-weorthan]]).
 
 ## Contexts
 
@@ -55,13 +62,13 @@ Jones and Macleod test the passive against a compositional model ([[references/j
 - Telic events use both: *weorþan* 311 (27.4%), *wesan/bēon* 824 (72.6%). Chronicle pairs such as *wearð ofslagen* and *wæs ofslagen* are real.
 - Ingressives, the start of a state, lean to *weorþan* (5 of 7).
 
-So the old textbook pair “stative *beon/wesan*, dynamic *weorþan*” is half right. *Weorþan* does not build stative passives. Eventive passives are mostly still *wesan/bēon*. Mitchell (*Old English Syntax* I, 324–33), as Jones and Macleod report him, treated the two as interchangeable. Kilpiö (1989), on Bede and the Pastoral Care, found *weorþan* only in actional passives. The 2017 counts support Kilpiö on the stative ban and Mitchell on eventive overlap.
+So the old textbook pair “stative *beon/wesan*, dynamic *weorþan*” is half right. *Weorþan* does not build stative passives. Eventive passives are mostly still *wesan/bēon*. Mitchell (*Old English Syntax* I, 324–33), as Jones and Macleod report him, treated the two as interchangeable. Kilpiö (1989), on [[entities/bede|Bede]] and the Pastoral Care, found *weorþan* only in actional passives. The 2017 counts support Kilpiö on the stative ban and Mitchell on eventive overlap.
 
 ## Why it disappeared
 
 Petré’s 2010 account ties past *wearþ* to Old English narrative style: main clauses, time adverbials that move the story (*þā*), and verb-second order. Those are bounded sentences, a situation closed at its endpoint. When that narrative style breaks in the thirteenth century, *wearþ* goes with it. The 2009 paper adds a constructional reason: *weorþan* was tied to adjectival and participial complements, and that profile clashed with the Middle English passive that grew out of the copula-plus-participle construction. Change-of-state meanings move to *becuman*, *weaxan*, and *grow*.
 
-German kept *werden* and later bleached it into an eventive passive auxiliary. English did not. Present *weorþan* was also a rival future, and Wischer argues it lost that race to *willan* and *sculan* ([[concepts/old-english-future-time]]).
+German kept *werden* and later bleached it into an eventive passive auxiliary. English did not. Present *weorþan* was also a rival future, and [[entities/ilse-wischer|Wischer]] argues it lost that race to *willan* and *sculan* ([[concepts/old-english-future-time]]).
 
 ## Related
 

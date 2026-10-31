@@ -12,6 +12,8 @@ relationships:
     type: related_to
   - target: "[[references/computational-study-of-old-english-2025]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
 summary: >-
   den Hertog 2024: up to ninety percent of surviving Old English was written in West Saxon. He argues for two dialect blocs, not four.
 provenance:
@@ -26,7 +28,8 @@ created: 2026-10-13T05:20:00Z
 updated: 2026-10-13T05:20:00Z
 ---
 
-# Subgrouping the Old English Dialects (den Hertog 2024)
+
+# Subgrouping the [[concepts/old-english|Old English]] Dialects (den Hertog 2024)
 
 Simon den Hertog, “Subgrouping the Old English Dialects Using Historical Glottometry,” *Amsterdamer Beiträge zur älteren Germanistik* 84, no. 4 (2024). The article tests whether Anglian is a real subgroup, and whether West Saxon and Kentish form another.
 

@@ -10,6 +10,12 @@ relationships:
     type: related_to
   - target: "[[projects/aenglisc-toolkit/concepts/aenglisc-toolkit-internal-improvements]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
+  - target: "[[projects/wyrdcraeft/wyrdcraeft]]"
+    type: related_to
+  - target: "[[entities/bosworth-toller]]"
+    type: related_to
 sources:
   - "url:https://trello.com/b/lEVKtPBa/aenglisc-toolkit"
 summary: >-
@@ -26,7 +32,8 @@ created: 2026-10-18T20:30:00Z
 updated: 2026-10-18T20:30:00Z
 ---
 
-# aenglisc_toolkit: Trello board snapshot (2026-10-18)
+
+# [[projects/aenglisc-toolkit/aenglisc-toolkit|aenglisc_toolkit]]: Trello board snapshot (2026-10-18)
 
 Board: *Ænglisc Toolkit* (`lEVKtPBa`), read through the Trello API on 2026-10-18. List meanings (stated by the user): **Phase Infinity** = someday, not important now; **Backlog** = wanted, in no particular order; **On Deck** = next; **Doing** = in progress or imminent; **Released** = finished, kept until a release is packaged, and not always cleared promptly. The `Reference` list is empty.
 
@@ -55,8 +62,8 @@ Cards 3, 4 and 6 look like one root cause in matching on exact surface (see [[pr
 |---|---|
 | Architecture audit (resolve order from cards) | F1 MainWindowActions god façade (8/12); F7 SentenceCard controller split (9/12); F8 process-global SQLAlchemy session (10/12); F9 FullTranslationPDFExporter god service (11/12); F10 coverage and test ownership (12/12); F13 ADR location and format |
 | Bugs | note on an idiom does nothing; Enter on a selected idiom should open the annotation modal; arrow keys should select an idiom as a unit; `J`/`K` sentence navigation does nothing; napoleon-gate baseline is keyed on line numbers |
-| Features: reading and display | several view modes (all, paragraph, section, chapter); Full Translation window updates live as the main window changes; global POS overlay and a per-word annotation dialog in the Full Translation window; alliteration overlay per Old English poetic rules |
-| Features: annotation and dictionary | link words to antecedents; user-built dictionary; dictionary maintenance (choose main entry, verify, export to Wyrdcraeft); pure dictionary export (PDF, JSON); show normal endings and strong-verb vowel progression for a selected verb; add "Person" to personal pronouns; Wiktionary button beside Bosworth-Toller |
+| Features: reading and display | several view modes (all, paragraph, section, chapter); Full Translation window updates live as the main window changes; global POS overlay and a per-word annotation dialog in the Full Translation window; alliteration overlay per [[concepts/old-english|Old English]] poetic rules |
+| Features: annotation and dictionary | link words to antecedents; user-built dictionary; dictionary maintenance (choose main entry, verify, export to [[projects/wyrdcraeft/wyrdcraeft|Wyrdcraeft]]); pure dictionary export (PDF, JSON); show normal endings and strong-verb vowel progression for a selected verb; add "Person" to personal pronouns; Wiktionary button beside [[entities/bosworth-toller|Bosworth-Toller]] |
 | Features: app and project | multiple projects open at once; edit chapter and section titles in Edit Project; "Check for updates" (after packaging works) |
 | Packaging | Windows build; Linux build |
 | Documentation | warn that remembered annotations match spelling only (examples *hild*, *þā*, *þæs*, *hearde*) |

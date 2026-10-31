@@ -10,6 +10,8 @@ relationships:
     type: related_to
   - target: "[[references/beowulf]]"
     type: related_to
+  - target: "[[entities/bosworth-toller]]"
+    type: related_to
 sources:
   - "url:https://en.wikipedia.org/wiki/Walter_William_Skeat"
 summary: "Cambridge philologist (1835–1912); Elrington and Bosworth Professor of Anglo-Saxon; etymological dictionary, Chaucer, Piers Plowman."
@@ -27,6 +29,7 @@ snapshots:
   - "[[_raw/_archived/Walter William Skeat]]"
 ---
 
+
 # Walter William Skeat
 
 FBA (21 November 1835 – 6 October 1912). Anglican deacon and the leading British philologist of his generation; helped make English a university subject.
@@ -41,7 +44,7 @@ FBA (21 November 1835 – 6 October 1912). Anglican deacon and the leading Briti
 
 ## Open Questions
 
-- Relationship of his chair’s “Bosworth” name to Bosworth-Toller as a teaching tool in this vault (dictionary page still raw). ^[inferred]
+- Relationship of his chair’s “Bosworth” name to [[entities/bosworth-toller|Bosworth-Toller]] as a teaching tool in this vault (dictionary page still raw). ^[inferred]
 
 ## Sources
 

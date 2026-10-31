@@ -2,6 +2,9 @@
 title: "Laker 2007: Palatalization of Velars"
 category: references
 tags: [old-english, phonology, palatalization]
+relationships:
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "https://stephenlaker.wordpress.com/wp-content/uploads/2013/01/laker2007abag64.pdf"
 summary: "Laker 2007: Palatalization of Velars; scope and access limits recorded."
@@ -17,9 +20,10 @@ created: 2026-10-20T19:48:43-07:00
 updated: 2026-10-20T19:48:43-07:00
 ---
 
+
 # Laker 2007: Palatalization of Velars
 
-Stephen Laker, “Palatalization of Velars: A Major Link of Old English and Old Frisian”, *Amsterdamer Beiträge zur älteren Germanistik* 64 (2007), 165–184. Relevant sections read in the author-hosted PDF.
+Stephen Laker, “Palatalization of Velars: A Major Link of [[concepts/old-english|Old English]] and Old Frisian”, *Amsterdamer Beiträge zur älteren Germanistik* 64 (2007), 165–184. Relevant sections read in the author-hosted PDF.
 
 Pages 166–168 distinguish initial, medial and final conditioning and separate fronting from assibilation. Pages 180–183 discuss regional outcomes of final c and the evidence behind competing accounts. His compact initial rule excludes front vowels derived from umlaut; medial stops have narrower conditions than initial consonants.
 

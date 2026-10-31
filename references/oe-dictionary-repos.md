@@ -10,6 +10,12 @@ relationships:
     type: related_to
   - target: "[[projects/wyrdcraeft/concepts/dictionary-build]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
+  - target: "[[concepts/old-english-dialects]]"
+    type: related_to
+  - target: "[[projects/wyrdcraeft/wyrdcraeft]]"
+    type: related_to
 sources:
   - "repo:github.com/furrykef/oedict"
   - "repo:github.com/loco-lab/OEDict"
@@ -35,7 +41,8 @@ snapshots:
   - "[[_raw/_archived/GITHUB BosworthAndToller 2026-10-15-1|GITHUB BosworthAndToller 2026-10-15-1]]"
 ---
 
-# Old English dictionary repos on GitHub
+
+# [[concepts/old-english|Old English]] dictionary repos on GitHub
 
 | Repo | What it really is | Licence | Last commit |
 |---|---|---|---|
@@ -46,7 +53,7 @@ snapshots:
 
 ## furrykef/oedict
 
-Entries are `lemma, wordtype: specials` plus indented glosses (`lexicon.txt`, 129 KB). `oedict/lexicon.py` parses them and generates inflected forms (`gen_noun`, `gen_verb`, and so on) and spelling variants; `lexdb.py` rebuilds a SQLite index mapping every generated form to its entry, so `hyran` finds `hīeran`. About 365 entries are bare `SEE x` redirects. The README says [[entities/bosworth-toller|Bosworth-Toller]] and Sweet were used for glosses, with no explicit licence, so glosses have mixed provenance. The author calls the variant generator "a bit of a joke". No tests. The tag scheme and conservative Early West Saxon headwords with variant folding are worth studying.
+Entries are `lemma, wordtype: specials` plus indented glosses (`lexicon.txt`, 129 KB). `oedict/lexicon.py` parses them and generates inflected forms (`gen_noun`, `gen_verb`, and so on) and spelling variants; `lexdb.py` rebuilds a SQLite index mapping every generated form to its entry, so `hyran` finds `hīeran`. About 365 entries are bare `SEE x` redirects. The README says [[entities/bosworth-toller|Bosworth-Toller]] and Sweet were used for glosses, with no explicit licence, so glosses have mixed provenance. The author calls the variant generator "a bit of a joke". No tests. The tag scheme and conservative Early [[concepts/old-english-dialects|West Saxon]] headwords with variant folding are worth studying.
 
 ## loco-lab/OEDict
 
@@ -54,7 +61,7 @@ Not a parser. `sources/oe_bosworthtoller.txt` (30.8 MB) is the partially correct
 
 ## BosworthAndToller (Milnes)
 
-The README is a title. `compile.py` defines `Page`, `Entry`, `Example` classes and a hand-rolled scanner built on the author's own `tauparsing` library, which is missing. The loop is hard-coded to four pages, and sample output is wrong (`æfen-þénung` puts the whole gloss in a Latin field). Take only `bosworth_and_toller_abbreviations.json` (136 KB of citation abbreviations). The same abbreviation list, from the same Crist data, appears in [[references/btc-anglo-saxon]] and in wyrdcraeft.
+The README is a title. `compile.py` defines `Page`, `Entry`, `Example` classes and a hand-rolled scanner built on the author's own `tauparsing` library, which is missing. The loop is hard-coded to four pages, and sample output is wrong (`æfen-þénung` puts the whole gloss in a Latin field). Take only `bosworth_and_toller_abbreviations.json` (136 KB of citation abbreviations). The same abbreviation list, from the same Crist data, appears in [[references/btc-anglo-saxon]] and in [[projects/wyrdcraeft/wyrdcraeft|wyrdcraeft]].
 
 ## oldenglishonline
 

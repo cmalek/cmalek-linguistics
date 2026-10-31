@@ -13,6 +13,8 @@ relationships:
     type: related_to
   - target: "[[concepts/institutes-of-polity]]"
     type: related_to
+  - target: "[[entities/edmund-ironside]]"
+    type: related_to
 sources:
   - "url:https://en.wikipedia.org/wiki/Wulfstan_(died_1023)"
   - "url:https://roep.site.ox.ac.uk/article/wulfstans-institutes-of-polity"
@@ -30,9 +32,10 @@ created: 2026-10-12T23:40:00Z
 updated: 2026-10-12T23:40:00Z
 ---
 
+
 # Cnut the Great
 
-Danish king of the English from 1016, after the deaths of [[entities/aethelred-the-unready]] and Edmund Ironside. [[entities/wulfstan-of-york]] stayed at court and wrote his codes. The Winchester code of 1021 or 1022 is the text Domesday later means by “the law of King Edward.”
+Danish king of the English from 1016, after the deaths of [[entities/aethelred-the-unready]] and [[entities/edmund-ironside|Edmund Ironside]]. [[entities/wulfstan-of-york]] stayed at court and wrote his codes. The Winchester code of 1021 or 1022 is the text Domesday later means by “the law of King Edward.”
 
 Jost placed the revised *Institutes of Polity* in this reign. Titterington repeats that placement. Crișan treats the Junius text as a manuscript arrangement rather than as Cnut’s edition of the work. Either way, the king *Polity* describes is an anointed Christian king of one people, and Cnut is the conqueror Wulfstan was willing to dress in that role. Britannica’s short life of Wulfstan says it was probably Wulfstan who led Cnut to reign as a Christian king, and so kept the Danish conquest from wrecking the English church. That “probably” is the encyclopedia’s, not a quoted letter.
 

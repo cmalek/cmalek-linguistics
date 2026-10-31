@@ -27,6 +27,7 @@ snapshots:
   - "[[_raw/_archived/The Seafarer (Jun 2026)_side_by_side.pdf]]"
 ---
 
+
 # The Seafarer
 
 > [!tldr] First-person OE poem: the speaker can tell a *soðgied* of winter sea-watch, then turns from land-joys to *Meotod* and the withering of earthly *blæd*.
@@ -49,4 +50,4 @@ Opening: *Mæg ic be me sylfum soðgied wrecan* — ice-bound feet, night-watch 
 
 ## Sources
 
-- Malek translation from Mitchell & Robinson, *A Guide to Old English*, 8th ed., 2012, pp. 284–290
+- Malek translation from Mitchell & Robinson, *A Guide to [[concepts/old-english|Old English]]*, 8th ed., 2012, pp. 284–290

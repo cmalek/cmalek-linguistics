@@ -10,6 +10,10 @@ relationships:
     type: derived_from
   - target: "[[concepts/old-english-form-generation]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
+  - target: "[[entities/ycoe]]"
+    type: related_to
 sources:
   - "[[concepts/old-english-lemmatisation]]"
   - "[[concepts/old-english-inflectional-class]]"
@@ -29,7 +33,8 @@ created: 2026-10-18T19:00:00Z
 updated: 2026-10-18T19:00:00Z
 ---
 
-# Old English Lemmatisation × Old English Inflectional Class
+
+# [[concepts/old-english|Old English]] Lemmatisation × Old English Inflectional Class
 
 ## The Connection
 
@@ -43,7 +48,7 @@ updated: 2026-10-18T19:00:00Z
 
 ## Cross-cutting Insight
 
-Ablaut series are the strong classes. A token like *sungon* is recoverable as *singan* only if the model knows the class pattern that links the vowels. The model must infer a class it is never asked to output and has no labels for: YCOE tags encode case, number, tense, and mood but "do not store this noun is an i-stem". Nerthus has the class labels and YCOE has the context, and they are different resources. The cheapest hypothesis for the 68 percent figure is a missing variable, not a weak model. ^[inferred]
+Ablaut series are the strong classes. A token like *sungon* is recoverable as *singan* only if the model knows the class pattern that links the vowels. The model must infer a class it is never asked to output and has no labels for: [[entities/ycoe|YCOE]] tags encode case, number, tense, and mood but "do not store this noun is an i-stem". Nerthus has the class labels and YCOE has the context, and they are different resources. The cheapest hypothesis for the 68 percent figure is a missing variable, not a weak model. ^[inferred]
 
 Compounds show the same gap from the other side. Poetry lemmatisation invented 72 lemmas, mostly compounds. The class page says a compound inherits its class from its second element, and *ge-beran* takes the class of *beran*. So a lemmatiser that segments a compound correctly could assign the class without a dictionary entry, and one that does not cannot be generated back into paradigm cells. ^[inferred]
 

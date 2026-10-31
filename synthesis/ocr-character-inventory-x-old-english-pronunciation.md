@@ -10,6 +10,10 @@ relationships:
     type: derived_from
   - target: "[[concepts/old-english-g-palatalization]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
+  - target: "[[entities/kraken]]"
+    type: related_to
 sources:
   - "[[concepts/ocr-character-inventory]]"
   - "[[concepts/old-english-pronunciation]]"
@@ -29,7 +33,8 @@ created: 2026-10-18T19:00:00Z
 updated: 2026-10-18T19:00:00Z
 ---
 
-# OCR Character Inventory × Old English Pronunciation
+
+# OCR Character Inventory × [[concepts/old-english|Old English]] Pronunciation
 
 ## The Connection
 
@@ -53,7 +58,7 @@ Two corollaries follow from the pronunciation page:
 ## Tensions and Trade-offs
 
 - Precomposed `ċ` (`U+010B`) survives search and diff better, but the pronunciation page's marks may be printed as base plus a combining dot. Normalizing to NFC hides a composed/decomposed split that the scoring tool also hides.
-- Closed inventory (Kraken `new` codec) versus open (`union`): a later page may introduce a mark the first pages never showed, such as an IPA symbol in a phonology chapter.
+- Closed inventory ([[entities/kraken|Kraken]] `new` codec) versus open (`union`): a later page may introduce a mark the first pages never showed, such as an IPA symbol in a phonology chapter.
 
 ## Strongest Objection
 

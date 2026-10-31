@@ -13,6 +13,10 @@ relationships:
     type: related_to
   - target: "[[entities/peter-petre]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
+  - target: "[[entities/ilse-wischer]]"
+    type: related_to
 summary: >-
   Petré and Cuyckens 2009: is is particular, beon is generic or future, weorðan is a transition, and that profile helps explain its loss.
 provenance:
@@ -27,9 +31,10 @@ created: 2026-10-12T22:20:00Z
 updated: 2026-10-12T22:20:00Z
 ---
 
-# Copular Constructions in Old and Middle English (Petré and Cuyckens 2009)
 
-Peter Petré and Hubert Cuyckens, “Constructional change in Old and Middle English copular constructions and its impact on the lexicon,” *Folia Linguistica Historica* 30 (2009): 311–366. Author copy: [KU Leuven bitstream](https://lirias.kuleuven.be/server/api/core/bitstreams/896f7007-04d1-4114-b59d-03dbf3707799/content). The span is roughly 950–1350. *Weorðan* falls from about 1,500 occurrences per million words in Old English to 43 by the end of the fourteenth century. The question is why a function word that frequent disappears.
+# Copular Constructions in Old and Middle English ([[entities/peter-petre|Petré]] and Cuyckens 2009)
+
+Peter Petré and Hubert Cuyckens, “Constructional change in Old and Middle English copular constructions and its impact on the lexicon,” *Folia Linguistica Historica* 30 (2009): 311–366. Author copy: [KU Leuven bitstream](https://lirias.kuleuven.be/server/api/core/bitstreams/896f7007-04d1-4114-b59d-03dbf3707799/content). The span is roughly 950–1350. *[[concepts/weorthan|Weorðan]]* falls from about 1,500 occurrences per million words in [[concepts/old-english|Old English]] to 43 by the end of the fourteenth century. The question is why a function word that frequent disappears.
 
 ## Key claims
 
@@ -39,7 +44,7 @@ Peter Petré and Hubert Cuyckens, “Constructional change in Old and Middle Eng
 - *Is* is imperfective: a present situation, often with “now,” or an atemporal state. The worked “now he is abbot” example is early Middle English.
 - *Weorðan* centres on property and event complements: become merciful, become poor, be bound to a bar, an earthquake occurs. Identity (“became abbess”) is possible and less central. It is not generic or iterative. It marks the transition. Present-tense *weorðan* is almost only future, because a perfective present rarely describes an ongoing now.
 - *Bēon* sits between imperfective *is* and perfective *weorðan*. Its pluralized situations are generic, iterative (*wē bēoð oft costode*), or durative (*þā hwīle þe hē hēr on līfe biþ*).
-- The loss of *weorðan* is constructional. Its strong tie to participial and adjectival complements clashes with the Middle English passive that develops out of copula plus adjectival participle. Weak verbs in *-ian* (“become old”) are taken over by new copulas such as *becuman*. Phonological merger of present and past *weorðan* in some dialects, and analytic *will/shall* futures competing with present *weorðan*, are named as extra factors. The future competition is referred to Wischer (2006).
+- The loss of *weorðan* is constructional. Its strong tie to participial and adjectival complements clashes with the Middle English passive that develops out of copula plus adjectival participle. Weak verbs in *-ian* (“become old”) are taken over by new copulas such as *becuman*. Phonological merger of present and past *weorðan* in some dialects, and analytic *will/shall* futures competing with present *weorðan*, are named as extra factors. The future competition is referred to [[entities/ilse-wischer|Wischer]] (2006).
 
 ## Limits
 

@@ -15,6 +15,8 @@ relationships:
     type: related_to
   - target: "[[entities/wulfstan-of-york]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
 summary: >-
   Crișan 2024: the Boethius puts the king over three tools; Ælfric and Wulfstan revive the orders in the Viking crisis, with different sequences.
 provenance:
@@ -31,7 +33,8 @@ snapshots:
   - "[[_raw/_archived/11Varia_Crisan_189_206.pdf|11Varia_Crisan_189_206.pdf]]"
 ---
 
-# The Three Orders in Late Old English Prose (Crișan 2024)
+
+# The Three Orders in Late [[concepts/old-english|Old English]] Prose (Crișan 2024)
 
 Andrei Crișan, “The Concept of the Three Orders of Society in Late Old English Prose,” *Studia Universitatis Babeș-Bolyai Philologia* 69, no. 3 (2024): 189–206. DOI 10.24193/subbphilo.2024.3.11. Received 13 July 2024, accepted 5 September 2024. Georges Duby’s book on the three orders barely treats England. Crișan follows the English scheme from the Old English Boethius into Ælfric and Wulfstan, and he asks how the late writers differ from that earlier text.
 

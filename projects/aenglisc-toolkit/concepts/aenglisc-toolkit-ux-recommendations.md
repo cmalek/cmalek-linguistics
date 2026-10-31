@@ -12,6 +12,8 @@ relationships:
     type: derived_from
   - target: "[[references/interaction-design-5th-edition]]"
     type: derived_from
+  - target: "[[entities/omegat]]"
+    type: related_to
 sources:
   - "[[references/desktop-ux-guidelines-sources]]"
   - "[[references/translation-tools-and-scholarly-editing-standards]]"
@@ -30,6 +32,7 @@ tier: supporting
 created: 2026-10-18T22:30:00Z
 updated: 2026-10-18T22:30:00Z
 ---
+
 	
 # aenglisc_toolkit: UI flow, missing features and features to drop
 
@@ -45,7 +48,7 @@ Guidelines are generic and the user is one scholar, so every row below is a hypo
 | 4 | Make bare-letter shortcuts safe: a setting to disable or remap, and scope them to the token view | WCAG 2.1.4; Apple "define custom keyboard shortcuts for only the most frequently used" | WCAG is a web standard, used here as guidance only. The Help Center already lists keys that do not exist (J/K, `Ctrl+Y`). |
 | 5 | One `QAction` per command in a full menu bar with disabled-not-hidden items; shortcuts in tooltips | Apple menu bar; Microsoft "rely on an application's menus"; [[projects/aenglisc-toolkit/concepts/aenglisc-toolkit-qt-idiom-plan]] item 8 | A command palette is optional on top, per Obsidian. |
 | 6 | Named, multi-level undo that scrolls to and selects the change | Apple undo-and-redo; QUndoStack | Fixes the 50-command eviction. |
-| 7 | Hideable panes with predictable restore, saved layouts, and a reset-layout command | Apple split views; OmegaT; Obsidian workspaces | Layouts can cover the Backlog "view modes" card. |
+| 7 | Hideable panes with predictable restore, saved layouts, and a reset-layout command | Apple split views; [[entities/omegat|OmegaT]]; Obsidian workspaces | Layouts can cover the Backlog "view modes" card. |
 | 8 | Trim the toolbars to a few frequent actions; add a hide-chrome reading mode | Apple toolbars | |
 | 9 | Keep highlight and view options in the View menu; keep Preferences small; **System / Light / Dark with System as default** (decided 2026-10-18) | Apple settings and dark mode | Both themes stay because users depend on them; code changes are on [[projects/aenglisc-toolkit/concepts/aenglisc-toolkit-os-integration]]. |
 | 10 | Empty-state text on a fresh project; one status line for progress and errors | GNOME placeholders; Apple feedback | Autosave failures need a visible message (verified silent today). |

@@ -13,6 +13,10 @@ relationships:
     type: related_to
   - target: "[[concepts/kingdom-of-the-english]]"
     type: related_to
+  - target: "[[entities/cnut-the-great]]"
+    type: related_to
+  - target: "[[concepts/old-english-dialects]]"
+    type: related_to
 sources:
   - "url:https://roep.site.ox.ac.uk/article/wulfstans-institutes-of-polity"
   - "url:https://medieval.bodleian.ox.ac.uk/catalog/manuscript_6320"
@@ -34,13 +38,14 @@ snapshots:
   - "[[_raw/_archived/Wulfstans "Institutes of Polity"|Wulfstan's "Institutes of Polity"]]"
 ---
 
+
 # Institutes of Polity
 
 A modern title for chapters in which [[entities/wulfstan-of-york]] sets out the duties of each rank in a Christian people. The manuscripts give rubrics (*Be cyninge*, *Be bisceopum*, and so on) and no title for the whole. It reads like a law code, it sounds like a sermon, and it is neither. Titterington’s label is estates literature. Passages are reused in the laws and in the *Sermo Lupi ad Anglos*.
 
 ## What a translator is looking at
 
-Jost’s edition (1959) builds two stages. I Polity, placed in Æthelred’s reign, is Cambridge, Corpus Christi College 201, pp. 86–93. II Polity, placed under Cnut, is Oxford, Bodleian Library, Junius 121, which Jost thought was the fullest form. Cotton Nero A.i is the bridge, and the only copy Wulfstan annotated himself. Rabin (2020) still prints I and II. The Wikipedia life dates the first stage about 1008 and the revision about 1016. Those years are a compression of Jost.
+Jost’s edition (1959) builds two stages. I Polity, placed in Æthelred’s reign, is Cambridge, Corpus Christi College 201, pp. 86–93. II Polity, placed under [[entities/cnut-the-great|Cnut]], is Oxford, Bodleian Library, Junius 121, which Jost thought was the fullest form. Cotton Nero A.i is the bridge, and the only copy Wulfstan annotated himself. Rabin (2020) still prints I and II. The Wikipedia life dates the first stage about 1008 and the revision about 1016. Those years are a compression of Jost.
 
 Crișan (2024) drops I and II. He wants three manuscript versions: Corpus, Junius, and Nero. Titterington reports the same doubt. The chapter order in Junius 121, heavenly king first, is the order of that book, not a proven final intention of the author. Nero and Corpus start with the earthly king. Reinhard’s dissertation abstract says the work only makes sense inside the manuscripts, as one part of a reform collection, and that a new edition is still needed.
 
@@ -72,7 +77,7 @@ The useful cut is inside this text, token by token, and then against the earlier
 
 Your two lists are not the same kind of variation.
 
-The present third-person forms are one grammatical cell written three ways. *sceal* is the ordinary West Saxon spelling. *sceall* is that same vowel with a doubled *l*. *scall* is the Anglian vowel, the one this vault already records beside West Saxon *sceal* in the pair *sceal*/*scæl*. The dialect signal in that trio is *ea* against *a*. The single *l* against *ll* is orthographic.
+The present third-person forms are one grammatical cell written three ways. *sceal* is the ordinary West Saxon spelling. *sceall* is that same vowel with a doubled *l*. *scall* is the [[concepts/old-english-dialects|Anglian]] vowel, the one this vault already records beside West Saxon *sceal* in the pair *sceal*/*scæl*. The dialect signal in that trio is *ea* against *a*. The single *l* against *ll* is orthographic.
 
 *sculan*, *scylan*, and *sceolan* still have to be parsed before they can be called spellings of one form. *sculan* is the infinitive. *sceolan* is the shape back umlaut gives that infinitive, and back umlaut of *u* is a Mercian habit showing up in a Worcester book. *scylan* may be the present plural subjunctive *scylen* written with *-an*, which is the ending confusion already on your list, or it may be another spelling of the infinitive or the plural. Those are different cells. Counting them as three dialects, or as three spellings of one inflection, comes after that parse.
 

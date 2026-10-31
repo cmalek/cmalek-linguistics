@@ -26,12 +26,15 @@ relationships:
     type: derived_from
   - target: "[[references/reading-or-guessing-vlm-ocr]]"
     type: derived_from
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "url:https://arxiv.org/pdf/2602.14524"
   - "url:https://arxiv.org/html/2605.27750v2"
   - "url:https://huggingface.co/blog/emanuelaboros/can-llms-correct-historical-ocr-without-rewriting"
   - "url:https://sigurdurhaukur.com/articles/ocr-lit-review"
 ---
+
 
 # Diplomatic OCR Target
 
@@ -44,7 +47,7 @@ A diplomatic target is the string on the page: the letters, diacritics, and spel
 - [[references/reading-or-guessing-vlm-ocr]] shows the same bias under a controlled test. When the image is changed so the letters are implausible, vision-language models move toward a likely word. In-domain [[entities/kraken]] stays closer to the ink. Diacritics are 37–57% of the Greek vision-model errors.
 - Post-correction with a generative model has the same failure. Boros lists an “unfaithful” edit as one that keeps the meaning and changes the historical form. [[references/state-of-icelandic-ocr]] notes that CEMI runs OCR correction and spelling normalization as separate stages, and that þ/p confusions often yield another real Icelandic word, so a modern spellchecker accepts them.
 - PoCoTo (Vobl et al. 2014, IMPACT / CLARIN-D) is the older interactive tool built for this: a historical lexicon and spelling patterns propose error series, and a person accepts a series in one step. It is aimed at the printed spelling, not at modern English.
-- Classroom Old English macrons and dotted `ċ`/`ġ` are editorial, and they are still part of the target when the PDF prints them. [[concepts/old-english-pronunciation]] treats them as teaching marks absent from the manuscripts. [[projects/wyrdcraeft/concepts/diacritic-workflows]] can restore some of them later from a lexicon. Restoration is a different program from copying an edition that already has the marks. ^[inferred]
+- Classroom [[concepts/old-english|Old English]] macrons and dotted `ċ`/`ġ` are editorial, and they are still part of the target when the PDF prints them. [[concepts/old-english-pronunciation]] treats them as teaching marks absent from the manuscripts. [[projects/wyrdcraeft/concepts/diacritic-workflows]] can restore some of them later from a lexicon. Restoration is a different program from copying an edition that already has the marks. ^[inferred]
 - Report CER on a gold sample that is dense in the rare characters. An overall CER on ordinary prose hides a systematic macron drop. [[references/olmocr]] normalizes NFC and hyphen variants before scoring; copy that idea only for differences you have decided do not matter, and say so.
 
 ## Two policies, written down

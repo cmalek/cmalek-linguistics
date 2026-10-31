@@ -13,6 +13,12 @@ relationships:
     type: related_to
   - target: "[[concepts/kingdom-of-the-english]]"
     type: related_to
+  - target: "[[entities/edward-the-martyr]]"
+    type: related_to
+  - target: "[[concepts/sermo-lupi-ad-anglos]]"
+    type: related_to
+  - target: "[[concepts/old-english-dialects]]"
+    type: related_to
 summary: >-
   Career survey of Archbishop Wulfstan: London, York with Worcester, laws for Æthelred and Cnut, and the homilies behind Polity.
 provenance:
@@ -27,6 +33,7 @@ created: 2026-10-12T23:40:00Z
 updated: 2026-10-12T23:40:00Z
 ---
 
+
 # Wulfstan (died 1023), career and writings
 
 Wikipedia, “Wulfstan (died 1023),” drawing on Patrick Wormald’s *Oxford Dictionary of National Biography* life, Dorothy Whitelock, Dorothy Bethurum, and Joyce Tally Lionarons. [en.wikipedia.org](https://en.wikipedia.org/wiki/Wulfstan_(died_1023)). Tertiary, but it names the scholarship a translator will meet next.
@@ -36,10 +43,10 @@ Wikipedia, “Wulfstan (died 1023),” drawing on Patrick Wormald’s *Oxford Di
 - Wulfstan, also called Lupus, died at York on 28 May 1023 and was buried at Ely, as he had asked. He was bishop of London from 996, then archbishop of York from 1002 to 1023, and bishop of Worcester in plurality from 1002 to 1016.
 - Nothing certain is known of his youth. He was uncle of Beorhtheah, a later bishop of Worcester, and of St Wulfstan of Worcester. Fenland and Peterborough ties are likely. Monastic profession is disputed: the Ely history and Florence of Worcester say he was a monk; William of Malmesbury says he was not. The encyclopedia’s own summary is that there is no direct evidence he was a monk.
 - York was held with a southern see because the northern archbishopric was poor and politically exposed. Plurality was uncanonical. He resigned Worcester to Leofsige in 1016 and still kept influence there.
-- He drafted Æthelred’s law codes from about 1005 to 1016, including the Enham code of 1008 (cult of Edward the Martyr, ships, tithes, a ban on exporting Christian slaves) and the 1009 penitential edict during Thorkell’s raids. He then drafted for Cnut, including the Winchester code of 1021 or 1022. Domesday’s “law of King Edward” means those laws of Cnut.
-- Homiletic blocks in Bethurum’s edition: eschatology and Antichrist, about 996–1002; the basics of the faith, about 1002–1008; archiepiscopal work, about 1008–1020; the “evil days,” about 1014–1023, including the *Sermo Lupi ad Anglos*. The Nero rubric dates that sermon to 1014.
+- He drafted Æthelred’s law codes from about 1005 to 1016, including the Enham code of 1008 (cult of [[entities/edward-the-martyr|Edward the Martyr]], ships, tithes, a ban on exporting Christian slaves) and the 1009 penitential edict during Thorkell’s raids. He then drafted for Cnut, including the Winchester code of 1021 or 1022. Domesday’s “law of King Edward” means those laws of Cnut.
+- Homiletic blocks in Bethurum’s edition: eschatology and Antichrist, about 996–1002; the basics of the faith, about 1002–1008; archiepiscopal work, about 1008–1020; the “evil days,” about 1014–1023, including the *[[concepts/sermo-lupi-ad-anglos|Sermo Lupi ad Anglos]]*. The Nero rubric dates that sermon to 1014.
 - The encyclopedia dates *Institutes of Polity* to about 1008, with Jost’s revision at about 1016, and records Crișan’s 2024 rejection of the two-edition model.
-- His late West Saxon is salted with Norse words for ranks and legal ideas: *þræl*, *bonda*, *eorl*, *lagu*. Whitelock tied that vocabulary to his time in the north.
+- His late [[concepts/old-english-dialects|West Saxon]] is salted with Norse words for ranks and legal ideas: *þræl*, *bonda*, *eorl*, *lagu*. Whitelock tied that vocabulary to his time in the north.
 - He is not St Wulfstan, bishop of Worcester 1062–1095, and not Wulfstan the Cantor of Winchester.
 
 ## Limits

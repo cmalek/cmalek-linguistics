@@ -12,6 +12,10 @@ relationships:
     type: related_to
   - target: "[[concepts/old-english-future-time]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
+  - target: "[[entities/ilse-wischer]]"
+    type: related_to
 sources:
   - "url:https://lirias.kuleuven.be/server/api/core/bitstreams/896f7007-04d1-4114-b59d-03dbf3707799/content"
   - "url:https://lirias.kuleuven.be/retrieve/fc67dcc4-422f-448f-bdad-c11b556a6d1e"
@@ -32,11 +36,12 @@ created: 2026-10-12T22:20:00Z
 updated: 2026-10-12T22:20:00Z
 ---
 
+
 # Research: Beon, Wesan, and Weorthan
 
 ## Overview
 
-Old English has three verbs in the “be” area, and they are not three tenses of one verb. *Wesan* supplies the ordinary present *eom, eart, is, sind* and the only past, *wæs, wǣron*. *Bēon* supplies a second present, *bēo, bist, biþ, bēoþ*, for situations that are generic, repeated, durative, or still to come. *Weorþan* means “become” or “happen.” It marks the entry into a new state, including many passives, and it is gone by late Middle English. Spanish *ser* and *estar* are a genuine two-copula parallel. They do not line up with *bēon* and *wesan* context by context.
+[[concepts/old-english|Old English]] has three verbs in the “be” area, and they are not three tenses of one verb. *Wesan* supplies the ordinary present *eom, eart, is, sind* and the only past, *wæs, wǣron*. *Bēon* supplies a second present, *bēo, bist, biþ, bēoþ*, for situations that are generic, repeated, durative, or still to come. *Weorþan* means “become” or “happen.” It marks the entry into a new state, including many passives, and it is gone by late Middle English. Spanish *ser* and *estar* are a genuine two-copula parallel. They do not line up with *bēon* and *wesan* context by context.
 
 ## Key Findings
 
@@ -64,7 +69,7 @@ Old English has three verbs in the “be” area, and they are not three tenses 
 
 - **Future only, or generic too?** Smith (1896) says the *b*-forms are chiefly future. Kilpiö, Petré, and the classroom gnomic examples require generic, iterative, and durative uses as well. Both are in the texts. A future-only rule undergenerates.
 - **Are the passives in free variation?** Mitchell said yes for events and claimed some stative *weorþan*. Jones and Macleod find no stative *weorþan* and a large eventive overlap, with *wesan* unmarked. The disagreement is about Mitchell’s examples, which they re-read as events.
-- **Did Celtic cause the split?** Bradley and Wischer argue yes. The thesis assumes the population history and then looks for stricter contrasts in the north and west. This pass did not re-count his dialect tables.
+- **Did Celtic cause the split?** Bradley and [[entities/ilse-wischer|Wischer]] argue yes. The thesis assumes the population history and then looks for stricter contrasts in the north and west. This pass did not re-count his dialect tables.
 - **No published sentence-by-sentence *ser/estar* gloss of Old English** turned up in paper search or web search. The comparison on the concept page is built from the two descriptions. The identity row and the future-temporary row are the places it breaks.
 
 ## Sources Consulted

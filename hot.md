@@ -1,6 +1,6 @@
 ---
 title: Hot Cache
-updated: 2026-10-31T03:28:59Z
+updated: 2026-10-31T03:36:53Z
 pages: 416
 generated_by: obsidian-wiki memory hot
 ---
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-30] WIKI_RESEARCH topic=The Great Vowel Shift rounds=3 sources_fetched=12 ...
 - [2026-10-30] WIKI_RESEARCH topic=Early and late Old English spelling and inflection by diale... rounds=2 sources_fetched=10 ...
 - [2026-10-31] WIKI_UPDATE topic=Four dialect strands for Old English ending change pages_updated=4
+- [2026-10-31] CROSS_LINK pages_scanned=416 links_added=420 typed_relations_written=360 ...
 
 ## Active Threads
 
@@ -27,7 +27,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-Old English ending change needs four dialect strands. West Saxon and Northumbrian can each carry an early-to-late series. Mercian and Kentish stay in as thinner records, and late Northumbrian verbs are not the Mercian pattern.
+First mentions of dialect names, people, and texts now point at the pages that define them. The English word marker was left unlinked.
 
 ## Flagged Contradictions
 

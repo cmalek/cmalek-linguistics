@@ -2,6 +2,9 @@
 title: "Deaf Studies, Oral Tradition, and Old English Texts"
 category: references
 tags: [old-english, research, literature]
+relationships:
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources: ["https://www.tandfonline.com/doi/abs/10.1080/10412573.2017.1284369"]
 created: 2026-10-28T18:29:23.218815+00:00
 updated: 2026-10-28T18:29:23.218815+00:00
@@ -15,7 +18,8 @@ lifecycle: draft
 lifecycle_changed: 2026-10-28
 ---
 
-# Deaf Studies, Oral Tradition, and Old English Texts
+
+# Deaf Studies, Oral Tradition, and [[concepts/old-english|Old English]] Texts
 
 Lori Ann Garner (2017). *Exemplaria 29(1), 21–40*. [Source](https://www.tandfonline.com/doi/abs/10.1080/10412573.2017.1284369).
 

@@ -25,7 +25,10 @@ relationships:
     type: related_to
   - target: "[[entities/tesseract]]"
     type: related_to
+  - target: "[[entities/junicode]]"
+    type: related_to
 ---
+
 
 # Seven Million Pages Nobody Can Read
 
@@ -42,7 +45,7 @@ Sigurdur Haukur Birgisson, 2 June 2026. [sigurdurhaukur.com/articles/ocr-lit-rev
 
 ## Limitations
 
-Blog confidence is lower than the papers it cites. The þ/p counts are 19th-century print, not a modern Old Norse textbook set in Junicode. The direction of the error (“p confused with þ”) is the survey’s wording of Jasonarson’s table. ^[ambiguous]
+Blog confidence is lower than the papers it cites. The þ/p counts are 19th-century print, not a modern Old Norse textbook set in [[entities/junicode|Junicode]]. The direction of the error (“p confused with þ”) is the survey’s wording of Jasonarson’s table. ^[ambiguous]
 
 ## Related
 

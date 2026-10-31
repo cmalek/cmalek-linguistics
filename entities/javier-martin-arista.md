@@ -10,6 +10,8 @@ relationships:
     type: related_to
   - target: "[[references/computational-study-of-old-english-2025]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "url:https://www.nerthusproject.com/database-description"
   - "url:https://www.nerthusproject.com/about-us"
@@ -32,9 +34,10 @@ snapshots:
   - "[[_raw/_archived/encyclopedia-05-00137-v2.pdf|encyclopedia-05-00137-v2.pdf]]"
 ---
 
+
 # Javier Martín Arista
 
-Javier Martín Arista (University of La Rioja) directs the [[entities/nerthus-project|Nerthus Project]] and is the editor named on the 2024 Nerthus v5 citation. Public contact on the project site is javier.martin@unirioja.es. The work that matters for a generator is the lexical database’s inflectional-class and derivational fields ([[references/nerthus-v5-database]]), the 2025 survey of computational Old English ([[references/computational-study-of-old-english-2025]]), and the 2026 character-level lemmatiser ([[references/martin-arista-2026-oe-lemmatisation]]). Guest search of the database is [[skills/using-nerthus]].
+Javier Martín Arista (University of La Rioja) directs the [[entities/nerthus-project|Nerthus Project]] and is the editor named on the 2024 Nerthus v5 citation. Public contact on the project site is javier.martin@unirioja.es. The work that matters for a generator is the lexical database’s inflectional-class and derivational fields ([[references/nerthus-v5-database]]), the 2025 survey of computational [[concepts/old-english|Old English]] ([[references/computational-study-of-old-english-2025]]), and the 2026 character-level lemmatiser ([[references/martin-arista-2026-oe-lemmatisation]]). Guest search of the database is [[skills/using-nerthus]].
 
 Earlier articles from the same project, indexed on the project’s publication list, treat *ge-* as the most widespread Old English affix and treat verbal prefixes as changes to transitivity. Those papers are the derivational background for prefixed lemmas. This page does not summarize them one by one.
 

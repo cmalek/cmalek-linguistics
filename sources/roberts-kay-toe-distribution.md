@@ -2,6 +2,11 @@
 title: "Roberts and Kay: Thesaurus of Old English, distribution flags"
 category: references
 tags: [old-english, lexicography, thesaurus]
+relationships:
+  - target: "[[concepts/old-english]]"
+    type: related_to
+  - target: "[[concepts/history-of-english]]"
+    type: related_to
 sources:
   - "https://oldenglishthesaurus.arts.gla.ac.uk/flags/"
   - "https://oldenglishthesaurus.arts.gla.ac.uk/introduction/"
@@ -18,7 +23,8 @@ created: 2026-10-23T16:05:00Z
 updated: 2026-10-23T16:05:00Z
 ---
 
-# Roberts and Kay: Thesaurus of Old English, distribution flags
+
+# Roberts and Kay: Thesaurus of [[concepts/old-english|Old English]], distribution flags
 
 Jane Roberts and Christian Kay, with Lynne Grundy, *A Thesaurus of Old English* (London: King's College London, 1995; 2nd ed., Amsterdam: Rodopi, 2000). The online introduction and the note on distribution flags were read in full. The thesaurus itself was not re-edited here.
 
@@ -33,7 +39,7 @@ The flag note says the extant corpus is small and probably skewed in its represe
 
 Place-name elements from Campbell's addenda to Bosworth–Toller cluster in category 01, The Physical World, and in 04.02–04.03, Farm. Some are flagged **q** because they are not recorded as independent Old English words. Poetic and rare-poetic forms cluster in the sea, the sun, graves, nations, voyages and ships, sagacity, terror, courage, joy and sadness, rulers, military equipment, treasure, and heaven. Solid food is comparatively free of poetic flags. Possession, Action and Utility, and Law and Order are almost entirely without poetic vocabulary.
 
-The editors keep glossary evidence because leaving it out would discard much of the history of English lexis. They also say that many dictionary senses rest on a single gloss, and that secure frequencies must wait on the [[entities/dictionary-of-old-english]].
+The editors keep glossary evidence because leaving it out would discard much of the [[concepts/history-of-english|history of English]] lexis. They also say that many dictionary senses rest on a single gloss, and that secure frequencies must wait on the [[entities/dictionary-of-old-english]].
 
 Informs [[concepts/oe-expected-lexical-gaps]], [[concepts/oe-lexicon-size-and-gaps]], and [[entities/thesaurus-of-old-english]]. See [[synthesis/Research: Expected Gaps in the Old English Lexicon]].
 

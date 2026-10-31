@@ -8,6 +8,10 @@ relationships:
     type: related_to
   - target: "[[concepts/nlp-corpus]]"
     type: related_to
+  - target: "[[references/beowulf]]"
+    type: related_to
+  - target: "[[concepts/old-english-dialects]]"
+    type: related_to
 sources:
   - "repo:github.com/old-english-learner-texts/old-english-texts"
 source_url: "https://github.com/old-english-learner-texts/old-english-texts"
@@ -27,7 +31,8 @@ snapshots:
   - "[[_raw/_archived/GITHUB old-english-texts 2026-10-15|GITHUB old-english-texts 2026-10-15]]"
 ---
 
-# old-english-texts (ISWOC and Beowulf)
+
+# old-english-texts (ISWOC and [[references/beowulf|Beowulf]])
 
 James Tauber's data-only repo (about 12 MB). The README promises more than exists: Alfred's *Pastoral Care* preface has only Sweet's transcriptions and a translation, and the "normalization, lemmatization, tagging coming soon" never arrived. The Beowulf README mentions an `aligned.txt` that is not present.
 
@@ -43,7 +48,7 @@ ISWOC is **CC BY-NC-SA 3.0** (non-commercial); the rest is CC BY-SA 4.0. Last co
 
 ## Value
 
-The treebank is the most useful asset: lemma, POS, morphology, and dependencies across West Saxon and Anglian prose, ready for training or evaluation. Brunetti's table is a lexicon seed and a paradigm test set with vowel length. Both are pre-existing, widely mirrored data. Tagsets are idiosyncratic and some lemmas are unnormalised (`Gar-Dene`). Compare with [[entities/ycoe]] and see [[references/echoe-corpus]] for an unannotated prose corpus.
+The treebank is the most useful asset: lemma, POS, morphology, and dependencies across West Saxon and [[concepts/old-english-dialects|Anglian]] prose, ready for training or evaluation. Brunetti's table is a lexicon seed and a paradigm test set with vowel length. Both are pre-existing, widely mirrored data. Tagsets are idiosyncratic and some lemmas are unnormalised (`Gar-Dene`). Compare with [[entities/ycoe]] and see [[references/echoe-corpus]] for an unannotated prose corpus.
 
 ## Sources
 

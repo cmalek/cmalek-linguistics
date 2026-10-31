@@ -10,6 +10,10 @@ relationships:
     type: derived_from
   - target: "[[concepts/manual-translation-workbench-features]]"
     type: related_to
+  - target: "[[projects/aenglisc-toolkit/aenglisc-toolkit]]"
+    type: related_to
+  - target: "[[entities/omegat]]"
+    type: related_to
 sources:
   - "[[references/ai-disclosure-and-suggestion-bias-sources]]"
   - "[[projects/aenglisc-toolkit/concepts/aenglisc-toolkit-roadmap-trello]]"
@@ -29,7 +33,8 @@ created: 2026-10-18T23:30:00Z
 updated: 2026-10-18T23:30:00Z
 ---
 
-# aenglisc_toolkit: remembered annotations and suggestion bias
+
+# [[projects/aenglisc-toolkit/aenglisc-toolkit|aenglisc_toolkit]]: remembered annotations and suggestion bias
 
 ## How the owner uses them
 
@@ -42,7 +47,7 @@ Store the **least** annotation that is true on sight, whatever the context. Exam
 
 ## Where it sits against the bias evidence
 
-The suggestion-bias studies concern **candidates written by an outside system into the target** ([[references/ai-disclosure-and-suggestion-bias-sources]]). A remembered annotation differs on three counts: the translator authored it; it concerns grammatical analysis, not the Modern English rendering; and it is deliberately partial. By the vault's own test (does the feature show the translator's earlier work, or write a candidate?) it is safe ([[concepts/manual-translation-workbench-features]]). It is closest to a translator-maintained glossary entry, which OmegaT and Weblate both treat as ordinary. ^[inferred]
+The suggestion-bias studies concern **candidates written by an outside system into the target** ([[references/ai-disclosure-and-suggestion-bias-sources]]). A remembered annotation differs on three counts: the translator authored it; it concerns grammatical analysis, not the Modern English rendering; and it is deliberately partial. By the vault's own test (does the feature show the translator's earlier work, or write a candidate?) it is safe ([[concepts/manual-translation-workbench-features]]). It is closest to a translator-maintained glossary entry, which [[entities/omegat|OmegaT]] and Weblate both treat as ordinary. ^[inferred]
 
 ## Residual risks
 

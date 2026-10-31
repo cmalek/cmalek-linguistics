@@ -9,6 +9,8 @@ relationships:
     type: uses
   - target: "[[entities/dictionary-of-old-english]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "https://www.asnc.cam.ac.uk/publications/Quiggin/ECQ%20Vol%2012%202010%20Hough.pdf"
   - "https://doi.org/10.1179/nam.1995.43.4.255"
@@ -26,7 +28,8 @@ created: 2026-10-23T16:05:00Z
 updated: 2026-10-23T16:05:00Z
 ---
 
-# Toponymic Register and the Old English Lexicon
+
+# Toponymic Register and the [[concepts/old-english|Old English]] Lexicon
 
 English place-names and charter bounds are the main evidence for Old English words and senses that continuous prose does not record. The concentration is practical: flora, fauna, landforms, and farming. [[entities/carole-hough|Hough]]’s 2010 lecture, [[sources/hough-2010-toponymicon-lexicon]], argues that this evidence is not a straightforward supplement to the dictionary.
 

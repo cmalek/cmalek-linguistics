@@ -2,6 +2,9 @@
 title: "Identifying alternations in historical corpus data: the genitive alternation in Old English"
 category: references
 tags: [old-english, research, literature]
+relationships:
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources: ["https://doi.org/10.1017/S1360674325100579"]
 created: 2026-10-28T18:29:23.218211+00:00
 updated: 2026-10-28T18:29:23.218211+00:00
@@ -15,7 +18,8 @@ lifecycle: draft
 lifecycle_changed: 2026-10-28
 ---
 
-# Identifying alternations in historical corpus data: the genitive alternation in Old English
+
+# Identifying alternations in historical corpus data: the genitive alternation in [[concepts/old-english|Old English]]
 
 Roxanne Taylor; Tine Breban; Kersti Börjars (2026). *English Language & Linguistics, First View, 1–22*. [Source](https://doi.org/10.1017/S1360674325100579).
 

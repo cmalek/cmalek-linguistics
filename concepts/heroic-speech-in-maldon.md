@@ -15,6 +15,12 @@ relationships:
     type: related_to
   - target: "[[references/griffith-2022-vengeance-of-offa]]"
     type: related_to
+  - target: "[[entities/byrhtnoth]]"
+    type: related_to
+  - target: "[[concepts/old-english-dialects]]"
+    type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "url:https://doi.org/10.1515/9781802700251-010"
   - "url:https://reunido.uniovi.es/index.php/SELIM/article/download/22743/17157"
@@ -35,6 +41,7 @@ snapshots:
   - "[[_raw/_archived/Chapter_4_THE_BATTLE_OF_MALDON_AND_THE_VENGEANCE_O.pdf|Chapter_4_THE_BATTLE_OF_MALDON_AND_THE_VENGEANCE_O.pdf]]"
 ---
 
+
 # Heroic speech in The Battle of Maldon
 
 A large part of the fragment is direct speech, and the speeches are built to a pattern. A speaker is named, a verb of saying is paired with a gesture, and the words repeat a small set of promises: I will not flee, I remember what I said in hall, I will avenge my lord or lie beside him. The pattern is audible because the same half-line opens Byrhtnoth’s answer to the messenger and Byrhtwold’s last speech: *maþelode, bord hafenode*.
@@ -43,7 +50,7 @@ The line numbers follow the [Old English Aerobics](https://www.oldenglishaerobic
 
 ## The opening exchange
 
-A *wicinga ār* stands on the shore, calls out, and delivers his people’s *ærende* as a *beot* (lines 25–41). The demand is formal: send rings quickly for protection; it is better to buy off this spear-rush with *gafol* than to fight; they will fasten a truce for gold; if Byrhtnoth, the richest man there, will ransom his people, he may pay the seamen *on hyra sylfra dōm*, “at their own judgment,” and the fleet will sail.
+A *wicinga ār* stands on the shore, calls out, and delivers his people’s *ærende* as a *beot* (lines 25–41). The demand is formal: send rings quickly for protection; it is better to buy off this spear-rush with *gafol* than to fight; they will fasten a truce for gold; if [[entities/byrhtnoth|Byrhtnoth]], the richest man there, will ransom his people, he may pay the seamen *on hyra sylfra dōm*, “at their own judgment,” and the fleet will sail.
 
 Byrhtnoth answers angry and resolute, shield raised, ash-spear brandished (lines 42–61). He turns their noun back on them. The *gafol* will be spears, a poisoned point, and old swords, the heriot that will do them no good in battle. The herald is to report a hateful message: an undishonored earl stands here with his troop and will defend this homeland, Æthelred’s country. Heathens must fall in battle. Tribute would be too soft a way for them to take treasure. Point and edge, a grim battle-play, must reconcile the two sides before any *gofol* is paid.
 
@@ -57,7 +64,7 @@ Godric, Odda’s son, rides off on Byrhtnoth’s horse. The hearth-companions se
 
 | Speaker | Gesture and verb | What the speech does |
 |---|---|---|
-| Ælfwine, Ælfric’s son | *wordum mælde*, *on ellen spræc* | Remembers *beot* spoken at mead; offers his Mercian lineage (grandfather Ealhhelm); will not leave now his kinsman and lord lies dead |
+| Ælfwine, Ælfric’s son | *wordum mælde*, *on ellen spræc* | Remembers *beot* spoken at mead; offers his [[concepts/old-english-dialects|Mercian]] lineage (grandfather Ealhhelm); will not leave now his kinsman and lord lies dead |
 | Offa | *gemælde*, shakes the ash-spear | Tells Ælfwine he has urged them all; each must encourage the other while he can hold a sword; Godric’s flight broke the shield-wall because men thought the rider was their lord |
 | Leofsunu | *gemælde*, raises the linden shield | Vows he will not flee a foot; the steadfast men of Sturmer must not reproach him; weapon, point and iron, shall take him |
 | Dunnere, a plain *ceorl* | *cwæð*, shakes a dart, shouts over all | A maxim: he who means to avenge his lord in the host cannot hesitate or care for his life |
@@ -78,7 +85,7 @@ Mind must be the harder, heart the keener, courage the greater, as our strength 
 
 Three independent observations line up.
 
-**Formulas and gesture.** *Maþelode*, *wordum mælde*, *gemælde*, and *cwæð* are ordinary Old English speech openings. Maldon binds them to a repeated prop: shield up, spear shaken. The Viking herald and Byrhtnoth share *wordum mælde*. Byrhtnoth and Byrhtwold share a whole half-line. The echo puts the last loyal retainer in the lord’s speaking posture. [[references/griffith-2022-vengeance-of-offa|Griffith]] treats that repeat as rare inside the poetic corpus, and he notes that these are the only two speakers who both teach the men and are old. He also follows Ball: the spears, the poisoned point, and the old sword promised to the messenger are the weapons Byrhtnoth then uses, in that order, on the three Vikings he fights. The reply to the herald is the speech whose wording the rest of the fragment keeps. The death-prayer is not.
+**Formulas and gesture.** *Maþelode*, *wordum mælde*, *gemælde*, and *cwæð* are ordinary [[concepts/old-english|Old English]] speech openings. Maldon binds them to a repeated prop: shield up, spear shaken. The Viking herald and Byrhtnoth share *wordum mælde*. Byrhtnoth and Byrhtwold share a whole half-line. The echo puts the last loyal retainer in the lord’s speaking posture. [[references/griffith-2022-vengeance-of-offa|Griffith]] treats that repeat as rare inside the poetic corpus, and he notes that these are the only two speakers who both teach the men and are old. He also follows Ball: the spears, the poisoned point, and the old sword promised to the messenger are the weapons Byrhtnoth then uses, in that order, on the three Vikings he fights. The reply to the herald is the speech whose wording the rest of the fragment keeps. The death-prayer is not.
 
 **A local voice inside the formula.** [[references/karasawa-2025-griffith-maldon|Karasawa’s review of Griffith]] reports that unusual dialect forms sit disproportionately in the spoken lines: south-eastern *gofol* in the East Saxon ealdorman’s reply, Mercian *gemunu* in the Mercian noble’s speech, and possibly Essex *iren* in Leofsunu’s vow. The poet can write one heroic idiom and still color a speaker.
 

@@ -15,6 +15,12 @@ relationships:
     type: related_to
   - target: "[[concepts/people-named-in-maldon]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
+  - target: "[[entities/bosworth-toller]]"
+    type: related_to
+  - target: "[[concepts/old-english-dialects]]"
+    type: related_to
 sources:
   - "agent:translation Jonathan A. Glenn, The Battle of Maldon (1982; web page 2006, modified 2011)"
 summary: >-
@@ -33,9 +39,10 @@ snapshots:
   - "[[_raw/_archived/The-Battle-of-Maldon.pdf|The-Battle-of-Maldon.pdf]]"
 ---
 
+
 # Glenn's annotated translation of The Battle of Maldon
 
-A 13-page PDF of Jonathan A. Glenn's English translation (copyright 1982; web page by Jonathan and Teresa Glenn, 2006, last modified 2011), with in-text note numbers and an annotations section. It translates the 325 lines of the fragment. Glenn's headnote cites Scragg's 1981 edition and Dobbie's ASPR text as the Old English bases, and Gordon (1937, reissued 1976 with Scragg's supplement) for earlier criticism. The Old English text itself is not in the PDF. For the poem and its history see [[references/battle-of-maldon]].
+A 13-page PDF of Jonathan A. Glenn's English translation (copyright 1982; web page by Jonathan and Teresa Glenn, 2006, last modified 2011), with in-text note numbers and an annotations section. It translates the 325 lines of the fragment. Glenn's headnote cites Scragg's 1981 edition and Dobbie's ASPR text as the [[concepts/old-english|Old English]] bases, and Gordon (1937, reissued 1976 with Scragg's supplement) for earlier criticism. The Old English text itself is not in the PDF. For the poem and its history see [[references/battle-of-maldon]].
 
 ## Manuscript note in the headnote
 
@@ -50,13 +57,13 @@ The annotations are glosses, not argument. The ones that matter to other pages:
 - **Retainers (notes 5, 7).** *Heorðwerod* is Byrhtnoth's personal following, as distinct from the *folc*; Glenn points to Scragg for qualification. Serving "before his lord" is glossed as legal military service.
 - **Ofermod (notes 16, 17).** "The most discussed word in the poem." Glenn records that critics for fifty years have argued whether the poem blames Byrhtnoth, and that Tolkien read *landes to fela* as meaning no land should have been yielded. See [[concepts/ofermod]] and [[concepts/tolkien-old-english]].
 - **Words for the enemy.** *Æschere* is "ash-army," from Old Norse *askr* via Gordon, the ash-built Scandinavian ship, while *æsc* in poetry usually means an ash-spear. *Laðe gystas* is "loathed guests." *Metod* is "measurer," glossed as fate; *methel-stead* is the "speaking place."
-- **Other glosses.** *Cellod* is unknown (Bosworth-Toller: "shaped like a shield"); *gebræc* may mean "breaking"; *hynde* is "crushed, felled, insulted, humbled"; *abreoðe his angin* is "may his beginning fail," an imprecation on Godric (Gordon).
+- **Other glosses.** *Cellod* is unknown ([[entities/bosworth-toller|Bosworth-Toller]]: "shaped like a shield"); *gebræc* may mean "breaking"; *hynde* is "crushed, felled, insulted, humbled"; *abreoðe his angin* is "may his beginning fail," an imprecation on Godric (Gordon).
 - **Poetic habits.** Synecdoche for weapons (*æsc* for spear, *lind* for shield, *rond* for round shield), the beasts-of-battle motif with ravens and eagles (compare *Beowulf* 3024-27, see [[references/beowulf]]), and a defective half-line supplied by editors as *grimme*.
 - **Byrhtwold's speech (note 45).** *Hige sceal þe heardra, heorte þe cenre, / mod sceal þe mare, þe ure mægen lytlað*, "probably the most famous lines in Old English." Glenn's version: "Thought must be the harder, heart be the keener, / mind must be the greater, while our strength lessens."
 
 ## What the translation shows of the text
 
-- Byrhtnoth's words to the herald name "Aethelred's land, land of my prince." Glenn's text keeps *Aethelred's thegn* and *Aethelred's earl* for Byrhtnoth. The names of the retainers are the same men listed on [[concepts/people-named-in-maldon]]: Wulfstan on the bridge with Ælfere and Maccus, Wulfmær, Eadweard, Offa, Ælfwine, Leofsunu, Dunnere, Æscferth the Northumbrian hostage, Eadweard the Long, Æthric, Wistan, Oswold and Eadwold, Byrhtwold, and two Godrics (one flees, one fights, a line Glenn keeps as a parenthesis).
+- Byrhtnoth's words to the herald name "Aethelred's land, land of my prince." Glenn's text keeps *Aethelred's thegn* and *Aethelred's earl* for Byrhtnoth. The names of the retainers are the same men listed on [[concepts/people-named-in-maldon]]: Wulfstan on the bridge with Ælfere and Maccus, Wulfmær, Eadweard, Offa, Ælfwine, Leofsunu, Dunnere, Æscferth the [[concepts/old-english-dialects|Northumbrian]] hostage, Eadweard the Long, Æthric, Wistan, Oswold and Eadwold, Byrhtwold, and two Godrics (one flees, one fights, a line Glenn keeps as a parenthesis).
 - Byrhtnoth's dying prayer asks "that no hell-scathers harm" his soul; Glenn renders *Metod* as Measurer. He speaks to God in the second-person singular ("thee"). See [[entities/byrhtnoth]].
 - The fragment ends mid-action with a line of dots after Godric's death; there is no concluding speech in this translation.
 

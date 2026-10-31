@@ -16,6 +16,12 @@ relationships:
     type: related_to
   - target: "[[concepts/old-english-form-generation]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
+  - target: "[[references/beowulf]]"
+    type: related_to
+  - target: "[[concepts/old-english-dialects]]"
+    type: related_to
 sources:
   - "url:https://indiv.corpus.doe.utoronto.ca/doecorpus/#/lot/cats/oe/groups/idxcn/indexes/F"
   - "url:https://indiv.corpus.doe.utoronto.ca/doecorpus/#/lot/cats/oe/groups/idxcn/indexes/E"
@@ -53,7 +59,8 @@ snapshots:
   - "[[_raw/_archived/Old English Corpus Cameron F*|Old English Corpus Cameron F*]]"
 ---
 
-# Dictionary of Old English Corpus
+
+# Dictionary of [[concepts/old-english|Old English]] Corpus
 
 The Dictionary of Old English Corpus (DOEC) is the textual database of the [[entities/dictionary-of-old-english|Dictionary of Old English]] at the University of Toronto. The dictionary’s About page states the method in one line: the corpus, not an earlier dictionary, determines the headwords, the definitions, and the quotations. The project describes it as at least one copy of every surviving Old English text. The 2009 release page adds the limit: some variant manuscripts of individual texts are left out. Helsinki CoRD, in an entry submitted by Antonette diPaolo Healey, adds the other half of that rule: a second copy is included when dialect or date makes it worth having.
 
@@ -78,7 +85,7 @@ Cameron numbers are the catalogue. The 2009 release points at Angus Cameron, “
 | E | Runic inscriptions |
 | F | Inscriptions in the Latin alphabet |
 
-Stokes notes that the number under the letter still sorts the material: `A1` is the poetry of the Junius manuscript, so a Cameron limit can select a manuscript as well as a genre. The Web Corpus also searches by the project’s short titles. The teaching video uses `Beo` for *Beowulf*.
+Stokes notes that the number under the letter still sorts the material: `A1` is the poetry of the Junius manuscript, so a Cameron limit can select a manuscript as well as a genre. The Web Corpus also searches by the project’s short titles. The teaching video uses `Beo` for *[[references/beowulf|Beowulf]]*.
 
 ## 2009 size
 
@@ -115,7 +122,7 @@ The 2009 release was supported in part by the Social Sciences and Humanities Res
 ## What a generator can take from it
 
 - **An attested spelling in a named text.** A hit is a citation, a Cameron number, and a short title. That is the inventory [[references/tichy-2017-morphological-analyser|Tichý]] intersected with generation when he dropped unattested cells. It is also the inventory that still contains a poetic compound ParCor never saw.
-- **A second copy when the project judged dialect or date worth keeping.** Those extra manuscripts are in the files. The corpus does not label the citation West Saxon, Mercian, Northumbrian, or Kentish.
+- **A second copy when the project judged dialect or date worth keeping.** Those extra manuscripts are in the files. The corpus does not label the citation West Saxon, Mercian, Northumbrian, or [[concepts/old-english-dialects|Kentish]].
 - **The quotation behind a published dictionary entry.** Where [[entities/dictionary-of-old-english|DOE]] has reached (A to Le online), the entry’s form list and citations are the analyzed view of this same evidence.
 
 ## What it does not store

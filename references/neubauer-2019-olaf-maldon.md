@@ -27,9 +27,10 @@ created: 2026-10-13T03:45:00Z
 updated: 2026-10-13T03:45:00Z
 ---
 
+
 # Neubauer 2019 on Olaf Tryggvason at Maldon
 
-Łukasz Neubauer, “‘[Ne] com Unlaf mid scipum’. A Summary of the Current State of Research with Regard to Olaf Tryggvason’s Assumed Presence at the Battle of Maldon,” *Scripta Classica* 15 (2019), DOI [10.31261/spip.2019.15.01](https://doi.org/10.31261/spip.2019.15.01). This page is taken from the abstract. The article PDF was not read.
+Łukasz Neubauer, “‘[Ne] com Unlaf mid scipum’. A Summary of the Current State of Research with Regard to Olaf Tryggvason’s Assumed Presence at [[references/battle-of-maldon|the Battle of Maldon]],” *Scripta Classica* 15 (2019), DOI [10.31261/spip.2019.15.01](https://doi.org/10.31261/spip.2019.15.01). This page is taken from the abstract. The article PDF was not read.
 
 Neubauer surveys British and Scandinavian discussion of whether Óláfr Tryggvason was at Maldon in August 991. He says those discussions are usually brief asides. Besides Óláfr, the names that circulate are Sveinn Forkbeard and the otherwise obscure Jóstein and Guðmund. Most historians dispute Sveinn’s presence. Óláfr is then the only historical person among the proposed Scandinavian leaders, and some historians, and literary scholars after them, treat him as the leading Viking of the battle. Neubauer calls that step unreasonable. He sets the poem beside the versions of the Anglo-Saxon Chronicle and the historical and hagiographic works, and he argues against reading Óláfr into the poem as its Viking commander.
 

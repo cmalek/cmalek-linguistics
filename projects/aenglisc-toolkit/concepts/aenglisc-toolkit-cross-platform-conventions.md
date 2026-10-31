@@ -10,6 +10,8 @@ relationships:
     type: derived_from
   - target: "[[projects/aenglisc-toolkit/concepts/aenglisc-toolkit-os-integration]]"
     type: related_to
+  - target: "[[projects/aenglisc-toolkit/aenglisc-toolkit]]"
+    type: related_to
 sources:
   - "[[references/desktop-ux-guidelines-sources]]"
   - "[[references/desktop-os-integration-sources]]"
@@ -29,7 +31,8 @@ created: 2026-10-18T23:30:00Z
 updated: 2026-10-18T23:30:00Z
 ---
 
-# aenglisc_toolkit: following platform conventions on macOS, Windows 11 and Linux
+
+# [[projects/aenglisc-toolkit/aenglisc-toolkit|aenglisc_toolkit]]: following platform conventions on macOS, Windows 11 and Linux
 
 The owner agrees with Apple's guidance but wants one app on macOS, Windows 11 and later, and popular Linux distributions. The strongest sources read were Apple's, simply because they were the most readable; that is a bias of the evidence, not of the platforms. The rule below is a proposal from the vault, not from any source. ^[inferred]
 

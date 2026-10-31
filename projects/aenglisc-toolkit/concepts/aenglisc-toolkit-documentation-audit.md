@@ -28,7 +28,8 @@ created: 2026-10-18T20:20:00Z
 updated: 2026-10-18T20:20:00Z
 ---
 
-# aenglisc_toolkit: documentation audit
+
+# [[projects/aenglisc-toolkit/aenglisc-toolkit|aenglisc_toolkit]]: documentation audit
 
 ## Inventory
 

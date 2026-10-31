@@ -30,9 +30,10 @@ created: 2026-10-18T23:20:00Z
 updated: 2026-10-18T23:20:00Z
 ---
 
-# Roach 2016 on the St Brice's Day massacre
 
-Levi Roach, *Æthelred the Unready* (New Haven: Yale University Press, 2016). The book was not read. What was read is Roach's essay of 11 November 2016, ["The St. Brice's Day Massacre: Then and Now"](https://yalebooks.yale.edu/2016/11/11/the-st-brices-day-massacre-then-and-now/), written for Yale University Press from that research, and a Yale excerpt on the reign's purity politics ([23 October 2017](https://yalebooks.yale.edu/2017/10/23/aethelred-the-unready/)).
+# Roach 2016 on the [[concepts/st-brices-day-massacre|St Brice's Day massacre]]
+
+Levi Roach, *[[entities/aethelred-the-unready|Æthelred the Unready]]* (New Haven: Yale University Press, 2016). The book was not read. What was read is Roach's essay of 11 November 2016, ["The St. Brice's Day Massacre: Then and Now"](https://yalebooks.yale.edu/2016/11/11/the-st-brices-day-massacre-then-and-now/), written for Yale University Press from that research, and a Yale excerpt on the reign's purity politics ([23 October 2017](https://yalebooks.yale.edu/2017/10/23/aethelred-the-unready/)).
 
 ## The essay's account
 

@@ -13,6 +13,8 @@ relationships:
     type: related_to
   - target: "[[concepts/old-english-lemmatisation]]"
     type: uses
+  - target: "[[concepts/old-english]]"
+    type: related_to
 summary: >-
   YCOE marks case when the form shows it, and refuses to fill ambiguous case from the governing verb or preposition.
 provenance:
@@ -26,6 +28,7 @@ tier: supporting
 created: 2026-10-09T19:50:00Z
 updated: 2026-10-09T19:50:00Z
 ---
+
 
 # YCOE case and POS annotation
 
@@ -43,7 +46,7 @@ First- and second-person singular and plural pronouns in the prose are accusativ
 
 ## What a generator cannot read off YCOE
 
-The corpus is the largest morphosyntactically annotated Old English prose sample, and it was built so that it would **not** invent government. A lexicon of “this verb governs the dative” has to come from somewhere else: Mitchell’s *Old English Syntax* (1985), which the manual cites for verbs that can take the genitive, or a valency database such as [[references/paveda-old-english-valency|PaVeDa]].
+The corpus is the largest morphosyntactically annotated [[concepts/old-english|Old English]] prose sample, and it was built so that it would **not** invent government. A lexicon of “this verb governs the dative” has to come from somewhere else: Mitchell’s *Old English Syntax* (1985), which the manual cites for verbs that can take the genitive, or a valency database such as [[references/paveda-old-english-valency|PaVeDa]].
 
 ## Related
 

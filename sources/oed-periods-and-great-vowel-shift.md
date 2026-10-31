@@ -3,6 +3,9 @@ title: >-
   OED: Period dates and the vowel shift
 category: references
 tags: [middle-english, early-modern-english, orthography]
+relationships:
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "https://www.oed.com/discover/middle-english-an-overview/"
   - "https://www.oed.com/discover/early-modern-english-spelling-grammar-and-pronunciation/"
@@ -20,11 +23,12 @@ created: 2026-10-30T18:40:00Z
 updated: 2026-10-30T18:40:00Z
 ---
 
+
 # OED: Period dates and the vowel shift
 
 Two Oxford English Dictionary “Discover” essays. They are reference prose, not a phonology monograph.
 
-**Middle English – an overview** states the OED3 boundaries: Middle English is 1150–1500. Before 1150 is Old English. After 1500 is early modern English. The essay says the boundaries are hard to define and that scholarly opinions vary. Externally, the period runs from the aftermath of 1066 to printing in Britain in 1476 and to the Reformation from the 1530s.
+**Middle English – an overview** states the OED3 boundaries: Middle English is 1150–1500. Before 1150 is [[concepts/old-english|Old English]]. After 1500 is early modern English. The essay says the boundaries are hard to define and that scholarly opinions vary. Externally, the period runs from the aftermath of 1066 to printing in Britain in 1476 and to the Reformation from the 1530s.
 
 **Early modern English: grammar, pronunciation, and spelling** states:
 

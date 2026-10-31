@@ -14,6 +14,8 @@ relationships:
     type: related_to
   - target: "[[references/nerthus-v5-database]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "Mitchell & Robinson, A Guide to Old English, 8th ed. (2012), §§137–138"
 summary: "Mitchell: compounds (noun+noun, kenning) vs prefixes (a-, be-, for-, ge-, un-) and suffixes (-had, -ung, -lic)."
@@ -31,7 +33,8 @@ snapshots:
   - "[[_raw/_archived/Affixes (Mitchell).pdf]]"
 ---
 
-# Old English Word Formation
+
+# [[concepts/old-english|Old English]] Word Formation
 
 Mitchell & Robinson (2012) §§137–138 (scanned excerpt titled “Affixes” in the vault). Complements [[concepts/old-english-grammar]] inflection.
 

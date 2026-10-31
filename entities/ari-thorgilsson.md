@@ -28,6 +28,7 @@ snapshots:
   - "[[_raw/_archived/Ari Þorgilsson On the Settling of Iceland]]"
 ---
 
+
 # Ari Þorgilsson
 
 Krause & Slocum (EIEOL lesson 1): 1067–1148. Snorri’s preface to *Heimskringla* is the main later sketch of his life. He dates, quotes witnesses, and interrupts a sentence to name them — unlike much saga prose.
@@ -40,7 +41,7 @@ Krause & Slocum (EIEOL lesson 1): 1067–1148. Snorri’s preface to *Heimskring
 
 ## Open Questions
 
-- How much of the lost book Snorri actually used.
+- How much of the lost book [[entities/snorri-sturluson|Snorri]] actually used.
 
 ## Sources
 

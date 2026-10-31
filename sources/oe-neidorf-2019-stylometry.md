@@ -2,6 +2,9 @@
 title: "Large-scale quantitative profiling of the Old English verse tradition"
 category: references
 tags: [old-english, research, literature]
+relationships:
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources: ["https://dash.harvard.edu/entities/publication/8e938213-e424-4e60-9f12-93541a1a4228"]
 created: 2026-10-28T18:29:23.220126+00:00
 updated: 2026-10-28T18:29:23.220126+00:00
@@ -15,7 +18,8 @@ lifecycle: draft
 lifecycle_changed: 2026-10-28
 ---
 
-# Large-scale quantitative profiling of the Old English verse tradition
+
+# Large-scale quantitative profiling of the [[concepts/old-english|Old English]] verse tradition
 
 Leonard Neidorf; Madison S. Krieger; Michelle Yakubek; Pramit Chaudhuri; Joseph P. Dexter (2019). *Nature Human Behaviour 3(6), 560–567*. [Source](https://dash.harvard.edu/entities/publication/8e938213-e424-4e60-9f12-93541a1a4228).
 

@@ -13,6 +13,10 @@ relationships:
     type: derived_from
   - target: "[[references/karasawa-2025-griffith-maldon]]"
     type: related_to
+  - target: "[[concepts/old-english-dialects]]"
+    type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "url:https://dialnet.unirioja.es/servlet/articulo?codigo=1368769"
   - "url:https://reunido.uniovi.es/index.php/SELIM/article/download/22743/17157"
@@ -31,13 +35,14 @@ created: 2026-10-13T03:45:00Z
 updated: 2026-10-13T03:45:00Z
 ---
 
+
 # Ofermod
 
-*Ofermod* occurs once in [[references/battle-of-maldon|The Battle of Maldon]], at the moment Byrhtnoth lets the Vikings cross:
+*Ofermod* occurs once in [[references/battle-of-maldon|The Battle of Maldon]], at the moment [[entities/byrhtnoth|Byrhtnoth]] lets the Vikings cross:
 
 > Ðā se eorl ongan for his ofermōde / ālȳfan landes tō fela lāþere ðēode.
 
-The word is a hapax in this poem. With Anglian *oferhygd*, it is the usual Old English for the sin of pride in religious writing. That religious habit is why so many readers hear a rebuke. The fight over the word is a fight over the poem’s purpose.
+The word is a hapax in this poem. With [[concepts/old-english-dialects|Anglian]] *oferhygd*, it is the usual [[concepts/old-english|Old English]] for the sin of pride in religious writing. That religious habit is why so many readers hear a rebuke. The fight over the word is a fight over the poem’s purpose.
 
 ## What each reading says
 

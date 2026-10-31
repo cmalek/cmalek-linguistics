@@ -16,6 +16,12 @@ relationships:
     type: implements
   - target: "[[concepts/oe-word-formation]]"
     type: implements
+  - target: "[[concepts/old-english]]"
+    type: related_to
+  - target: "[[concepts/old-english-dialects]]"
+    type: related_to
+  - target: "[[entities/bede]]"
+    type: related_to
 sources:
   - "url:https://www.nerthusproject.com/"
   - "url:https://www.nerthusproject.com/about-us"
@@ -43,9 +49,10 @@ created: 2026-10-09T19:50:00Z
 updated: 2026-10-09T20:32:00Z
 ---
 
+
 # Nerthus Project
 
-The Nerthus Project at the University of La Rioja compiles a knowledge base of Old English and publishes it as open-access databases. The public aim, on the project home page, is to join a philological tradition to corpus linguistics and computational parsing. The working object is a set of relational databases the project calls the Knowledge Base of Old English. [[entities/javier-martin-arista|Javier Martín Arista]] directs it. The public site is [nerthusproject.com](https://www.nerthusproject.com/). Contact is javier.martin@unirioja.es.
+The Nerthus Project at the University of La Rioja compiles a knowledge base of [[concepts/old-english|Old English]] and publishes it as open-access databases. The public aim, on the project home page, is to join a philological tradition to corpus linguistics and computational parsing. The working object is a set of relational databases the project calls the Knowledge Base of Old English. [[entities/javier-martin-arista|Javier Martín Arista]] directs it. The public site is [nerthusproject.com](https://www.nerthusproject.com/). Contact is javier.martin@unirioja.es.
 
 Two databases are the ones a morphology generator can open today. **Nerthus v5** (2024) is the lexicon: 32,812 headword files, with inflectional class, derivation, dictionary meanings, and attested forms. **ParCorOEv3** (2023) is a prose parallel corpus of Old English and Present-Day English, 303,342 records. A third public object, the Universal Dependencies treebank on GitHub, is a ~50,000-word conversion of five of those prose texts. It is a treebank, and the lexicon stays in FileMaker. Search steps are on [[skills/using-nerthus]]. The field inventory is on [[references/nerthus-v5-database]].
 
@@ -70,7 +77,7 @@ Inflection is four lists: forms printed in Bosworth–Toller, forms from seconda
 
 Derivation, for every non-basic word, is one of affixation, zero derivation, affixless derivation, or compounding, with base, category of the base, affix, and a lexical prime. See [[concepts/oe-word-formation]].
 
-Alternative spellings on the headword are dictionary and attested variants. The database does not label each cell as West Saxon, Mercian, Northumbrian, or Kentish.
+Alternative spellings on the headword are dictionary and attested variants. The database does not label each cell as West Saxon, Mercian, Northumbrian, or [[concepts/old-english-dialects|Kentish]].
 
 The references index points at secondary literature discussed for a headword (the project bibliography runs from Anlezark, Baker and Lapidge, Bammesberger, and onward). One ParCor citation, with a Present-Day English translation, is stored for each headword the corpus represents.
 
@@ -92,7 +99,7 @@ The corpus-description page: 303,342 records, one token each, prose only. The me
 
 Each record shows the token, a file number, lemma, lexical category, inflectional category, gloss, a concordance (prefield and postfield), a Present-Day English translation of the fragment, and the sources of both texts. Alignment is at text, fragment, sentence, and word. The software is FileMaker, published with WebDirect.
 
-History, from the corpus version page: v1 in 2018 was a 10,000-word pilot (Anglo-Saxon Chronicle, Orosius, Ælfric’s Lives of Saints, Cura Pastoralis, Bede), drawn from Fernández Cuesta et al. (1997). v2 in 2021 was 110,000 words. v3 passed 300,000 words, partly automated the processing, revised proper names, patronymics, and nationality nouns and adjectives, and wired quotations into the dictionary interface. The version page once prints “PacCorOEv3” for this corpus.
+History, from the corpus version page: v1 in 2018 was a 10,000-word pilot (Anglo-Saxon Chronicle, Orosius, Ælfric’s Lives of Saints, Cura Pastoralis, [[entities/bede|Bede]]), drawn from Fernández Cuesta et al. (1997). v2 in 2021 was 110,000 words. v3 passed 300,000 words, partly automated the processing, revised proper names, patronymics, and nationality nouns and adjectives, and wired quotations into the dictionary interface. The version page once prints “PacCorOEv3” for this corpus.
 
 The methodology page required the pilot to import lemma, alternative spellings, lexical category, morphological class, inflectional paradigm, derivational paradigm, and meaning from the knowledge base. The 2023 public field list names the token’s morphological tag **inflectional category**. A ParCor token row is evidence of an attested prose form and a lemma. Stem class for generation still comes from the Nerthus headword, where class is an explicit field. ^[ambiguous]
 

@@ -16,6 +16,10 @@ relationships:
     type: related_to
   - target: "[[entities/thesaurus-of-old-english]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
+  - target: "[[concepts/old-english-dialects]]"
+    type: related_to
 sources:
   - "agent:chat-notes Old English Lexicon Size and Missing Vocabulary Conversation"
   - "https://ebrary.net/344705/language_literature/english_semantics_lexicon_christian"
@@ -35,7 +39,8 @@ snapshots:
   - "[[_raw/_archived/Old English Lexicon Size and Missing Vocabulary Conversation|Old English Lexicon Size and Missing Vocabulary Conversation]]"
 ---
 
-# Old English Lexicon Size and Missing Vocabulary
+
+# [[concepts/old-english|Old English]] Lexicon Size and Missing Vocabulary
 
 Research framing distilled from a long chat note. All figures are secondary claims relayed in that note, not verified here. Motivating questions: which words that must have existed are unattested (animals, plants, tools, household items), and how many words an educated Anglo-Saxon knew.
 
@@ -59,7 +64,7 @@ Research framing distilled from a long chat note. All figures are secondary clai
 
 Bosworth-Toller is a layered print artefact: the 1898 main volume and 1921 supplement are separate source layers, and supplement records may add a sense, add citations, correct, record a variant or inflected form, or merely cross-refer. No defensible "unique entries" figure exists; the note proposes a reconciliation table with relations such as SUPPLEMENTS, VARIANT_OF, INFLECTED_FORM_OF, SAME_LEMMA_AS and counts at the levels entry record, headword string, lemma, lexeme, word family. A composite entry per normalised lemma (Bosworth, Toller supplement, Campbell addenda, redirects) is the desired interface; see [[references/oe-dictionary-repos]] and [[concepts/old-english-lemmatisation]]. ^[inferred]
 
-**Prior for an educated Anglo-Saxon:** about 20,000-35,000 lexemes (plausible 15,000-40,000), explicitly a research prior and not a result. Reasoning: same cognitive capacity as moderns; richer ecological, craft and kinship vocabulary than texts show; productive compounding ([[concepts/oe-word-formation]]) reduces stored items; Latin lexicon would be additional. The note suggests a reference persona: a literate West Saxon ecclesiastic c. 975-1025 with functional Latin. The overlap with the dictionary inventory is partly accidental. ^[inferred]
+**Prior for an educated Anglo-Saxon:** about 20,000-35,000 lexemes (plausible 15,000-40,000), explicitly a research prior and not a result. Reasoning: same cognitive capacity as moderns; richer ecological, craft and kinship vocabulary than texts show; productive compounding ([[concepts/oe-word-formation]]) reduces stored items; Latin lexicon would be additional. The note suggests a reference persona: a literate [[concepts/old-english-dialects|West Saxon]] ecclesiastic c. 975-1025 with functional Latin. The overlap with the dictionary inventory is partly accidental. ^[inferred]
 
 **Five methods for candidate unattested words** (graded evidence, not a flat "missing words" list):
 

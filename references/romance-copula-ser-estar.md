@@ -9,6 +9,8 @@ source_url: "https://en.wikipedia.org/wiki/Romance_copula"
 relationships:
   - target: "[[concepts/ser-estar-and-old-english-be]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
 summary: >-
   Survey of the Romance two-copula system: ser from esse for essence and identity, estar from stare for incidental state and location.
 provenance:
@@ -23,9 +25,10 @@ created: 2026-10-12T22:20:00Z
 updated: 2026-10-12T22:20:00Z
 ---
 
+
 # Romance Copula: Ser and Estar
 
-The English Wikipedia article [Romance copula](https://en.wikipedia.org/wiki/Romance_copula) is a survey, not a corpus study. It is used here for the standard description of Spanish *ser* and *estar* against which the Old English copulas are compared.
+The English Wikipedia article [Romance copula](https://en.wikipedia.org/wiki/Romance_copula) is a survey, not a corpus study. It is used here for the standard description of Spanish *ser* and *estar* against which the [[concepts/old-english|Old English]] copulas are compared.
 
 ## Key claims
 

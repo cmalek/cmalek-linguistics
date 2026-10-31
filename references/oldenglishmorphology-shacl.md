@@ -10,6 +10,8 @@ relationships:
     type: related_to
   - target: "[[references/oe-wordnet-repos]]"
     type: related_to
+  - target: "[[projects/wyrdcraeft/wyrdcraeft]]"
+    type: related_to
 sources:
   - "repo:github.com/anasfkhan81/OldEnglishMorphology"
 source_url: "https://github.com/anasfkhan81/OldEnglishMorphology"
@@ -29,6 +31,7 @@ snapshots:
   - "[[_raw/_archived/GITHUB OldEnglishMorphology 2026-10-15|GITHUB OldEnglishMorphology 2026-10-15]]"
 ---
 
+
 # OldEnglishMorphology (OntoLex and SHACL)
 
 Claimed as OntoLex-Lemon modelling of Clark-Hall strong-verb morphology. In practice: one commit (2026-03-11), 13 hand-written verbs (`bīdan`, `faran`, `niman`, `sprecan`, and nine more), Apache-2.0, placeholder namespace `https://example.org/chm#`.
@@ -43,7 +46,7 @@ Claimed as OntoLex-Lemon modelling of Clark-Hall strong-verb morphology. In prac
 
 The vowel constraints ignore consonant alternations, SPARQL cannot generate forms, and there are no weak or irregular verbs and no lexicon.
 
-## Use for wyrdcraeft
+## Use for [[projects/wyrdcraeft/wyrdcraeft|wyrdcraeft]]
 
 Port the ablaut constraints over (infinitive, preterite singular, preterite plural, past participle) as unit tests for generated strong-verb tables, in the spirit of the oracle tests in [[references/btc-anglo-saxon]]. The OntoLex plus LexInfo pattern is a template if RDF export is ever wanted. See [[concepts/old-english-form-generation]].
 

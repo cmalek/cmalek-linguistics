@@ -13,6 +13,10 @@ relationships:
     type: related_to
   - target: "[[entities/ycoe]]"
     type: uses
+  - target: "[[concepts/old-english]]"
+    type: related_to
+  - target: "[[entities/bede]]"
+    type: related_to
 summary: >-
   Jones and Macleod 2017: OE passives are compositional. Weorðan is only transitional. Wesan/beon covers every state and most events.
 provenance:
@@ -27,11 +31,12 @@ created: 2026-10-12T22:20:00Z
 updated: 2026-10-12T22:20:00Z
 ---
 
-# The Status of Passive Constructions in Old English (Jones and Macleod 2017)
 
-Howard Jones and Morgan Macleod, “The status of passive constructions in Old English,” February 2017. Oxford University Research Archive PDF: [Jones and Macleod](https://ora.ox.ac.uk/objects/uuid:0671ac99-83c2-485d-97a1-1eb0b2f71e43/files/m0fea92eabff8a24aa024a32a98c3b7cd). The sample is a slice of the York-Toronto-Helsinki parsed prose corpus: *Cura Pastoralis*, Bede, Orosius, both versions of Gregory’s Dialogues Book I, parts of Ælfric’s Old Testament, the Benedictine Rule, Wulfstan’s Homilies, and Chronicle MS E from 966 to 1121. Latin sources are used to disambiguate where they exist.
+# The Status of Passive Constructions in [[concepts/old-english|Old English]] (Jones and Macleod 2017)
 
-They treat *wesan* and *bēon* together against *weorðan*. Both “be” verbs lack an inherent transition. *Bēon*’s older “become” root, they say, had already become “be,” with a perfective flavour that some authors (Ringe and Taylor 2014) set against imperfective *wesan*.
+Howard Jones and Morgan Macleod, “The status of passive constructions in Old English,” February 2017. Oxford University Research Archive PDF: [Jones and Macleod](https://ora.ox.ac.uk/objects/uuid:0671ac99-83c2-485d-97a1-1eb0b2f71e43/files/m0fea92eabff8a24aa024a32a98c3b7cd). The sample is a slice of the York-Toronto-Helsinki parsed prose corpus: *Cura Pastoralis*, [[entities/bede|Bede]], Orosius, both versions of Gregory’s Dialogues Book I, parts of Ælfric’s Old Testament, the Benedictine Rule, Wulfstan’s Homilies, and Chronicle MS E from 966 to 1121. Latin sources are used to disambiguate where they exist.
+
+They treat *wesan* and *bēon* together against *[[concepts/weorthan|weorðan]]*. Both “be” verbs lack an inherent transition. *Bēon*’s older “become” root, they say, had already become “be,” with a perfective flavour that some authors (Ringe and Taylor 2014) set against imperfective *wesan*.
 
 ## Key claims
 

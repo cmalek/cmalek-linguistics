@@ -3,6 +3,9 @@ title: >-
   Vengeance on the Vikings (Archaeology Magazine, 2013)
 category: references
 tags: [history, viking-age, archaeology]
+relationships:
+  - target: "[[entities/cnut-the-great]]"
+    type: related_to
 sources:
   - "https://archaeology.org/issues/november-december-2013/features/viking-england-st-brices-day/"
 source_url: "https://archaeology.org/issues/november-december-2013/features/viking-england-st-brices-day/"
@@ -19,6 +22,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-16
 ---
 
+
 # Vengeance on the Vikings
 
 URL: https://archaeology.org/issues/november-december-2013/features/viking-england-st-brices-day/
@@ -30,7 +34,7 @@ URL: https://archaeology.org/issues/november-december-2013/features/viking-engla
 - Seafood-rich diet and enamel isotopes point to Scandinavian or colder-region childhoods. [extracted]
 - Wallis links Oxford to 1002; Pollard doubts proof and reads both groups as warriors or raiders; Baillie suggests hostages or orderly execution. [extracted]
 - The order achieved little politically, alienated Danes in royal service, and was followed by Swein's retaliation in 1003. [extracted]
-- No mention of Cnut or Wulfstan. [extracted]
+- No mention of [[entities/cnut-the-great|Cnut]] or Wulfstan. [extracted]
 
 ## Limitations
 

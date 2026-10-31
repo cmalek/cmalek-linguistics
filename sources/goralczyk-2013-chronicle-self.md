@@ -3,6 +3,9 @@ title: >-
   Góralczyk, Lee, and Łozińska 2013: self in Chronicle A
 category: references
 tags: [old-english, pronouns, chronicle]
+relationships:
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "https://bazhum.muzhp.pl/media/texts/acta-neophilologica/2013-tom-15-numer-2/acta_neophilologica-r2013-t15-n2-s43-52.pdf"
 source_url: "https://bazhum.muzhp.pl/media/texts/acta-neophilologica/2013-tom-15-numer-2/acta_neophilologica-r2013-t15-n2-s43-52.pdf"
@@ -18,9 +21,10 @@ created: 2026-10-30T20:15:00Z
 updated: 2026-10-30T20:15:00Z
 ---
 
+
 # Góralczyk, Lee, and Łozińska 2013: self in Chronicle A
 
-Iwona Góralczyk, Robert Lee, and Joanna Łozińska, “Old English Patterns with *self*: Evidence from the Anglo-Saxon Chronicle, Manuscript A,” *Acta Neophilologica* 15, no. 2 (2013): 43–52. The PDF was read.
+Iwona Góralczyk, Robert Lee, and Joanna Łozińska, “[[concepts/old-english|Old English]] Patterns with *self*: Evidence from the Anglo-Saxon Chronicle, Manuscript A,” *Acta Neophilologica* 15, no. 2 (2013): 43–52. The PDF was read.
 
 In Old English a plain pronoun can be coreferential with a local subject. There is no separate reflexive form that would force that reading. Their examples include motion and fear: *Gestodon him*, *Ne ondrade ic me*. ^[extracted]
 

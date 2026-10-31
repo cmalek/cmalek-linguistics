@@ -3,6 +3,15 @@ title: >-
   Research: Early and Late Old English Spelling and Inflection
 category: synthesis
 tags: [old-english, orthography, inflection, dialects, research]
+relationships:
+  - target: "[[concepts/old-english]]"
+    type: related_to
+  - target: "[[concepts/sermo-lupi-ad-anglos]]"
+    type: related_to
+  - target: "[[references/beowulf]]"
+    type: related_to
+  - target: "[[references/battle-of-maldon]]"
+    type: related_to
 sources:
   - "https://reunido.uniovi.es/index.php/SELIM/article/view/14174"
   - "https://digital.library.leeds.ac.uk/146/1/LSE1977_pp1-18_Armborst_article.pdf"
@@ -28,7 +37,8 @@ created: 2026-10-30T20:15:00Z
 updated: 2026-10-30T20:15:00Z
 ---
 
-# Research: Early and Late Old English Spelling and Inflection
+
+# Research: Early and Late [[concepts/old-english|Old English]] Spelling and Inflection
 
 Systematic review, protocol confirmed 30 October 2026. Early and late are period markers. West Saxon, Kentish, Mercian, and Northumbrian are kept apart. Cædmon’s Hymn and Junius 121 are examples of early and late books, not the comparison. This page was drafted with AI assistance. Claims below come from texts that were opened. Campbell 1959, Hogg 1992, and Hogg and Fulk 2011 were not opened. Where an included study cites them, the citation is second-hand.
 
@@ -96,7 +106,7 @@ The local cue sheet on [[concepts/old-english-dialects]] already listed “y for
 
 [[sources/walters-2004-case-syncretism]] reports Campbell 1959: the back vowels of final unstressed syllables are already weakening in ninth-century Kentish charters; by late Old English the suffix vowels are mostly a front-versus-back distinction; in the eleventh century those vowels largely coalesce (Campbell 1959: 369, 379, as she cites him). She also reports that *-um* is occasionally *-un* in early West Saxon by the beginning of the eleventh century, and that replacement of final /m/ by /n/ is complete by the end of that century (Campbell 1959: 378; Moore 1928, as she cites them). Once the vowel has weakened, *-um* is no longer distinct from the common *-an* ending. ^[extracted]
 
-[[sources/kranenburg-2019-dative]] states the path as *-um* then *-an* then *-e*. He says Wulfstan’s *Sermo Lupi ad Anglos*, about 1014, alternates dative plurals in *-um* and *-an*. He quotes a 1001 Chronicle passage with *scipan* where a dative plural is expected, and later Peterborough annals with *-e*. ^[extracted]
+[[sources/kranenburg-2019-dative]] states the path as *-um* then *-an* then *-e*. He says Wulfstan’s *[[concepts/sermo-lupi-ad-anglos|Sermo Lupi ad Anglos]]*, about 1014, alternates dative plurals in *-um* and *-an*. He quotes a 1001 Chronicle passage with *scipan* where a dative plural is expected, and later Peterborough annals with *-e*. ^[extracted]
 
 So *-an* beside *-um* is reported for late West Saxon prose, including Wulfstan, and the vowel weakening that makes the endings confusable is reported earlier in Kentish. A counted dative-plural sample for Mercian or Northumbrian was not in the opened texts. “Shared across dialects” is not established for *-an* as the dative plural. Kentish participates in the vowel story. It was not shown, in these texts, to use *-an* for the dative plural as a regular late ending.
 
@@ -104,7 +114,7 @@ So *-an* beside *-um* is reported for late West Saxon prose, including Wulfstan,
 
 The present plural subjunctive is historically *-en*. The infinitive is *-an*. The question was whether late writing uses *-an* for that subjunctive.
 
-[[sources/armborst-1977-unstressed-endings]] works from Malone, Moore, Marckwardt, and Campbell on Beowulf and on eleventh-century prose. The ending he can document as *-on* or *-an* in place of *-en* is the **preterite** plural subjunctive. He treats that as early analogical leveling of indicative *-on* into the subjunctive, and he reports Campbell §377 and §735(e) for *-an* as a possible Kentish spelling of that leveled ending, not as a reverse spelling caused only by identical vowels. ^[extracted]
+[[sources/armborst-1977-unstressed-endings]] works from Malone, Moore, Marckwardt, and Campbell on [[references/beowulf|Beowulf]] and on eleventh-century prose. The ending he can document as *-on* or *-an* in place of *-en* is the **preterite** plural subjunctive. He treats that as early analogical leveling of indicative *-on* into the subjunctive, and he reports Campbell §377 and §735(e) for *-an* as a possible Kentish spelling of that leveled ending, not as a reverse spelling caused only by identical vowels. ^[extracted]
 
 On the infinitive, the same article reports Marckwardt’s counts: 35 infinitives in *-en* against 1,458 in *-an* across fifteen texts, with a calculable proportion only in the latest text, about 10 percent. The infinitive stays *-an* until very late. ^[extracted]
 
@@ -130,7 +140,7 @@ No opened study says early West Saxon wrote *-ie* and late West Saxon replaced i
 
 [[sources/goralczyk-2013-chronicle-self]] reads Chronicle manuscript A the same way: plain pronouns carry reflexive readings, including with verbs of motion and fear, and *self* is an inflected adjective used for emphasis. ^[extracted]
 
-None of these studies counts *sylf* in Wulfstan against *The Battle of Maldon*, or reports a rise inside Old English. The explicit form is available early. The bare pronoun still does the reflexive work. The change they date as grammaticalization sits in Middle English.
+None of these studies counts *sylf* in Wulfstan against *[[references/battle-of-maldon|The Battle of Maldon]]*, or reports a rise inside Old English. The explicit form is available early. The bare pronoun still does the reflexive work. The change they date as grammaticalization sits in Middle English.
 
 ### What is shared, and what is northern
 

@@ -16,6 +16,8 @@ relationships:
     type: related_to
   - target: "[[projects/wyrdcraeft/concepts/morphology-generation]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "url:https://casopispromodernifilologii.ff.cuni.cz/wp-content/uploads/sites/9/2017/06/Ondřej_Tichý_40-54.pdf"
   - "url:https://www.nerthusproject.com/database-description"
@@ -38,7 +40,8 @@ created: 2026-10-09T19:50:00Z
 updated: 2026-10-12T04:37:00Z
 ---
 
-# Research: Old English Morphology Generation
+
+# Research: [[concepts/old-english|Old English]] Morphology Generation
 
 ## Overview
 

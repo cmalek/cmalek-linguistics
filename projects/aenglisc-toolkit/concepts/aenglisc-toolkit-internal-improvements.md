@@ -12,6 +12,8 @@ relationships:
     type: related_to
   - target: "[[references/fincept-terminal-qt-architecture]]"
     type: related_to
+  - target: "[[projects/wyrdcraeft/wyrdcraeft]]"
+    type: related_to
 sources:
   - "repo:/Users/cmalek/src/personal/aenglisc_toolkit @ 981e093 (read 2026-10-18)"
   - "url:https://trello.com/b/lEVKtPBa/aenglisc-toolkit"
@@ -29,7 +31,8 @@ created: 2026-10-18T20:15:00Z
 updated: 2026-10-18T20:15:00Z
 ---
 
-# aenglisc_toolkit: internal improvements and performance
+
+# [[projects/aenglisc-toolkit/aenglisc-toolkit|aenglisc_toolkit]]: internal improvements and performance
 
 Evidence grades: **verified** means read in code or confirmed by grep on 2026-10-18; **unmeasured** means plausible from the code but never profiled. No profiling was run. Items already tracked on Trello are tagged with their card. Qt-feature adoption is covered separately in [[projects/aenglisc-toolkit/concepts/aenglisc-toolkit-qt-practice-gap-analysis]].
 
@@ -37,7 +40,7 @@ Evidence grades: **verified** means read in code or confirmed by grep on 2026-10
 
 | # | Finding | Evidence | Grade | Suggested direction |
 |---|---|---|---|---|
-| P1 | **Everything runs on the GUI thread.** A grep of `oeapp` for `QThread`, `QRunnable`, `QThreadPool`, `QtConcurrent`, `moveToThread` and `QProcess` returns nothing. PDF export calls Tectonic via synchronous `subprocess.run` from `FullTranslationWindow._export_pdf`. DOCX, JSON import/export, Wyrdcraeft ingest, backups and migrations also run in the UI thread. | grep; `full_translation_window.py:1374-1389`; `services/pdf_engine.py:178` | verified | `QThreadPool` + `QRunnable` (or `QProcess` for Tectonic) with signals to report progress; a `QProgressDialog` for export. Card F9 mentions an optional worker. |
+| P1 | **Everything runs on the GUI thread.** A grep of `oeapp` for `QThread`, `QRunnable`, `QThreadPool`, `QtConcurrent`, `moveToThread` and `QProcess` returns nothing. PDF export calls Tectonic via synchronous `subprocess.run` from `FullTranslationWindow._export_pdf`. DOCX, JSON import/export, [[projects/wyrdcraeft/wyrdcraeft|Wyrdcraeft]] ingest, backups and migrations also run in the UI thread. | grep; `full_translation_window.py:1374-1389`; `services/pdf_engine.py:178` | verified | `QThreadPool` + `QRunnable` (or `QProcess` for Tectonic) with signals to report progress; a `QProgressDialog` for export. Card F9 mentions an optional worker. |
 | P2 | **One widget tree per sentence, no virtualization.** `ProjectUI.load_section` builds a `SentenceCard` for every sentence in the section and adds each to one layout. Each card holds a read-only `OldEnglishTextEdit`, a Modern English `QTextEdit`, a `NotesPanel`, a token table toggle, and buttons. Cost scales with section size. A Backlog card wants whole-text and chapter-at-a-time views, which would multiply it. | `project_workspace.py:158-192`; Trello "view modes" | cost shape verified, magnitude unmeasured | Profile load time on the largest real section first. Options: lazy-create cards as they scroll into view; or one model/view (`QListView` + delegate) for read mode with an editor widget only on the active sentence. |
 | P3 | **Extra queries on every render.** `OldEnglishTextEdit.render_readonly_text` calls `session.refresh(sentence, ["notes","idioms","tokens"])` on every read-only render. Each card also schedules its render with `QTimer.singleShot(0, ...)`, so a section load queues N deferred renders. | `oe_text_edit.py:948-954`, `:565` | verified | Eager-load relationships once when fetching the section (`selectinload`), then render without refresh; refresh only after a command invalidates. |
 | P4 | **Per-keystroke undo commands.** `textChanged` on the Modern English editor runs `EditSentenceCommand` on each change. `CommandManager.execute` appends every command and drops the oldest past 50, with no merge. Typing 50 characters can evict all earlier undo history. | `sentence_card.py:583`; `sentence_card_controller.py:127-146`; `commands/abstract.py` | verified (behaviour), harm inferred | Debounce or commit on focus-out (card F7 recommends this); or adopt command merging as `QUndoStack` does (`id()` + `mergeWith()`). |

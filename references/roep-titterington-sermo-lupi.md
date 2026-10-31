@@ -3,6 +3,11 @@ title: >-
   Wulfstan, Sermo Lupi ad Anglos (ROEP, Titterington)
 category: references
 tags: [old-english, wulfstan, homily]
+relationships:
+  - target: "[[entities/cnut-the-great]]"
+    type: related_to
+  - target: "[[concepts/institutes-of-polity]]"
+    type: related_to
 sources:
   - "https://roep.site.ox.ac.uk/article/wulfstan-sermo-lupi-ad-anglos-by-james-titterington"
 source_url: "https://roep.site.ox.ac.uk/article/wulfstan-sermo-lupi-ad-anglos-by-james-titterington"
@@ -19,6 +24,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-16
 ---
 
+
 # Wulfstan, *Sermo Lupi ad Anglos* (ROEP)
 
 URL: https://roep.site.ox.ac.uk/article/wulfstan-sermo-lupi-ad-anglos-by-james-titterington
@@ -28,7 +34,7 @@ URL: https://roep.site.ox.ac.uk/article/wulfstan-sermo-lupi-ad-anglos-by-james-t
 - Possibly first delivered 16 February 1014. [extracted]
 - Context listed: raiding after Wulfstan's 1002 elevation, famine, the killing of Ælfheah, Swein's invasion and death, Æthelred's flight and return. [extracted]
 - Raids are explained as punishment for English sin; Vikings could be "God's next form of punishment," as the English were to the Britons in Gildas. [extracted]
-- A phrase from the *Sermo* recurs in II Cnut and *Institutes of Polity*. [extracted]
+- A phrase from the *Sermo* recurs in II [[entities/cnut-the-great|Cnut]] and *[[concepts/institutes-of-polity|Institutes of Polity]]*. [extracted]
 - The summary I read does not mention the 1002 massacre, treachery, or tribute; that is not proof the sermon is silent. [inferred]
 
 ## Limitations

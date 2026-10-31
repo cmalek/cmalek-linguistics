@@ -8,6 +8,8 @@ relationships:
     type: related_to
   - target: "[[concepts/old-english-case-government]]"
     type: implements
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "url:https://paveda.unipv.it/contributions/olde1238"
 summary: >-
@@ -24,9 +26,10 @@ created: 2026-10-09T19:50:00Z
 updated: 2026-10-09T19:50:00Z
 ---
 
+
 # PaVeDa
 
-PaVeDa (Pavia Verbs Database), University of Pavia, publishes comparable valency datasets. The Old English contribution is Martina Giarda’s coding of the 80 ValPaL core meanings: [paveda.unipv.it/contributions/olde1238](https://paveda.unipv.it/contributions/olde1238).
+PaVeDa (Pavia Verbs Database), University of Pavia, publishes comparable valency datasets. The [[concepts/old-english|Old English]] contribution is Martina Giarda’s coding of the 80 ValPaL core meanings: [paveda.unipv.it/contributions/olde1238](https://paveda.unipv.it/contributions/olde1238).
 
 Frames record case and preposition flags drawn from [[entities/ycoe|YCOE]] and YCOEP. Details are on [[references/paveda-old-english-valency]]. It is the only public, structured government lexicon found in this research, and it is a sample of meanings rather than a complete verbal lexicon.
 

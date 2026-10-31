@@ -11,6 +11,8 @@ relationships:
     type: related_to
   - target: "[[entities/bosworth-toller]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "https://oldenglishthesaurus.arts.gla.ac.uk/introduction/"
   - "https://oldenglishthesaurus.arts.gla.ac.uk/flags/"
@@ -28,7 +30,8 @@ created: 2026-10-23T16:05:00Z
 updated: 2026-10-23T16:05:00Z
 ---
 
-# A Thesaurus of Old English
+
+# A Thesaurus of [[concepts/old-english|Old English]]
 
 *A Thesaurus of Old English* (Roberts, Kay, and Grundy, 1995; second edition 2000; online through the Historical Thesaurus) arranges attested Old English by concept rather than by spelling. [[sources/kay-2012-oe-semantics-lexicon|Kay]] counts about 34,000 word forms and 50,700 meanings in it. The distribution flags are described in [[sources/roberts-kay-toe-distribution]].
 

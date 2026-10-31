@@ -8,6 +8,8 @@ relationships:
     type: informs
   - target: "[[references/interaction-design-5th-edition]]"
     type: related_to
+  - target: "[[entities/omegat]]"
+    type: related_to
 sources:
   - "https://developer.apple.com/design/human-interface-guidelines/modality"
   - "https://developer.apple.com/design/human-interface-guidelines/undo-and-redo"
@@ -35,6 +37,7 @@ tier: supporting
 created: 2026-10-18T22:00:00Z
 updated: 2026-10-18T22:00:00Z
 ---
+
 
 # Desktop UX guidance: source extract
 
@@ -69,7 +72,7 @@ Read 2026-10-18 by a research subagent. Apple's HIG pages are JavaScript-only; t
 
 ## Patterns from comparable tools
 
-- Zotero reader: "locked mode" keeps a highlight tool and colour active, so each selection creates an annotation. Obsidian: a fuzzy command palette lists every command with its shortcut; workspaces save layouts. OmegaT: a pane that signals when it has content for the current segment, plus "Restore OmegaT Window". ELAN: entry limited to a controlled vocabulary through a pull-down. Calibre: a highlights list and keyboard link hints.
+- Zotero reader: "locked mode" keeps a highlight tool and colour active, so each selection creates an annotation. Obsidian: a fuzzy command palette lists every command with its shortcut; workspaces save layouts. [[entities/omegat|OmegaT]]: a pane that signals when it has content for the current segment, plus "Restore OmegaT Window". ELAN: entry limited to a controlled vocabulary through a pull-down. Calibre: a highlights list and keyboard link hints.
 
 ## Features to avoid
 

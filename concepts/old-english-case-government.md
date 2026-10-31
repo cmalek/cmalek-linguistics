@@ -10,6 +10,8 @@ relationships:
     type: derived_from
   - target: "[[concepts/old-english-grammar]]"
     type: extends
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "url:https://www-users.york.ac.uk/~lang18/Documentation/pos-manual-oe.htm"
   - "url:https://paveda.unipv.it/contributions/olde1238"
@@ -27,7 +29,8 @@ created: 2026-10-09T19:50:00Z
 updated: 2026-10-09T19:50:00Z
 ---
 
-# Old English case government
+
+# [[concepts/old-english|Old English]] case government
 
 Government (rection) is which case a verb or a preposition requires of its complement. It is a property of the lexical item, not of the noun’s inflectional class. A noun generator can emit dative singular *cyninge* without knowing that *helpan* takes the dative. Linking the two is a lexicon of frames.
 

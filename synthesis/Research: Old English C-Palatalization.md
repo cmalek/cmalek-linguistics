@@ -3,6 +3,13 @@ title: >-
   Research: Old English C-Palatalization
 category: synthesis
 tags: [old-english, phonology, palatalization, pronunciation, research]
+relationships:
+  - target: "[[concepts/old-english]]"
+    type: related_to
+  - target: "[[concepts/old-english-dialects]]"
+    type: related_to
+  - target: "[[entities/margaret-laing]]"
+    type: related_to
 sources:
   - https://archive.org/details/oldenglishgramma00wrig
   - https://stephenlaker.wordpress.com/wp-content/uploads/2013/01/laker2007abag64.pdf
@@ -26,7 +33,8 @@ created: 2026-10-20T19:48:43-07:00
 updated: 2026-10-20T19:48:43-07:00
 ---
 
-# Research: Old English C-Palatalization
+
+# Research: [[concepts/old-english|Old English]] C-Palatalization
 
 Research checked on 20 October 2026. Here **stop list** means exclusions from automatic palatal marking, not common function words. The subject is single and doubled **c**, including **nc**; **sc**, **cg**, and **cw** need separate treatment.
 
@@ -42,7 +50,7 @@ For the north, Laker 2021 and Versloot 2023 question the automatic explanation t
 
 ## Working rules
 
-These are rules about **historical sounds**, not adjacent modern letters. They summarize Wright §§309–311 alongside the Hogg distinctions already documented in the vault. They are a practical default for conventional southern/West Saxon reading, not a complete reconstruction of every dialect. [[sources/wright-1914-c-palatalization]]; [[references/hogg-1992-palatalization]]
+These are rules about **historical sounds**, not adjacent modern letters. They summarize Wright §§309–311 alongside the Hogg distinctions already documented in the vault. They are a practical default for conventional southern/[[concepts/old-english-dialects|West Saxon]] reading, not a complete reconstruction of every dialect. [[sources/wright-1914-c-palatalization]]; [[references/hogg-1992-palatalization]]
 
 1. **Initially**, c before an inherited front vowel generally becomes palatal. A diphthong can trigger this through its front first element: ċeaf, ċēap, ċēosan. A vowel newly fronted from a back vowel does not automatically do so: cynn, cēpan.
 2. **Medially**, earlier following *i or *j is a central trigger for c/cc/nc: bryċe, sēċan, þeċċan, þenċan. The conditioning sound may disappear before the recorded form. Following e or æ alone is not a universal medial trigger: æcer, sprecan.
@@ -162,7 +170,7 @@ Store the **form, position of c, dialect/date, sound category, source, and confi
 ## Contradictions and open questions
 
 - Hogg's restrictive account of postvocalic stops and Laker's compressed “front-vowel” summary differ in granularity. Use explicit lexical examples and environments; do not flatten them into one letter rule.
-- The time of affrication remains disputed. Wright's conservative phonetic interpretation is historical scholarship, not the latest consensus. Lass and Laing show that iċ itself needs multiple historical pathways.
+- The time of affrication remains disputed. Wright's conservative phonetic interpretation is historical scholarship, not the latest consensus. Lass and [[entities/margaret-laing|Laing]] show that iċ itself needs multiple historical pathways.
 - Modern velars do not settle OE pronunciation. The relative contributions of analogy, native northern developments, and Norse contact are word-specific.
 - Kijak's 2022-volume paper (published online in 2023) is represented by the existing vault source note; its journal PDF could not be reopened in this run. Campbell 1959 and Hogg 1979 were not directly read. Hogg's detailed rules here use the earlier vault extract, not a newly obtained full text.
 - A truly exhaustive list requires a defined dictionary/corpus, period, dialect, treatment of compounds and variants, and lexical annotation of every c occurrence. That work was not completed by this literature survey.

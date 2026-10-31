@@ -18,6 +18,8 @@ relationships:
     type: related_to
   - target: "[[references/beowulf]]"
     type: related_to
+  - target: "[[entities/anglo-saxons]]"
+    type: related_to
 sources:
   - "book:Godden-Lapidge-2013-old-english-after-1066"
 summary: >-
@@ -36,9 +38,10 @@ snapshots:
   - "[[_raw/_archived/Old English after 1066|Old English after 1066]]"
 ---
 
-# Old English after 1066
 
-The chapter "Old English after 1066" in Godden and Lapidge, *The Cambridge Companion to Old English Literature* (2nd ed., 2013) argues that Old English kept a use for later writers, so "afterlife" is the wrong metaphor. James Fenton treats Anglo-Saxon poetry as somebody else's; Seamus Heaney calls *Beowulf* part of his voice-right. The chapter takes both as products of their moments, not as facts about the tradition. The alliterative line did die out, and the language did become unreadable without study. That does not settle whether later writers may still work in it.
+# [[concepts/old-english|Old English]] after 1066
+
+The chapter "Old English after 1066" in Godden and Lapidge, *The Cambridge Companion to Old English Literature* (2nd ed., 2013) argues that Old English kept a use for later writers, so "afterlife" is the wrong metaphor. James Fenton treats Anglo-Saxon poetry as somebody else's; Seamus Heaney calls *[[references/beowulf|Beowulf]]* part of his voice-right. The chapter takes both as products of their moments, not as facts about the tradition. The alliterative line did die out, and the language did become unreadable without study. That does not settle whether later writers may still work in it.
 
 The vault's period pages date the language to about 500–1100 and treat 1066 as the break into French elite culture. This chapter is the counter-narrative: continuity of copying, then deliberate reuse. ^[inferred]
 
@@ -46,7 +49,7 @@ The vault's period pages date the language to about 500–1100 and treat 1066 as
 
 A large share of surviving Old English, especially Benedictine-reform prose, is in manuscripts made after the Conquest. Accurate twelfth-century copies with little glossing imply that Old English was still read for about a century, and that scribes did not yet feel a hard break. Elaine Treharne reads this vernacular as Old English still current, on a line with the Exeter Book poems and Wulfstan's *Sermo Lupi*. One *Anglo-Saxon Chronicle* manuscript at Peterborough continues to 1154. Ker lists twenty-seven manuscripts written after 1100. Toward the end of the twelfth century and the start of the thirteenth, copies start rewriting Old English into contemporary English: it was still used, but no longer transparent.
 
-The Tremulous Hand of Worcester, an early thirteenth-century scribe, is the first reader we can watch learning the language. His left-sloping shake marks at least twenty Worcester manuscripts and worsens over his career. The one book entirely in his hand, Worcester Cathedral Library F. 174, is Ælfric's *Grammar and Glossary* with the English updated, plus four damaged verse folios (the Worcester Fragments: *The First Worcester Fragment*, also called the St Bede lament, and *The Soul's Address to the Body*). Most scholars think he copied the verse from a lost exemplar. Some have suggested he wrote the first fragment. ^[ambiguous] Christine Franzen shows his glosses grow more accurate: first Middle English, later Latin. Ælfric's grammar, meant to teach Latin through English, becomes his key to English.
+The Tremulous Hand of Worcester, an early thirteenth-century scribe, is the first reader we can watch learning the language. His left-sloping shake marks at least twenty Worcester manuscripts and worsens over his career. The one book entirely in his hand, Worcester Cathedral Library F. 174, is Ælfric's *Grammar and Glossary* with the English updated, plus four damaged verse folios (the Worcester Fragments: *The First Worcester Fragment*, also called the St [[entities/bede|Bede]] lament, and *The Soul's Address to the Body*). Most scholars think he copied the verse from a lost exemplar. Some have suggested he wrote the first fragment. ^[ambiguous] Christine Franzen shows his glosses grow more accurate: first Middle English, later Latin. Ælfric's grammar, meant to teach Latin through English, becomes his key to English.
 
 The first fragment sets a time when Bede, Ælfric, and English-speaking bishops taught the people against a present when "another people" teaches them and the teachers perish with the folk. Its metre is not classical Old English (stress on weak words, alliteration on a fourth lift, few exact Sievers types). The chapter treats that as metrical change after inflectional levelling, not as failed imitation: long runs of one alliterating sound mark a rhetorical unit, and *lorþein* ("lore-thegn") looks like a new compound on *þegn*. Seth Lerer reads it as a political answer to English as a conquered language. The chapter calls the mixed style an early deliberate poetic Anglo-Saxonism.
 
@@ -62,7 +65,7 @@ Wheelock's twenty-line poem in the 1641 Cambridge gift-book *Irenodia Cantabrigi
 
 ## Romantic, Victorian, modern
 
-Humphry Wanley in 1705, in Hickes's *Thesaurus*, is the first published note of *Beowulf*, and he sees that it is verse though the manuscript writes it as prose. Percy (*Reliques*, 1765) and Warton (*History of English Poetry*, 1775) describe Old English poetry largely by analogy with Norse. Sharon Turner's *History of the Anglo-Saxons* (1799–1805) quotes poems, including *Beowulf*, widely enough that a novelist could fake the style and expect readers to recognize it.
+Humphry Wanley in 1705, in Hickes's *Thesaurus*, is the first published note of *Beowulf*, and he sees that it is verse though the manuscript writes it as prose. Percy (*Reliques*, 1765) and Warton (*[[concepts/history-of-english|History of English]] Poetry*, 1775) describe Old English poetry largely by analogy with Norse. Sharon Turner's *History of the [[entities/anglo-saxons|Anglo-Saxons]]* (1799–1805) quotes poems, including *Beowulf*, widely enough that a novelist could fake the style and expect readers to recognize it.
 
 Walter Scott's *Ivanhoe* (1819) gives Ulrica a "Saxon" death-song: strophic, abrupt, with the beasts of battle, kennings for eagle and fire, and Norse colouring ("maidens of Valhalla", "the race of Hengist") that the chapter treats as the antiquarian model, not as Old English. Ulrica is the pagan Saxon past that the novel kills so Saxon and Norman can become one England, an allegory of Britain after Jacobitism. The chapter notes the rhyme with Wheelock: Old English pressed into a union argument.
 

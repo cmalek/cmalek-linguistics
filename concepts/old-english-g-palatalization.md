@@ -15,6 +15,8 @@ relationships:
     type: derived_from
   - target: "[[references/hogg-1992-palatalization]]"
     type: derived_from
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "https://en.wikipedia.org/wiki/Old_English_phonology"
   - "https://en.wikipedia.org/wiki/Phonological_history_of_Old_English"
@@ -35,7 +37,8 @@ created: 2026-10-17T12:00:00Z
 updated: 2026-10-20T19:48:43-07:00
 ---
 
-# Old English g-Palatalization (ġ vs. g)
+
+# [[concepts/old-english|Old English]] g-Palatalization (ġ vs. g)
 
 The dot in ġ is a modern editorial convention. Manuscripts write plain `g` for both sounds, so a reader has to infer the value from the word. History and mechanism are in [[synthesis/Research: Old English G-Palatalization]]; this page is the working reference.
 
@@ -85,7 +88,7 @@ The dot in ġ is a modern editorial convention. Manuscripts write plain `g` for 
 | *ġeat* | gate "door" | Hogg §7.15 n4: Scandinavian influence on palatal *ġeat*. Dialect *yate* / *yett* keeps the palatal. |
 | *\*gatwōn* | gate "road" | A different word (Old Norse *gata*). Gersum and Versloot, citing Hogg and Fulk §3.116, say the oblique stem *\*gat-* would have stayed velar inside West Germanic, so a missing palatal is weak evidence of a loan. |
 | *ġift* | gift "present" | Old English *gift* is recorded as bride-price. Etymonline takes the general sense, from the mid-13th century, from Old Norse *gift*, *gipt*. The ordinary Old English word for a present was *ġiefu*. |
-| *ġiest* | guest | Gersum: Old Norse *gestr* supplies the unpalatalized /g/. West Saxon *giest* would have given a *y-* form. Middle English *gest* can be a Scandinavianized native word or a loan; in Anglian the outcome looks the same. |
+| *ġiest* | guest | Gersum: Old Norse *gestr* supplies the unpalatalized /g/. West Saxon *giest* would have given a *y-* form. Middle English *gest* can be a Scandinavianized native word or a loan; in [[concepts/old-english-dialects|Anglian]] the outcome looks the same. |
 
 These are not Old English exceptions. The Old English word, where it is *ġeat*, *ġiest*, or *ġiefu*, is palatal. The modern velar is a later history.
 

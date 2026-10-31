@@ -30,11 +30,12 @@ created: 2026-10-09T16:50:00Z
 updated: 2026-10-28T17:28:59+00:00
 ---
 
+
 # Dictionary build
 
 `wyrdcraeft dictionary build` is the unified write path into canonical `wyrdcraeft.sqlite3`. The default source is packaged `wyrdcraeft/etc/dictionary/oe_bt.txt`. `--source` overrides it. Optional outputs are a JSON report and `parse_warnings.jsonl`.
 
-One source block becomes one `bt_entries` row. Homographs that share a normalized key and part of speech stay separate blocks. Sense paths such as `1.2` are internal hierarchy, not the printed Bosworth-Toller labels. Those labels stay in `source_label_raw`.
+One source block becomes one `bt_entries` row. Homographs that share a normalized key and part of speech stay separate blocks. Sense paths such as `1.2` are internal hierarchy, not the printed [[entities/bosworth-toller|Bosworth-Toller]] labels. Those labels stay in `source_label_raw`.
 
 `dictionary clean-headwords` is a source-file cleanup: it lowercases all-uppercase headwords in `oe_bt.txt` before a later build. `dictionary lookup` still runs, prints a deprecation warning, and forwards to `dictionary query`.
 

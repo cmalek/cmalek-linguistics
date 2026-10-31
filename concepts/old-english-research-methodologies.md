@@ -2,6 +2,9 @@
 title: "Methodologies in Old English research"
 category: concepts
 tags: [old-english, research, literature]
+relationships:
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources: ["https://doi.org/10.1017/S1360674325100579", "https://www.cambridge.org/core/journals/early-medieval-england-and-its-n/article/eventful-palaeography-oxford-bodleian-library-ms-tanner-10-and-writing-as-a-social-practice/16FE92DA773ABCD9EE007C35378748D3", "https://www.tandfonline.com/doi/abs/10.1080/10412573.2017.1284369", "https://link.springer.com/article/10.1057/s41280-024-00359-6"]
 created: 2026-10-28T18:29:23.218042+00:00
 updated: 2026-10-28T19:40:00-07:00
@@ -15,7 +18,8 @@ lifecycle: draft
 lifecycle_changed: 2026-10-28
 ---
 
-# Methodologies in Old English research
+
+# Methodologies in [[concepts/old-english|Old English]] research
 
 [[synthesis/Research: Old English Scholarship 2016–2026|Review overview]] · [[references/old-english-2016-2026-literature-map|Full literature map]] · [[concepts/old-english-research-topics|Topic guide]]
 

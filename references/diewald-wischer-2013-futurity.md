@@ -15,6 +15,12 @@ relationships:
     type: related_to
   - target: "[[references/wischer-2006-markers-of-futurity]]"
     type: extends
+  - target: "[[concepts/old-english]]"
+    type: related_to
+  - target: "[[concepts/weorthan]]"
+    type: related_to
+  - target: "[[entities/dictionary-of-old-english]]"
+    type: related_to
 summary: >-
   Diewald and Wischer 2013: in matched early corpora, OE willan and sculan are already mostly auxiliary, and weorþan never takes a bare infinitive.
 provenance:
@@ -31,7 +37,8 @@ snapshots:
   - "[[_raw/_archived/Diewald_Wischer_2013_Final_Manuscript_Version.pdf|Diewald_Wischer_2013_Final_Manuscript_Version.pdf]]"
 ---
 
-# Markers of Futurity in Old High German and Old English (Diewald and Wischer 2013)
+
+# Markers of Futurity in Old High German and [[concepts/old-english|Old English]] (Diewald and [[entities/ilse-wischer|Wischer]] 2013)
 
 Gabriele Diewald and Ilse Wischer, “Markers of futurity in Old High German and Old English: a comparative corpus-based study,” in *Comparative Studies in Early Germanic Languages* (Amsterdam: John Benjamins, 2013), 195–216. The file read here is the authors’ manuscript: [Diewald and Wischer 2013](https://www.gabrielediewald.de/fileadmin/_gd/downloads/Diewald_Wischer_2013_Final_Manuscript_Version.pdf).
 
@@ -42,8 +49,8 @@ The question is why two West Germanic languages, with cognate *werdan*, *sculan*
 - A simple future, again from Bybee, Perkins, and Pagliuca (1994: 244), is a prediction, not an obligation or a wish. In Present-Day German that marking is optional. In Present-Day English it is largely obligatory.
 - Cross-linguistically, movement verbs and become-verbs are common future sources. A future built from a modal is less common. On that typology German followed a frequent path and English a rarer one.
 - Their path for modal futures runs obligation, desire, or root possibility, then intention, then future.
-- Old English *weorþan* is discussed in the handbooks mainly as a passive auxiliary. A present *weorþan* passive is often said to carry a future tone: Visser (1963–73) §1918, Mitchell (1985) §755, Kilpiö (1989). *Bēon* for future states and general truths is a separate literature: Kilpiö (1992, 1993, 1997), Lutz (2009), and Wischer (2010).
-- Kilpiö (1992) is the Dictionary of Old English entry *BEON* (Toronto: Pontifical Institute of Mediaeval Studies), with spellings by Robert Millar from materials assembled by Haruko Momma. That fascicle is the lexicographic documentation of the *b*-forms. This research did not open the fascicle itself.
+- Old English *[[concepts/weorthan|weorþan]]* is discussed in the handbooks mainly as a passive auxiliary. A present *weorþan* passive is often said to carry a future tone: Visser (1963–73) §1918, Mitchell (1985) §755, Kilpiö (1989). *Bēon* for future states and general truths is a separate literature: Kilpiö (1992, 1993, 1997), Lutz (2009), and Wischer (2010).
+- Kilpiö (1992) is the [[entities/dictionary-of-old-english|Dictionary of Old English]] entry *BEON* (Toronto: Pontifical Institute of Mediaeval Studies), with spellings by Robert Millar from materials assembled by Haruko Momma. That fascicle is the lexicographic documentation of the *b*-forms. This research did not open the fascicle itself.
 - German *werden* + infinitive, on the survey they follow (Westvik 2000), becomes a future marker in the early fourteenth century in East Middle German and Upper German, and replaces *wollen/sollen* futures by the seventeenth century. English *weorþan* dies out in late Middle English instead.
 
 ## Counts in the matched corpora

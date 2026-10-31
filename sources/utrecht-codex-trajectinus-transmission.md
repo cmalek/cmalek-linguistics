@@ -2,6 +2,9 @@
 title: "Utrecht: transmission of the Prose Edda"
 category: references
 tags: ["old-norse", "literature", "manuscripts"]
+relationships:
+  - target: "[[references/prose-edda]]"
+    type: related_to
 sources:
   - "url:https://www.uu.nl/en/special-collections/collections/manuscripts/modern-manuscripts/the-codex-trajectinus-of-the-prose-edda"
 source_url: "https://www.uu.nl/en/special-collections/collections/manuscripts/modern-manuscripts/the-codex-trajectinus-of-the-prose-edda"
@@ -18,7 +21,8 @@ created: 2026-10-28T17:40:07+00:00
 updated: 2026-10-28T17:40:07+00:00
 ---
 
-# Utrecht: transmission of the Prose Edda
+
+# Utrecht: transmission of the [[references/prose-edda|Prose Edda]]
 
 ## Findings
 

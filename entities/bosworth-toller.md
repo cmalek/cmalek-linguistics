@@ -16,6 +16,10 @@ relationships:
     type: related_to
   - target: "[[synthesis/Research: Old English Morphology Generation]]"
     type: related_to
+  - target: "[[references/battle-of-maldon]]"
+    type: related_to
+  - target: "[[entities/bede]]"
+    type: related_to
 sources:
   - "agent:raw-scan Bosworth-Toller p. 27 A-FLYGE - A-GǢLAN"
 summary: "The Anglo-Saxon Dictionary: headword, gender, Latin gloss, and cited OE passages. Page 27 shows the a- prefix cluster from a-flyge through a-fyllan."
@@ -33,6 +37,7 @@ snapshots:
   - "[[_raw/_archived/Bosworth-Toller p. 27 A-FLYGE - A-GǢLAN|Bosworth-Toller p. 27 A-FLYGE - A-GǢLAN]]"
 ---
 
+
 # Bosworth-Toller
 
 Joseph Bosworth’s *An Anglo-Saxon Dictionary*, completed and enlarged by T. Northcote Toller — the default historical dictionary named in [[skills/translating-ancient-texts]]. Cambridge’s Elrington and Bosworth chair (held by [[entities/walter-william-skeat]]) is a related namesake, not the same book. ^[inferred]
@@ -45,7 +50,7 @@ A typical entry (p. 27, *a-flyge* → *a-fyllan*) packs:
 - Grammatical label (*m.*, *n.*, *v. trans.*) and principal parts (*p.* / *pp.*).
 - Modern English gloss plus a Latin equivalent (*fugare*, *suscipere*).
 - Brief etymological pointers (*Ger. Flug*, Goth. *abrs*, ON *æfr*).
-- **Citations** into the corpus: *Battle of Maldon* (*Byrht.*), Genesis, Orosius, Bede, *Judith*, *Exeter Book*, Psalms, laws.
+- **Citations** into the corpus: *[[references/battle-of-maldon|Battle of Maldon]]* (*Byrht.*), Genesis, Orosius, [[entities/bede|Bede]], *Judith*, *Exeter Book*, Psalms, laws.
 
 Worked examples from this leaf: *a-flýman* “put to flight” (Maldon 243); *afor* “vehement” of Judith; *afora* cross-ref to *eafora* “son”; *a-fón* “receive/seize”; *a-fréfran* “comfort.” Prefix *a-* is sometimes intensive (*a-forhtian*).
 
@@ -65,7 +70,7 @@ The scan is messy (OCR, mixed type). Prefer a modern digital Bosworth-Toller (bo
 
 ## Open Questions
 
-- How this page’s lemmas map onto the *Dictionary of Old English* A–I coverage.
+- How this page’s lemmas map onto the *Dictionary of [[concepts/old-english|Old English]]* A–I coverage.
 
 ## Sources
 

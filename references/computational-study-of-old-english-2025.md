@@ -15,6 +15,16 @@ relationships:
     type: related_to
   - target: "[[entities/nerthus-project]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
+  - target: "[[entities/javier-martin-arista]]"
+    type: related_to
+  - target: "[[entities/dictionary-of-old-english-corpus]]"
+    type: related_to
+  - target: "[[concepts/old-english-dialects]]"
+    type: related_to
+  - target: "[[concepts/weorthan]]"
+    type: related_to
 summary: >-
   Martín Arista’s 2025 encyclopedia map of OE corpora, dictionaries, lemmatisation, treebanks, and neural tools.
 provenance:
@@ -32,16 +42,17 @@ snapshots:
   - "[[_raw/_archived/encyclopedia-05-00137-v2.pdf|encyclopedia-05-00137-v2.pdf]]"
 ---
 
-# The Computational Study of Old English (2025)
 
-Javier Martín Arista, “The Computational Study of Old English,” *Encyclopedia* 5, no. 3 (2025): 137, https://doi.org/10.3390/encyclopedia5030137. Published 4 September 2025. It is a survey by the director of [[entities/nerthus-project|Nerthus]], so project-internal numbers and outside projects sit in one voice. Where a figure below is his report of someone else’s dissertation, this page says so.
+# The Computational Study of [[concepts/old-english|Old English]] (2025)
+
+[[entities/javier-martin-arista|Javier Martín Arista]], “The Computational Study of Old English,” *Encyclopedia* 5, no. 3 (2025): 137, https://doi.org/10.3390/encyclopedia5030137. Published 4 September 2025. It is a survey by the director of [[entities/nerthus-project|Nerthus]], so project-internal numbers and outside projects sit in one voice. Where a figure below is his report of someone else’s dissertation, this page says so.
 
 ## Resources he lines up
 
 - Helsinki Corpus: about 413,000 Old English words, periods O1–O4, metadata for genre, dialect, and date.
-- Dictionary of Old English Corpus: about 3,000 texts and 3 million words. The [[entities/dictionary-of-old-english|DOE]] itself, in this entry, covers **A–Le**. A sample entry shape is headword, gender, a FORM line of attested spellings by case and number, frequency, senses, compounds, and collocations.
+- [[entities/dictionary-of-old-english-corpus|Dictionary of Old English Corpus]]: about 3,000 texts and 3 million words. The [[entities/dictionary-of-old-english|DOE]] itself, in this entry, covers **A–Le**. A sample entry shape is headword, gender, a FORM line of attested spellings by case and number, frequency, senses, compounds, and collocations.
 - [[entities/ycoe|YCOE]]: 1.5 million words of prose with POS and phrase structure. His gloss of a sample tag string treats `NSD` as noun, singular, dative and `VPS` as verb, past, singular, third person.
-- Dictionary sizes, cited at second hand from Ellis: Bosworth about 26,000 entries with normalized West Saxon and acknowledged variants; Sweet about 12,000 with strict late West Saxon; Clark Hall about 35,000 with mixed normalization. These counts describe nineteenth-century editions, not the online Bosworth–Toller after Toller and not Nerthus v5’s 32,812 files. ^[ambiguous]
+- Dictionary sizes, cited at second hand from Ellis: Bosworth about 26,000 entries with normalized [[concepts/old-english-dialects|West Saxon]] and acknowledged variants; Sweet about 12,000 with strict late West Saxon; Clark Hall about 35,000 with mixed normalization. These counts describe nineteenth-century editions, not the online Bosworth–Toller after Toller and not Nerthus v5’s 32,812 files. ^[ambiguous]
 - West Saxon is about 60 percent of surviving material. Religious and legal texts are about 70 percent of the DOEC. Late Old English (after 950) outweighs earlier centuries. Models trained on the corpus inherit that skew.
 
 ## Lemmatisation he reports
@@ -58,7 +69,7 @@ That 1 percent is the quantitative shape of “poetry compounds missing from the
 
 Taylor and Pintzuk, as he reports them, find OV order falling from 75% in early Old English to 40% by 1100, with SVO rising beside it. CorpusSearch is the query language he describes for YCOE trees (*dominates*, *precedes*, *hasSister*, and the rest).
 
-ParCorOE v3 (2024), from the Nerthus project, is an aligned Old English and modern English prose corpus of over 300,000 entries. He gives two worked counts: 935 instrumentals, and 950 tokens of *weorðan*, 493 of them past. Nerthus v5 is 32,812 headword files, spelling largely from Clark Hall, with DOE headwords supplied for the neural work.
+ParCorOE v3 (2024), from the Nerthus project, is an aligned Old English and modern English prose corpus of over 300,000 entries. He gives two worked counts: 935 instrumentals, and 950 tokens of *[[concepts/weorthan|weorðan]]*, 493 of them past. Nerthus v5 is 32,812 headword files, spelling largely from Clark Hall, with DOE headwords supplied for the neural work.
 
 On the neural layer he is reporting his own group’s pipelines and a survey article he cites as [38]. Ad hoc tools, NLP libraries, and transformers are the three rungs. Transformers are the accurate rung in that survey, at 80–92%, and the least interpretable. A spaCy pipeline (tokenise, tok2vec or transformer, morphology, lemma, dependencies) reaches precision between 75% and 90% by task once tok2vec is pre-trained, and about 85% lemma accuracy, with poetic compounds such as *hronrad* still weak. MobileBERT, retrained because modern-English models lack æ, ð, and þ, does not beat that pre-trained tok2vec setup. He treats the cause as data: about 3 million words of Old English, and a cited cost of about 100 GPU hours to train a 110-million-parameter transformer. The 80–92% band is the survey’s, not a number this note has recomputed. ^[ambiguous]
 

@@ -12,6 +12,8 @@ relationships:
     type: uses
   - target: "[[concepts/old-norse-numerals-and-strong-verbs]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "https://lrc.la.utexas.edu/eieol/norol/50"
 summary: "EIEOL lesson 5 excerpt: Arinbjǫrn pleads for Egill's life before Eiríkr and Gunnhildr at York; Egill's head-ransom poem opens. Teaches dual pronouns, subjunctive, negatives."
@@ -28,6 +30,7 @@ updated: 2026-10-17T12:00:00Z
 snapshots:
   - "[[_raw/_archived/from the Egils saga|from the Egils saga]]"
 ---
+
 
 # Egils saga: Egill before Eiríkr at York
 
@@ -51,7 +54,7 @@ Lesson 5 of the UT Old Norse Online course ([[skills/ut-eieol-old-norse]]) pairs
 - **Subjunctives** in purpose and expectation clauses: *at hann forði sér*, *vænti sér at því friðar*.
 - **Negatives** with *engi* (*enga sætt* "no settlement"): irregular paradigm covered in [[concepts/old-norse-numerals-and-strong-verbs]].
 - *vara* is impersonal with genitive: *mik varði* "I expected".
-- *frá* in *Flestr maðr of frá* is the past of *fregna* "hear of" (cf. Old English *fregn*), not the preposition.
+- *frá* in *Flestr maðr of frá* is the past of *fregna* "hear of" (cf. [[concepts/old-english|Old English]] *fregn*), not the preposition.
 - **Poetic diction:** *of* is a metrically useful particle often used adverbially; *Óðins mjǫð* "Odin's mead" is a kenning for poetry. Compare the skaldic tradition described in [[references/prose-edda]].
 
 ## Cultural essay (same lesson)

@@ -3,6 +3,9 @@ title: >-
   Condorelli 2019: West Saxon ie and y
 category: references
 tags: [old-english, orthography, west-saxon]
+relationships:
+  - target: "[[concepts/old-english-dialects]]"
+    type: related_to
 sources:
   - "https://reunido.uniovi.es/index.php/SELIM/article/view/14174"
   - "https://doi.org/10.17811/selim.24.2019.29-52"
@@ -19,7 +22,8 @@ created: 2026-10-30T20:15:00Z
 updated: 2026-10-30T20:15:00Z
 ---
 
-# Condorelli 2019: West Saxon ie and y
+
+# Condorelli 2019: [[concepts/old-english-dialects|West Saxon]] ie and y
 
 Marco Condorelli, “Irregularity of the ‘ie’ spellings in West Saxon English: Remarks on variation in third-person pronouns,” *SELIM* 24 (2019): 29–52. DOI [10.17811/selim.24.2019.29-52](https://doi.org/10.17811/selim.24.2019.29-52). The article text was read.
 

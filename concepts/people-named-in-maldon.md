@@ -18,6 +18,10 @@ relationships:
     type: derived_from
   - target: "[[references/griffith-2022-vengeance-of-offa]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
+  - target: "[[concepts/old-english-dialects]]"
+    type: related_to
 sources:
   - "url:https://doi.org/10.1515/9781802700251-010"
   - "url:https://doi.org/10.31261/spip.2019.15.01"
@@ -38,11 +42,12 @@ snapshots:
   - "[[_raw/_archived/Chapter_4_THE_BATTLE_OF_MALDON_AND_THE_VENGEANCE_O.pdf|Chapter_4_THE_BATTLE_OF_MALDON_AND_THE_VENGEANCE_O.pdf]]"
 ---
 
-# People named in The Battle of Maldon
+
+# People named in [[references/battle-of-maldon|The Battle of Maldon]]
 
 The names below are the ones the fragment actually speaks. Line numbers follow [Old English Aerobics](https://www.oldenglishaerobics.net/maldon.php). Griffith’s 2024 glossary of proper names summarizes each person and marks names that have historical evidence outside the poem ([[references/karasawa-2025-griffith-maldon]]). That marked list was not copied out in either review read here. The standard essay is M. A. L. Locherbie-Cameron, “The Men Named in the Poem,” in [[references/scragg-1991-maldon-essays|Scragg’s 1991 volume]], pp. 238–49. The chapter text is still unread. What follows under her name is what Shannon Miller’s open Trent thesis records, with her page numbers. See [[references/locherbie-cameron-1991-men-named]].
 
-An unsigned essay on [WarHistory.org](https://warhistory.org/article/the-battle-of-maldon-i) (2018) makes the useful caution in plain terms: many of the names would fit Essex landholders of 991, and Old English names repeat so often that pinning a line to one charter-bearer is often misguided. The same essay treats Byrhtnoth, and Ælfwine as grandson of Ealdorman Ealhhelm, as the cases where the poem and the records meet.
+An unsigned essay on [WarHistory.org](https://warhistory.org/article/the-battle-of-maldon-i) (2018) makes the useful caution in plain terms: many of the names would fit Essex landholders of 991, and [[concepts/old-english|Old English]] names repeat so often that pinning a line to one charter-bearer is often misguided. The same essay treats Byrhtnoth, and Ælfwine as grandson of Ealdorman Ealhhelm, as the cases where the poem and the records meet.
 
 ## Named, and historical beyond the poem
 
@@ -91,7 +96,7 @@ No charter or chronicle match was established for these in the sources read. The
 - **Wulfmær the young, Wulfstan’s son**, draws the spear from Byrhtnoth and kills the man who threw it (lines 152–58).
 - **Ælfnoth** and **Wulmær** die beside their lord (lines 182–84).
 - **Dunnere**, a plain *ceorl*, shouts the vengeance maxim (lines 255–59).
-- **Æscferth, Ecglaf’s son**, a Northumbrian hostage of a hardy kin, shoots while he can (lines 265–72).
+- **Æscferth, Ecglaf’s son**, a [[concepts/old-english-dialects|Northumbrian]] hostage of a hardy kin, shoots while he can (lines 265–72).
 - **Æthelric, Sibyrht’s brother** (lines 280–82).
 - **Oswald** and **Eadwold**, brothers, encourage their kinsmen (lines 304–08).
 - **Byrhtwold**, an old retainer, speaks the gnomic lines and vows to lie by his lord (lines 309–19). See [[concepts/heroic-speech-in-maldon]].

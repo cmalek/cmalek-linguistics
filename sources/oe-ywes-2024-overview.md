@@ -2,6 +2,9 @@
 title: "Old English — The Year’s Work in English Studies (2024)"
 category: references
 tags: [old-english, research, literature]
+relationships:
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources: ["https://doi.org/10.1093/ywes/maae004"]
 created: 2026-10-28T18:29:23.220610+00:00
 updated: 2026-10-28T18:29:23.220610+00:00
@@ -15,7 +18,8 @@ lifecycle: draft
 lifecycle_changed: 2026-10-28
 ---
 
-# Old English — The Year’s Work in English Studies (2024)
+
+# [[concepts/old-english|Old English]] — The Year’s Work in English Studies (2024)
 
 Rachel A. Burns, Simon Heller, Niamh Kehoe, Emma Knowles, Francis Leneghan, Rafael J. Pascual, and Eleni Ponirakis. *YWES* 103(1), 153–190. [Publisher abstract](https://doi.org/10.1093/ywes/maae004).
 

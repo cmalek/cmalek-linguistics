@@ -13,6 +13,16 @@ relationships:
     type: related_to
   - target: "[[references/cowper-2015-no-future-in-old-english]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
+  - target: "[[concepts/old-english-dialects]]"
+    type: related_to
+  - target: "[[concepts/weorthan]]"
+    type: related_to
+  - target: "[[entities/dictionary-of-old-english]]"
+    type: related_to
+  - target: "[[entities/margaret-laing]]"
+    type: related_to
 sources:
   - "url:http://ifa.amu.edu.pl/sap/files/42/12Wischer.pdf"
   - "url:https://cla-acl.ca/pdfs/actes-2015/Cowper_Hall_Bjorkman_Tollan_Banerjee-2015.pdf"
@@ -36,13 +46,14 @@ snapshots:
   - "[[_raw/_archived/Diewald_Wischer_2013_Final_Manuscript_Version.pdf|Diewald_Wischer_2013_Final_Manuscript_Version.pdf]]"
 ---
 
-# Future Time in Old English
+
+# Future Time in [[concepts/old-english|Old English]]
 
 Old English finite verbs inflect for two tenses, present and preterite. There is no future ending and no future auxiliary paradigm that grammars print beside those two. Future time is a use of the present, with a few verbs that can point the same way. The classroom form of that statement is already in the vault notes and in [[concepts/old-english-grammar]]: *hēo gāþ* can be “she goes,” “she is going,” or “she will go.”
 
 ## What the handbooks say
 
-C. Alphonso Smith’s exercise grammar (1896) says Early West Saxon had no distinctive future, and that the present covered present and future, as Modern English “I go home tomorrow” still can ([[references/smith-1896-oe-grammar]]). Glasgow’s STELLA course says the same, and adds that *iċ wille gān* ordinarily means “I want to go.” Future *willan* “seems to have been used towards the end of the OE period.” If the verb is ‘be’, STELLA reaches for the *bēon* forms ([[references/stella-old-english-verb-phrase]]). Mitchell and Robinson’s “resolved tenses” (*habban*, *wesan/bēon*, *weorþan* plus a participle) are perfect and passive in that course, not a future tense.
+C. Alphonso Smith’s exercise grammar (1896) says Early [[concepts/old-english-dialects|West Saxon]] had no distinctive future, and that the present covered present and future, as Modern English “I go home tomorrow” still can ([[references/smith-1896-oe-grammar]]). Glasgow’s STELLA course says the same, and adds that *iċ wille gān* ordinarily means “I want to go.” Future *willan* “seems to have been used towards the end of the OE period.” If the verb is ‘be’, STELLA reaches for the *bēon* forms ([[references/stella-old-english-verb-phrase]]). Mitchell and Robinson’s “resolved tenses” (*habban*, *wesan/bēon*, *[[concepts/weorthan|weorþan]]* plus a participle) are perfect and passive in that course, not a future tense.
 
 [[references/ycoe-modal-and-tense-tags|YCOE]] records the same architecture in tags. A finite verb is present or past. *Willan*’s sense list includes “be about to, shall, will” inside the modal gloss. Nothing in the tagset is future.
 
@@ -77,10 +88,10 @@ A further handbook tradition, from Streitberg (1891) onward, treated perfective 
 |---|---|
 | Beginner rule | Smith 1896; STELLA §§37 and 44; [oldenglish.info](https://oldenglish.info/irgv2.html); vault note *Verbs* (p. 134, §5.2.5) |
 | Reference syntax | Mitchell, *Old English Syntax* (1985), cited at §755 for future-tinged *weorþan* passives; Mitchell and Robinson (1992) on resolved tenses. The syntax volumes were not reread for this pass. |
-| Lexicography | Dictionary of Old English fascicle *BEON* (Kilpiö 1992), cited by Diewald and Wischer. *Willan* / *sculan* entries in Bosworth–Toller and the DOE were not opened here. |
+| Lexicography | [[entities/dictionary-of-old-english|Dictionary of Old English]] fascicle *BEON* (Kilpiö 1992), cited by Diewald and Wischer. *Willan* / *sculan* entries in Bosworth–Toller and the DOE were not opened here. |
 | Corpus counts | Wischer 2006 and Diewald and Wischer 2013 (Helsinki selections, OE beside OHG); Cowper et al. 2015 (aligned gospels) |
 | Annotation | YCOE modal tags and glosses |
-| Later history | Wischer 2008 on Middle English *will* and *shall*; Laing 2010 on early Middle English *b*-forms; Warner, *English Auxiliaries* (1993), as the history of the modal class |
+| Later history | Wischer 2008 on Middle English *will* and *shall*; [[entities/margaret-laing|Laing]] 2010 on early Middle English *b*-forms; Warner, *English Auxiliaries* (1993), as the history of the modal class |
 
 ## Open questions
 

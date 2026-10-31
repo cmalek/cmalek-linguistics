@@ -10,6 +10,14 @@ relationships:
     type: related_to
   - target: "[[concepts/old-english-form-generation]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
+  - target: "[[references/beowulf]]"
+    type: related_to
+  - target: "[[entities/ycoe]]"
+    type: related_to
+  - target: "[[projects/aenglisc-toolkit/aenglisc-toolkit]]"
+    type: related_to
 sources:
   - "repo:github.com/sashaforce/oeapp"
   - "agent:wiki-ingest-github-repos-2026-10-15"
@@ -40,7 +48,8 @@ snapshots:
   - "[[_raw/_archived/GITHUB oeapp 2026-10-15-1|GITHUB oeapp 2026-10-15-1]]"
 ---
 
-# Old English tooling on GitHub: landscape
+
+# [[concepts/old-english|Old English]] tooling on GitHub: landscape
 
 Each repo was shallow-cloned and read, not run. README claims were checked against code. Claimed versus real purpose often differs.
 
@@ -50,7 +59,7 @@ Each repo was shallow-cloned and read, not run. README claims were checked again
 |---|---|---|---|
 | [[references/unimorph-ang]] | 178k-row paradigm table from Wiktionary | High: gold set, lookup | CC BY-SA 3.0 |
 | [[references/btc-anglo-saxon]] | BT dictionary pipeline and app, verb rules with test oracle | High: design and BT parser | MIT, data PD |
-| [[references/old-english-texts-iswoc]] | ISWOC treebank and annotated Beowulf | High: training and evaluation data | CC BY-NC-SA / CC BY-SA |
+| [[references/old-english-texts-iswoc]] | ISWOC treebank and annotated [[references/beowulf|Beowulf]] | High: training and evaluation data | CC BY-NC-SA / CC BY-SA |
 | [[references/echoe-corpus]] | 553k-token TEI homily corpus, no lemmas | Medium: spelling and normalisation work | GPL-3.0 |
 | [[references/oldenglishmorphology-shacl]] | 13 verbs plus SHACL ablaut shapes | Medium: validation idea | Apache-2.0 |
 | [[references/oe-wordnet-repos]] | Emotion-vocabulary slice, OntoLex export | Low to medium | GPL-3 / none |
@@ -63,14 +72,14 @@ Each repo was shallow-cloned and read, not run. README claims were checked again
 - **OldEnglishGlosser** (dylanbright): React and Vite front end sending text to Gemini in 12-line chunks with a JSON schema. No OE linguistics or verification, and the API key is baked into the client bundle. Useful only as a baseline to compare deterministic analysis against, and for its gloss-token schema.
 - **OEVoice** (ryanlintott): Swift wrapper over `AVSpeechSynthesizer` that speaks IPA you supply; its value is an empirical table of Apple-voice IPA workarounds. It has no spelling-to-IPA layer, which is the missing front end (see [[concepts/old-english-pronunciation]]). MIT, v2.0.0.
 - **NHB-2018-OEstylometry** (qcrit): throwaway scripts for the Neidorf et al. verse study. Character n-gram profiles, sense-pause counts, Ward clustering on 30 hand-picked n-grams, compound lookup against BT. No lemmas or POS, so it is sensitive to spelling. The tagged Calgary verse text is the useful part. No licence.
-- **OldEnglishNLP** (cainesap): three R scripts preparing YCOE CoNLL-U for udpipe. Notes in comments give lemma accuracy about 0.51, XPOS 0.42. File-level train/dev/test split. No data or model. The lesson is the 255-form lemma limit and the document-level split.
+- **OldEnglishNLP** (cainesap): three R scripts preparing [[entities/ycoe|YCOE]] CoNLL-U for udpipe. Notes in comments give lemma accuracy about 0.51, XPOS 0.42. File-level train/dev/test split. No data or model. The lesson is the 255-form lemma limit and the document-level split.
 - **OldEnglishPoetryCorpus** (chadmorgan): 2018 notebooks. The corpus itself is not in the repo; the DOEC SGML entity table and YCOE tag-to-POS code are the only reusable bits.
 - **OldEnglish** (lrosenb2): 2017 NLTK tagger trained on dictionary headwords, unrunnable (syntax error, hardcoded paths). Nothing reusable.
 - **oeapp** (sashaforce): 2018 AngularJS lesson-player skeleton, 3 lessons, no licence.
 - **old_english_text_sacred_texts** (cltk): scrape of the sacred-texts poetry corpus into 127 CLTK JSON files. Line numbers are lost and the caesura survives only as spaces.
 - **poetic_edda** (fjarri): Old Norse and English parallel-text typesetting pipeline (Python 2, hand-keyed XML, Gering text, Bellows 1923 translation). Its stanza and half-line XML schema, with conjecture and lacuna markup, is a model for an Old English verse layer. No licence file. See [[concepts/old-norse-grammar]].
-- **wyrdcraeft** (cmalek): the user's own repo; checked against existing pages, corrections applied in [[projects/wyrdcraeft/concepts/startup-and-settings]] and [[projects/wyrdcraeft/concepts/wright-catalog]]. ADR 0022 (a planned Obsidian corpus vault of 3,115 DOE Cameron A–F entries) is not yet reflected in the vault pages. ^[inferred]
-- **FinceptTerminal**: a C++20/Qt finance terminal, unrelated to Old English as a domain. Kept because its Qt architecture may inform aenglisc_toolkit; see [[references/fincept-terminal-qt-architecture]].
+- **[[projects/wyrdcraeft/wyrdcraeft|wyrdcraeft]]** (cmalek): the user's own repo; checked against existing pages, corrections applied in [[projects/wyrdcraeft/concepts/startup-and-settings]] and [[projects/wyrdcraeft/concepts/wright-catalog]]. ADR 0022 (a planned Obsidian corpus vault of 3,115 DOE Cameron A–F entries) is not yet reflected in the vault pages. ^[inferred]
+- **FinceptTerminal**: a C++20/Qt finance terminal, unrelated to Old English as a domain. Kept because its Qt architecture may inform [[projects/aenglisc-toolkit/aenglisc-toolkit|aenglisc_toolkit]]; see [[references/fincept-terminal-qt-architecture]].
 
 ## Patterns across the field
 

@@ -10,6 +10,8 @@ relationships:
     type: informs
   - target: "[[skills/translating-ancient-texts]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "https://omegat.sourceforge.io/manual-latest/en/chapter.project.folder.html"
   - "https://omegat.sourceforge.io/manual-latest/en/chapter.panes.html"
@@ -39,9 +41,10 @@ created: 2026-10-18T22:00:00Z
 updated: 2026-10-18T22:00:00Z
 ---
 
+
 # Translation tools and scholarly editing standards
 
-Read 2026-10-18 by a research subagent; some pages by section or `grep`, not in full. The evidence on how published Old English editions lay out notes and glossaries is **weak**: DOE, publisher and edition pages were blocked or not found.
+Read 2026-10-18 by a research subagent; some pages by section or `grep`, not in full. The evidence on how published [[concepts/old-english|Old English]] editions lay out notes and glossaries is **weak**: DOE, publisher and edition pages were blocked or not found.
 
 ## CAT tools: what maps to manual work
 

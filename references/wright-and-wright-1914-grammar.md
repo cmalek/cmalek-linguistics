@@ -2,6 +2,11 @@
 title: "Wright and Wright: Old English Grammar, second edition (1914)"
 category: "references"
 tags: ["old-english", "grammar", "books", "ocr"]
+relationships:
+  - target: "[[concepts/old-english-grammar]]"
+    type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources: ["url:http://www.archive.org/details/oldenglishgramma00wrig"]
 summary: "A section-based reading map of the 1914 grammar scan, its suggested learning route, scope, and OCR limitations."
 provenance: {"extracted": 0.85, "inferred": 0.15, "ambiguous": 0}
@@ -15,9 +20,10 @@ snapshots:
   - "[[_raw/_archived/wightandwright2.pdf|wightandwright2.pdf]]"
 ---
 
-# Wright and Wright: Old English Grammar, second edition (1914)
 
-The title page identifies Joseph Wright and Elizabeth Mary Wright, *Old English Grammar*, second edition, Oxford University Press, 1914. The local scan contains 388 PDF pages; printed page numbers differ from PDF positions. The spelling “wightandwright2” is the supplied filename, not an author name.
+# Wright and Wright: [[concepts/old-english-grammar|Old English Grammar]], second edition (1914)
+
+The title page identifies Joseph Wright and Elizabeth Mary Wright, *[[concepts/old-english|Old English]] Grammar*, second edition, Oxford University Press, 1914. The local scan contains 388 PDF pages; printed page numbers differ from PDF positions. The spelling “wightandwright2” is the supplied filename, not an author name.
 
 ## The authors’ learning route
 

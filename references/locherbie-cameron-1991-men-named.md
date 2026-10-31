@@ -11,6 +11,10 @@ relationships:
     type: part_of
   - target: "[[concepts/people-named-in-maldon]]"
     type: informs
+  - target: "[[entities/byrhtnoth]]"
+    type: related_to
+  - target: "[[references/battle-of-maldon]]"
+    type: related_to
 summary: >-
   Her 1991 prosopography of the Maldon names, pp. 238-49. The chapter itself is unread. Page-cited judgments come from Miller's open Trent thesis.
 provenance:
@@ -25,9 +29,10 @@ created: 2026-10-18T23:20:00Z
 updated: 2026-10-18T23:20:00Z
 ---
 
+
 # Locherbie-Cameron 1991, The Men Named in the Poem
 
-Margaret A. L. Locherbie-Cameron, "The Men Named in the Poem," in Donald Scragg, ed., *The Battle of Maldon AD 991* (Oxford: Basil Blackwell, 1991), pp. 238–49. A companion chapter, "Byrhtnoth and his Family," is pp. 253–62, with a list of his lands at pp. 257–60. Both sit in [[references/scragg-1991-maldon-essays]]. An earlier note is "Ælfwine's Kinsmen and *The Battle of Maldon*," *Notes and Queries* 223 (December 1978): 486–87. That note was not fetched.
+Margaret A. L. Locherbie-Cameron, "The Men Named in the Poem," in Donald Scragg, ed., *The Battle of Maldon AD 991* (Oxford: Basil Blackwell, 1991), pp. 238–49. A companion chapter, "[[entities/byrhtnoth|Byrhtnoth]] and his Family," is pp. 253–62, with a list of his lands at pp. 257–60. Both sit in [[references/scragg-1991-maldon-essays]]. An earlier note is "Ælfwine's Kinsmen and *The [[references/battle-of-maldon|Battle of Maldon]]*," *Notes and Queries* 223 (December 1978): 486–87. That note was not fetched.
 
 Google Scholar, OpenAlex, and Crossref return the volume and later citations. They do not return the chapter. The judgments below are what Shannon E. Miller records, with her page numbers, in *The Battle of Maldon: A Medieval Screenplay* (Trent University MA, 2013; [open PDF](https://batadora.trentu.ca/_flysystem/fedora/2022-04/The_Battle_of_Maldon_A_Medieval_Screenplay_History_and_Heroism_in_the_Cinematic_Adaptation_of_an_Old_English_Poem.pdf)). Miller is a witness to the chapter, and she also invents scenes. Only the footnote claims are used here. The working list is on [[concepts/people-named-in-maldon]].
 

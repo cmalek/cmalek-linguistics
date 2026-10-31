@@ -13,6 +13,12 @@ relationships:
     type: related_to
   - target: "[[concepts/three-orders-of-society]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
+  - target: "[[entities/cnut-the-great]]"
+    type: related_to
+  - target: "[[concepts/sermo-lupi-ad-anglos]]"
+    type: related_to
 summary: >-
   Titterington’s guide to Institutes of Polity: the manuscripts, Jost’s I/II split, and why the work is estates literature.
 provenance:
@@ -29,19 +35,20 @@ snapshots:
   - "[[_raw/_archived/Wulfstan's "Institutes of Polity"|Wulfstan's "Institutes of Polity"]]"
 ---
 
+
 # Wulfstan's Institutes of Polity (Titterington, ROEP)
 
-James Titterington, “Wulfstan’s *Institutes of Polity*,” Resources for Old English Prose (Oxford), published 23 October 2025. [roep.site.ox.ac.uk](https://roep.site.ox.ac.uk/article/wulfstans-institutes-of-polity). A vault clip of the same article sits at `_raw/Old English/Texts/Wulfstan's "Institutes of Polity".md`. Quotations of the Old English are from Andrew Rabin’s edition of what Jost called II Polity.
+James Titterington, “Wulfstan’s *Institutes of Polity*,” Resources for [[concepts/old-english|Old English]] Prose (Oxford), published 23 October 2025. [roep.site.ox.ac.uk](https://roep.site.ox.ac.uk/article/wulfstans-institutes-of-polity). A vault clip of the same article sits at `_raw/Old English/Texts/Wulfstan's "Institutes of Polity".md`. Quotations of the Old English are from Andrew Rabin’s edition of what Jost called II Polity.
 
 ## Key claims
 
 - *Polity* is a loose set of chapters on the duties of ranks in late Anglo-Saxon society, attributed to [[entities/wulfstan-of-york]]. Titterington’s working label is estates literature, a line he traces to St Paul.
 - The chapters are untitled as a whole. Each section has only a rubric. Passages also appear in Wulfstan’s laws and homilies, so the work is hard to separate from the rest of his corpus.
-- Print history: Wilkins 1721 did not treat the chapters as one text; Thorpe 1840 did; Jost in 1918 assigned them to Wulfstan and in 1959 split them into I Polity (under Æthelred) and II Polity (under Cnut). Rabin, *Old English Legal Writings* (2020), keeps that split.
+- Print history: Wilkins 1721 did not treat the chapters as one text; Thorpe 1840 did; Jost in 1918 assigned them to Wulfstan and in 1959 split them into I Polity (under Æthelred) and II Polity (under [[entities/cnut-the-great|Cnut]]). Rabin, *Old English Legal Writings* (2020), keeps that split.
 - Witnesses: Cambridge, Corpus Christi College 201, pp. 86–93, is Jost’s I Polity. London, British Library, Cotton Nero A.i is an intermediate copy, and the only one with Wulfstan’s own hand. Oxford, Bodleian Library, Junius 121 is Jost’s II Polity, written after Wulfstan’s death, reordered, and mixed with other texts such as the *Canons of Edgar* and the Benedictine Office. Fragments: Cambridge, University Library, Additional 3206; homilies drawn from *Polity* in Cotton Tiberius A.iii.
 - Junius 121 opens with the heavenly king (*Be heofenlicum cyninge*) and closes with all Christian people. CCCC 201 and Nero A.i open with the earthly king. Where Nero “ends” depends on where the editor draws the boundary.
 - Recent work, including Andrei Crișan, doubts that I and II are two clean authorial editions. Titterington’s own reading is that *Polity* describes a Christian society rank by rank, and names where the present one has slipped.
-- *Be cynestole* gives the three pillars *oratores*, *laboratores*, *bellatores*. Wulfstan takes the passage from Ælfric’s letter to Sigeweard and puts those who pray first. Bishops dominate the councillors’ chapter. The close reworks the ending of the *Sermo Lupi ad Anglos*.
+- *Be cynestole* gives the three pillars *oratores*, *laboratores*, *bellatores*. Wulfstan takes the passage from Ælfric’s letter to Sigeweard and puts those who pray first. Bishops dominate the councillors’ chapter. The close reworks the ending of the *[[concepts/sermo-lupi-ad-anglos|Sermo Lupi ad Anglos]]*.
 
 ## Further details from the archived clip
 

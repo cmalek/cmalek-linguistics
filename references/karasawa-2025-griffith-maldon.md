@@ -17,6 +17,12 @@ relationships:
     type: related_to
   - target: "[[references/griffith-2022-vengeance-of-offa]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
+  - target: "[[concepts/old-english-dialects]]"
+    type: related_to
+  - target: "[[references/beowulf]]"
+    type: related_to
 summary: >-
   Karasawa’s review of Griffith 2024: Casley’s transcript, speech dialects, and ofermod as self-respect.
 provenance:
@@ -33,11 +39,12 @@ snapshots:
   - "[[_raw/_archived/Karasawa_The+Battle+of+Maldon.pdf|Karasawa_The+Battle+of+Maldon.pdf]]"
 ---
 
-# Karasawa 2025 review of Griffith’s Battle of Maldon
+
+# Karasawa 2025 review of Griffith’s [[references/battle-of-maldon|Battle of Maldon]]
 
 Kazutomo Karasawa, review of Mark Griffith, *The Battle of Maldon: A New Critical Edition* (Liverpool University Press, 2024), *SELIM* 30 (2025): 209–16. [PDF](https://reunido.uniovi.es/index.php/SELIM/article/download/22743/17157). Received 6 June 2025. This page records the review. The edition itself was not read.
 
-Griffith’s volume is introduction, text, commentary, appendix, bibliography, glossary, and a glossary of proper names. The introduction is “Text and Origins,” “Language,” “Prosody,” “Style,” and “Battle Narrative.” The preface says the edition treats the poem as poetry and aims to place it in the Old English tradition and in the later alliterative line. Historical background of the 991 battle is set aside. The Old English is not translated.
+Griffith’s volume is introduction, text, commentary, appendix, bibliography, glossary, and a glossary of proper names. The introduction is “Text and Origins,” “Language,” “Prosody,” “Style,” and “Battle Narrative.” The preface says the edition treats the poem as poetry and aims to place it in the [[concepts/old-english|Old English]] tradition and in the later alliterative line. Historical background of the 991 battle is set aside. The Old English is not translated.
 
 ## Manuscript
 
@@ -47,13 +54,13 @@ Earlier separate editions named in the review: Sedgefield (1908), Laborde (1936)
 
 ## Language, names, and speech
 
-Karasawa reports no firm dialect conclusion from the non-West Saxon forms, with “some evidence of a south-eastern colouring” and “some distinctive southern features.” Griffith correlates a few dialect forms with speakers: south-eastern *gofol* in the ealdorman of the East Saxons, Mercian *gemunu* in a Mercian aristocrat, and possibly tenth-century Essex *iren* in a man from northern Essex. “Unusual dialect forms and non-standard features appear disproportionately in the spoken words.” Four southern lexical items (*ætforan*, *derian*, *gehende*, *ofermod*) and no Anglian words are “slight lexical evidence for a southern origin.” Scandinavian coloring of the Vikings, as argued by Robinson (1993), is treated as weakly evidenced. Inflectional spellings are accurate, and the poem does not show an SVO/C norm of the kind found in Ælfric’s prose.
+Karasawa reports no firm dialect conclusion from the non-West Saxon forms, with “some evidence of a south-eastern colouring” and “some distinctive southern features.” Griffith correlates a few dialect forms with speakers: south-eastern *gofol* in the ealdorman of the East Saxons, Mercian *gemunu* in a Mercian aristocrat, and possibly tenth-century Essex *iren* in a man from northern Essex. “Unusual dialect forms and non-standard features appear disproportionately in the spoken words.” Four southern lexical items (*ætforan*, *derian*, *gehende*, *ofermod*) and no [[concepts/old-english-dialects|Anglian]] words are “slight lexical evidence for a southern origin.” Scandinavian coloring of the Vikings, as argued by Robinson (1993), is treated as weakly evidenced. Inflectional spellings are accurate, and the poem does not show an SVO/C norm of the kind found in Ælfric’s prose.
 
 The glossary of proper names lists everyone named and marks names for which there is historical evidence. Karasawa does not repeat that list.
 
 ## Style
 
-Poetic simplexes occur at a rate close to *Beowulf*, concentrated on man, warrior, weapons, and battle, and they nearly always alliterate. Compounds, especially unique compounds, are much rarer. Prosaic words cluster on cowards and dishonourable action, a pattern Karasawa notes also in *Judith* and in classical Latin poets. Consonance and assonance are frequent. The hero’s name joins *b* + vowel + *r* consonance five of the seven times it appears. S-alliteration on the Vikings is read as danger and deceit. Abnormal alliteration often sits on a personal name, which Griffith takes as a way to make the names memorable. Scenes of mass fighting stay close to older battle poetry. Scenes of individual action are less traditional and have parallels in later Middle English alliterative verse.
+Poetic simplexes occur at a rate close to *[[references/beowulf|Beowulf]]*, concentrated on man, warrior, weapons, and battle, and they nearly always alliterate. Compounds, especially unique compounds, are much rarer. Prosaic words cluster on cowards and dishonourable action, a pattern Karasawa notes also in *Judith* and in classical Latin poets. Consonance and assonance are frequent. The hero’s name joins *b* + vowel + *r* consonance five of the seven times it appears. S-alliteration on the Vikings is read as danger and deceit. Abnormal alliteration often sits on a personal name, which Griffith takes as a way to make the names memorable. Scenes of mass fighting stay close to older battle poetry. Scenes of individual action are less traditional and have parallels in later Middle English alliterative verse.
 
 ## *Ofermod* and the last speeches
 

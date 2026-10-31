@@ -23,7 +23,10 @@ relationships:
     type: uses
   - target: "[[concepts/ocr-evaluation-metrics]]"
     type: related_to
+  - target: "[[entities/kraken]]"
+    type: related_to
 ---
+
 
 # Mixed Model OCR for Historical Latin Script
 
@@ -41,7 +44,7 @@ Christian Reul, Christoph Wick, Maximilian Nöth, Andreas Büttner, Maximilian W
 
 ## Limitations
 
-The transcription policy deletes macron-versus-tilde and a number of glyph distinctions. Those CERs are not a score for a linguistic edition that must keep macrons, dotted consonants, or italic. The engine is Calamari 2.1 with voter ensembles, not Kraken.
+The transcription policy deletes macron-versus-tilde and a number of glyph distinctions. Those CERs are not a score for a linguistic edition that must keep macrons, dotted consonants, or italic. The engine is Calamari 2.1 with voter ensembles, not [[entities/kraken|Kraken]].
 
 ## Related
 

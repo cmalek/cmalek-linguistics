@@ -20,6 +20,8 @@ relationships:
     type: uses
   - target: "[[references/the-seafarer]]"
     type: related_to
+  - target: "[[entities/bede]]"
+    type: related_to
 sources:
   - agent:raw-notes Effective, Ethical, and Accurate Translation of Ancient Texts
   - agent:raw-notes Sentences
@@ -48,6 +50,7 @@ snapshots:
   - "[[_raw/_archived/Ælfric_s Life of St. Edmund_side_by_side.pdf|Ælfric_s Life of St. Edmund_side_by_side.pdf]]"
 ---
 
+
 # Translating Ancient Texts
 
 Balance **accuracy** (faithfulness) and **readability** (natural English). Theory frame: formal vs dynamic/functional equivalence (Nida). Most current practice aims at naturalness of effect, not word-for-word mapping — while remaining transparent about interpretation.
@@ -58,7 +61,7 @@ Balance **accuracy** (faithfulness) and **readability** (natural English). Theor
 - **Domesticate vs foreignize:** flattening culture can be lazy; keeping every quirk can confuse. *Iliad* *xanthos* as “yellow” vs “fiery” shows neither English word captures Greek color-plus-emotion. Prefer idiomatic main text plus footnotes for untranslatable load.
 - ATA-style ethics: competence, fidelity, transparency about paraphrase/omission, copyright, acknowledge prior translations. Religious/textual criticism: choose a manuscript tradition first.
 - **Old English poetry:** alliteration as an organizing principle; kennings (*banhus*) as short phrases, not lectures; preserve variation in divine epithets (*Metod*, *Drihten*, *Frea*) instead of collapsing them all to “God.” Heaney: mostly forthright modern diction, occasional dialect/archaic word when needed. *Wyrd* may stay as a loan with a note.
-- **OE tools:** Mitchell & Robinson *A Guide to Old English*; Baker *Introduction to Old English* / Old English Aerobics; [[entities/bosworth-toller]]; Clark Hall; Old English Poetry Project (Rutgers) translation principles; Campbell for dense grammar; ASPR for texts. A Bosworth leaf (*a-flyge*–*a-fyllan*) shows the working format: hyphenated prefix, gender or principal parts, English + Latin gloss, then citations into Maldon, Bede, *Judith*, laws — look up the cited edition, don’t trust OCR. Classroom **paradigm sheets** (magic sheet + ROE cheatsheet): [[skills/oe-paradigm-lookup]]. **Facing PDFs in this vault:** [[references/the-seafarer]] (paused at *forþon*), [[references/judith]] (hypermetric notes), [[references/aelfric-life-of-edmund]] (alliterative prose), [[references/oe-human-fetus]] (ethical dative, month scheme). Guided reading sequence with Cable audio: [[skills/ut-eieol-old-english]].
+- **OE tools:** Mitchell & Robinson *A Guide to Old English*; Baker *Introduction to Old English* / Old English Aerobics; [[entities/bosworth-toller]]; Clark Hall; Old English Poetry Project (Rutgers) translation principles; Campbell for dense grammar; ASPR for texts. A Bosworth leaf (*a-flyge*–*a-fyllan*) shows the working format: hyphenated prefix, gender or principal parts, English + Latin gloss, then citations into Maldon, [[entities/bede|Bede]], *Judith*, laws — look up the cited edition, don’t trust OCR. Classroom **paradigm sheets** (magic sheet + ROE cheatsheet): [[skills/oe-paradigm-lookup]]. **Facing PDFs in this vault:** [[references/the-seafarer]] (paused at *forþon*), [[references/judith]] (hypermetric notes), [[references/aelfric-life-of-edmund]] (alliterative prose), [[references/oe-human-fetus]] (ethical dative, month scheme). Guided reading sequence with Cable audio: [[skills/ut-eieol-old-english]].
 - **Greek:** Hansen & Quinn, JACT *Reading Greek*, or Mounce for Koine; LSJ / BDAG; Perseus, DCC. Keep working metaphors (*wine-dark*). *Logos* in John 1 is a loaded choice.
 - **Latin:** Wheelock, LLPSI, Cambridge; Lewis & Short / Logeion. Vulgate is simpler than Cicero (more prepositions, less indirect statement). Do not map *consul* onto “president.”
 

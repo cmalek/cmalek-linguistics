@@ -2,6 +2,9 @@
 title: "Firth 2024: the medieval origins of Alfred’s “the Great”"
 category: references
 tags: ["old-english", "history", "reception"]
+relationships:
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "url:https://doi.org/10.1093/ehr/ceae078"
 source_url: "https://doi.org/10.1093/ehr/ceae078"
@@ -18,6 +21,7 @@ created: 2026-10-28T17:40:07+00:00
 updated: 2026-10-28T17:40:07+00:00
 ---
 
+
 # Firth 2024: the medieval origins of Alfred’s “the Great”
 
 Matthew Firth, *The English Historical Review* 139, no. 596 (2024), pp. 1–32.
@@ -28,7 +32,7 @@ Firth identifies at least twenty-five medieval uses of Alfred’s byname in six 
 
 ## Access and limits
 
-The abstract and indexed article passages were consulted; direct publisher and repository PDF retrieval failed. The byname’s circulation does not establish how many medieval readers accessed Alfredian Old English prose. Routes between English and Icelandic traditions remain interpretive.
+The abstract and indexed article passages were consulted; direct publisher and repository PDF retrieval failed. The byname’s circulation does not establish how many medieval readers accessed Alfredian [[concepts/old-english|Old English]] prose. Routes between English and Icelandic traditions remain interpretive.
 
 ## Related
 

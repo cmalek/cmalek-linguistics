@@ -10,6 +10,8 @@ relationships:
     type: related_to
   - target: "[[projects/aenglisc-toolkit/concepts/aenglisc-toolkit-architecture]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "repo:/Users/cmalek/src/personal/aenglisc_toolkit @ 981e093 (v1.1.0)"
   - "repo: CONTEXT.md, README.md, oeapp/help/topics/*.md, doc/source/overview/*.rst"
@@ -27,7 +29,8 @@ created: 2026-10-18T20:05:00Z
 updated: 2026-10-18T20:05:00Z
 ---
 
-# aenglisc_toolkit: what it does now (v1.1.0)
+
+# [[projects/aenglisc-toolkit/aenglisc-toolkit|aenglisc_toolkit]]: what it does now (v1.1.0)
 
 Snapshot of repo HEAD `981e093` ("Bump version: 1.0.1 to 1.1.0"). PySide6 on Python 3.13+, SQLite via SQLAlchemy 2 and Alembic, about 40k lines in `oeapp/` (including migrations), about 1,080 test functions. Intent is in [[projects/aenglisc-toolkit/concepts/aenglisc-toolkit-intent]]; structure is in [[projects/aenglisc-toolkit/concepts/aenglisc-toolkit-architecture]].
 
@@ -46,7 +49,7 @@ Project > Chapter > Section > Paragraph > Sentence > Token, with Idioms (contigu
 
 ## Reading and review
 
-- **Sentence cards** in a scroll area: read-only Old English with note superscripts and idiom italics, a Modern English editor, a notes panel, and a toggleable token table.
+- **Sentence cards** in a scroll area: read-only [[concepts/old-english|Old English]] with note superscripts and idiom italics, a Modern English editor, a notes panel, and a toggleable token table.
 - **Token details sidebar** (right-hand splitter pane) for the selected token or idiom.
 - **Highlighting modes** per sentence: none, POS, case, number, idiom. Three named layers (mode, span, search) are composed by the editor (ADR 0004); search always draws on top.
 - **Search** across OE and Modern English with next/previous match and scope selector.

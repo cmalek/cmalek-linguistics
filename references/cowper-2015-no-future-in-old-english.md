@@ -11,6 +11,10 @@ relationships:
     type: related_to
   - target: "[[references/wischer-2006-markers-of-futurity]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
+  - target: "[[concepts/old-english-dialects]]"
+    type: related_to
 summary: >-
   Cowper and colleagues: in the Anglo-Saxon Gospels, 84.8 percent of matched future clauses are present-tense forms and 2.1 percent are modals.
 provenance:
@@ -27,7 +31,8 @@ snapshots:
   - "[[_raw/_archived/Cowper_Hall_Bjorkman_Tollan_Banerjee-2015.pdf|Cowper_Hall_Bjorkman_Tollan_Banerjee-2015.pdf]]"
 ---
 
-# There's No Future in Old English (Cowper et al. 2015)
+
+# There's No Future in [[concepts/old-english|Old English]] (Cowper et al. 2015)
 
 Elizabeth Cowper, Daniel Currie Hall, Bronwyn Bjorkman, Rebecca Tollan, and Neil Banerjee, “There’s no future in Old English,” *Actes du congrès annuel de l’Association canadienne de linguistique / Proceedings of the 2015 annual conference of the Canadian Linguistic Association* (2015). PDF: [Cowper et al. 2015](https://cla-acl.ca/pdfs/actes-2015/Cowper_Hall_Bjorkman_Tollan_Banerjee-2015.pdf).
 
@@ -44,7 +49,7 @@ They ask whether the rise of modals as inflectional heads changed what the simpl
 
 ## Limits
 
-The texts are scripture in translation, by few translators, in a formal register. The Anglo-Saxon Gospels are late West Saxon and follow Latin. The authors say a search of the Penn historical corpora for “tomorrow” would have biased which futures they found, which is why they used aligned gospel verses instead. The 2.1% modal figure is the share of these matched clauses, not the share of all *willan* tokens in Old English. The local proceedings PDF prints the same table: 948 present forms (84.8%) and 24 modals (2.1%) inside the 1,118 futurate clauses.
+The texts are scripture in translation, by few translators, in a formal register. The Anglo-Saxon Gospels are late [[concepts/old-english-dialects|West Saxon]] and follow Latin. The authors say a search of the Penn historical corpora for “tomorrow” would have biased which futures they found, which is why they used aligned gospel verses instead. The 2.1% modal figure is the share of these matched clauses, not the share of all *willan* tokens in Old English. The local proceedings PDF prints the same table: 948 present forms (84.8%) and 24 modals (2.1%) inside the 1,118 futurate clauses.
 
 ## Sources
 

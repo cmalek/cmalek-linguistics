@@ -13,6 +13,10 @@ relationships:
     type: related_to
   - target: "[[concepts/danelaw]]"
     type: related_to
+  - target: "[[entities/swein-forkbeard]]"
+    type: related_to
+  - target: "[[concepts/old-english-dialects]]"
+    type: related_to
 sources:
   - "url:https://en.wikipedia.org/wiki/English_Benedictine_reform"
   - "url:https://en.wikipedia.org/wiki/Wulfstan_(died_1023)"
@@ -31,19 +35,20 @@ created: 2026-10-12T23:40:00Z
 updated: 2026-10-12T23:40:00Z
 ---
 
+
 # Kingdom of the English
 
 The polity [[entities/wulfstan-of-york]] addresses. It is one kingdom. The [[concepts/anglo-saxon-kingdoms|Heptarchy]] is the map of an earlier period, useful for dialect and for the old sees, and it is not the state he is trying to repair.
 
 ## One king
 
-The Benedictine-reform survey states the political result directly: West Saxon conquest of the [[concepts/danelaw]] had made a single kingdom, and from Æthelstan (924–939) kings could see themselves as heirs of the Carolingian emperors. Edgar (959–975) is remembered, in Wulfstan’s own later laws, as a time when law held. [[entities/aethelred-the-unready]] reigns 978–1013 and 1014–1016. Swein Forkbeard takes the kingdom in 1013. [[entities/cnut-the-great]] takes it in 1016. Wulfstan drafts laws for Æthelred and then for Cnut. The throne changes hands. The office he writes about does not.
+The Benedictine-reform survey states the political result directly: West Saxon conquest of the [[concepts/danelaw]] had made a single kingdom, and from Æthelstan (924–939) kings could see themselves as heirs of the Carolingian emperors. Edgar (959–975) is remembered, in Wulfstan’s own later laws, as a time when law held. [[entities/aethelred-the-unready]] reigns 978–1013 and 1014–1016. [[entities/swein-forkbeard|Swein Forkbeard]] takes the kingdom in 1013. [[entities/cnut-the-great]] takes it in 1016. Wulfstan drafts laws for Æthelred and then for Cnut. The throne changes hands. The office he writes about does not.
 
 *Polity* speaks to that office: the earthly king, the throne, councillors (*þeodwitan*), bishops, nobles, reeves, and the three orders who hold the throne up. There is no chapter for a king of Mercia or a king of Kent.
 
 ## What survived of the old kingdoms
 
-The old names survive as regions, shires, and law. Northumbria is an earldom, with a Scandinavian elite around York and an Anglian north. Mercia and East Anglia are earldoms. Kent, Essex, and Sussex are shires inside the West Saxon kingdom. Wulfstan’s Norse-tinged vocabulary (*eorl*, *lagu*, *þræl*, *bonda*) belongs to this mixed north and to a court that had to legislate for Danes and English together. His law codes, as the biography summarizes them, restate older English law for a country unsettled by war and by Scandinavian settlement.
+The old names survive as regions, shires, and law. Northumbria is an earldom, with a Scandinavian elite around York and an [[concepts/old-english-dialects|Anglian]] north. Mercia and East Anglia are earldoms. Kent, Essex, and Sussex are shires inside the West Saxon kingdom. Wulfstan’s Norse-tinged vocabulary (*eorl*, *lagu*, *þræl*, *bonda*) belongs to this mixed north and to a court that had to legislate for Danes and English together. His law codes, as the biography summarizes them, restate older English law for a country unsettled by war and by Scandinavian settlement.
 
 York is the sensitive see. He holds it with Worcester until 1016 so that the archbishop of a poor and exposed northern province has a southern, monastic base. That is administration, not a return to two kingdoms.
 

@@ -20,14 +20,17 @@ relationships:
     type: implements
   - target: "[[concepts/pdf-text-layer-vs-ocr]]"
     type: related_to
+  - target: "[[entities/tesseract]]"
+    type: related_to
 sources:
   - "url:https://docling.org/doc/"
   - "url:https://docling-project.github.io/docling/concepts/serialization/"
 ---
 
+
 # Docling
 
-[Docling](https://docling.org/doc/) (IBM Research, open source) is a document-understanding pipeline, not a single OCR engine. It detects layout, recovers reading order, runs TableFormer on tables, and calls an OCR engine only where the page has no usable text. OCR plugins include RapidOCR, Tesseract, EasyOCR, OcrMac, and Nemotron. A separate VLM pipeline has presets (Granite Docling, SmolDocling, DeepSeek-OCR, MinerU2.5-Pro, GLM-OCR, Chandra OCR 2, and others).
+[Docling](https://docling.org/doc/) (IBM Research, open source) is a document-understanding pipeline, not a single OCR engine. It detects layout, recovers reading order, runs TableFormer on tables, and calls an OCR engine only where the page has no usable text. OCR plugins include RapidOCR, [[entities/tesseract|Tesseract]], EasyOCR, OcrMac, and Nemotron. A separate VLM pipeline has presets (Granite Docling, SmolDocling, DeepSeek-OCR, MinerU2.5-Pro, GLM-OCR, Chandra OCR 2, and others).
 
 ## Export
 

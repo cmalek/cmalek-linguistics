@@ -11,6 +11,8 @@ relationships:
     type: related_to
   - target: "[[concepts/old-english-pronunciation]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "https://doi.org/10.1017/CBO9781107295469"
   - "https://doi.org/10.1017/jlg.2014.9"
@@ -31,9 +33,10 @@ created: 2026-10-30T18:40:00Z
 updated: 2026-10-30T18:40:00Z
 ---
 
+
 # Great Vowel Shift
 
-A reorganization of the long stressed vowels, named by Otto Jespersen in 1909. On the usual dating it runs from late Middle English, around 1400, through Early Modern English, with some outcomes in the eighteenth century. People were speaking late Middle English when the conventionally dated shift began, and Early Modern English while it continued. Old English is the stage before 1150. Modern English is the stage that inherits the results.
+A reorganization of the long stressed vowels, named by Otto Jespersen in 1909. On the usual dating it runs from late Middle English, around 1400, through Early Modern English, with some outcomes in the eighteenth century. People were speaking late Middle English when the conventionally dated shift began, and Early Modern English while it continued. [[concepts/old-english|Old English]] is the stage before 1150. Modern English is the stage that inherits the results.
 
 The full argument, the contradictions, and the source limits are in [[synthesis/Research: The Great Vowel Shift]].
 

@@ -14,6 +14,14 @@ relationships:
     type: related_to
   - target: "[[skills/ut-eieol-old-norse]]"
     type: related_to
+  - target: "[[references/beowulf]]"
+    type: related_to
+  - target: "[[entities/bede]]"
+    type: related_to
+  - target: "[[entities/caedmon]]"
+    type: related_to
+  - target: "[[references/genesis-a-and-b]]"
+    type: related_to
 sources:
   - "https://lrc.la.utexas.edu/eieol/engol/0"
 summary: "Slocum and Lehmann’s UT lesson series: Cable audio, WS-heavy texts, and a synthetic-to-analytic path into OE reading."
@@ -31,7 +39,8 @@ snapshots:
   - "[[_raw/_archived/Introduction to Old English]]"
 ---
 
-# UT Old English Online (EIEOL)
+
+# UT [[concepts/old-english|Old English]] Online (EIEOL)
 
 University of Texas Linguistics Research Center *Old English Online* (Early Indo-European Online), series intro by Jonathan Slocum and Winfred P. Lehmann. Audio by Thomas M. Cable. Companion: Lehmann *A Grammar of Proto-Germanic*; LRC’s online [[entities/bosworth-toller]].
 
@@ -49,7 +58,7 @@ University of Texas Linguistics Research Center *Old English Online* (Early Indo
 
 **Inflection sketch:** nouns/adjectives/pronouns — case (incl. occasional instrumental), number (pronouns have dual), gender. Strong vs weak adjectives/nouns; some irregular classes they will not stress. Pronouns largely suppletive. Verbs: person, number, present/preterite, indicative/imperative/subjunctive (they add “perhaps optative”). **Seven** strong classes, **three** weak; plus preterite-presents and anomalous *be/do/go*. Numerals *two* and *three* may show gender.
 
-**Lesson texts:** *Beowulf* prologue; Bede/Cædmon; Cynewulf and Cyneheard; Ohthere and Wulfstan; Alfred’s wars with the Danes; Maldon; *Genesis A* flood; *The Wanderer*; [[references/the-seafarer]]; *Beowulf* funeral. Sister series: [[skills/ut-eieol-old-norse]].
+**Lesson texts:** *[[references/beowulf|Beowulf]]* prologue; [[entities/bede|Bede]]/[[entities/caedmon|Cædmon]]; Cynewulf and Cyneheard; Ohthere and Wulfstan; Alfred’s wars with the Danes; Maldon; *[[references/genesis-a-and-b|Genesis A]]* flood; *The Wanderer*; [[references/the-seafarer]]; *Beowulf* funeral. Sister series: [[skills/ut-eieol-old-norse]].
 
 ## Open Questions
 

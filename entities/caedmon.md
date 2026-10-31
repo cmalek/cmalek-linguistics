@@ -12,6 +12,8 @@ relationships:
     type: related_to
   - target: "[[concepts/old-english-after-1066]]"
     type: related_to
+  - target: "[[concepts/old-english-dialects]]"
+    type: related_to
 sources:
   - "url:https://en.wikipedia.org/wiki/Cædmon"
   - "https://oldenglish.info/history.html"
@@ -37,6 +39,7 @@ snapshots:
   - "[[_raw/_archived/Old English after 1066|Old English after 1066]]"
 ---
 
+
 # Cædmon
 
 Benedictine (fl. c. 657–684), cowherd at Streonæshalch (Whitby) under Abbess Hilda. Earliest English poet whose name is known. One of twelve Anglo-Saxon poets named in medieval sources, and one of three with both contemporary biography and surviving verse.
@@ -44,7 +47,7 @@ Benedictine (fl. c. 657–684), cowherd at Streonæshalch (Whitby) under Abbess 
 ## Key Ideas
 
 - Sole original life-source: [[entities/bede]]'s *Historia ecclesiastica*. Cædmon leaves a feast because he cannot sing; in a dream he is asked to sing *principium creaturarum* and produces a hymn to the Creator; Hilda's scholars test him; he takes vows and turns sacred history into vernacular verse.
-- **Cædmon's Hymn.** Bede's Latin is the sense, not the words. He writes *Hic est sensus, non autem ordo ipse verborum*, and says verse cannot be turned word for word without loss. The Latin begins *Nunc laudare debemus auctorem regni caelestis*. It does not preserve the English lineation. The earliest surviving English copies are Northumbrian margins on the Latin *Historia*: the Moore Bede (Cambridge, University Library, Kk.5.16, 734×737, fol. 128v) and the St Petersburg Bede (lat. Q.v.I.18, fol. 107r). Their line 5b has *aelda barnum*, not the *eorðan bearnum* printed below. Wikipedia’s current list counts twenty-three witnesses, two of them destroyed. One is a Northumbrian copy found in Rome in 2026 (Biblioteca Nazionale Centrale, Vitt. Em. 1452, fol. 122v; Magnanti and Faulkner). The “19 witnesses” this page used to give is an older tally, not that list with the Rome copy removed. Five recensions are distinguished by line 5b: Northumbrian *aelda*, Northumbrian *eordu*, West Saxon *ylda* (the copies of the Old English translation of the *Historia*), West Saxon *eorðan*, and a late corrupt West Saxon *eorðe*. The text below is the *eorðan* recension. Its vowels (*heofonrīces*, *sculon*, *meahte*, *eorðan*) are the West Saxon spelling layer. They are not Bede's Latin, and they are not the eighth-century Northumbrian copies. Dream-command *Sing mē frumsceaft*. Text:
+- **Cædmon's Hymn.** Bede's Latin is the sense, not the words. He writes *Hic est sensus, non autem ordo ipse verborum*, and says verse cannot be turned word for word without loss. The Latin begins *Nunc laudare debemus auctorem regni caelestis*. It does not preserve the English lineation. The earliest surviving English copies are Northumbrian margins on the Latin *Historia*: the Moore Bede (Cambridge, University Library, Kk.5.16, 734×737, fol. 128v) and the St Petersburg Bede (lat. Q.v.I.18, fol. 107r). Their line 5b has *aelda barnum*, not the *eorðan bearnum* printed below. Wikipedia’s current list counts twenty-three witnesses, two of them destroyed. One is a Northumbrian copy found in Rome in 2026 (Biblioteca Nazionale Centrale, Vitt. Em. 1452, fol. 122v; Magnanti and Faulkner). The “19 witnesses” this page used to give is an older tally, not that list with the Rome copy removed. Five recensions are distinguished by line 5b: Northumbrian *aelda*, Northumbrian *eordu*, [[concepts/old-english-dialects|West Saxon]] *ylda* (the copies of the [[concepts/old-english|Old English]] translation of the *Historia*), West Saxon *eorðan*, and a late corrupt West Saxon *eorðe*. The text below is the *eorðan* recension. Its vowels (*heofonrīces*, *sculon*, *meahte*, *eorðan*) are the West Saxon spelling layer. They are not Bede's Latin, and they are not the eighth-century Northumbrian copies. Dream-command *Sing mē frumsceaft*. Text:
 
   > Nū sculon heriġean heofonrīċes weard,  
   > Meotodes meahte ond his mōdġeþanc,  

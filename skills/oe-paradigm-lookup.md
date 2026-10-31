@@ -12,6 +12,8 @@ relationships:
     type: related_to
   - target: "[[concepts/old-english-pronunciation]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - agent:worksheet OE magic sheet (verb/noun/pronoun tables)
   - Hasenfratz & Jambeck, Reading Old English (2011), cheatsheet §§2.5–8.11
@@ -31,7 +33,8 @@ snapshots:
   - "[[_raw/_archived/ROE cheatsheet.pdf]]"
 ---
 
-# Old English Paradigm Lookup
+
+# [[concepts/old-english|Old English]] Paradigm Lookup
 
 Two table PDFs in the vault. Do not retype every cell into the wiki — open the sheet. This page says **which sheet answers which question**.
 

@@ -3,6 +3,9 @@ title: >-
   The St Brice's Day Massacre: History, Archaeology and Myth (Postgrad Chronicles)
 category: references
 tags: [history, viking-age, aethelred]
+relationships:
+  - target: "[[concepts/danelaw]]"
+    type: related_to
 sources:
   - "https://thepostgradchronicles.org/2019/11/13/the-st-brices-day-massacre-history-archaeology-and-myth/"
 source_url: "https://thepostgradchronicles.org/2019/11/13/the-st-brices-day-massacre-history-archaeology-and-myth/"
@@ -19,6 +22,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-16
 ---
 
+
 # The St Brice's Day Massacre: History, Archaeology and Myth
 
 URL: https://thepostgradchronicles.org/2019/11/13/the-st-brices-day-massacre-history-archaeology-and-myth/
@@ -28,7 +32,7 @@ URL: https://thepostgradchronicles.org/2019/11/13/the-st-brices-day-massacre-his
 - Only two contemporary sources narrate the event: the *Anglo-Saxon Chronicle* (C, D, E) and the 1004 Frideswide charter. [extracted]
 - The ASC says Æthelred ordered all Danish men in England killed on 13 November 1002 after a report of a plot against him and his councillors. [extracted]
 - The charter calls it a "most just extermination" and says Danes who fled into St Frideswide's, Oxford, were burned in the church. [extracted]
-- The author reads the order as real and partly carried out, aimed at mercenaries, raiding armies, and frontier settlers, not at the integrated Danelaw. [extracted, author's reading]
+- The author reads the order as real and partly carried out, aimed at mercenaries, raiding armies, and frontier settlers, not at the integrated [[concepts/danelaw|Danelaw]]. [extracted, author's reading]
 - William of Jumièges (c. 1050), John of Worcester, and Henry of Huntingdon enlarge the event; Malmesbury alone has Gunnhild. The author calls these unreliable. [extracted]
 - Swein's invasion is read as a bid for power over England, not revenge. [extracted]
 

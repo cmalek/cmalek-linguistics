@@ -2,6 +2,9 @@
 title: "Storm-thoughts and ice-songs: A creative-critical response to Old English eco-poetry"
 category: references
 tags: [old-english, research, literature]
+relationships:
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources: ["https://link.springer.com/article/10.1057/s41280-024-00359-6"]
 created: 2026-10-28T18:29:23.219015+00:00
 updated: 2026-10-28T18:29:23.219015+00:00
@@ -15,7 +18,8 @@ lifecycle: draft
 lifecycle_changed: 2026-10-28
 ---
 
-# Storm-thoughts and ice-songs: A creative-critical response to Old English eco-poetry
+
+# Storm-thoughts and ice-songs: A creative-critical response to [[concepts/old-english|Old English]] eco-poetry
 
 James Paz (2025). *postmedieval 16, 163–208*. [Source](https://link.springer.com/article/10.1057/s41280-024-00359-6).
 

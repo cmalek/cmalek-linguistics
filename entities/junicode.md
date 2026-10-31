@@ -22,13 +22,16 @@ relationships:
     type: implements
   - target: "[[concepts/tounicode-cmap]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "url:https://ctan.math.illinois.edu/fonts/junicode/doc/JunicodeManual.pdf"
 ---
 
+
 # Junicode
 
-[Junicode](https://ctan.math.illinois.edu/fonts/junicode/doc/JunicodeManual.pdf), designed by Peter S. Baker, is the usual font for Old English and other medieval scholarship. Version 2 covers the [[references/mufi-character-recommendation|MUFI]] v4 repertoire: thorn, eth, wynn, yogh, insular forms, and the combining marks those editions stack.
+[Junicode](https://ctan.math.illinois.edu/fonts/junicode/doc/JunicodeManual.pdf), designed by Peter S. Baker, is the usual font for [[concepts/old-english|Old English]] and other medieval scholarship. Version 2 covers the [[references/mufi-character-recommendation|MUFI]] v4 repertoire: thorn, eth, wynn, yogh, insular forms, and the combining marks those editions stack.
 
 The manual’s encoding advice is the part that matters for extraction. Underlying text should be ordinary Unicode. Medieval shapes should be OpenType features (`cv02`, `ss01` for alternate thorn and eth, and the rest of the feature reference). PUA code points still display, and they fail search, accessibility, and interchange. A PDF from a publisher may have followed that advice, embedded a PUA glyph, or subsetted a precomposed glyph with a bad ToUnicode map. Those three files can look the same. [[entities/pymupdf]] will show which one you have.
 

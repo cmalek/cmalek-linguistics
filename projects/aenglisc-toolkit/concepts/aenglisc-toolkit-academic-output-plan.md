@@ -12,6 +12,8 @@ relationships:
     type: related_to
   - target: "[[concepts/typography-as-linguistic-signal]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "[[references/translation-tools-and-scholarly-editing-standards]]"
   - "[[projects/aenglisc-toolkit/concepts/aenglisc-toolkit-current-capabilities]]"
@@ -30,6 +32,7 @@ created: 2026-10-18T22:30:00Z
 updated: 2026-10-18T22:30:00Z
 ---
 
+
 # aenglisc_toolkit: producing academic-quality annotated output
 
 Goal from the request: output with the original text, the Modern English text, and a glossary with context, at an academic standard. The code facts below were read on 2026-10-18; the standards come from [[references/translation-tools-and-scholarly-editing-standards]]. **Decision 2026-10-18: the document is the exported PDF**, so the PDF is the primary artifact and TEI and CoNLL-U (items 6 and 7) are secondary. After the first draft of this page, one real edition was read for its conventions ([[references/mertens-2020-old-english-lives-of-st-martin]]); it is a single research edition, not the field. ^[inferred]
@@ -40,7 +43,7 @@ Mertens (2020) shows these conventions, each of which maps to a field or a PDF f
 
 - **Declared, visible deviations.** Expansions in italics, insertions in square brackets, emendations italicised and commented below the text; "full information" so that readers can disagree. For this app: any normalisation the translator applies (a spelling folded, a word joined, a reading supplied) should be recorded and shown, and the PDF should say which it used. The app already keeps surface spelling apart from the normalised form for search ([[projects/aenglisc-toolkit/concepts/aenglisc-toolkit-intent]]); the question is whether any *edited* reading is marked in print.
 - **Identifiers for the text.** Shelfmark and date, Ker and Gneuss numbers, DOE Short Title and Cameron number, in a table of sigla. Optional text metadata, printed on the title page or in the front matter.
-- **Facing-page translation that stays close to the Old English**, with source or comparative material in the apparatus beneath the translation. That is where explanatory notes go, not inside the translation.
+- **Facing-page translation that stays close to the [[concepts/old-english|Old English]]**, with source or comparative material in the apparatus beneath the translation. That is where explanatory notes go, not inside the translation.
 - **Layout carries an argument**: the editor lays Ælfric's alliterative prose out as half-lines to show the metre. The app marks verse lines with numbers every five lines; a verse versus prose layout toggle per text is the matching option.
 - **No glossary at all** in that research edition. A glossary is an audience decision ("different audiences demand different editions", citing Liuzza). Keep it optional per export. ^[inferred]
 
@@ -52,7 +55,7 @@ Mertens (2020) shows these conventions, each of which maps to a field or a PDF f
 
 ## Plan, in order of payoff
 
-1. **A source record per gloss.** Dictionary (Bosworth-Toller, DOE, Clark Hall, other), edition or year, entry or URL, access date. Bosworth-Toller's own citation shows the minimum: headword, editors, Prague 2014 online edition, numeric entry URL. The translator enters or pastes it; the app never fills it. Print it in the glossary. ^[inferred]
+1. **A source record per gloss.** Dictionary ([[entities/bosworth-toller|Bosworth-Toller]], DOE, Clark Hall, other), edition or year, entry or URL, access date. Bosworth-Toller's own citation shows the minimum: headword, editors, Prague 2014 online edition, numeric entry URL. The translator enters or pastes it; the app never fills it. Print it in the glossary. ^[inferred]
 2. **Text identifiers.** Per text, optional DOE Short Title and Cameron number plus the edition used. Cheap metadata that makes a citation checkable.
 3. **Stable IDs and a manifest.** Stable IDs for tokens and lines, plus app version, schema version, timestamp and a content hash in every export. This supports reproducible citation and reuse.
 4. **Leipzig-style labels in the PDF morphology line**, aligned word by word, using the standard abbreviation list; keep the app's own tags in the data. The rules target examples in papers, so apply them to the PDF, not to storage. ^[inferred]

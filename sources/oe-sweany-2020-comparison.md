@@ -2,6 +2,9 @@
 title: "Unsettling Comparisons: Ethical Considerations of Comparative Approaches to the Old English Medical Corpus"
 category: references
 tags: [old-english, research, literature]
+relationships:
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources: ["https://doi.org/10.1215/00138282-8557934"]
 created: 2026-10-28T18:29:23.220457+00:00
 updated: 2026-10-28T18:29:23.220457+00:00
@@ -15,7 +18,8 @@ lifecycle: draft
 lifecycle_changed: 2026-10-28
 ---
 
-# Unsettling Comparisons: Ethical Considerations of Comparative Approaches to the Old English Medical Corpus
+
+# Unsettling Comparisons: Ethical Considerations of Comparative Approaches to the [[concepts/old-english|Old English]] Medical Corpus
 
 Erin E. Sweany (2020). *English Language Notes 58(2), 83–100*. [Source](https://doi.org/10.1215/00138282-8557934).
 

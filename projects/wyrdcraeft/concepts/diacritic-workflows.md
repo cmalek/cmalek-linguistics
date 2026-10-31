@@ -28,6 +28,7 @@ created: 2026-10-09T16:50:00Z
 updated: 2026-10-09T18:20:00Z
 ---
 
+
 # Diacritic workflows
 
 Restoration consumes the macron index. Curation changes it. They share packaged data under `wyrdcraeft/etc/diacritic/`, including the default index `oe_bt_macron_index.json` and hand-edited palatalization lists.
@@ -40,7 +41,7 @@ This pass adds marks to a text that lacks them. It is not a substitute for copyi
 
 `wyrdcraeft source mark-diacritics` adds macrons and dot diacritics. It does not alter characters already in the file. A key whose options all share one mark pattern is applied like a unique entry unless that key is completed. Other ambiguous keys follow `--ambiguity-policy` (`auto`, `leave`, or `union`). Completed keys are never guessed. Reports cover unaligned tokens, ambiguity, and unknown words.
 
-Standard elements from `standard_elements.txt` are spelled as listed before transfer. They count only where Bosworth-Toller writes a hyphen after a prefix or around a compound, so `ge-an` and `gēan` stay apart.
+Standard elements from `standard_elements.txt` are spelled as listed before transfer. They count only where [[entities/bosworth-toller|Bosworth-Toller]] writes a hyphen after a prefix or around a compound, so `ge-an` and `gēan` stay apart.
 
 ## Curate the index
 

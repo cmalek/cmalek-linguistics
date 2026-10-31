@@ -33,7 +33,8 @@ snapshots:
   - "[[_raw/_archived/Judith_side_by_side.pdf]]"
 ---
 
-# Judith (Old English poem)
+
+# Judith ([[concepts/old-english|Old English]] poem)
 
 > [!tldr] Biblical Judith recast as an Anglo-Saxon heroic-religious fragment: God shields the faithful; the surviving text opens at Holofernes’s feast on the fourth day.
 

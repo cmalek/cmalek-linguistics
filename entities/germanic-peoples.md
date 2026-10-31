@@ -10,6 +10,8 @@ relationships:
     type: related_to
   - target: "[[concepts/anglo-saxon-paganism]]"
     type: related_to
+  - target: "[[entities/bede]]"
+    type: related_to
 sources:
   - "url:https://en.wikipedia.org/wiki/Germanic_peoples"
   - "url:https://en.wikipedia.org/wiki/Germania"
@@ -38,6 +40,7 @@ snapshots:
   - "[[_raw/_archived/Saxons]]"
 ---
 
+
 # Germanic Peoples
 
 Modern label covering Roman-era *Germani* (especially east of the Rhine) and later Germanic-speaking groups. “Ancient Germans” is a misleading synonym. Linguistics can speak of Germanic languages from about 500 BCE; a shared ethnic *Volk* identity is contested in scholarship since the 1990s. ^[ambiguous]
@@ -47,7 +50,7 @@ Modern label covering Roman-era *Germani* (especially east of the Rhine) and lat
 - **Germania** (Magna / Libera): Rhine to Vistula, Upper Danube, southern Scandinavia. Distinct from the Roman provinces Germania Inferior/Superior. Caesar first treats *Germani* as a large category distinct from Gauls (c. 55 BCE); Tacitus’s *Germania* (98) is the humanist source that later nationalists over-read.
 - Archaeology often ties early Germanic speech to the Jastorf culture (6th–1st c. BCE, central/northern Germany and southern Denmark), around the time of the First Germanic Consonant Shift ([[concepts/germanic-sound-change|Grimm's Law]]).
 - Pliny/Tacitus subdivisions (Ingvaeones, Herminones, Istvaeones; Mannus) do not match archaeology or other texts cleanly; they remain influential classroom fossils. ^[ambiguous]
-- **Angles** (*Engle*, Tacitus *Anglii*): Angeln peninsula (Schleswig-Holstein). Name of *England* / *English*. Bede: East Anglia, Mercia, Northumbria. Continental Angeln later described as emptied by emigration.
+- **Angles** (*Engle*, Tacitus *Anglii*): Angeln peninsula (Schleswig-Holstein). Name of *England* / *English*. [[entities/bede|Bede]]: East Anglia, Mercia, Northumbria. Continental Angeln later described as emptied by emigration.
 - **Saxons:** in early sources a *coastal raider* label (like later *Viking*), not one tribe; includes Frisians, Angles, Jutes in that usage. Continental “Old Saxons” of Antiqua Saxonia (northern Germany) are conquered and converted by Charlemagne (Saxon Wars 772–804). In Britain: Essex, Sussex, Wessex.
 - **Jutes:** Bede’s third nation; Kent, Isle of Wight, and a Hampshire remnant. Origin hypotheses include Jutland then a Frisian-coast hop; no consensus. One pasted map labels continental Jutes as *Eudoses* and a *Over Jerstal (Varines)* zone between them and the Angles — treat as a Wikipedia overlay, not a primary source. ^[ambiguous] Migration arrows toward Frisia and Britain: [[references/visual-clippings]]. Family tree of the languages: [[concepts/germanic-language-family]].
 - Shared cultural toolkit often cited even by cautious archaeologists: runes, alliterative verse, *thing* assemblies, later legends of the Migration Period. Pagan cults (Woden/Thor/Tiw analogues) vary by region. See [[concepts/anglo-saxon-paganism]].

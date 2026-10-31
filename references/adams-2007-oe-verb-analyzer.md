@@ -11,6 +11,8 @@ relationships:
     type: implements
   - target: "[[concepts/old-english-inflectional-class]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
 summary: >-
   CMU course report: a Xerox finite-state transducer for Old English verbs only, analysis and generation from one machine.
 provenance:
@@ -25,7 +27,8 @@ created: 2026-10-09T19:50:00Z
 updated: 2026-10-09T19:50:00Z
 ---
 
-# A Morphological Analyzer for Old English Verbs (Adams)
+
+# A Morphological Analyzer for [[concepts/old-english|Old English]] Verbs (Adams)
 
 Jason Adams, “A Morphological Analyzer for Old English Verbs,” 11-712 final project report, Carnegie Mellon University. [[references/tichy-2017-morphological-analyser|Tichý (2017)]] dates it 2007. The report argues that a finite-state transducer is the right machine for Old English verbs because the same network analyzes and generates, following Beesley and Karttunen (2003) and Oflazer (1994).
 

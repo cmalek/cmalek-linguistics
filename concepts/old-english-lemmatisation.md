@@ -12,6 +12,10 @@ relationships:
     type: derived_from
   - target: "[[entities/varioe]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
+  - target: "[[concepts/old-english-dialects]]"
+    type: related_to
 sources:
   - "url:https://huggingface.co/Nerthus-Project/Old_English_Lemmatiser"
   - "url:https://doi.org/10.3390/encyclopedia5030137"
@@ -30,7 +34,8 @@ created: 2026-10-09T19:50:00Z
 updated: 2026-10-09T19:50:00Z
 ---
 
-# Old English lemmatisation
+
+# [[concepts/old-english|Old English]] lemmatisation
 
 Lemmatisation assigns a dictionary headword to a token. It is not the same task as [[concepts/old-english-form-generation|generating]] the token from the headword, and the published numbers are not interchangeable.
 
@@ -52,7 +57,7 @@ The gap between “95 percent recall of a dictionary match” and “68 percent 
 
 Hamdoun Bghiyel’s poetry lemmatisation, as reported in the 2025 encyclopedia, assigned existing ParCor lemmas to 99 percent of YCOEP forms and invented 72 lemmas, mostly compounds. Automatic assignment covered 73 percent of types before the manual remainder. [[references/miani-2025-oe-poetry-pos|Miani, Stymne, and Darwin (2025)]] show the POS side of the same split: a prose tagger does not become a poetry tagger by seeing more prose. Their only cited off-the-shelf Old English tagger is CLTK’s, trained on the small ISWOC sample, accuracy unknown.
 
-ISWOC / PROIEL annotation, which that tagger uses, does carry case, number, gender, tense, mood, and a strong/weak strength feature. The Old English slice is a few short texts (Ælfric, Apollonius, the Chronicle, Orosius, the West Saxon Gospels), on the order of tens of thousands of tokens, not YCOE’s 1.5 million words.
+ISWOC / PROIEL annotation, which that tagger uses, does carry case, number, gender, tense, mood, and a strong/weak strength feature. The Old English slice is a few short texts (Ælfric, Apollonius, the Chronicle, Orosius, the [[concepts/old-english-dialects|West Saxon]] Gospels), on the order of tens of thousands of tokens, not YCOE’s 1.5 million words.
 
 ## Homographs
 

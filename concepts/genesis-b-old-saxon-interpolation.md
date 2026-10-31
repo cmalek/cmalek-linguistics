@@ -13,6 +13,10 @@ relationships:
     type: related_to
   - target: "[[concepts/ofermod]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
+  - target: "[[references/battle-of-maldon]]"
+    type: related_to
 sources:
   - "url:https://sacred-texts.com/book/the-complete-corpus-of-anglo-saxon-poetry/shell/genesis-a-b"
 summary: >-
@@ -31,9 +35,10 @@ snapshots:
   - "[[_raw/_archived/Genesis A, B – The Complete…|Genesis A, B – The Complete…]]"
 ---
 
+
 # Genesis B and the Old Saxon interpolation
 
-The headnote of the clip says *Genesis A* is an Old English verse adaptation of about the first half of biblical Genesis, "fused with a passage known today as Genesis B, translated and interpolated from the Old Saxon Genesis." That is the whole claim the source makes. The detail below is the standard account and is not in the clip. ^[inferred]
+The headnote of the clip says *[[references/genesis-a-and-b|Genesis A]]* is an [[concepts/old-english|Old English]] verse adaptation of about the first half of biblical Genesis, "fused with a passage known today as Genesis B, translated and interpolated from the Old Saxon Genesis." That is the whole claim the source makes. The detail below is the standard account and is not in the clip. ^[inferred]
 
 ## What the passage is
 
@@ -47,7 +52,7 @@ The interpolated verse is Old English with Old Saxon forms and metre left in it;
 
 ## Interpretation
 
-Because the passage was borrowed, readers who treat Satan's speech as an English poet's invention are wrong; readers who deny that the English translator shaped it are also doubtful. Its portrait of pride, *ofermod*, as a refusal to serve a lord is the same moral vocabulary as [[concepts/ofermod]] in *The Battle of Maldon*, though that word is more disputed there. ^[inferred]
+Because the passage was borrowed, readers who treat Satan's speech as an English poet's invention are wrong; readers who deny that the English translator shaped it are also doubtful. Its portrait of pride, *ofermod*, as a refusal to serve a lord is the same moral vocabulary as [[concepts/ofermod]] in *[[references/battle-of-maldon|The Battle of Maldon]]*, though that word is more disputed there. ^[inferred]
 
 ## Sources
 

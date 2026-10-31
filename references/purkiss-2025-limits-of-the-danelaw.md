@@ -26,7 +26,8 @@ created: 2026-10-13T05:20:00Z
 updated: 2026-10-13T05:20:00Z
 ---
 
-# The Limits of the Danelaw (Purkiss 2025)
+
+# The Limits of the [[concepts/danelaw|Danelaw]] (Purkiss 2025)
 
 Richard Purkiss, “The Limits of the Danelaw,” *English Historical Review* 140, no. 607 (2025): 1250–1289. DOI [10.1093/ehr/ceaf048](https://doi.org/10.1093/ehr/ceaf048).
 

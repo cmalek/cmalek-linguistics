@@ -14,6 +14,8 @@ relationships:
     type: related_to
   - target: "[[concepts/tolkien-old-english]]"
     type: related_to
+  - target: "[[concepts/history-of-english]]"
+    type: related_to
 sources:
   - "url:https://en.wikipedia.org/wiki/Beowulf"
   - "https://www.thehistoryofenglish.com/old-english"
@@ -41,6 +43,7 @@ snapshots:
   - "[[_raw/_archived/Wulfings]]"
 ---
 
+
 # Beowulf
 
 > [!tldr] Longest and best-known [[concepts/old-english]] poem: 3,182 alliterative lines of Germanic heroic legend, unique manuscript Cotton Vitellius A. xv (Nowell Codex), c. 975–1025.
@@ -59,7 +62,7 @@ Unknown author (“the *Beowulf* poet”). Set in fifth–sixth-century pagan Sc
 
 Two scribes; mostly Late West Saxon with other dialect forms, implying long transmission across [[concepts/old-english-dialects|dialect areas]]. *Judith* shares the manuscript (binding order has shifted). Fire at Ashburnham House (1731) charred margins. First printed edition Thorkelin 1815.
 
-Kennings and synonymy (History of English clipping): 36 words for hero, 20 for man, 12 for battle, 11 for ship; *hronrad* “whale-road” = sea; 903 compound nouns, 578 hapax in-poem, 518 unique to this poem.
+Kennings and synonymy ([[concepts/history-of-english|History of English]] clipping): 36 words for hero, 20 for man, 12 for battle, 11 for ship; *hronrad* “whale-road” = sea; 903 compound nouns, 578 hapax in-poem, 518 unique to this poem.
 
 Hygelac's Frisian raid is independently dated c. 521 via Gregory of Tours. Lejre excavations found mid-sixth-century halls matching Heorot's traditional site.
 

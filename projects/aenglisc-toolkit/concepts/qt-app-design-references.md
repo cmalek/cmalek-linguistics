@@ -6,6 +6,8 @@ tags: [qt, design, desktop-app, references]
 relationships:
   - target: "[[projects/aenglisc-toolkit/aenglisc-toolkit]]"
     type: related_to
+  - target: "[[projects/aenglisc-toolkit/references/serial-studio]]"
+    type: related_to
 sources:
   - "book:isbn:9781484279991/chapter/15"
   - "book:isbn:9781484279991/chapter/14"
@@ -41,6 +43,7 @@ snapshots:
   - "[[_raw/_archived/15. Managing Threads|15. Managing Threads]]"
 ---
 
+
 # Qt app design references
 
 A reading list of desktop applications clipped from GitHub on 2026-10-17 and 2026-10-18, all tagged `qt` and mostly `design` in the clippings. The clippings do not say why they were saved; the link to [[projects/aenglisc-toolkit/aenglisc-toolkit|aenglisc_toolkit]], a Qt/SQLite Old English annotation app, is an inference from the shared stack. ^[inferred]
@@ -59,7 +62,7 @@ A reading list of desktop applications clipped from GitHub on 2026-10-17 and 202
 
 ## Patterns Across Them
 
-- Two apps put an external boundary around volatile things: QTranslate wraps every service as a plugin, and Serial Studio puts parsers behind built-in, JavaScript or Lua templates. ^[inferred]
+- Two apps put an external boundary around volatile things: QTranslate wraps every service as a plugin, and [[projects/aenglisc-toolkit/references/serial-studio|Serial Studio]] puts parsers behind built-in, JavaScript or Lua templates. ^[inferred]
 - Two keep the UI definition in data rather than code: Serial Studio's project file and QtSASS's stylesheet source. ^[inferred]
 - QTranslate is the only entry that is not a Qt application; it is a lookup-UX reference. ^[inferred]
 

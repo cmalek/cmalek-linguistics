@@ -13,6 +13,8 @@ relationships:
     type: related_to
   - target: "[[references/fourth-lateran-council-1215]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "url:https://en.wikipedia.org/wiki/English_Benedictine_reform"
   - "url:https://documentacatholicaomnia.eu/03d/1215-1215,_Concilium_Lateranum_IIII,_Documenta_Omnia,_EN.pdf"
@@ -36,6 +38,7 @@ created: 2026-10-12T23:40:00Z
 updated: 2026-10-12T23:40:00Z
 ---
 
+
 # Late Anglo-Saxon Christianity
 
 The church [[entities/wulfstan-of-york]] was writing for, roughly 996–1023, and the church that copied his work at Worcester about 1060–1072. It is the Latin church in England, in communion with Rome, a century and a half after the conversion narrated in [[concepts/christianity-in-anglo-saxon-england]]. A twenty-first-century Catholic vocabulary is a poor glossary for it. So is a Protestant one. The useful comparison is doctrine by doctrine, with the century of the definition kept in view.
@@ -43,7 +46,7 @@ The church [[entities/wulfstan-of-york]] was writing for, roughly 996–1023, an
 ## What already matches later Catholic teaching
 
 - His London sermons and the next block of homilies teach Antichrist, judgment, Christ’s life and passion, the *Pater Noster*, the Apostles’ Creed, baptism, and the date and manner of Easter Mass. The Mass is the centre of the public penance he orders in 1009.
-- The eucharist is Christ’s body and blood, confected by a priest, and the usual Old English name for the consecrated element is *hūsel*. The Mass is *mæsse*. People are taught to attend it. Wulfstan’s 1009 edict, during Thorkell’s raids, orders three days of fasting, barefoot processions, a penny from each hide, and Mass each day.
+- The eucharist is Christ’s body and blood, confected by a priest, and the usual [[concepts/old-english|Old English]] name for the consecrated element is *hūsel*. The Mass is *mæsse*. People are taught to attend it. Wulfstan’s 1009 edict, during Thorkell’s raids, orders three days of fasting, barefoot processions, a penny from each hide, and Mass each day.
 - Baptism (*fulwiht*) is the entry into the people. Penance is *dædbōt*, imposed by a confessor (*scrift*). Payment for the soul at death is *sāwlsceat* (soul-scot). Tithe is *tēoðung*. A payment to Rome is *rōmfeoh* or *rōmpenig*, Peter’s pence.
 - Mary is honored. A feast of her conception reached England in the eleventh century. That feast is not the dogma of the Immaculate Conception.
 - Saints, relics, and translation of bodies are central to the tenth-century reform. Prayer and gifts for the dead are a normal part of lay religion: nobles endow monasteries so that monks will pray for them.

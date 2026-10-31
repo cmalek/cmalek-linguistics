@@ -3,6 +3,9 @@ title: >-
   Lutz 1984: Late West Saxon as a written standard
 category: references
 tags: [old-english, orthography, west-saxon]
+relationships:
+  - target: "[[concepts/old-english-dialects]]"
+    type: related_to
 sources:
   - "https://doi.org/10.1017/S0263675100003656"
 source_url: "https://doi.org/10.1017/S0263675100003656"
@@ -18,11 +21,12 @@ created: 2026-10-30T20:15:00Z
 updated: 2026-10-30T20:15:00Z
 ---
 
+
 # Lutz 1984: Late West Saxon as a written standard
 
 Angelika Lutz, “Spellings of the *waldend* group – again,” *Anglo-Saxon England* 13 (1984). DOI [10.1017/S0263675100003656](https://doi.org/10.1017/S0263675100003656). Only the publisher abstract was read.
 
-The abstract says most surviving poetry and prose is in late tenth- and early eleventh-century manuscripts, written in late West Saxon. That form was used by scribes from other dialect areas, and it was used when they copied earlier texts, including Alfredian prose and the early Anglian glosses of the Vespasian Psalter. Late West Saxon, with reservations, is a written standard of late Anglo-Saxon England, not only the speech of Wessex. ^[extracted]
+The abstract says most surviving poetry and prose is in late tenth- and early eleventh-century manuscripts, written in late West Saxon. That form was used by scribes from other dialect areas, and it was used when they copied earlier texts, including Alfredian prose and the early [[concepts/old-english-dialects|Anglian]] glosses of the Vespasian Psalter. Late West Saxon, with reservations, is a written standard of late Anglo-Saxon England, not only the speech of Wessex. ^[extracted]
 
 The article’s evidence about the *waldend* spellings was not in the abstract. Those spellings are not reported here.
 

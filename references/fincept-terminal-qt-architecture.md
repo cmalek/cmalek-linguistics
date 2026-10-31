@@ -10,6 +10,8 @@ relationships:
     type: related_to
   - target: "[[projects/aenglisc-toolkit/skills/alembic-migration-service]]"
     type: related_to
+  - target: "[[projects/wyrdcraeft/wyrdcraeft]]"
+    type: related_to
 sources:
   - "repo:github.com/Fincept-Corporation/FinceptTerminal"
 source_url: "https://github.com/Fincept-Corporation/FinceptTerminal"
@@ -29,6 +31,7 @@ snapshots:
   - "[[_raw/_archived/GITHUB FinceptTerminal 2026-10-15|GITHUB FinceptTerminal 2026-10-15]]"
   - "[[_raw/_archived/GITHUB FinceptTerminal 2026-10-15-1|GITHUB FinceptTerminal 2026-10-15-1]]"
 ---
+
 
 # FinceptTerminal: Qt architecture lessons for aenglisc_toolkit
 
@@ -51,7 +54,7 @@ FinceptTerminal is a finance product with no linguistics content, so it is usefu
 | Single owner of a contested resource | `ThemeManager` is the only `setStyleSheet` writer | `ui/highlight_layers.py` exists and is used in `oe_text_edit.py`, but `setExtraSelections` is still called directly at about 10 sites in `highlighting.py` and `full_translation_window.py`. The vault note [[projects/aenglisc-toolkit/skills/qt-extraselection-highlight-layers]] says "not implemented"; the repo is further along. |
 | Fatal boot gate on bad migration | tagged error, dialog, exit before the window exists, `.pre-vN.bak` first | `services/migration.py` already has backup, rollback, `MigrationFailed`, `UnknownDatabaseRevision`. Whether the empty-DB `create_all` + stamp path goes through the same gate is unverified. |
 | Versioned, debounced UI state | `IStatefulScreen` plus state store | No geometry or splitter persistence found; `services/autosave.py` has a debounce to reuse. |
-| Long work off the UI thread, with deadlines | `PythonRunner` / `PythonWorker` | No `QThread`, `QRunnable`, or thread pool found. PDF export (`export_pdf.py`, 1,522 lines), wyrdcraeft ingest, docx export, and backup appear to run on the UI thread (not each confirmed). |
+| Long work off the UI thread, with deadlines | `PythonRunner` / `PythonWorker` | No `QThread`, `QRunnable`, or thread pool found. PDF export (`export_pdf.py`, 1,522 lines), [[projects/wyrdcraeft/wyrdcraeft|wyrdcraeft]] ingest, docx export, and backup appear to run on the UI thread (not each confirmed). |
 | One action definition for menus, palette, hotkeys | `ActionRegistry` | `ui/menus.py` and `ui/shortcuts.py` are separate; `services/keymap.py` is effectively empty. |
 | Theme tokens plus a signal | `ThemeTokens`, `theme_changed` | `ui/theming.py` only sets a palette theme; whether highlight colours follow a live switch is unverified. |
 

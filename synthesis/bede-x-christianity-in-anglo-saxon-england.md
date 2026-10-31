@@ -8,6 +8,10 @@ relationships:
     type: derived_from
   - target: "[[concepts/christianity-in-anglo-saxon-england]]"
     type: derived_from
+  - target: "[[concepts/old-english-dialects]]"
+    type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "[[concepts/anglo-saxon-paganism]]"
   - "[[entities/anglo-saxons]]"
@@ -27,6 +31,7 @@ created: 2026-10-09T16:05:14Z
 updated: 2026-10-13T05:20:00Z
 ---
 
+
 # Bede × Christianity in Anglo-Saxon England
 
 ## The Connection
@@ -35,10 +40,10 @@ updated: 2026-10-13T05:20:00Z
 
 ## Where They Co-occur
 
-- [[entities/caedmon]] takes its life from Bede's *Historia*, places the hymn at Hilda's Whitby, and points at the Christianity page for that house. The hymn text in the wiki is the West Saxon Alfredian prose of Book IV.25.
+- [[entities/caedmon]] takes its life from Bede's *Historia*, places the hymn at Hilda's Whitby, and points at the Christianity page for that house. The hymn text in the wiki is the [[concepts/old-english-dialects|West Saxon]] Alfredian prose of Book IV.25.
 - [[entities/anglo-saxons]] tells Bede's origin story (Angles, Saxons, Jutes) and calls the move from paganism to Christianity a seventh-century political process.
 - [[concepts/anglo-saxon-paganism]] lists Bede among the Latin writers who were uninterested in a full portrait of the cult, and notes that he writes as if pagan practice had faded.
-- [[references/passion-peter-and-paul]] still uses Bede as the glossator of a gospel place-name, in a later Old English homily.
+- [[references/passion-peter-and-paul]] still uses Bede as the glossator of a gospel place-name, in a later [[concepts/old-english|Old English]] homily.
 
 ## Cross-cutting Insight
 

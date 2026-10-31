@@ -2,6 +2,9 @@
 title: "Lass and Laing 2013: The reflexes of Germanic ik"
 category: references
 tags: [old-english, phonology, palatalization]
+relationships:
+  - target: "[[entities/margaret-laing]]"
+    type: related_to
 sources:
   - "https://www.pure.ed.ac.uk/ws/portalfiles/portal/16410803/flih.2013.004.pdf"
 summary: "Lass and Laing 2013: The reflexes of Germanic ik; scope and access limits recorded."
@@ -17,7 +20,8 @@ created: 2026-10-20T19:48:43-07:00
 updated: 2026-10-20T19:48:43-07:00
 ---
 
-# Lass and Laing 2013: The reflexes of Germanic ik
+
+# Lass and [[entities/margaret-laing|Laing]] 2013: The reflexes of Germanic ik
 
 Roger Lass and Margaret Laing, “The early Middle English reflexes of Germanic *ik ‘I’: Unpacking the changes”, *Folia Linguistica Historica* 34 (2013), DOI [10.1515/flih.2013.004](https://doi.org/10.1515/flih.2013.004). Relevant sections 2.1–2.2 read.
 

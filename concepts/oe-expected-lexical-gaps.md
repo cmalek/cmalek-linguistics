@@ -11,6 +11,8 @@ relationships:
     type: uses
   - target: "[[entities/dictionary-of-old-english-corpus]]"
     type: uses
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "https://oldenglishthesaurus.arts.gla.ac.uk/flags/"
   - "https://ebrary.net/344705/language_literature/english_semantics_lexicon_christian"
@@ -31,7 +33,8 @@ created: 2026-10-23T16:05:00Z
 updated: 2026-10-23T16:05:00Z
 ---
 
-# Expected Gaps in the Old English Lexicon
+
+# Expected Gaps in the [[concepts/old-english|Old English]] Lexicon
 
 A count near 32,000 Old English words is a count of attested dictionary forms. [[sources/kay-2012-oe-semantics-lexicon|Kay]] reports about 34,000 word forms in the [[entities/thesaurus-of-old-english]], and 50,700 meanings. Research that starts from Anglo-Saxon life between about 670 and 1100 has not published a list of the further words that life would lead one to expect. It has published something narrower: evidence that particular meaning classes are thinly or awkwardly recorded, and, in names and glosses, some forms the literary dictionaries miss. The master account is [[synthesis/Research: Expected Gaps in the Old English Lexicon]]. Counts and estimators already filed from a chat note are in [[concepts/oe-lexicon-size-and-gaps]].
 

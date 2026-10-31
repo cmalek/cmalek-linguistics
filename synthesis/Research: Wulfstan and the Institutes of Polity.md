@@ -3,6 +3,11 @@ title: >-
   Research: Wulfstan and the Institutes of Polity
 category: synthesis
 tags: [old-english, wulfstan, religion, history, research]
+relationships:
+  - target: "[[concepts/sermo-lupi-ad-anglos]]"
+    type: related_to
+  - target: "[[concepts/old-english-dialects]]"
+    type: related_to
 sources:
   - "url:https://roep.site.ox.ac.uk/article/wulfstans-institutes-of-polity"
   - "url:https://en.wikipedia.org/wiki/Wulfstan_(died_1023)"
@@ -27,13 +32,14 @@ created: 2026-10-12T23:40:00Z
 updated: 2026-10-12T23:50:00Z
 ---
 
+
 # Research: Wulfstan and the Institutes of Polity
 
 The working manuscript is Oxford, Bodleian Library, Junius 121. Its prose is [[entities/wulfstan-of-york]]’s, from Æthelred’s reign and Cnut’s. The book itself was compiled at Worcester about 1060–1072. The faith in that prose is the Latin church in England. It is not the catechism of the twenty-first century, and it is not the Heptarchy.
 
 ## Overview
 
-[[entities/wulfstan-of-york]] was bishop of London (996), then archbishop of York (1002–1023) and bishop of Worcester (1002–1016). He wrote the laws of [[entities/aethelred-the-unready]] and of [[entities/cnut-the-great]], the *Sermo Lupi ad Anglos*, and the rank-by-rank treatise editors call the *Institutes of Polity*. England by then was one kingdom. The text tells each order what it owes God and the king while Viking armies are turning raids into conquest.
+[[entities/wulfstan-of-york]] was bishop of London (996), then archbishop of York (1002–1023) and bishop of Worcester (1002–1016). He wrote the laws of [[entities/aethelred-the-unready]] and of [[entities/cnut-the-great]], the *[[concepts/sermo-lupi-ad-anglos|Sermo Lupi ad Anglos]]*, and the rank-by-rank treatise editors call the *Institutes of Polity*. England by then was one kingdom. The text tells each order what it owes God and the king while Viking armies are turning raids into conquest.
 
 ## Key findings
 
@@ -42,7 +48,7 @@ The working manuscript is Oxford, Bodleian Library, Junius 121. Its prose is [[e
 - The work is estates literature. A just throne stands on those who pray, those who work, and those who fight. The paragraph is Ælfric’s, with the prayers put first. Bishops, not earls, are the councillors who matter.
 - Shared with a later Catholic reader: Trinity, baptism, Mass as Christ’s body and blood, penance, tithes, Peter’s pence, saints, prayer for the dead, and a Latin liturgy. The preaching is in English.
 - Not yet defined, and dangerous to import: the 1215 sentence that the bread and wine are changed in substance; a closed list of seven sacraments (listed at Florence in 1439 and at Trent, and not listed in the 1215 canons themselves); yearly confession to one’s own priest (1215); purgatory as a defined condition (1274); the Immaculate Conception as dogma (1854). Married priests are a problem the reformers attack, not a settled celibate clergy. *Cristendōm* means the Christian people, not a modern denomination.
-- The Heptarchy is the wrong map. From Æthelstan the king is king of the English. Wulfstan serves that office under Æthelred and then under Cnut. York is the old Northumbrian see, held with Worcester because the north is poor and Scandinavian.
+- The Heptarchy is the wrong map. From Æthelstan the king is king of the English. Wulfstan serves that office under Æthelred and then under Cnut. York is the old [[concepts/old-english-dialects|Northumbrian]] see, held with Worcester because the north is poor and Scandinavian.
 
 ## Core concepts
 

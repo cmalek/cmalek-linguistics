@@ -3,6 +3,9 @@ title: >-
   Research: The Great Vowel Shift
 category: synthesis
 tags: [middle-english, early-modern-english, phonology, history, research]
+relationships:
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "https://doi.org/10.1017/CBO9781107295469"
   - "https://www.jstage.jst.go.jp/article/elsj/36/2/36_295/_pdf"
@@ -27,13 +30,14 @@ created: 2026-10-30T18:40:00Z
 updated: 2026-10-30T18:40:00Z
 ---
 
+
 # Research: The Great Vowel Shift
 
 Research checked on 30 October 2026, in deep-research quick mode, and filed with the wiki research loop. Three rounds. The question was what the shift was, when it happened, which stage of English was being spoken, what caused it, and what it did to the language. This page was produced with AI-assisted research. Claims below are tied to the sources that were actually opened. Jespersen 1909, Luick’s grammar, Stockwell and Minkova 1988, Lass’s Cambridge History chapter, and Krug’s later handbook chapters were not read.
 
 ## Overview
 
-The Great Vowel Shift is the reorganization of the long stressed vowels that turned late medieval values into the long vowels and diphthongs of standard English. Otto Jespersen gave it that name in 1909. On the dating still used in handbooks, it begins around 1400, in late Middle English, and continues through Early Modern English, with the last standard outcomes in the eighteenth century. Old English is earlier. Modern English is the language that shows the result.
+The Great Vowel Shift is the reorganization of the long stressed vowels that turned late medieval values into the long vowels and diphthongs of standard English. Otto Jespersen gave it that name in 1909. On the dating still used in handbooks, it begins around 1400, in late Middle English, and continues through Early Modern English, with the last standard outcomes in the eighteenth century. [[concepts/old-english|Old English]] is earlier. Modern English is the language that shows the result.
 
 The cause is not known. Drag-chain, push-chain, and “not one event” are all live positions. What is secure is the mismatch everyone notices: printing fixed a late Middle English spelling while the long vowels kept moving.
 

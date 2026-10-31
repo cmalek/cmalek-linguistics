@@ -2,6 +2,9 @@
 title: "Incrementally update the Old English literature review"
 category: skills
 tags: ["old-english", "research", "literature"]
+relationships:
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources: ["references/old-english-2016-2026-corpus.json"]
 created: 2026-10-28T18:35:13.294185+00:00
 updated: 2026-10-28T19:40:00-07:00
@@ -15,7 +18,8 @@ lifecycle: draft
 lifecycle_changed: 2026-10-28
 ---
 
-# Incrementally update the Old English literature review
+
+# Incrementally update the [[concepts/old-english|Old English]] literature review
 
 ## Established scope
 

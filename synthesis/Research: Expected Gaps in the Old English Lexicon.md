@@ -3,6 +3,11 @@ title: >-
   Research: Expected Gaps in the Old English Lexicon
 category: synthesis
 tags: [old-english, lexicography, vocabulary, daily-life, research]
+relationships:
+  - target: "[[concepts/old-english]]"
+    type: related_to
+  - target: "[[concepts/old-english-dialects]]"
+    type: related_to
 sources:
   - https://oldenglishthesaurus.arts.gla.ac.uk/flags/
   - https://oldenglishthesaurus.arts.gla.ac.uk/introduction/
@@ -29,7 +34,8 @@ created: 2026-10-23T16:05:00Z
 updated: 2026-10-23T16:05:00Z
 ---
 
-# Research: Expected Gaps in the Old English Lexicon
+
+# Research: Expected Gaps in the [[concepts/old-english|Old English]] Lexicon
 
 Research checked on 23 October 2026. The question was what academic work, using the life of people in England from about 670 to 1100, has asked which words or meaning classes ought to appear in Old English and do not, given a surviving lexicon of about 32,000 words.
 
@@ -51,7 +57,7 @@ The 2009 corpus, by Cameron category:
 - Glossaries: 26,598 Old English words, beside 70,511 foreign words
 - Inscriptions, runic and roman: under 700 Old English words together
 
-Möhlig-Falke’s conclusion is that this is every surviving text, and that spontaneous colloquial language is missing because those text types were not preserved. Most of the prose was translated from Latin, and literacy was for a long time primarily religious. Dialect material outside West Saxon is largely glosses to Latin.
+Möhlig-Falke’s conclusion is that this is every surviving text, and that spontaneous colloquial language is missing because those text types were not preserved. Most of the prose was translated from Latin, and literacy was for a long time primarily religious. Dialect material outside [[concepts/old-english-dialects|West Saxon]] is largely glosses to Latin.
 
 [[sources/roberts-kay-toe-distribution|Roberts and Kay]] encode the same skew as flags on forms: rare, poetic only, glossary only, or dubious. Dubious entries include place-name reconstructions and words projected back from later English. Poetic compounds cluster in the sea, ships, battle, courage, rulers, and treasure. Law and possession are almost without poetic vocabulary. A lifestyle question that looks only at poetry will miss the prosaic lexicon, and a question that looks only at the dictionaries will still miss speech.
 

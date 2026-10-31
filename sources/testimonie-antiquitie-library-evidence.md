@@ -2,6 +2,9 @@
 title: "A Testimonie of Antiquitie: library evidence"
 category: references
 tags: ["old-english", "history", "reception"]
+relationships:
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "url:https://exhibits.lib.ku.edu/exhibits/show/english-language/item/7228"
   - "url:https://searcharchives.bl.uk/catalog/032-002028660"
@@ -19,13 +22,14 @@ created: 2026-10-28T17:40:07+00:00
 updated: 2026-10-28T17:40:07+00:00
 ---
 
+
 # A Testimonie of Antiquitie: library evidence
 
 ## Findings
 
 Kansas Libraries attributes *A Testimonie of Antiquitie* to Ælfric, identifies John Day as printer, dates its copy [1566?], and notes manuscript annotations. Its title presents an ancient English precedent concerning the sacrament.
 
-The British Library description for Add MS 18160, available through indexed catalogue text, dates the book [1567] and records an Old English homily with translation and a signed episcopal attestation of fidelity.
+The British Library description for Add MS 18160, available through indexed catalogue text, dates the book [1567] and records an [[concepts/old-english|Old English]] homily with translation and a signed episcopal attestation of fidelity.
 
 ## Limits
 

@@ -14,6 +14,8 @@ relationships:
     type: related_to
   - target: "[[concepts/institutes-of-polity]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "[[sources/condorelli-2019-west-saxon-ie]]"
   - "[[sources/walters-2004-case-syncretism]]"
@@ -36,7 +38,8 @@ created: 2026-10-30T20:15:00Z
 updated: 2026-10-31T03:30:00Z
 ---
 
-# Early and Late Old English Writing
+
+# Early and Late [[concepts/old-english|Old English]] Writing
 
 Early and late name stages of the written language, not two manuscripts. Working bounds, used only when a source does not give its own: early runs through the ninth century, including Alfredian West Saxon; late runs through the tenth and eleventh centuries, including the late West Saxon written standard and the late Northumbrian glosses. ^[inferred]
 

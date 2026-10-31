@@ -16,6 +16,8 @@ relationships:
     type: related_to
   - target: "[[concepts/old-english-after-1066]]"
     type: related_to
+  - target: "[[entities/byrhtnoth]]"
+    type: related_to
 sources:
   - "url:https://medium.com/@nyxshadowhawk/old-english-in-middle-earth-19d45da07a9f"
   - "agent:raw-notes Tolkien’s use of Old English words"
@@ -37,6 +39,7 @@ snapshots:
   - "[[_raw/_archived/Old English in Middle-earth|Old English in Middle-earth]]"
   - "[[_raw/_archived/Old English after 1066|Old English after 1066]]"
 ---
+
 
 # Tolkien and Old English
 
@@ -74,7 +77,7 @@ Tolkien also wrote on translating [[references/beowulf]].
 
 ## Maldon
 
-His verse play *The Homecoming of Beorhtnoth Beorhthelm’s Son*, with the essay “Ofermod,” reads Byrhtnoth’s grant of the causeway as overmastering pride. That reading set the terms of later argument about [[references/battle-of-maldon]]. The word, the counter-readings, and the Moria parallel critics have drawn are on [[concepts/ofermod]].
+His verse play *The Homecoming of [[entities/byrhtnoth|Beorhtnoth]] Beorhthelm’s Son*, with the essay “Ofermod,” reads Byrhtnoth’s grant of the causeway as overmastering pride. That reading set the terms of later argument about [[references/battle-of-maldon]]. The word, the counter-readings, and the Moria parallel critics have drawn are on [[concepts/ofermod]].
 
 A 2013 survey of Old English after 1066 names Tolkien among later writers who draw on the language. It adds no name etymologies. See [[concepts/old-english-after-1066]].
 

@@ -27,7 +27,8 @@ snapshots:
   - "[[_raw/_archived/Reading XI_ The Human Fetus_side_by_side.pdf]]"
 ---
 
-# Old English Human Fetus Text
+
+# [[concepts/old-english|Old English]] Human Fetus Text
 
 Hasenfratz & Jambeck, *Reading Old English*, revised ed. (2011), p. 352 — an excerpt from an Anglo-Saxon medical compilation. Malek facing translation.
 

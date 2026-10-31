@@ -23,7 +23,10 @@ relationships:
     type: related_to
   - target: "[[concepts/diplomatic-ocr-target]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
 ---
+
 
 # OCR of Historical Printings
 
@@ -39,7 +42,7 @@ Uwe Springmann and Anke Lüdeling, on OCR for historical print and the RIDGES he
 
 ## Limitations
 
-These are OCRopus-era print experiments on Latin-script books, not IPA and not Old English textbooks. The diplomatic target here is the printed line, including historical spelling. It is not a full page with font style.
+These are OCRopus-era print experiments on Latin-script books, not IPA and not [[concepts/old-english|Old English]] textbooks. The diplomatic target here is the printed line, including historical spelling. It is not a full page with font style.
 
 ## Related
 

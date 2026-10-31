@@ -3,6 +3,9 @@ title: >-
   Research: Old English G-Palatalization
 category: synthesis
 tags: [old-english, phonology, palatalization, historical-linguistics, research]
+relationships:
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "https://en.wikipedia.org/wiki/Phonological_history_of_Old_English"
   - "https://en.wikipedia.org/wiki/Old_English_phonology"
@@ -24,7 +27,8 @@ lifecycle: draft
 lifecycle_changed: "2026-10-17"
 ---
 
-# Research: Old English G-Palatalization
+
+# Research: [[concepts/old-english|Old English]] G-Palatalization
 
 ## Overview
 

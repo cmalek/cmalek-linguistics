@@ -10,6 +10,8 @@ relationships:
     type: derived_from
   - target: "[[synthesis/danelaw-x-old-english-dialects]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "[[concepts/old-english-g-palatalization]]"
   - "[[concepts/danelaw]]"
@@ -29,7 +31,8 @@ created: 2026-10-18T19:00:00Z
 updated: 2026-10-18T19:00:00Z
 ---
 
-# Old English g-Palatalization × Danelaw
+
+# [[concepts/old-english|Old English]] g-Palatalization × Danelaw
 
 ## The Connection
 

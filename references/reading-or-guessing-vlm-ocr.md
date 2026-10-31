@@ -29,11 +29,12 @@ relationships:
     type: related_to
 ---
 
+
 # Reading or Guessing? VLM OCR on Greek and Arabic Editions
 
 Antonia Karamolegkou, Nicolas Angleraud, Benoît Sagot, and Thibault Clérice (Inria). [arXiv:2605.27750](https://arxiv.org/html/2605.27750v2).
 
-Compares five open-weight vision-language OCR models with Tesseract and in-domain Kraken on real printed editions: 90 Greek pages (1,966 lines, 16th–20th century) and 140 Arabic pages (3,197 line crops, 19th–20th century). Greek pages include polytonic text, mixed scripts, marginal apparatus, and alphabetic numerals.
+Compares five open-weight vision-language OCR models with [[entities/tesseract|Tesseract]] and in-domain Kraken on real printed editions: 90 Greek pages (1,966 lines, 16th–20th century) and 140 Arabic pages (3,197 line crops, 19th–20th century). Greek pages include polytonic text, mixed scripts, marginal apparatus, and alphabetic numerals.
 
 ## Key claims
 

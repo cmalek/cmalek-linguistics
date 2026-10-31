@@ -3,6 +3,9 @@ title: >-
   Schlüter 2012: Early Modern English phonology
 category: references
 tags: [early-modern-english, phonology, great-vowel-shift]
+relationships:
+  - target: "[[entities/manfred-krug]]"
+    type: related_to
 sources:
   - "https://www.uni-bamberg.de/fileadmin/uni/fakultaeten/split_lehrstuehle/englische_sprachwissenschaft/personen/dokumente/Schlueter/EModE_Phonology_JS_offprint.pdf"
 summary: >-
@@ -19,9 +22,10 @@ created: 2026-10-30T18:40:00Z
 updated: 2026-10-30T18:40:00Z
 ---
 
+
 # Schlüter 2012: Early Modern English phonology
 
-Julia Schlüter, “Early Modern English: Phonology,” in Alexander Bergs and Laurel Brinton (eds.), *Historical Linguistics of English* (HSK 34.1), de Gruyter, 2012, pp. 589–604. The text used here is the author’s offprint PDF. She points the Great Vowel Shift itself to Manfred Krug, chapter 48 of the same handbook, and then still gives the traditional statement because later vowel changes depend on it.
+Julia Schlüter, “Early Modern English: Phonology,” in Alexander Bergs and Laurel Brinton (eds.), *Historical Linguistics of English* (HSK 34.1), de Gruyter, 2012, pp. 589–604. The text used here is the author’s offprint PDF. She points the Great Vowel Shift itself to [[entities/manfred-krug|Manfred Krug]], chapter 48 of the same handbook, and then still gives the traditional statement because later vowel changes depend on it.
 
 What she states:
 

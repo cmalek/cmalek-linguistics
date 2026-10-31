@@ -14,6 +14,10 @@ relationships:
     type: related_to
   - target: "[[projects/aenglisc-toolkit/skills/qt-extraselection-highlight-layers]]"
     type: related_to
+  - target: "[[projects/wyrdcraeft/wyrdcraeft]]"
+    type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources:
   - "repo:/Users/cmalek/src/personal/aenglisc_toolkit @ 981e093"
   - "repo: AGENTS.md, doc/source/architecture/adr_0001..0007, graphify-out/GRAPH_REPORT.md (built 2026-10-04 at 9631ff93)"
@@ -31,7 +35,8 @@ created: 2026-10-18T20:10:00Z
 updated: 2026-10-18T20:10:00Z
 ---
 
-# aenglisc_toolkit: architecture
+
+# [[projects/aenglisc-toolkit/aenglisc-toolkit|aenglisc_toolkit]]: architecture
 
 ## Package layout (`oeapp/`)
 
@@ -39,7 +44,7 @@ updated: 2026-10-18T20:10:00Z
 |---|---|---|
 | `main.py`, `ui/application.py` | Entry point; builds `QApplication`, theme, fonts, `MainWindow` | |
 | `models/` | SQLAlchemy ORM (fat models) plus Pydantic schemas; Alembic under `models/alembic` | `project.py` 979, `token.py` 886, `sentence.py` 919, `annotation.py` 736 |
-| `services/` | Business workflows: backup, migration, import/export, DOCX/PDF/text export, propagation, remembered annotations, Wyrdcraeft ingest, autosave, logging | `export_pdf.py` 1522, `migration.py` 961, `wyrdcraeft_ingest.py` 716, `import_export.py` 681 |
+| `services/` | Business workflows: backup, migration, import/export, DOCX/PDF/text export, propagation, remembered annotations, [[projects/wyrdcraeft/wyrdcraeft|Wyrdcraeft]] ingest, autosave, logging | `export_pdf.py` 1522, `migration.py` 961, `wyrdcraeft_ingest.py` 716, `import_export.py` 681 |
 | `commands/` | Undoable operations on a `Command` ABC with a `CommandManager` | `sentence.py` 679, `hierarchy.py` 645 |
 | `ui/` | Widgets, controllers, dialogs, highlighting | `main_window.py` 1774, `full_translation_window.py` 1567, `oe_text_edit.py` 1537, `sentence_card.py` 1186, `highlighting.py` 1008 |
 | `help/` | QtHelp engine wrapper and topic registry; sources in `help/topics/*.md`, built to `help/assets/*.qch/.qhc` | |
@@ -76,7 +81,7 @@ main.py -> create_application() -> MainWindow
 |---|---|
 | 0001 | Usability overhaul on one long-lived integration branch |
 | 0002 | Undoing an idiom creation deletes the Idiom (and its Annotation) |
-| 0003 | One Export submenu: Project file, Old English, Translation |
+| 0003 | One Export submenu: Project file, [[concepts/old-english|Old English]], Translation |
 | 0004 | The editor owns the merged ExtraSelection list; three layers with fixed stacking |
 | 0005 | UI-only POS field catalog; ORM remains authority on allowed codes |
 | 0006 | Copied Annotation held as validated `AnnotationJson`, validated at the setter |

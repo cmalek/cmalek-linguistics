@@ -2,6 +2,9 @@
 title: "Old English review — batches and coverage"
 category: references
 tags: ["old-english", "research", "literature"]
+relationships:
+  - target: "[[concepts/old-english]]"
+    type: related_to
 sources: ["references/old-english-2016-2026-corpus.json"]
 created: 2026-10-28T18:35:13.293805+00:00
 updated: 2026-10-28T19:40:00-07:00
@@ -15,7 +18,8 @@ lifecycle: draft
 lifecycle_changed: 2026-10-28
 ---
 
-# Old English review — batches and coverage
+
+# [[concepts/old-english|Old English]] review — batches and coverage
 
 [[synthesis/Research: Old English Scholarship 2016–2026|Master review]] · [[references/old-english-2016-2026-literature-map|Cumulative literature map]] · [[skills/incremental-old-english-literature-review|Update procedure]]
 

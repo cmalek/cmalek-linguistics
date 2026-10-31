@@ -21,6 +21,12 @@ relationships:
     type: related_to
   - target: "[[concepts/ser-estar-and-old-english-be]]"
     type: related_to
+  - target: "[[concepts/old-english]]"
+    type: related_to
+  - target: "[[entities/margaret-laing]]"
+    type: related_to
+  - target: "[[entities/ilse-wischer]]"
+    type: related_to
 sources:
   - "url:https://oldenglish.info/irgv2.html"
   - "url:https://hcmc.uvic.ca/eol/oe/docs/oe_grammar.pdf"
@@ -41,9 +47,10 @@ created: 2026-10-12T22:05:00Z
 updated: 2026-10-12T22:20:00Z
 ---
 
+
 # Beon and Wesan
 
-‘Be’ is the one Old English verb with two full present paradigms. *Wesan* continues as *eom, eart, is, sind* (and spelling variants). *Bēon* is *bēo, bist, biþ, bēoþ*. They share a past from the *w*-root: *wæs, wǣre, wǣron*. Teaching pages print that table and then split the meanings ([[references/oldenglish-info-beon-wesan]], [[references/smith-1896-oe-grammar]]).
+‘Be’ is the one [[concepts/old-english|Old English]] verb with two full present paradigms. *Wesan* continues as *eom, eart, is, sind* (and spelling variants). *Bēon* is *bēo, bist, biþ, bēoþ*. They share a past from the *w*-root: *wæs, wǣre, wǣron*. Teaching pages print that table and then split the meanings ([[references/oldenglish-info-beon-wesan]], [[references/smith-1896-oe-grammar]]).
 
 ## How the two presents divide
 
@@ -54,7 +61,7 @@ The stable observation is a preference, not a clean future tense of ‘be’.
 - Smith (1896) says the *bēom, bist* set is used chiefly as a future. That wording is stronger than the later corpus descriptions.
 - Wischer’s examples keep both jobs visible. *Hī bēoð simle swīðe earme* is a prediction that is also a general state (“they will always be very miserable”). *Se dæg bið irres dæg* is a future day of wrath. Many other *bēon* tokens in her sample are general truths with no single future moment ([[references/wischer-2006-markers-of-futurity]]).
 - Later writers she and Diewald cite — Campbell (1959), Kilpiö (1993), Traugott (1992) — agree that future contexts favour *b*-forms, and they disagree about the residue: invariable facts, generic statements, iterativity, timeless present, eternal situations. A 2009 conference abstract by Ferguson lays those labels side by side. The abstract PDF was not retrievable when this page was written, so the list of labels is second-hand. ^[ambiguous]
-- Wischer’s 2010 chapter abstract states the working contrast she uses: *wesan* for current relevance, *bēon* for habitual or future events, and she argues the double paradigm comes from Insular Celtic. The chapter itself was not read. Laing, in the next chapter of the same book, takes the future preference as given and follows it into early Middle English ([[references/laing-2010-beon-futurity]]).
+- Wischer’s 2010 chapter abstract states the working contrast she uses: *wesan* for current relevance, *bēon* for habitual or future events, and she argues the double paradigm comes from Insular Celtic. The chapter itself was not read. [[entities/margaret-laing|Laing]], in the next chapter of the same book, takes the future preference as given and follows it into early Middle English ([[references/laing-2010-beon-futurity]]).
 
 ## Contexts in the copular constructions
 
@@ -71,7 +78,7 @@ Mitchell and Robinson’s teaching note, as Bradley quotes it, calls *bið* a sp
 
 *Bēon* is semantically fit for future states. It is a poor grammaticalization source for a general future auxiliary. In Wischer’s present-tense table it almost never takes an infinitive (one *tō*-infinitive in the sample). It takes adjectives, nouns, and past participles. A future built on it would have been a future of ‘be’, or a passive, not “she will go.”
 
-In Middle English the two paradigms collapse. *Am, art, is, are* take the indicative. *Be* (from *bēo, bēon*) remains for the subjunctive and the infinitive. *Bið* and *bēoð* become rare for phonotactic reasons (Lutz 1991, as cited by Wischer). Laing’s abstract says that before that collapse some early Middle English text languages had already narrowed singular *b*-forms to future senses only, and that northern texts with *ar-/*er-* plurals could extend that narrowing into the plural.
+In Middle English the two paradigms collapse. *Am, art, is, are* take the indicative. *Be* (from *bēo, bēon*) remains for the subjunctive and the infinitive. *Bið* and *bēoð* become rare for phonotactic reasons (Lutz 1991, as cited by [[entities/ilse-wischer|Wischer]]). Laing’s abstract says that before that collapse some early Middle English text languages had already narrowed singular *b*-forms to future senses only, and that northern texts with *ar-/*er-* plurals could extend that narrowing into the plural.
 
 The Dictionary of Old English published this verb as its own fascicle: Matti Kilpiö, *BEON* (1992), cited in [[references/diewald-wischer-2013-futurity]]. That is the lexicographic place to read the attested spellings and the editors’ sense split. It was not opened for this page.
 

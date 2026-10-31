@@ -10,6 +10,8 @@ source_url: "https://en.wikipedia.org/wiki/Phonological_history_of_Old_English"
 relationships:
   - target: "[[concepts/old-english-g-palatalization]]"
     type: informs
+  - target: "[[concepts/old-english-dialects]]"
+    type: related_to
 created: 2026-10-17T12:55:00Z
 updated: 2026-10-17T12:55:00Z
 summary: >-
@@ -23,6 +25,7 @@ lifecycle: draft
 lifecycle_changed: "2026-10-17"
 ---
 
+
 # Wikipedia pages on OE phonology
 
 Both pages read through a summarizing fetch; the last ~19k and ~69k characters were not read.
@@ -32,4 +35,4 @@ Both pages read through a summarizing fetch; the last ~19k and ~69k characters w
 - **Exceptions listed:** *wicu*, *wegas*, *dagas*, *dagung*, *galan*, *āscian*, *cyning*, *cemban*, *gēs*.
 - **Depalatalization:** *sēċiþ* → *sēcþ*, *senġiþ* → *sengþ*.
 - **Norse:** *give* ~ *yive*, *skirt* ~ *shirt*; Northumbrian has little palatalization (Scots *kirk*, *brig*, *kist*).
-- **Dialect vowel spellings:** Anglian *ġæf*, Mercian *ġet*, *ġeldan*, Kentish *ġēman*; Mercian velar *geatu* for WS *gatu*.
+- **Dialect vowel spellings:** [[concepts/old-english-dialects|Anglian]] *ġæf*, Mercian *ġet*, *ġeldan*, Kentish *ġēman*; Mercian velar *geatu* for WS *gatu*.
